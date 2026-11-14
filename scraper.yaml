@@ -1,0 +1,30 @@
+name: 705.Buzz Automated Source Scraper
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs every hour on the hour
+  push:
+    paths:
+      - 'sources.json'  # Runs immediately whenever you add a link to sources.json!
+  workflow_dispatch:    # Lets you click "Run workflow" manually anytime
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install rss-parser cheerio
+      - run: node scraper.js
+      - name: Commit updated stories.json
+        run: |
+          git config --global user.name "705.Buzz Auto-Scraper"
+          git config --global user.email "bot@705.buzz"
+          git add stories.json
+          git diff --staged --quiet || git commit -m "chore: auto-scrape latest 705 sources"
+          git push
