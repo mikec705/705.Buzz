@@ -1,0 +1,81 @@
+name: Auto-Update 705.Buzz News Feed
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs at the top of every hour
+  workflow_dispatch:     # Lets you trigger a sync manually in the GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-rss:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch Simcoe County RSS Feeds & Build stories.json
+        run: |
+          npm install rss-parser
+          node -e '
+          const Parser = require("rss-parser");
+          const fs = require("fs");
+          const parser = new Parser();
+
+          const feeds = [
+            { name: "BarrieToday", category: "News", location: "Barrie, ON", url: "https://www.barrietoday.com/rss" },
+            { name: "InnisfilToday", category: "News", location: "Innisfil, ON", url: "https://www.innisfiltoday.ca/rss" },
+            { name: "OrilliaMatters", category: "News", location: "Orillia, ON", url: "https://www.orilliamatters.com/rss" },
+            { name: "CollingwoodToday", category: "News", location: "Collingwood, ON", url: "https://www.collingwoodtoday.ca/rss" },
+            { name: "Barrie 360", category: "Community", location: "Barrie, ON", url: "https://barrie360.com/feed/" }
+          ];
+
+          (async () => {
+            const allStories = [];
+            let order = 1000;
+
+            for (const f of feeds) {
+              try {
+                const feed = await parser.parseURL(f.url);
+                feed.items.slice(0, 6).forEach((item, idx) => {
+                  const cleanSummary = (item.contentSnippet || item.content || "").replace(/<[^>]*>?/gm, "").slice(0, 240) + "...";
+                  const img = (item.enclosure && item.enclosure.url) ? item.enclosure.url : "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80";
+                  allStories.push({
+                    id: `${f.name.toLowerCase().replace(/\s+/g, "-")}-${idx}`,
+                    title: item.title,
+                    category: f.category,
+                    source: f.name,
+                    location: f.location,
+                    timestamp: item.pubDate ? new Date(item.pubDate).toLocaleDateString("en-CA", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }) : "Recent",
+                    sortOrder: order--,
+                    buzzScore: Math.floor(Math.random() * 18) + 80,
+                    summary: cleanSummary,
+                    image: img,
+                    url: item.link,
+                    tags: [f.location.split(",")[0], f.category, "705 Feed"]
+                  });
+                });
+              } catch (e) {
+                console.error("Failed feed:", f.name, e.message);
+              }
+            }
+
+            if (allStories.length > 0) {
+              fs.writeFileSync("stories.json", JSON.stringify(allStories, null, 2));
+            }
+          })();
+          '
+
+      - name: Commit and Push updated stories.json
+        run: |
+          git config --global user.name "705.Buzz Bot"
+          git config --global user.email "bot@705.buzz"
+          git add stories.json
+          git diff --staged --quiet || git commit -m "chore: update stories.json with latest 705 feeds"
+          git push

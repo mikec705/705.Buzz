@@ -1,677 +1,1013 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>705 Buzz | Barrie & Area Digital News — Coming Soon!</title>
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts: Montserrat & Inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:ital,wght@0,800;0,900;1,800;1,900&display=swap" rel="stylesheet">
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <!-- Standard favicon -->
-    <link rel="icon" type="image/png" href="https://i.ibb.co/nMKrvtJn/Screenshot-2026-11-01-4-46-40-PM.png">
-
-    <!-- Apple Touch Icon (used when users save your site to their iOS home screen) -->
-   
-    <link rel="apple-touch-icon" href="https://i.ibb.co/nMKrvtJn/Screenshot-2026-11-01-4-46-40-PM.png">
-    
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        buzzNavy: '#0b4475',
-                        buzzNavyDark: '#072a4a',
-                        buzzGold: '#f39c12',
-                        buzzYellow: '#ffc107',
-                        buzzCharcoal: '#1e242b',
-                        buzzCream: '#f8f8f6'
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                        display: ['Montserrat', 'sans-serif'],
-                    }
-                }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>705.Buzz | Barrie & Simcoe County Local Pulse</title>
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@700;800;900&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Outfit', 'sans-serif'],
+          },
+          colors: {
+            buzz: {
+              50: '#fffbeb',
+              100: '#fef3c7',
+              400: '#fbbf24',
+              500: '#f59e0b',
+              600: '#d97706',
+            },
+            kempenfelt: {
+              400: '#38bdf8',
+              500: '#0ea5e9',
+              900: '#0c4a6e',
             }
+          }
         }
-    </script>
-
-    <style>
-        body {
-            background-color: #f8f8f6;
-            overflow-x: hidden;
-        }
-
-        /* Subtle Honeycomb Background Pattern */
-        .honeycomb-bg {
-            background-color: #f8f8f6;
-            background-image: radial-gradient(#e5e7eb 1.5px, transparent 1.5px), radial-gradient(#f39c12 0.85px, #f8f8f6 0.85px);
-            background-size: 48px 48px;
-            background-position: 0 0, 24px 24px;
-        }
-
-        /* Seamless Logo Blending & Tight Cropping for Uploaded Image */
-        .hero-logo-frame {
-            background-color: transparent;
-            overflow: hidden;
-        }
-
-        .hero-logo-crop {
-            aspect-ratio: 16 / 6.5;
-            object-fit: cover;
-            object-position: center 50%;
-            transform: scale(1.12);
-        }
-
-        .logo-blend {
-            mix-blend-mode: multiply;
-            filter: brightness(1.06) contrast(1.06);
-        }
-
-        /* Marquee Ticker Animation */
-        @keyframes ticker {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(-50%); }
-        }
-
-        .animate-ticker {
-            display: flex;
-            width: max-content;
-            animation: ticker 28s linear infinite;
-        }
-
-        .animate-ticker:hover {
-            animation-play-state: paused;
-        }
-
-        /* Particle Burst Animation */
-        @keyframes floatUpFade {
-            0% {
-                opacity: 1;
-                transform: translate(0, 0) scale(0.8) rotate(0deg);
-            }
-            100% {
-                opacity: 0;
-                transform: translate(var(--tx), var(--ty)) scale(1.35) rotate(var(--rot));
-            }
-        }
-
-        .bee-particle {
-            position: fixed;
-            pointer-events: none;
-            z-index: 9999;
-            animation: floatUpFade 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-        }
-
-        /* Pulse Glow for Hype Button */
-        @keyframes pulseGlow {
-            0%, 100% { box-shadow: 0 0 0 0 rgba(242, 159, 5, 0.55); }
-            50% { box-shadow: 0 0 0 15px rgba(242, 159, 5, 0); }
-        }
-
-        .hype-btn-glow {
-            animation: pulseGlow 2s infinite;
-        }
-    </style>
+      }
+    }
+  </script>
+  <style>
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0f172a;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #334155;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #475569;
+    }
+    .glass-nav {
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    .card-glow:hover {
+      box-shadow: 0 0 25px -5px rgba(245, 158, 11, 0.15), 0 10px 10px -5px rgba(0, 0, 0, 0.4);
+    }
+  </style>
 </head>
-<body class="honeycomb-bg text-slate-800 antialiased selection:bg-buzzGold selection:text-slate-900 min-h-screen flex flex-col justify-between">
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col font-sans selection:bg-buzz-500 selection:text-slate-950">
 
-    <!-- Top Live Breaking Hype Ticker -->
-    <div class="bg-buzzNavy text-white py-2.5 overflow-hidden border-b-4 border-buzzGold shadow-md relative z-20">
-        <div class="animate-ticker flex items-center space-x-8 text-xs sm:text-sm font-bold tracking-wider uppercase">
-            <!-- Duplicated content for seamless infinite loop -->
-            <div class="flex items-center space-x-8 shrink-0">
-                <span class="flex items-center gap-2"><span class="bg-buzzGold text-slate-900 px-2 py-0.5 rounded font-black">COMING SOON</span> 705 BUZZ — BARRIE &amp; AREA DIGITAL NEWS</span>
-                <span class="text-buzzGold">•</span>
-                <span>🐝 THE HIVE IS GETTING READY IN BARRIE, ONTARIO</span>
-                <span class="text-buzzGold">•</span>
-                <span>🍁 HYPER-LOCAL STORIES, BREAKING NEWS &amp; COMMUNITY EVENTS</span>
-                <span class="text-buzzGold">•</span>
-                <span>📩 GOT A SCOOP? EMAIL CONTACT@705.BUZZ</span>
-                <span class="text-buzzGold">•</span>
-                <span>🌊 FROM KEMPENFELT BAY TO ALL ACROSS THE 705</span>
-                <span class="text-buzzGold">•</span>
+  <!-- Top Live Conditions Ticker -->
+  <div class="bg-slate-900/90 border-b border-slate-800 text-xs py-2 px-4">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center space-x-3 overflow-x-auto no-scrollbar py-0.5">
+        <span class="inline-flex items-center px-2 py-0.5 rounded font-semibold bg-buzz-500/10 text-buzz-400 border border-buzz-500/20 shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-buzz-400 animate-pulse mr-1.5"></span>
+          705 LIVE
+        </span>
+        <span class="text-slate-300 shrink-0">📍 <strong>Barrie, ON:</strong> 3°C Mainly Clear</span>
+        <span class="text-slate-600 hidden sm:inline">|</span>
+        <span class="text-slate-400 hidden sm:inline shrink-0">🌊 Kempenfelt Bay: Calm</span>
+        <span class="text-slate-600 hidden md:inline">|</span>
+        <span class="text-slate-400 hidden md:inline shrink-0">🚗 Hwy 400 S at Mapleview: Moving smoothly</span>
+      </div>
+      <div class="flex items-center space-x-4 ml-auto">
+        <button id="syncJsonBtn" onclick="loadHostedJson(true)" class="text-slate-400 hover:text-buzz-400 flex items-center gap-1 transition-colors" title="Reload stories.json feed">
+          <svg id="syncIcon" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+          <span id="syncText">Reload stories.json</span>
+        </button>
+        <span id="currentDateDisplay" class="text-slate-500 hidden lg:inline"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Navigation Header -->
+  <header class="sticky top-0 z-40 glass-nav border-b border-slate-800/80 transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 sm:h-20 gap-4">
+        
+        <!-- Brand Logo -->
+        <a href="#" onclick="resetFilters(); return false;" class="flex items-center gap-3 group shrink-0">
+          <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-buzz-400 to-buzz-600 flex items-center justify-center shadow-lg shadow-buzz-500/20 group-hover:scale-105 transition-transform">
+            <svg class="w-6 h-6 text-slate-950" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+          </div>
+          <div>
+            <div class="flex items-baseline">
+              <span class="font-display font-black text-2xl sm:text-3xl tracking-tight text-white">705</span>
+              <span class="font-display font-black text-2xl sm:text-3xl tracking-tight text-buzz-400">.BUZZ</span>
             </div>
-            <div class="flex items-center space-x-8 shrink-0">
-                <span class="flex items-center gap-2"><span class="bg-buzzGold text-slate-900 px-2 py-0.5 rounded font-black">COMING SOON</span> 705 BUZZ — BARRIE &amp; AREA DIGITAL NEWS</span>
-                <span class="text-buzzGold">•</span>
-                <span>🐝 THE HIVE IS GETTING READY IN BARRIE, ONTARIO</span>
-                <span class="text-buzzGold">•</span>
-                <span>🍁 HYPER-LOCAL STORIES, BREAKING NEWS &amp; COMMUNITY EVENTS</span>
-                <span class="text-buzzGold">•</span>
-                <span>📩 GOT A SCOOP? EMAIL CONTACT@705.BUZZ</span>
-                <span class="text-buzzGold">•</span>
-                <span>🌊 FROM KEMPENFELT BAY TO ALL ACROSS THE 705</span>
-                <span class="text-buzzGold">•</span>
-            </div>
+            <p class="text-[10px] sm:text-xs text-slate-400 -mt-1 font-medium tracking-wide uppercase">Barrie & Simcoe County</p>
+          </div>
+        </a>
+
+        <!-- Desktop Search Bar -->
+        <div class="flex-1 max-w-md mx-4 hidden md:block">
+          <div class="relative">
+            <input 
+              type="text" 
+              id="desktopSearch"
+              placeholder="Search Barrie news, Centennial Park, transit, council..." 
+              class="w-full bg-slate-900/90 border border-slate-700/80 focus:border-buzz-400 rounded-xl py-2.5 pl-10 pr-10 text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-buzz-400/20 transition-all"
+            />
+            <svg class="w-4 h-4 text-slate-400 absolute left-3.5 top-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+            </svg>
+            <button id="clearDesktopSearch" onclick="clearSearch()" class="hidden absolute right-3 top-2.5 text-slate-500 hover:text-slate-300">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+          </div>
         </div>
+
+        <!-- Action Buttons -->
+        <div class="flex items-center gap-2.5 sm:gap-3">
+          <button 
+            onclick="openModal('tipModal')"
+            class="inline-flex items-center gap-2 bg-buzz-500 hover:bg-buzz-400 text-slate-950 font-semibold text-xs sm:text-sm px-3.5 sm:px-4 py-2.5 rounded-xl shadow-lg shadow-buzz-500/20 hover:shadow-buzz-400/30 transition-all active:scale-95"
+          >
+            <svg class="w-4 h-4 stroke-[2.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"></path>
+            </svg>
+            <span>Submit a Tip / Event</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Search Bar -->
+      <div class="pb-3 md:hidden">
+        <div class="relative">
+          <input 
+            type="text" 
+            id="mobileSearch"
+            placeholder="Search stories, events, tags..." 
+            class="w-full bg-slate-900 border border-slate-800 focus:border-buzz-400 rounded-xl py-2 pl-9 pr-9 text-sm text-slate-100 placeholder-slate-500 focus:outline-none"
+          />
+          <svg class="w-4 h-4 text-slate-400 absolute left-3 top-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+          </svg>
+          <button id="clearMobileSearch" onclick="clearSearch()" class="hidden absolute right-3 top-2.5 text-slate-500 hover:text-slate-300">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
+
+    <!-- Hero Banner / Featured Barrie Highlight -->
+    <section class="mb-8 relative rounded-2xl overflow-hidden border border-slate-800 bg-gradient-to-r from-slate-900 via-slate-900 to-kempenfelt-900/40 p-6 sm:p-8">
+      <div class="relative z-10 max-w-3xl">
+        <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded-full text-xs font-medium bg-kempenfelt-500/10 text-kempenfelt-400 border border-kempenfelt-500/20 mb-3">
+          <span>🐝 Simcoe County Aggregator</span>
+          <span>•</span>
+          <span id="feedSourceIndicator">Powered by stories.json + Local Feed</span>
+        </div>
+        <h1 class="font-display font-extrabold text-2xl sm:text-4xl text-white tracking-tight leading-tight">
+          What's buzzing around <span class="text-transparent bg-clip-text bg-gradient-to-r from-buzz-400 to-amber-200">Kempenfelt Bay</span> & beyond.
+        </h1>
+        <p class="mt-2 text-slate-300 text-sm sm:text-base leading-relaxed">
+          Curated local headlines, City Hall recaps, GO & LINX transit alerts, and weekend events across Barrie, Innisfil, Orillia, and Collingwood.
+        </p>
+      </div>
+      <svg class="hidden lg:block absolute -right-8 -bottom-12 w-80 h-80 text-buzz-500/5 pointer-events-none" viewBox="0 0 200 200" fill="currentColor">
+        <path d="M100 10C60 50 20 80 10 130C50 110 80 120 100 190C120 120 150 110 190 130C180 80 140 50 100 10Z"/>
+      </svg>
+    </section>
+
+    <!-- Controls Bar: Categories & Results Count -->
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 pb-4 border-b border-slate-800/80">
+      <!-- Category Pills -->
+      <div id="categoryContainer" class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1 sm:pb-0">
+        <button data-category="All" class="category-btn active-cat px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all shrink-0 bg-buzz-500 text-slate-950 shadow-md shadow-buzz-500/10">
+          All Buzz
+        </button>
+        <button data-category="News" class="category-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all shrink-0 bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800">
+          📰 Local News
+        </button>
+        <button data-category="Events" class="category-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all shrink-0 bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800">
+          🎪 Events
+        </button>
+        <button data-category="Weather" class="category-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all shrink-0 bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800">
+          🌨️ Weather & Roads
+        </button>
+        <button data-category="Community" class="category-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all shrink-0 bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800">
+          🤝 Community
+        </button>
+      </div>
+
+      <!-- Active Filter Counter -->
+      <div class="flex items-center justify-between sm:justify-end gap-3 text-xs text-slate-400 shrink-0">
+        <span id="storyCount">Showing 9 stories</span>
+        <select id="sortSelect" onchange="handleSortChange(this.value)" class="bg-slate-900 border border-slate-800 text-slate-300 rounded-lg px-2.5 py-1.5 text-xs focus:outline-none focus:border-buzz-400">
+          <option value="newest">Newest First</option>
+          <option value="popular">Most Buzzing 🔥</option>
+        </select>
+      </div>
     </div>
 
-    <!-- Main Content Container -->
-    <main class="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-16 max-w-5xl relative z-10">
+    <!-- Dynamic Story Cards Grid -->
+    <div id="storiesGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Populated dynamically via JS -->
+    </div>
 
-        <!-- Top Navigation / Status Header (No duplicate left logo) -->
-        <header class="flex flex-wrap items-center justify-between gap-3 mb-6 bg-[#f8f8f6]/95 backdrop-blur-md px-4 sm:px-6 py-3 rounded-2xl shadow-sm border border-slate-200/90">
-            <div class="flex items-center gap-2.5">
-                <span class="inline-flex items-center gap-2 bg-emerald-100/90 text-emerald-800 border border-emerald-300 px-3.5 py-1.5 rounded-full text-xs font-extrabold uppercase tracking-wider">
-                    <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
-                    <span class="w-2 h-2 rounded-full bg-emerald-500 -ml-4"></span>
-                    <span>Coming Soon to the 705</span>
-                </span>
-                <span class="hidden md:inline-block text-xs font-semibold text-slate-500">
-                    Barrie &amp; Simcoe County's New Digital Newsroom
-                </span>
+    <!-- Empty State -->
+    <div id="emptyState" class="hidden text-center py-16 px-4 rounded-2xl border border-dashed border-slate-800 bg-slate-900/30 my-4">
+      <div class="w-14 h-14 rounded-full bg-slate-800/80 text-buzz-400 flex items-center justify-center mx-auto mb-4">
+        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+        </svg>
+      </div>
+      <h3 class="font-display font-bold text-lg text-white">No local stories match your filter</h3>
+      <p class="text-slate-400 text-sm max-w-md mx-auto mt-1 mb-5">
+        We couldn't find anything matching your search keyword or selected category. Try resetting your filters or submit a local tip!
+      </p>
+      <button onclick="resetFilters()" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold transition-colors">
+        Reset All Filters
+      </button>
+    </div>
+
+    <!-- Method 2: stories.json Data Console & Live RSS Fallback -->
+    <section class="mt-14 border-t border-slate-800/80 pt-8">
+      <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-5 sm:p-6">
+        <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
+          <div>
+            <div class="flex items-center gap-2">
+              <span id="jsonStatusDot" class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
+              <h2 class="font-display font-bold text-base sm:text-lg text-white">Method 2 Feed Engine (`./stories.json` + Live RSS Backup)</h2>
             </div>
-
-            <div class="flex items-center gap-2 sm:gap-3">
-                <a href="#contact" class="hidden sm:inline-flex items-center gap-1.5 text-xs sm:text-sm font-bold text-buzzNavy hover:text-buzzGold transition px-3 py-2">
-                    <i class="fa-solid fa-bullhorn text-buzzGold"></i>
-                    <span>Send a Tip</span>
-                </a>
-                <a href="mailto:contact@705.buzz" class="inline-flex items-center gap-2 bg-buzzNavy hover:bg-buzzNavyDark text-white text-xs sm:text-sm font-bold px-4 py-2.5 rounded-full shadow transition transform hover:-translate-y-0.5">
-                    <i class="fa-solid fa-envelope text-buzzGold"></i>
-                    <span>contact@705.buzz</span>
-                </a>
-            </div>
-        </header>
-
-        <!-- Hero Card Featuring Uploaded 705Buzz Logo Image -->
-        <section class="bg-white rounded-3xl shadow-xl border-2 border-slate-200/90 p-6 sm:p-10 md:p-12 text-center relative overflow-hidden mb-10">
-            <!-- Decorative Corner Accents -->
-            <div class="absolute -top-16 -right-16 w-44 h-44 bg-buzzGold/15 rounded-full blur-2xl pointer-events-none"></div>
-            <div class="absolute -bottom-16 -left-16 w-44 h-44 bg-buzzNavy/10 rounded-full blur-2xl pointer-events-none"></div>
-
-            <!-- UPLOADED LOGO IMAGE CENTERPIECE (Larger, Cropped & Blended Seamlessly into Pure White #ffffff) -->
-            <div class="max-w-4xl mx-auto mb-6 sm:mb-8 hero-logo-frame relative px-1 sm:px-2 py-2">
-                <div class="w-full flex flex-col items-center justify-center overflow-hidden">
-                    <img id="heroMainLogoImg"
-                         src="https://i.ibb.co/W4n87sCr/Code-Generated-Image.png"
-                         alt="705 Buzz - Barrie & Area Digital News"
-                         onerror="handleLogoError(this)"
-                         class="hero-logo-img w-full max-w-2xl sm:max-w-3xl hero-logo-crop logo-blend select-none" />
-
-                    <!-- Pixel-Accurate Inline SVG Fallback (Only shown if hosted image fails to load) -->
-                    <svg id="heroFallbackSvg" class="logo-fallback-svg hidden w-full max-w-2xl sm:max-w-3xl h-auto py-2" viewBox="0 0 780 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="705 Buzz — Barrie & Area Digital News">
-                        <defs>
-                            <pattern id="heroBeeStripes" width="780" height="26" patternUnits="userSpaceOnUse">
-                                <rect width="780" height="14.5" fill="#f39c12" />
-                                <rect y="14.5" width="780" height="11.5" fill="#1e242b" />
-                            </pattern>
-                        </defs>
-                        <!-- 70 -->
-                        <text x="35" y="176" font-family="Montserrat, sans-serif" font-weight="900" font-size="152" letter-spacing="-5" fill="#0b4475">70</text>
-                        <!-- Custom Vector 5 with Wide Lower Bowl -->
-                        <path d="M236 67 H318 L314 93 H261 L258 114 C266 111 275 109 285 109 C310 109 328 124 328 148 C328 174 306 192 275 192 C251 192 233 182 225 166 L248 154 C254 164 263 170 275 170 C290 170 301 160 301 148 C301 135 291 127 274 127 C263 127 255 130 248 136 L229 129 Z" fill="#0b4475"/>
-                        <!-- Authentic 11-Pointed Canadian Maple Leaf Centered in the 5 -->
-                        <path d="M275 133 L278.1 140.2 L282.6 138.3 L280.8 145.8 L287.2 142.2 L288 145.8 L293 144.8 L289.1 151.3 L291.9 153.1 L282.6 156.8 L284 160.2 L276.1 158.8 L276.1 167 L273.9 167 L273.9 158.8 L266 160.2 L267.4 156.8 L258.1 153.1 L260.9 151.3 L257 144.8 L262 145.8 L262.8 142.2 L269.2 145.8 L267.4 138.3 L271.9 140.2 Z" fill="#0b4475"/>
-                        <!-- Striped Buzz -->
-                        <text x="336" y="176" font-family="Montserrat, sans-serif" font-weight="900" font-style="italic" font-size="152" letter-spacing="-3" fill="url(#heroBeeStripes)">Buzz</text>
-                        <!-- Dotted Bee Flight Trail -->
-                        <path d="M448 80 C456 92, 472 86, 466 72 C461 62, 449 69, 456 79 C464 89, 482 82, 492 68" fill="none" stroke="#1e242b" stroke-width="2.5" stroke-dasharray="4 4" stroke-linecap="round"/>
-                        <!-- Flying Bee Above u -->
-                        <g transform="translate(512, 44) rotate(-26)">
-                            <ellipse cx="-2" cy="-14" rx="8" ry="15" transform="rotate(-22)" fill="#1e242b"/>
-                            <ellipse cx="8" cy="-12" rx="6.5" ry="12" transform="rotate(18)" fill="#1e242b"/>
-                            <path d="M-5 -9 C-3 -16, 1 -16, 3 -9" fill="none" stroke="#ffffff" stroke-width="1.5"/>
-                            <ellipse cx="0" cy="4" rx="18" ry="12" fill="#f39c12" stroke="#1e242b" stroke-width="2.5"/>
-                            <path d="M-8 -6 V14 M0 -8 V16 M8 -5 V13" stroke="#1e242b" stroke-width="4.5"/>
-                            <path d="M-18 4 L-23 6 L-18 7 Z" fill="#1e242b"/>
-                            <circle cx="20" cy="2" r="7.5" fill="#1e242b"/>
-                            <path d="M24 -3 Q29 -12 33 -10 M26 1 Q33 -4 35 -1" fill="none" stroke="#1e242b" stroke-width="2" stroke-linecap="round"/>
-                            <circle cx="33" cy="-10" r="2" fill="#1e242b"/>
-                            <circle cx="35" cy="-1" r="2" fill="#1e242b"/>
-                        </g>
-                        <!-- Tagline -->
-                        <text x="344" y="214" font-family="Inter, sans-serif" font-weight="700" font-size="22.5" letter-spacing="2.4" fill="#2d3436">BARRIE &amp; AREA DIGITAL NEWS</text>
-                    </svg>
-                </div>
-            </div>
-
-            <!-- Coming Soon Hype Badge & Headline -->
-            <div class="mt-1 max-w-2xl mx-auto relative z-10">
-                <div class="inline-flex items-center gap-2 bg-amber-100 text-amber-900 border border-amber-300 px-4 py-1.5 rounded-full text-xs sm:text-sm font-extrabold uppercase tracking-wider mb-4 shadow-sm">
-                    <i class="fa-solid fa-bolt text-buzzGold"></i>
-                    <span>Something Sweet is Brewing in the 705!</span>
-                </div>
-
-                <h1 class="font-display font-black text-2xl sm:text-4xl md:text-5xl text-buzzNavy tracking-tight leading-tight mb-4">
-                    The Hive is Almost Ready, <span class="text-buzzGold underline decoration-buzzNavy decoration-4 underline-offset-4">Barrie!</span>
-                </h1>
-
-                <p class="text-slate-600 text-base sm:text-lg md:text-xl leading-relaxed mb-8">
-                    Get ready for your new daily destination for fast, fearless, and hyper-local digital news across <strong class="text-buzzNavy">Barrie &amp; Simcoe County</strong>. No fluff, no paywalls—just pure local buzz.
-                </p>
-            </div>
-
-            <!-- Live Launch Countdown Timer -->
-            <div class="max-w-xl mx-auto mb-9">
-                <p class="text-xs font-bold uppercase tracking-widest text-slate-500 mb-1">Countdown to Official Launch</p>
-                <p class="text-xs font-semibold text-buzzNavy/80 mb-3">Target Launch: December 1, 2026 (EST)</p>
-                <div class="grid grid-cols-4 gap-2 sm:gap-4 text-center">
-                    <div class="bg-slate-900 text-white rounded-2xl p-3 sm:p-4 shadow-md border-b-4 border-buzzGold">
-                        <span id="cd-days" class="font-display font-black text-2xl sm:text-4xl text-buzzGold block">30</span>
-                        <span class="text-[10px] sm:text-xs uppercase tracking-wider text-slate-300 font-semibold">Days</span>
-                    </div>
-                    <div class="bg-slate-900 text-white rounded-2xl p-3 sm:p-4 shadow-md border-b-4 border-buzzGold">
-                        <span id="cd-hours" class="font-display font-black text-2xl sm:text-4xl text-buzzGold block">00</span>
-                        <span class="text-[10px] sm:text-xs uppercase tracking-wider text-slate-300 font-semibold">Hours</span>
-                    </div>
-                    <div class="bg-slate-900 text-white rounded-2xl p-3 sm:p-4 shadow-md border-b-4 border-buzzGold">
-                        <span id="cd-mins" class="font-display font-black text-2xl sm:text-4xl text-buzzGold block">00</span>
-                        <span class="text-[10px] sm:text-xs uppercase tracking-wider text-slate-300 font-semibold">Minutes</span>
-                    </div>
-                    <div class="bg-slate-900 text-white rounded-2xl p-3 sm:p-4 shadow-md border-b-4 border-buzzGold">
-                        <span id="cd-secs" class="font-display font-black text-2xl sm:text-4xl text-white block">00</span>
-                        <span class="text-[10px] sm:text-xs uppercase tracking-wider text-slate-300 font-semibold">Seconds</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Primary CTA Buttons -->
-            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a href="mailto:contact@705.buzz?subject=705%20Buzz%20Inquiry%20%2F%20News%20Tip"
-                   class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-buzzNavy hover:bg-buzzNavyDark text-white font-display font-extrabold text-base sm:text-lg px-8 py-4 rounded-2xl shadow-lg hover:shadow-xl transition transform hover:-translate-y-0.5">
-                    <i class="fa-solid fa-paper-plane text-buzzGold"></i>
-                    <span>Email Us at contact@705.buzz</span>
-                </a>
-
-                <button id="hypeBtn" type="button"
-                        class="hype-btn-glow w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-buzzGold hover:bg-amber-400 text-slate-900 font-display font-black text-base sm:text-lg px-7 py-4 rounded-2xl shadow-lg transition transform active:scale-95 cursor-pointer">
-                    <span class="text-xl">🐝</span>
-                    <span>Add to the Barrie Hype! 🐝</span>
-                    <span id="hypeCountBadge" class="bg-slate-900 text-buzzGold text-xs sm:text-sm font-black px-2.5 py-1 rounded-full">705</span>
-                </button>
-            </div>
-
-            <!-- Dynamic Local Barrie Hype Message Toast -->
-            <div class="mt-4 min-h-[28px] flex items-center justify-center">
-                <p id="hypeStatusText" class="text-xs sm:text-sm font-bold text-buzzNavy transition-all duration-300">
-                    🔥 <span id="hypeCountInline">705</span> locals in Barrie &amp; Area are already buzzing for launch!
-                </p>
-            </div>
-        </section>
-
-        <!-- Interactive Barrie Buzz-O-Meter Progress Bar -->
-        <section class="bg-gradient-to-r from-buzzNavy to-buzzNavyDark text-white rounded-3xl p-6 sm:p-8 shadow-lg mb-10 border border-buzzNavy">
-            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
-                <div>
-                    <span class="text-buzzGold text-xs font-extrabold uppercase tracking-widest block mb-1">Community Buzz-O-Meter</span>
-                    <h2 class="font-display font-black text-xl sm:text-2xl">Help Us Reach 1,000 Hype Taps Before Launch!</h2>
-                </div>
-                <div class="flex items-center gap-3 bg-white/10 px-4 py-2 rounded-xl self-start md:self-auto">
-                    <span class="text-2xl">🌡️</span>
-                    <div>
-                        <div class="text-xs text-slate-300 uppercase font-semibold">Current Hive Level</div>
-                        <div id="hiveLevelLabel" class="font-display font-extrabold text-buzzGold text-sm sm:text-base">Kempenfelt Bay Breeze</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Progress Bar Track -->
-            <div class="w-full bg-slate-900/70 h-6 rounded-full overflow-hidden p-1 border border-white/15 shadow-inner mb-3">
-                <div id="hypeProgressBar"
-                     class="bg-gradient-to-r from-buzzGold via-amber-400 to-yellow-300 h-full rounded-full transition-all duration-500 relative flex items-center justify-end pr-2"
-                     style="width: 70.5%;">
-                    <span class="text-[11px] leading-none">🐝</span>
-                </div>
-            </div>
-
-            <div class="flex flex-wrap items-center justify-between text-xs text-slate-300 font-semibold gap-2">
-                <span>🍁 0 Taps (Quiet Bay)</span>
-                <span>🌊 705 Area Code Milestone!</span>
-                <span>🚀 1,000 Taps (Full Barrie Launch Party!)</span>
-            </div>
-        </section>
-
-        <!-- What's Pollinating at 705 Buzz (4 Teaser Cards) -->
-        <section class="mb-12">
-            <div class="text-center mb-8">
-                <span class="text-xs font-extrabold uppercase tracking-widest text-amber-600 block mb-1">Coming to Your Feed</span>
-                <h2 class="font-display font-black text-2xl sm:text-3xl text-buzzNavy">What’s Pollinating at 705 Buzz?</h2>
-                <p class="text-slate-600 text-sm sm:text-base mt-1">Here is what we are gearing up to bring to <strong class="text-buzzNavy">Barrie &amp; Area</strong> on launch day:</p>
-            </div>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-                <!-- Card 1: Breaking 705 News -->
-                <div class="bg-white rounded-2xl p-6 shadow-md border border-slate-200/80 hover:border-buzzGold transition group">
-                    <div class="w-12 h-12 rounded-2xl bg-buzzNavy/10 text-buzzNavy flex items-center justify-center mb-4 group-hover:bg-buzzNavy group-hover:text-buzzGold transition">
-                        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" fill="currentColor" fill-opacity="0.2"></polygon>
-                        </svg>
-                    </div>
-                    <h3 class="font-display font-extrabold text-lg text-buzzNavy mb-2">Breaking 705 News</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        Real-time updates on Barrie City Hall, GO Transit, Hwy 400 traffic alerts, and stories that directly impact your day.
-                    </p>
-                </div>
-
-                <!-- Card 2: Community Spotlights -->
-                <div class="bg-white rounded-2xl p-6 shadow-md border border-slate-200/80 hover:border-buzzGold transition group">
-                    <div class="w-12 h-12 rounded-2xl bg-buzzGold/20 text-amber-700 flex items-center justify-center mb-4 group-hover:bg-buzzGold group-hover:text-slate-900 transition">
-                        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                            <circle cx="12" cy="8" r="6" fill="currentColor" fill-opacity="0.2"></circle>
-                            <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
-                            <path d="m12 5.5.9 1.8 2 .3-1.45 1.4.35 2-1.8-.95-1.8.95.35-2L9.1 7.6l2-.3L12 5.5z" fill="currentColor"></path>
-                        </svg>
-                    </div>
-                    <h3 class="font-display font-extrabold text-lg text-buzzNavy mb-2">Community Spotlights</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        Celebrating the entrepreneurs, neighbourhood heroes, charities, and makers keeping Barrie and Simcoe County thriving.
-                    </p>
-                </div>
-
-                <!-- Card 3: Barrie Events & Eats -->
-                <div class="bg-white rounded-2xl p-6 shadow-md border border-slate-200/80 hover:border-buzzGold transition group">
-                    <div class="w-12 h-12 rounded-2xl bg-buzzNavy/10 text-buzzNavy flex items-center justify-center mb-4 group-hover:bg-buzzNavy group-hover:text-buzzGold transition">
-                        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                            <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path>
-                            <path d="M7 2v20"></path>
-                            <path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" fill="currentColor" fill-opacity="0.2"></path>
-                        </svg>
-                    </div>
-                    <h3 class="font-display font-extrabold text-lg text-buzzNavy mb-2">Barrie Events &amp; Eats</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        Your curated guide to Kempenfelt Bay waterfront festivals, new Dunlop St. restaurants, patio openings, and live music.
-                    </p>
-                </div>
-
-                <!-- Card 4: Local Sports & Weather -->
-                <div class="bg-white rounded-2xl p-6 shadow-md border border-slate-200/80 hover:border-buzzGold transition group">
-                    <div class="w-12 h-12 rounded-2xl bg-buzzGold/20 text-amber-700 flex items-center justify-center mb-4 group-hover:bg-buzzGold group-hover:text-slate-900 transition">
-                        <!-- Custom Sports & Weather Clipart SVG (Sun, Cloud, Snowflake & Hockey Stick/Puck) -->
-                        <svg class="w-7 h-7" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                            <!-- Sun rays & disc -->
-                            <circle cx="8" cy="8" r="3.2" fill="currentColor" fill-opacity="0.25"></circle>
-                            <path d="M8 2.2v1.6M2.2 8h1.6M3.9 3.9l1.1 1.1M12.1 3.9 11 5"></path>
-                            <!-- Weather Cloud -->
-                            <path d="M10.5 16.5h8.2a3.8 3.8 0 0 0 .4-7.58A5.2 5.2 0 0 0 9.1 7.6 4.2 4.2 0 0 0 6.8 15" fill="currentColor" fill-opacity="0.18"></path>
-                            <!-- Hockey Stick & Puck + Snowflake Accent -->
-                            <path d="M21.5 12.5 16 23.5h-4.5c-1.1 0-2-.8-2-1.8 0-.9.8-1.7 1.9-1.7h3.2"></path>
-                            <ellipse cx="21.5" cy="22.8" rx="2.5" ry="1.2" fill="currentColor"></ellipse>
-                            <circle cx="7" cy="19.5" r="1" fill="currentColor"></circle>
-                        </svg>
-                    </div>
-                    <h3 class="font-display font-extrabold text-lg text-buzzNavy mb-2">Local Sports &amp; Weather</h3>
-                    <p class="text-slate-600 text-sm leading-relaxed">
-                        From Barrie Colts action and local tournaments to lake-effect snow squall watches and weekend bay forecasts.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Us via Direct Email Only (No Form Fields) -->
-        <section id="contact" class="bg-white rounded-3xl shadow-xl border-2 border-buzzGold/70 p-6 sm:p-10 text-center max-w-3xl mx-auto">
-            <div class="inline-flex items-center gap-2 bg-buzzNavy/10 text-buzzNavy px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider mb-3">
-                <i class="fa-solid fa-bullhorn text-buzzGold"></i>
-                <span>Got a Scoop, Story Idea, or Inquiry?</span>
-            </div>
-
-            <h2 class="font-display font-black text-2xl sm:text-4xl text-buzzNavy leading-tight mb-3">
-                Connect with the 705 Buzz Hive!
-            </h2>
-
-            <p class="text-slate-600 text-sm sm:text-base max-w-xl mx-auto leading-relaxed mb-6">
-                Have breaking Barrie news, an upcoming community event, or an advertising inquiry ahead of launch? No complicated forms—just email us directly anytime:
+            <p class="text-xs sm:text-sm text-slate-400 mt-1">
+              Automatically fetches <code class="text-buzz-400 bg-slate-950 px-1.5 py-0.5 rounded">./stories.json</code> from your repository root on page load. You can also export your current stories as a ready-to-commit <code class="text-buzz-400 bg-slate-950 px-1.5 py-0.5 rounded">stories.json</code> file anytime.
             </p>
-
-            <!-- Prominent Direct Email Showcase Card -->
-            <div class="bg-[#f8f8f6] border-2 border-slate-200 rounded-2xl p-4 sm:p-5 mb-6 flex flex-col md:flex-row items-center justify-between gap-4 max-w-2xl mx-auto shadow-inner">
-                <div class="flex items-center gap-3 text-left min-w-0">
-                    <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-buzzNavy text-buzzGold flex items-center justify-center text-base sm:text-lg shrink-0 shadow">
-                        <i class="fa-solid fa-envelope-open-text"></i>
-                    </div>
-                    <div class="min-w-0">
-                        <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider leading-tight">Direct Newsroom Email</div>
-                        <a href="mailto:contact@705.buzz" class="font-display font-bold text-base sm:text-lg md:text-xl text-buzzNavy hover:text-buzzGold transition truncate block">
-                            contact@705.buzz
-                        </a>
-                    </div>
-                </div>
-
-                <div class="flex flex-wrap sm:flex-nowrap items-center gap-2.5 w-full md:w-auto justify-center shrink-0">
-                    <button id="copyEmailBtn" type="button"
-                            class="flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-100 text-buzzCharcoal border border-slate-300 font-bold text-xs sm:text-sm px-4 py-2.5 rounded-xl transition cursor-pointer shadow-sm">
-                        <i id="copyBtnIcon" class="fa-regular fa-copy"></i>
-                        <span id="copyBtnText">Copy Email</span>
-                    </button>
-                    <a href="mailto:contact@705.buzz"
-                       class="flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 bg-buzzGold hover:bg-amber-400 text-slate-900 font-extrabold text-xs sm:text-sm px-4 py-2.5 rounded-xl transition shadow-sm">
-                        <i class="fa-solid fa-paper-plane"></i>
-                        <span>Email Us</span>
-                    </a>
-                </div>
-            </div>
-
-            <!-- Copy Confirmation Toast Banner -->
-            <div id="copyToast" class="hidden max-w-md mx-auto mb-5 bg-emerald-50 border border-emerald-300 text-emerald-800 text-xs sm:text-sm font-bold px-4 py-2.5 rounded-xl items-center justify-center gap-2 shadow-sm">
-                <span>🐝</span>
-                <span>Sweet! <strong>contact@705.buzz</strong> is copied to your clipboard!</span>
-            </div>
-
-            <!-- Quick One-Click Email Topic Links -->
-            <div class="pt-2">
-                <p class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3">Click a topic below to pre-fill your email to contact@705.buzz:</p>
-                <div class="flex flex-wrap items-center justify-center gap-2.5">
-                    <a href="mailto:contact@705.buzz?subject=Barrie%20%2F%20705%20News%20Tip%20%F0%9F%90%9D"
-                       class="inline-flex items-center gap-2 bg-slate-100 hover:bg-buzzNavy hover:text-white text-slate-700 text-xs sm:text-sm font-bold px-4 py-2.5 rounded-xl transition shadow-sm">
-                        <span>Send a News Tip 🐝</span>
-                    </a>
-                    <a href="mailto:contact@705.buzz?subject=Local%20Event%20%2F%20Business%20Spotlight%20%F0%9F%93%85"
-                       class="inline-flex items-center gap-2 bg-slate-100 hover:bg-buzzNavy hover:text-white text-slate-700 text-xs sm:text-sm font-bold px-4 py-2.5 rounded-xl transition shadow-sm">
-                        <span>Local Event / Business Spotlight 📅</span>
-                    </a>
-                    <a href="mailto:contact@705.buzz?subject=Advertising%20%26%20Partnerships%20%F0%9F%A4%9D"
-                       class="inline-flex items-center gap-2 bg-slate-100 hover:bg-buzzNavy hover:text-white text-slate-700 text-xs sm:text-sm font-bold px-4 py-2.5 rounded-xl transition shadow-sm">
-                        <span>Advertising &amp; Partnerships 🤝</span>
-                    </a>
-                    <a href="mailto:contact@705.buzz?subject=General%20Inquiry%20-%20705%20Buzz%20%F0%9F%91%8B"
-                       class="inline-flex items-center gap-2 bg-slate-100 hover:bg-buzzNavy hover:text-white text-slate-700 text-xs sm:text-sm font-bold px-4 py-2.5 rounded-xl transition shadow-sm">
-                        <span>General Inquiry 👋</span>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <!-- Single Clean Footer -->
-    <footer class="bg-buzzNavyDark text-slate-300 py-8 border-t-4 border-buzzGold relative z-10">
-        <div class="container mx-auto px-4 max-w-5xl flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
-            <div>
-                <div class="font-display font-black text-lg tracking-tight text-white">
-                    &copy; <span id="footerYear">2026</span> 705<span class="text-buzzGold italic">Buzz</span> — <span class="font-sans font-bold text-sm sm:text-base text-slate-200">Barrie &amp; Area Digital News</span>
-                </div>
-                <p class="text-xs text-slate-400 mt-0.5">Proudly Local in Barrie &amp; Simcoe County, Ontario, Canada 🍁</p>
-            </div>
-
-            <div class="flex flex-col sm:items-end text-xs text-slate-400">
-                <a href="mailto:contact@705.buzz" class="text-buzzGold hover:underline font-bold text-sm flex items-center gap-1.5 justify-center sm:justify-end">
-                    <i class="fa-solid fa-envelope"></i>
-                    <span>contact@705.buzz</span>
-                </a>
-            </div>
+          </div>
+          <div class="flex flex-wrap items-center gap-2 shrink-0">
+            <button onclick="loadHostedJson(true)" class="px-3.5 py-2 rounded-xl bg-buzz-500/10 hover:bg-buzz-500/20 text-buzz-400 border border-buzz-500/30 text-xs font-semibold transition-all flex items-center gap-1.5">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+              Fetch ./stories.json
+            </button>
+            <button onclick="downloadStoriesJson()" class="px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-semibold transition-all flex items-center gap-1.5">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+              Download stories.json
+            </button>
+            <button onclick="syncLiveFeeds()" class="px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 text-xs font-semibold transition-all flex items-center gap-1.5">
+              Pull RSS Now
+            </button>
+          </div>
         </div>
-    </footer>
+        <div id="rssStatusLog" class="mt-4 bg-slate-950 border border-slate-800/90 rounded-xl p-3 font-mono text-xs text-slate-400 overflow-x-auto">
+          [System Ready] Checking ./stories.json...
+        </div>
+      </div>
+    </section>
 
-    <!-- Interactive JavaScript -->
-    <script>
-        // 0. Clean Logo Fallback (No upload banner text)
-        function handleLogoError(imgEl) {
-            imgEl.classList.add('hidden');
-            const parent = imgEl.parentElement;
-            if (parent) {
-                const fallbackSvg = parent.querySelector('.logo-fallback-svg');
-                if (fallbackSvg) {
-                    fallbackSvg.classList.remove('hidden');
-                }
-            }
+  </main>
+
+  <!-- Story Reader Modal -->
+  <div id="readerModal" class="fixed inset-0 z-50 hidden overflow-y-auto bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-2xl w-full overflow-hidden shadow-2xl transform transition-all">
+      <div class="relative h-56 sm:h-64 bg-slate-800">
+        <img id="readerImage" src="" alt="Story cover" class="w-full h-full object-cover" />
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
+        <button onclick="closeModal('readerModal')" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-slate-950/70 hover:bg-slate-950 text-slate-300 hover:text-white flex items-center justify-center transition-colors">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+        <div class="absolute bottom-4 left-6 right-6">
+          <span id="readerCategory" class="px-2.5 py-1 rounded-md text-xs font-bold uppercase tracking-wider bg-buzz-500 text-slate-950"></span>
+          <h2 id="readerTitle" class="font-display font-bold text-xl sm:text-2xl text-white mt-2 leading-snug"></h2>
+        </div>
+      </div>
+      <div class="p-6">
+        <div class="flex items-center justify-between text-xs text-slate-400 pb-4 mb-4 border-b border-slate-800">
+          <div class="flex items-center gap-2">
+            <span id="readerSource" class="font-semibold text-slate-200"></span>
+            <span>•</span>
+            <span id="readerTime"></span>
+          </div>
+          <span id="readerLocation" class="text-buzz-400 font-medium"></span>
+        </div>
+        <p id="readerSummary" class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6"></p>
+        <div id="readerTags" class="flex flex-wrap gap-1.5 mb-6"></div>
+        <div class="flex items-center justify-between pt-4 border-t border-slate-800">
+          <button onclick="closeModal('readerModal')" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold transition-colors">
+            Close Preview
+          </button>
+          <a id="readerLink" href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-buzz-500 hover:bg-buzz-400 text-slate-950 text-xs font-bold transition-colors">
+            <span>Read Full Source Article</span>
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Submit a News Tip / Event Modal (with JSON Snippet Generator) -->
+  <div id="tipModal" class="fixed inset-0 z-50 hidden overflow-y-auto bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-lg w-full overflow-hidden shadow-2xl transform transition-all">
+      <div class="flex items-center justify-between px-6 py-4 border-b border-slate-800 bg-slate-900/50">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded-lg bg-buzz-500/10 border border-buzz-500/30 text-buzz-400 flex items-center justify-center">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"></path></svg>
+          </div>
+          <div>
+            <h3 class="font-display font-bold text-lg text-white">Submit a 705 News Tip or Event</h3>
+            <p class="text-xs text-slate-400">Add to live feed or copy JSON for <code class="text-buzz-400">stories.json</code></p>
+          </div>
+        </div>
+        <button onclick="closeModal('tipModal')" class="text-slate-400 hover:text-white p-1">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+      </div>
+
+      <form id="tipForm" onsubmit="handleTipSubmit(event)" class="p-6 space-y-4">
+        <div>
+          <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1.5">Headline or Event Title *</label>
+          <input type="text" id="tipTitle" required placeholder="e.g., Pop-up Artisan Market at Meridian Place" class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3.5 py-2.5 text-sm text-white placeholder-slate-600 focus:outline-none" />
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1.5">Category *</label>
+            <select id="tipCategory" required class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3.5 py-2.5 text-sm text-white focus:outline-none">
+              <option value="News">📰 Local News</option>
+              <option value="Events">🎪 Events</option>
+              <option value="Weather">🌨️ Weather & Roads</option>
+              <option value="Community">🤝 Community</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1.5">Neighborhood / Town *</label>
+            <input type="text" id="tipLocation" required placeholder="e.g., Downtown Barrie, Innisfil" class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3.5 py-2.5 text-sm text-white placeholder-slate-600 focus:outline-none" />
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1.5">Details / Summary *</label>
+          <textarea id="tipSummary" rows="3" required placeholder="Include key details, dates, times, or what residents should know..." class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3.5 py-2.5 text-sm text-white placeholder-slate-600 focus:outline-none"></textarea>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1.5">Source / Organizer Name</label>
+            <input type="text" id="tipSource" placeholder="e.g., Resident Tip / BIA" class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3.5 py-2.5 text-sm text-white placeholder-slate-600 focus:outline-none" />
+          </div>
+          <div>
+            <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1.5">External Link (Optional)</label>
+            <input type="url" id="tipUrl" placeholder="https://..." class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3.5 py-2.5 text-sm text-white placeholder-slate-600 focus:outline-none" />
+          </div>
+        </div>
+
+        <div class="pt-3 flex flex-wrap items-center justify-between gap-2 border-t border-slate-800">
+          <button type="button" onclick="copyFormAsJson()" class="px-3.5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-buzz-400 border border-slate-700 text-xs font-semibold transition-colors">
+            📋 Copy JSON for stories.json
+          </button>
+          <div class="flex items-center gap-2 ml-auto">
+            <button type="button" onclick="closeModal('tipModal')" class="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold transition-colors">
+              Cancel
+            </button>
+            <button type="submit" class="px-5 py-2.5 rounded-xl bg-buzz-500 hover:bg-buzz-400 text-slate-950 text-xs font-bold shadow-lg shadow-buzz-500/20 transition-all">
+              Publish to Feed
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="fixed bottom-5 right-5 z-50 hidden transform transition-all duration-300 translate-y-4 opacity-0">
+    <div class="bg-slate-900 border border-buzz-500/40 text-slate-100 px-4 py-3 rounded-xl shadow-2xl flex items-center gap-3">
+      <span class="w-2.5 h-2.5 rounded-full bg-buzz-400 animate-ping"></span>
+      <span id="toastMsg" class="text-xs sm:text-sm font-medium"></span>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900/50 border-t border-slate-800/80 mt-16 py-8 text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2">
+        <span class="font-display font-bold text-slate-300">705.BUZZ</span>
+        <span>— Built for Barrie, Orillia, Innisfil, Collingwood & Simcoe County.</span>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="#" onclick="openModal('tipModal'); return false;" class="hover:text-buzz-400 transition-colors">Submit Event</a>
+        <span>•</span>
+        <a href="#" onclick="loadHostedJson(true); return false;" class="hover:text-buzz-400 transition-colors">Reload stories.json</a>
+        <span>•</span>
+        <a href="#" onclick="downloadStoriesJson(); return false;" class="hover:text-buzz-400 transition-colors">Export JSON</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application JavaScript -->
+  <script>
+    /********************************************************************
+     * 1. BUILT-IN SEED STORIES (Fallback & Baseline Local Content)
+     ********************************************************************/
+    const initialStories = [
+      {
+        id: 'barrie-1',
+        title: 'Centennial Park Waterfront Boardwalk Expansion Enters Final Stage Ahead of Winter',
+        category: 'News',
+        source: 'City of Barrie',
+        location: 'Kempenfelt Bay',
+        timestamp: '42 mins ago',
+        sortOrder: 100,
+        buzzScore: 94,
+        summary: 'Crews have completed the new LED shoreline lighting and widened pedestrian pathways along Centennial Beach. The upgraded south boardwalk section near the sea serpent playground opens to residents this Friday morning.',
+        image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80',
+        url: 'https://www.barrie.ca',
+        tags: ['Waterfront', 'Centennial Park', 'Infrastructure', 'Kempenfelt Bay']
+      },
+      {
+        id: 'barrie-2',
+        title: 'Barrie City Council Approves High-Density Mixed-Use Towers Near Allandale Waterfront GO',
+        category: 'News',
+        source: 'Barrie Municipal Notes',
+        location: 'Allandale',
+        timestamp: '2 hours ago',
+        sortOrder: 95,
+        buzzScore: 88,
+        summary: 'In a 9-2 vote Wednesday evening, City Council greenlit the zoning amendment for the Essa Road & Tiffin corridor, bringing 420 residential units, ground-floor retail, and a public transit plaza steps from the Allandale GO station.',
+        image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80',
+        url: 'https://www.barrie.ca/government/mayor-council',
+        tags: ['City Council', 'Allandale GO', 'Development', 'Housing']
+      },
+      {
+        id: 'barrie-3',
+        title: 'Noella Festival & Tree Lighting Returns to Meridian Place with Live Music & KOI Showcase',
+        category: 'Events',
+        source: 'Downtown Barrie BIA',
+        location: 'Meridian Place',
+        timestamp: '3 hours ago',
+        sortOrder: 90,
+        buzzScore: 97,
+        summary: 'Bundle up for the annual Rotary Festival of Trees kickoff and evening concert series at Meridian Place! Featuring acoustic sets curated by KOI Music Festival alumni, hot cider vendors along Dunlop Street East, and fireworks over the bay.',
+        image: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=80',
+        url: 'https://downtownbarrie.ca',
+        tags: ['Meridian Place', 'KOI Music', 'Dunlop St', 'Festival']
+      },
+      {
+        id: 'barrie-4',
+        title: 'Simcoe County LINX Transit Adds Express Commuter Departures on Route 1 & Route 3',
+        category: 'Community',
+        source: 'Simcoe County Transit',
+        location: 'Simcoe County',
+        timestamp: '5 hours ago',
+        sortOrder: 85,
+        buzzScore: 76,
+        summary: 'Starting next Monday, Simcoe County LINX will introduce two additional morning and afternoon peak-hour buses linking Penetanguishene/Midland and Orillia directly to Georgian College and the Barrie South GO Terminal.',
+        image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=80',
+        url: 'https://nextbus.simcoe.ca',
+        tags: ['LINX Transit', 'Georgian College', 'Orillia', 'Commuters']
+      },
+      {
+        id: 'barrie-5',
+        title: 'First Lake-Effect Snow Squall Watch of the Season Issued for Barrie, Orillia & Midland',
+        category: 'Weather',
+        source: 'Environment Canada 705',
+        location: 'Snowbelt / Hwy 400',
+        timestamp: '6 hours ago',
+        sortOrder: 80,
+        buzzScore: 99,
+        summary: 'Northwesterly winds shifting off Georgian Bay could bring localized bands of 10–15 cm of snow overnight between Crown Hill and Waubaushene. MTO winter plow fleets are staged along Highway 400 and Highway 11.',
+        image: 'https://images.unsplash.com/photo-1491002052546-bf38f186af56?auto=format&fit=crop&w=800&q=80',
+        url: 'https://weather.gc.ca',
+        tags: ['Snow Squall', 'Highway 400', 'Georgian Bay', 'Winter Weather']
+      },
+      {
+        id: 'barrie-6',
+        title: 'Barrie Colts Host Saturday Night Rivalry Clash Against OHL Division Leaders at Sadlon Arena',
+        category: 'Events',
+        source: 'Sadlon Arena Sports',
+        location: 'South Barrie (Bayview)',
+        timestamp: '8 hours ago',
+        sortOrder: 75,
+        buzzScore: 84,
+        summary: 'Puck drops at 7:30 PM this Saturday at Sadlon Arena. Fans are encouraged to bring non-perishable food donations for the Barrie Food Bank winter drive at all arena concourse gates.',
+        image: 'https://images.unsplash.com/photo-1515703407324-5f753afd8be8?auto=format&fit=crop&w=800&q=80',
+        url: 'https://chl.ca/ohl-colts',
+        tags: ['Barrie Colts', 'Sadlon Arena', 'OHL', 'Barrie Food Bank']
+      },
+      {
+        id: 'barrie-7',
+        title: 'Barrie Farmers’ Market Transitions to Indoor Saturday Layout at City Hall Rotunda',
+        category: 'Community',
+        source: 'Barrie Farmers Market',
+        location: '70 Collier St',
+        timestamp: '12 hours ago',
+        sortOrder: 70,
+        buzzScore: 81,
+        summary: 'Over 45 local Simcoe County growers, bakers, maple syrup producers, and craft artisans are back inside the warm City Hall Rotunda every Saturday from 9:00 AM to 1:00 PM with free weekend parking.',
+        image: 'https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80',
+        url: 'https://barriefarmersmarket.ca',
+        tags: ['Farmers Market', 'City Hall', 'Shop Local', 'Simcoe Farms']
+      },
+      {
+        id: 'barrie-8',
+        title: 'Overnight Lane Restrictions Scheduled on Duckworth Street & Grove Street Overpass',
+        category: 'Weather',
+        source: 'Barrie Traffic & Roads',
+        location: 'East End Barrie',
+        timestamp: '1 day ago',
+        sortOrder: 65,
+        buzzScore: 72,
+        summary: 'MTO bridge rehabilitation work continues along the Highway 400 Duckworth interchange. Expect alternating single-lane closures between 10:00 PM and 5:00 AM through Thursday.',
+        image: 'https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?auto=format&fit=crop&w=800&q=80',
+        url: 'https://511on.ca',
+        tags: ['Road Closure', 'Duckworth St', 'MTO', 'Traffic']
+      },
+      {
+        id: 'barrie-9',
+        title: 'RVH Launches New Community Diagnostic Imaging Clinic in Innisfil to Cut Wait Times',
+        category: 'Community',
+        source: 'Royal Victoria Regional Health',
+        location: 'Barrie / Innisfil',
+        timestamp: '1 day ago',
+        sortOrder: 60,
+        buzzScore: 91,
+        summary: 'Royal Victoria Regional Health Centre (RVH) has officially opened its satellite outpatient imaging hub at the Rizzardo Health & Wellness Centre, expanding ultrasound and X-ray capacity for South Simcoe residents.',
+        image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80',
+        url: 'https://www.rvh.on.ca',
+        tags: ['RVH', 'Healthcare', 'Innisfil', 'Community']
+      }
+    ];
+
+    // Load any locally submitted tips from browser localStorage
+    const savedLocalTips = JSON.parse(localStorage.getItem('705buzz_custom_tips') || '[]');
+    let stories = [...savedLocalTips, ...initialStories];
+    let activeCategory = 'All';
+    let searchQuery = '';
+    let currentSort = 'newest';
+
+    /********************************************************************
+     * 2. METHOD 2: HOSTED ./stories.json LOADER & EXPORTER
+     ********************************************************************/
+    async function loadHostedJson(showUserToast = false) {
+      const syncIcon = document.getElementById('syncIcon');
+      const syncText = document.getElementById('syncText');
+      const logEl = document.getElementById('rssStatusLog');
+      const dotEl = document.getElementById('jsonStatusDot');
+
+      syncIcon.classList.add('animate-spin');
+      syncText.textContent = 'Loading JSON...';
+
+      try {
+        // Cache-busting query string guarantees visitors always get the newest stories.json
+        const response = await fetch('./stories.json?t=' + Date.now());
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status} (${response.statusText})`);
         }
 
-        // 1. Set Launch Countdown to December 1st, 2026 at Midnight EST
-        (function initCountdown() {
-            const targetTime = new Date('2026-12-01T00:00:00-05:00').getTime();
+        const customStories = await response.json();
+        if (!Array.isArray(customStories)) {
+          throw new Error('stories.json root must be a JSON array []');
+        }
 
-            const daysEl = document.getElementById('cd-days');
-            const hoursEl = document.getElementById('cd-hours');
-            const minsEl = document.getElementById('cd-mins');
-            const secsEl = document.getElementById('cd-secs');
+        // Deduplicate by title or ID so stories never double up
+        const existingTitles = new Set(stories.map(s => s.title));
+        const existingIds = new Set(stories.map(s => s.id));
 
-            function updateTimer() {
-                const now = Date.now();
-                const diff = Math.max(0, targetTime - now);
+        const uniqueIncoming = customStories.filter(
+          item => item && item.title && !existingTitles.has(item.title) && !existingIds.has(item.id)
+        );
 
-                const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-                const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
-                const mins = Math.floor((diff / 1000 / 60) % 60);
-                const secs = Math.floor((diff / 1000) % 60);
+        if (uniqueIncoming.length > 0) {
+          stories = [...uniqueIncoming, ...stories];
+          renderStories();
+        }
 
-                if (daysEl) daysEl.textContent = String(days).padStart(2, '0');
-                if (hoursEl) hoursEl.textContent = String(hours).padStart(2, '0');
-                if (minsEl) minsEl.textContent = String(mins).padStart(2, '0');
-                if (secsEl) secsEl.textContent = String(secs).padStart(2, '0');
-            }
+        dotEl.className = 'w-2.5 h-2.5 rounded-full bg-emerald-400';
+        logEl.textContent = `[${new Date().toLocaleTimeString()}] Loaded ./stories.json (${customStories.length} items in file, ${uniqueIncoming.length} new merged into feed).`;
+        if (showUserToast) {
+          showToast(`Loaded ${customStories.length} stories from stories.json!`);
+        }
+      } catch (err) {
+        dotEl.className = 'w-2.5 h-2.5 rounded-full bg-amber-400';
+        logEl.textContent = `[${new Date().toLocaleTimeString()}] ./stories.json not detected yet (${err.message}). Displaying ${stories.length} built-in Barrie stories. Click "Download stories.json" to generate your starter file!`;
+        if (showUserToast) {
+          showToast('No ./stories.json found in root yet — using built-in feed.');
+        }
+      } finally {
+        setTimeout(() => {
+          syncIcon.classList.remove('animate-spin');
+          syncText.textContent = 'Reload stories.json';
+        }, 400);
+      }
+    }
 
-            updateTimer();
-            setInterval(updateTimer, 1000);
-        })();
+    /**
+     * Downloads the current stories array as a formatted stories.json file
+     * so you can drop it straight into your GitHub repo or web host.
+     */
+    function downloadStoriesJson() {
+      const dataStr = JSON.stringify(stories, null, 2);
+      const blob = new Blob([dataStr], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'stories.json';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      showToast('Downloaded stories.json! Place it next to index.html.');
+    }
 
-        // 2. Interactive "Add to the Barrie Hype!" Button & Particle Burst
-        (function initHypeMeter() {
-            const HYPE_KEY = '705buzz_hype_count';
-            let hypeCount = 705;
+    /********************************************************************
+     * 3. SECONDARY LIVE RSS-TO-JSON BACKUP INGESTION
+     ********************************************************************/
+    const SIMCOE_RSS_ENDPOINTS = [
+      {
+        name: 'BarrieToday',
+        category: 'News',
+        location: 'Barrie, ON',
+        rssUrl: 'https://www.barrietoday.com/rss'
+      },
+      {
+        name: 'InnisfilToday',
+        category: 'News',
+        location: 'Innisfil, ON',
+        rssUrl: 'https://www.innisfiltoday.ca/rss'
+      },
+      {
+        name: 'OrilliaMatters',
+        category: 'News',
+        location: 'Orillia, ON',
+        rssUrl: 'https://www.orilliamatters.com/rss'
+      },
+      {
+        name: 'Barrie 360',
+        category: 'Community',
+        location: 'Barrie, ON',
+        rssUrl: 'https://barrie360.com/feed/'
+      }
+    ];
 
-            try {
-                const saved = localStorage.getItem(HYPE_KEY);
-                if (saved && !isNaN(parseInt(saved, 10))) {
-                    hypeCount = Math.max(705, parseInt(saved, 10));
-                }
-            } catch (e) {}
+    async function fetchRssToJsonFeed(endpointConfig) {
+      const apiProxy = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(endpointConfig.rssUrl)}`;
+      const response = await fetch(apiProxy);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const data = await response.json();
+      if (data.status !== 'ok' || !Array.isArray(data.items)) throw new Error('Invalid RSS payload');
 
-            const hypeBtn = document.getElementById('hypeBtn');
-            const badgeEl = document.getElementById('hypeCountBadge');
-            const inlineEl = document.getElementById('hypeCountInline');
-            const statusTextEl = document.getElementById('hypeStatusText');
-            const progressBar = document.getElementById('hypeProgressBar');
-            const hiveLevelLabel = document.getElementById('hiveLevelLabel');
+      return data.items.slice(0, 3).map((item, idx) => ({
+        id: `rss-${Date.now()}-${idx}`,
+        title: item.title,
+        category: endpointConfig.category,
+        source: endpointConfig.name,
+        location: endpointConfig.location,
+        timestamp: 'Live RSS Sync',
+        sortOrder: Date.now() + idx,
+        buzzScore: Math.floor(Math.random() * 18) + 80,
+        summary: stripHtml(item.description || item.content || '').slice(0, 240) + '...',
+        image: item.enclosure?.link || item.thumbnail || 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80',
+        url: item.link || 'https://www.barrietoday.com',
+        tags: [endpointConfig.location.split(',')[0], endpointConfig.category, '705 Feed']
+      }));
+    }
 
-            const barrieMessages = [
-                "🐝 Kempenfelt Bay is buzzing!",
-                "🚗 Faster than traffic on the 400!",
-                "🍁 From Dunlop St. to the South End, the word is spreading!",
-                "🌊 Catching up by the Spirit Catcher!",
-                "🏡 Painswick, Holly, and Allandale are tuning in!",
-                "⚡ From Barrie to Innisfil & Orillia, the 705 is ready!",
-                "🍯 Sweet! The Barrie Buzz-O-Meter just climbed higher!"
-            ];
+    function stripHtml(html) {
+      const tmp = document.createElement('div');
+      tmp.innerHTML = html;
+      return tmp.textContent || tmp.innerText || '';
+    }
 
-            function renderHypeState() {
-                if (badgeEl) badgeEl.textContent = hypeCount.toLocaleString();
-                if (inlineEl) inlineEl.textContent = hypeCount.toLocaleString();
+    async function syncLiveFeeds() {
+      const logEl = document.getElementById('rssStatusLog');
+      logEl.textContent = `[${new Date().toLocaleTimeString()}] Fetching live Simcoe County RSS feeds...`;
 
-                const percentage = Math.min(100, (hypeCount / 1000) * 100);
-                if (progressBar) progressBar.style.width = percentage + '%';
+      try {
+        const results = await Promise.allSettled(
+          SIMCOE_RSS_ENDPOINTS.map(ep => fetchRssToJsonFeed(ep))
+        );
+        const fetchedStories = results
+          .filter(r => r.status === 'fulfilled')
+          .flatMap(r => r.value);
 
-                if (hiveLevelLabel) {
-                    if (hypeCount >= 900) {
-                        hiveLevelLabel.textContent = "🚨 MAXIMUM 705 SWARM ALERT!";
-                    } else if (hypeCount >= 750) {
-                        hiveLevelLabel.textContent = "🔥 Spirit Catcher Super-Buzz!";
-                    } else {
-                        hiveLevelLabel.textContent = "🌊 Kempenfelt Bay Breeze";
-                    }
-                }
-            }
+        const existingTitles = new Set(stories.map(s => s.title));
+        const uniqueNew = fetchedStories.filter(item => !existingTitles.has(item.title));
 
-            function spawnBeeParticles(x, y) {
-                const emojis = ['🐝', '🍁', '✨', '📰', '🍯', '⚡'];
-                for (let i = 0; i < 9; i++) {
-                    const el = document.createElement('span');
-                    el.className = 'bee-particle text-xl sm:text-2xl select-none';
-                    el.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+        if (uniqueNew.length > 0) {
+          stories = [...uniqueNew, ...stories];
+          renderStories();
+          logEl.textContent = `[${new Date().toLocaleTimeString()}] Pulled ${uniqueNew.length} live RSS stories! Click "Download stories.json" to save them permanently.`;
+          showToast(`Pulled ${uniqueNew.length} fresh Simcoe County RSS stories!`);
+        } else {
+          logEl.textContent = `[${new Date().toLocaleTimeString()}] All feeds up to date.`;
+          showToast('Feeds are already up to date.');
+        }
+      } catch (e) {
+        logEl.textContent = `[${new Date().toLocaleTimeString()}] RSS proxy rate-limited. Relying on ./stories.json.`;
+      }
+    }
 
-                    const angle = (Math.PI * 2 * i) / 9 + (Math.random() * 0.5 - 0.25);
-                    const distance = 60 + Math.random() * 90;
-                    const tx = Math.cos(angle) * distance + 'px';
-                    const ty = (Math.sin(angle) * distance - 50) + 'px';
-                    const rot = (Math.random() * 90 - 45) + 'deg';
+    /********************************************************************
+     * 4. RENDERING & FILTERING LOGIC
+     ********************************************************************/
+    const categoryStyles = {
+      News: 'bg-buzz-500/15 text-buzz-400 border-buzz-500/30',
+      Events: 'bg-purple-500/15 text-purple-300 border-purple-500/30',
+      Weather: 'bg-kempenfelt-500/15 text-kempenfelt-400 border-kempenfelt-500/30',
+      Community: 'bg-emerald-500/15 text-emerald-300 border-emerald-500/30'
+    };
 
-                    el.style.left = x + 'px';
-                    el.style.top = y + 'px';
-                    el.style.setProperty('--tx', tx);
-                    el.style.setProperty('--ty', ty);
-                    el.style.setProperty('--rot', rot);
+    function getFilteredStories() {
+      return stories
+        .filter(story => {
+          const matchesCategory = activeCategory === 'All' || story.category === activeCategory;
+          const q = searchQuery.trim().toLowerCase();
+          if (!q) return matchesCategory;
 
-                    document.body.appendChild(el);
-                    setTimeout(() => el.remove(), 1200);
-                }
-            }
+          const hayStack = `${story.title} ${story.summary} ${story.location} ${story.source} ${(story.tags || []).join(' ')}`.toLowerCase();
+          return matchesCategory && hayStack.includes(q);
+        })
+        .sort((a, b) => {
+          if (currentSort === 'popular') {
+            return b.buzzScore - a.buzzScore;
+          }
+          return b.sortOrder - a.sortOrder;
+        });
+    }
 
-            renderHypeState();
+    function renderStories() {
+      const grid = document.getElementById('storiesGrid');
+      const emptyState = document.getElementById('emptyState');
+      const countEl = document.getElementById('storyCount');
 
-            hypeBtn.addEventListener('click', function(e) {
-                hypeCount++;
-                try {
-                    localStorage.setItem(HYPE_KEY, hypeCount.toString());
-                } catch (err) {}
+      const filtered = getFilteredStories();
+      countEl.textContent = `Showing ${filtered.length} ${filtered.length === 1 ? 'story' : 'stories'}`;
 
-                renderHypeState();
+      if (filtered.length === 0) {
+        grid.innerHTML = '';
+        emptyState.classList.remove('hidden');
+        return;
+      }
 
-                // Pick a fun Barrie message
-                const msg = barrieMessages[hypeCount % barrieMessages.length];
-                statusTextEl.innerHTML = `${msg} <span class="underline">(${hypeCount.toLocaleString()} Hype Taps)</span>`;
+      emptyState.classList.add('hidden');
+      grid.innerHTML = filtered.map(story => {
+        const badgeStyle = categoryStyles[story.category] || categoryStyles.News;
+        const tagsHtml = (story.tags || []).slice(0, 3).map(tag =>
+          `<span onclick="event.stopPropagation(); filterByTag('${tag.replace(/'/g, "\\'")}')" class="text-[11px] bg-slate-800/90 hover:bg-slate-700 text-slate-300 px-2 py-0.5 rounded-md cursor-pointer transition-colors">#${tag}</span>`
+        ).join('');
 
-                // Determine coordinates for particle burst
-                const rect = hypeBtn.getBoundingClientRect();
-                const clickX = e.clientX || (rect.left + rect.width / 2);
-                const clickY = e.clientY || (rect.top + rect.height / 2);
-                spawnBeeParticles(clickX, clickY);
-            });
-        })();
+        return `
+          <article 
+            onclick="openStoryReader('${story.id}')"
+            class="group bg-slate-900/70 border border-slate-800/90 hover:border-buzz-500/50 rounded-2xl overflow-hidden flex flex-col justify-between transition-all duration-200 cursor-pointer card-glow"
+          >
+            <div>
+              <div class="relative h-48 overflow-hidden bg-slate-800">
+                <img 
+                  src="${story.image}" 
+                  alt="${story.title.replace(/"/g, '&quot;')}" 
+                  loading="lazy"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div>
+                
+                <span class="absolute top-3 left-3 px-2.5 py-1 rounded-lg text-xs font-bold border backdrop-blur-md ${badgeStyle}">
+                  ${story.category}
+                </span>
 
-        // 3. Copy Email Helper (Uses execCommand fallback for universal iframe/browser support)
-        (function initCopyEmail() {
-            const copyBtn = document.getElementById('copyEmailBtn');
-            const copyBtnText = document.getElementById('copyBtnText');
-            const copyBtnIcon = document.getElementById('copyBtnIcon');
-            const copyToast = document.getElementById('copyToast');
-            const email = 'contact@705.buzz';
+                <span class="absolute top-3 right-3 px-2 py-0.5 rounded-lg text-[11px] font-semibold bg-slate-950/80 text-buzz-400 border border-slate-800 backdrop-blur-md">
+                  ⚡ ${story.buzzScore}
+                </span>
 
-            copyBtn.addEventListener('click', function() {
-                const tempInput = document.createElement('textarea');
-                tempInput.value = email;
-                document.body.appendChild(tempInput);
-                tempInput.select();
-                try {
-                    document.execCommand('copy');
-                    copyBtnText.textContent = 'Copied! ✓';
-                    if (copyBtnIcon) copyBtnIcon.className = 'fa-solid fa-check text-emerald-600';
-                    copyBtn.classList.add('bg-emerald-50', 'text-emerald-700', 'border-emerald-300');
-                    if (copyToast) {
-                        copyToast.classList.remove('hidden');
-                        copyToast.classList.add('flex');
-                    }
-                    setTimeout(() => {
-                        copyBtnText.textContent = 'Copy Email';
-                        if (copyBtnIcon) copyBtnIcon.className = 'fa-regular fa-copy';
-                        copyBtn.classList.remove('bg-emerald-50', 'text-emerald-700', 'border-emerald-300');
-                        if (copyToast) {
-                            copyToast.classList.add('hidden');
-                            copyToast.classList.remove('flex');
-                        }
-                    }, 3000);
-                } catch (err) {
-                    copyBtnText.textContent = email;
-                }
-                document.body.removeChild(tempInput);
-            });
-        })();
+                <div class="absolute bottom-2.5 left-3 right-3 flex items-center justify-between text-xs text-slate-200">
+                  <span class="inline-flex items-center gap-1 font-medium drop-shadow">
+                    <svg class="w-3.5 h-3.5 text-buzz-400 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+                    ${story.location}
+                  </span>
+                </div>
+              </div>
 
-        // Set current year in footer
-        document.getElementById('footerYear').textContent = new Date().getFullYear();
-    </script>
+              <div class="p-5">
+                <div class="flex items-center gap-2 text-xs text-slate-400 mb-2">
+                  <span class="font-semibold text-slate-300">${story.source}</span>
+                  <span>•</span>
+                  <span>${story.timestamp}</span>
+                </div>
+
+                <h3 class="font-display font-bold text-lg text-white group-hover:text-buzz-400 transition-colors leading-snug mb-2.5">
+                  ${story.title}
+                </h3>
+
+                <p class="text-slate-400 text-sm leading-relaxed line-clamp-3">
+                  ${story.summary}
+                </p>
+              </div>
+            </div>
+
+            <div class="px-5 pb-4 pt-2 flex items-center justify-between gap-2 border-t border-slate-800/60 mt-2">
+              <div class="flex flex-wrap gap-1.5">
+                ${tagsHtml}
+              </div>
+              <span class="text-xs font-semibold text-buzz-400 group-hover:translate-x-0.5 transition-transform shrink-0 flex items-center gap-1">
+                Read
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+              </span>
+            </div>
+          </article>
+        `;
+      }).join('');
+    }
+
+    /********************************************************************
+     * 5. INTERACTIVE CONTROLS & JSON SNIPPET BUILDER
+     ********************************************************************/
+    document.querySelectorAll('.category-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        activeCategory = btn.getAttribute('data-category');
+        updateCategoryUI();
+        renderStories();
+      });
+    });
+
+    function updateCategoryUI() {
+      document.querySelectorAll('.category-btn').forEach(btn => {
+        const cat = btn.getAttribute('data-category');
+        if (cat === activeCategory) {
+          btn.className = 'category-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all shrink-0 bg-buzz-500 text-slate-950 shadow-md shadow-buzz-500/10';
+        } else {
+          btn.className = 'category-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all shrink-0 bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800';
+        }
+      });
+    }
+
+    const desktopSearch = document.getElementById('desktopSearch');
+    const mobileSearch = document.getElementById('mobileSearch');
+    const clearDesktopBtn = document.getElementById('clearDesktopSearch');
+    const clearMobileBtn = document.getElementById('clearMobileSearch');
+
+    function handleSearchInput(value) {
+      searchQuery = value;
+      desktopSearch.value = value;
+      mobileSearch.value = value;
+
+      if (value.trim().length > 0) {
+        clearDesktopBtn.classList.remove('hidden');
+        clearMobileBtn.classList.remove('hidden');
+      } else {
+        clearDesktopBtn.classList.add('hidden');
+        clearMobileBtn.classList.add('hidden');
+      }
+      renderStories();
+    }
+
+    desktopSearch.addEventListener('input', e => handleSearchInput(e.target.value));
+    mobileSearch.addEventListener('input', e => handleSearchInput(e.target.value));
+
+    function clearSearch() {
+      handleSearchInput('');
+    }
+
+    function filterByTag(tag) {
+      handleSearchInput(tag);
+      window.scrollTo({ top: 240, behavior: 'smooth' });
+    }
+
+    function resetFilters() {
+      activeCategory = 'All';
+      updateCategoryUI();
+      handleSearchInput('');
+    }
+
+    function handleSortChange(val) {
+      currentSort = val;
+      renderStories();
+    }
+
+    function openStoryReader(id) {
+      const story = stories.find(s => s.id === id);
+      if (!story) return;
+
+      document.getElementById('readerImage').src = story.image;
+      document.getElementById('readerCategory').textContent = story.category;
+      document.getElementById('readerTitle').textContent = story.title;
+      document.getElementById('readerSource').textContent = story.source;
+      document.getElementById('readerTime').textContent = story.timestamp;
+      document.getElementById('readerLocation').textContent = `📍 ${story.location}`;
+      document.getElementById('readerSummary').textContent = story.summary;
+      document.getElementById('readerLink').href = story.url || '#';
+
+      const tagsContainer = document.getElementById('readerTags');
+      tagsContainer.innerHTML = (story.tags || []).map(t =>
+        `<span class="text-xs bg-slate-800 text-slate-300 px-2.5 py-1 rounded-lg">#${t}</span>`
+      ).join('');
+
+      openModal('readerModal');
+    }
+
+    function buildStoryObjectFromForm() {
+      const title = document.getElementById('tipTitle').value.trim() || 'Untitled Barrie Update';
+      const category = document.getElementById('tipCategory').value;
+      const location = document.getElementById('tipLocation').value.trim() || 'Barrie, ON';
+      const summary = document.getElementById('tipSummary').value.trim() || '';
+      const source = document.getElementById('tipSource').value.trim() || '705 Resident Tip';
+      const url = document.getElementById('tipUrl').value.trim() || 'https://www.barrie.ca';
+
+      const categoryDefaultImages = {
+        News: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80',
+        Events: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80',
+        Weather: 'https://images.unsplash.com/photo-1516912481808-3406841bd33c?auto=format&fit=crop&w=800&q=80',
+        Community: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=800&q=80'
+      };
+
+      return {
+        id: 'tip-' + Date.now(),
+        title,
+        category,
+        source,
+        location,
+        timestamp: new Date().toLocaleDateString('en-CA', { month: 'short', day: 'numeric' }),
+        sortOrder: Date.now(),
+        buzzScore: 95,
+        summary,
+        image: categoryDefaultImages[category] || categoryDefaultImages.News,
+        url,
+        tags: [location, category, '705 Buzz']
+      };
+    }
+
+    function copyFormAsJson() {
+      const storyObj = buildStoryObjectFromForm();
+      const jsonSnippet = JSON.stringify(storyObj, null, 2);
+      navigator.clipboard.writeText(jsonSnippet).then(() => {
+        showToast('Copied JSON object! Paste it into your stories.json array.');
+      });
+    }
+
+    function handleTipSubmit(event) {
+      event.preventDefault();
+      const newStory = buildStoryObjectFromForm();
+
+      stories.unshift(newStory);
+
+      // Persist in browser localStorage so user sees their added tips across refreshes
+      const stored = JSON.parse(localStorage.getItem('705buzz_custom_tips') || '[]');
+      stored.unshift(newStory);
+      localStorage.setItem('705buzz_custom_tips', JSON.stringify(stored.slice(0, 25)));
+
+      activeCategory = 'All';
+      updateCategoryUI();
+      renderStories();
+
+      document.getElementById('tipForm').reset();
+      closeModal('tipModal');
+      showToast('Published! Click "Download stories.json" below to save permanently.');
+    }
+
+    function openModal(modalId) {
+      document.getElementById(modalId).classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal(modalId) {
+      document.getElementById(modalId).classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeModal('readerModal');
+        closeModal('tipModal');
+      }
+    });
+
+    function showToast(message) {
+      const toast = document.getElementById('toast');
+      const toastMsg = document.getElementById('toastMsg');
+      toastMsg.textContent = message;
+      toast.classList.remove('hidden', 'translate-y-4', 'opacity-0');
+
+      setTimeout(() => {
+        toast.classList.add('translate-y-4', 'opacity-0');
+        setTimeout(() => toast.classList.add('hidden'), 300);
+      }, 3500);
+    }
+
+    // Initialize Date, Render Seed Stories, and Automatically Fetch ./stories.json
+    document.addEventListener('DOMContentLoaded', () => {
+      const dateEl = document.getElementById('currentDateDisplay');
+      const now = new Date();
+      dateEl.textContent = now.toLocaleDateString('en-CA', {
+        weekday: 'short',
+        month: 'short',
+        day: 'numeric',
+        year: 'numeric'
+      });
+      renderStories();
+      loadHostedJson(false);
+    });
+  </script>
 </body>
 </html>
