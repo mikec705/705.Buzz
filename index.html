@@ -79,9 +79,9 @@
         <span class="text-slate-400 hidden md:inline shrink-0">🚗 Hwy 400 S at Mapleview: Moving smoothly</span>
       </div>
       <div class="flex items-center space-x-4 ml-auto">
-        <button id="syncJsonBtn" onclick="loadHostedJson(true)" class="text-slate-400 hover:text-buzz-400 flex items-center gap-1 transition-colors" title="Reload stories.json feed">
+        <button id="syncJsonBtn" onclick="runAllConfiguredSources()" class="text-slate-400 hover:text-buzz-400 flex items-center gap-1 transition-colors" title="Scrape all configured RSS & Web sources">
           <svg id="syncIcon" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
-          <span id="syncText">Reload stories.json</span>
+          <span id="syncText">Auto-Scrape Sources</span>
         </button>
         <span id="currentDateDisplay" class="text-slate-500 hidden lg:inline"></span>
       </div>
@@ -91,7 +91,7 @@
   <!-- Sticky Navigation Header -->
   <header class="sticky top-0 z-40 glass-nav border-b border-slate-800/80 transition-all">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between h-16 sm:h-20 gap-4">
+      <div class="flex items-center justify-between h-16 sm:h-20 gap-3">
         
         <!-- Brand Logo -->
         <a href="#" onclick="resetFilters(); return false;" class="flex items-center gap-3 group shrink-0">
@@ -128,15 +128,27 @@
         </div>
 
         <!-- Action Buttons -->
-        <div class="flex items-center gap-2.5 sm:gap-3">
+        <div class="flex items-center gap-2 sm:gap-2.5">
+          <button 
+            onclick="openModal('sourcesModal')"
+            class="inline-flex items-center gap-1.5 bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700 font-semibold text-xs sm:text-sm px-3 sm:px-3.5 py-2.5 rounded-xl transition-all active:scale-95"
+            title="Add RSS Feeds or Web Links to Scrape"
+          >
+            <svg class="w-4 h-4 text-buzz-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path>
+            </svg>
+            <span class="hidden sm:inline">Manage Sources</span>
+            <span id="sourcesCountBadge" class="px-1.5 py-0.2 rounded-md text-[11px] bg-buzz-500/20 text-buzz-400 font-bold">5</span>
+          </button>
+
           <button 
             onclick="openModal('tipModal')"
-            class="inline-flex items-center gap-2 bg-buzz-500 hover:bg-buzz-400 text-slate-950 font-semibold text-xs sm:text-sm px-3.5 sm:px-4 py-2.5 rounded-xl shadow-lg shadow-buzz-500/20 hover:shadow-buzz-400/30 transition-all active:scale-95"
+            class="inline-flex items-center gap-1.5 bg-buzz-500 hover:bg-buzz-400 text-slate-950 font-semibold text-xs sm:text-sm px-3 sm:px-4 py-2.5 rounded-xl shadow-lg shadow-buzz-500/20 hover:shadow-buzz-400/30 transition-all active:scale-95"
           >
             <svg class="w-4 h-4 stroke-[2.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"></path>
             </svg>
-            <span>Submit a Tip / Event</span>
+            <span>Submit Tip</span>
           </button>
         </div>
       </div>
@@ -168,9 +180,9 @@
     <section class="mb-8 relative rounded-2xl overflow-hidden border border-slate-800 bg-gradient-to-r from-slate-900 via-slate-900 to-kempenfelt-900/40 p-6 sm:p-8">
       <div class="relative z-10 max-w-3xl">
         <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded-full text-xs font-medium bg-kempenfelt-500/10 text-kempenfelt-400 border border-kempenfelt-500/20 mb-3">
-          <span>🐝 Simcoe County Aggregator</span>
+          <span>🐝 Automated Simcoe County Aggregator</span>
           <span>•</span>
-          <span id="feedSourceIndicator">Powered by stories.json + Local Feed</span>
+          <span>RSS + Web Link Scraper</span>
         </div>
         <h1 class="font-display font-extrabold text-2xl sm:text-4xl text-white tracking-tight leading-tight">
           What's buzzing around <span class="text-transparent bg-clip-text bg-gradient-to-r from-buzz-400 to-amber-200">Kempenfelt Bay</span> & beyond.
@@ -186,7 +198,6 @@
 
     <!-- Controls Bar: Categories & Results Count -->
     <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6 pb-4 border-b border-slate-800/80">
-      <!-- Category Pills -->
       <div id="categoryContainer" class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1 sm:pb-0">
         <button data-category="All" class="category-btn active-cat px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all shrink-0 bg-buzz-500 text-slate-950 shadow-md shadow-buzz-500/10">
           All Buzz
@@ -205,7 +216,6 @@
         </button>
       </div>
 
-      <!-- Active Filter Counter -->
       <div class="flex items-center justify-between sm:justify-end gap-3 text-xs text-slate-400 shrink-0">
         <span id="storyCount">Showing 9 stories</span>
         <select id="sortSelect" onchange="handleSortChange(this.value)" class="bg-slate-900 border border-slate-800 text-slate-300 rounded-lg px-2.5 py-1.5 text-xs focus:outline-none focus:border-buzz-400">
@@ -216,9 +226,7 @@
     </div>
 
     <!-- Dynamic Story Cards Grid -->
-    <div id="storiesGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <!-- Populated dynamically via JS -->
-    </div>
+    <div id="storiesGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
 
     <!-- Empty State -->
     <div id="emptyState" class="hidden text-center py-16 px-4 rounded-2xl border border-dashed border-slate-800 bg-slate-900/30 my-4">
@@ -229,47 +237,137 @@
       </div>
       <h3 class="font-display font-bold text-lg text-white">No local stories match your filter</h3>
       <p class="text-slate-400 text-sm max-w-md mx-auto mt-1 mb-5">
-        We couldn't find anything matching your search keyword or selected category. Try resetting your filters or submit a local tip!
+        Try resetting your filters or adding a new local source to scrape!
       </p>
       <button onclick="resetFilters()" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold transition-colors">
         Reset All Filters
       </button>
     </div>
 
-    <!-- Method 2: stories.json Data Console & Live RSS Fallback -->
+    <!-- Automated Scraper Console -->
     <section class="mt-14 border-t border-slate-800/80 pt-8">
       <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-5 sm:p-6">
         <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
           <div>
             <div class="flex items-center gap-2">
               <span id="jsonStatusDot" class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
-              <h2 class="font-display font-bold text-base sm:text-lg text-white">Method 2 Feed Engine (`./stories.json` + Live RSS Backup)</h2>
+              <h2 class="font-display font-bold text-base sm:text-lg text-white">Universal Scraper Engine (`sources.json` → `stories.json`)</h2>
             </div>
             <p class="text-xs sm:text-sm text-slate-400 mt-1">
-              Automatically fetches <code class="text-buzz-400 bg-slate-950 px-1.5 py-0.5 rounded">./stories.json</code> from your repository root on page load. You can also export your current stories as a ready-to-commit <code class="text-buzz-400 bg-slate-950 px-1.5 py-0.5 rounded">stories.json</code> file anytime.
+              Add RSS feeds or regular webpage URLs via <strong>Manage Sources</strong>. Test them live in the browser or export <code class="text-buzz-400 bg-slate-950 px-1.5 py-0.5 rounded">sources.json</code> for your automated hourly GitHub Action scraper.
             </p>
           </div>
           <div class="flex flex-wrap items-center gap-2 shrink-0">
-            <button onclick="loadHostedJson(true)" class="px-3.5 py-2 rounded-xl bg-buzz-500/10 hover:bg-buzz-500/20 text-buzz-400 border border-buzz-500/30 text-xs font-semibold transition-all flex items-center gap-1.5">
-              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
-              Fetch ./stories.json
+            <button onclick="openModal('sourcesModal')" class="px-3.5 py-2 rounded-xl bg-buzz-500 text-slate-950 font-bold text-xs transition-all hover:bg-buzz-400">
+              + Add RSS or Web Link
             </button>
-            <button onclick="downloadStoriesJson()" class="px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-semibold transition-all flex items-center gap-1.5">
-              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-              Download stories.json
+            <button onclick="runAllConfiguredSources()" class="px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-buzz-400 border border-slate-700 text-xs font-semibold transition-all">
+              Scrape All Sources Now
             </button>
-            <button onclick="syncLiveFeeds()" class="px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 text-xs font-semibold transition-all flex items-center gap-1.5">
-              Pull RSS Now
+            <button onclick="downloadStoriesJson()" class="px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-semibold transition-all">
+              Export stories.json
             </button>
           </div>
         </div>
         <div id="rssStatusLog" class="mt-4 bg-slate-950 border border-slate-800/90 rounded-xl p-3 font-mono text-xs text-slate-400 overflow-x-auto">
-          [System Ready] Checking ./stories.json...
+          [System Ready] Initializing 705.Buzz feed...
         </div>
       </div>
     </section>
 
   </main>
+
+  <!-- MANAGE SOURCES MODAL (Add RSS Feeds or Regular Website Links to Scrape) -->
+  <div id="sourcesModal" class="fixed inset-0 z-50 hidden overflow-y-auto bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-2xl w-full overflow-hidden shadow-2xl transform transition-all my-8">
+      <div class="flex items-center justify-between px-6 py-4 border-b border-slate-800 bg-slate-900/50">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded-lg bg-buzz-500/10 border border-buzz-500/30 text-buzz-400 flex items-center justify-center">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+          </div>
+          <div>
+            <h3 class="font-display font-bold text-lg text-white">Manage Scraper Sources (`sources.json`)</h3>
+            <p class="text-xs text-slate-400">Enter any RSS feed URL or a regular webpage URL to auto-scrape</p>
+          </div>
+        </div>
+        <button onclick="closeModal('sourcesModal')" class="text-slate-400 hover:text-white p-1">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+      </div>
+
+      <div class="p-6 space-y-6">
+        <!-- Add New Source Form -->
+        <form id="addSourceForm" onsubmit="handleAddSource(event)" class="bg-slate-950/80 border border-slate-800 rounded-xl p-4 space-y-3">
+          <div class="text-xs font-bold uppercase tracking-wider text-buzz-400">Add a New Source to Scrape</div>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <div>
+              <label class="block text-[11px] text-slate-400 mb-1">Source Name *</label>
+              <input type="text" id="srcName" required placeholder="e.g., Barrie 360 or Event Page" class="w-full bg-slate-900 border border-slate-800 focus:border-buzz-400 rounded-lg px-3 py-2 text-xs text-white focus:outline-none" />
+            </div>
+            <div>
+              <label class="block text-[11px] text-slate-400 mb-1">Source Type *</label>
+              <select id="srcType" class="w-full bg-slate-900 border border-slate-800 focus:border-buzz-400 rounded-lg px-3 py-2 text-xs text-white focus:outline-none">
+                <option value="rss">📡 RSS / XML Feed</option>
+                <option value="html">🌐 Webpage / Article Link (HTML)</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-[11px] text-slate-400 mb-1">Category *</label>
+              <select id="srcCategory" class="w-full bg-slate-900 border border-slate-800 focus:border-buzz-400 rounded-lg px-3 py-2 text-xs text-white focus:outline-none">
+                <option value="News">📰 Local News</option>
+                <option value="Events">🎪 Events</option>
+                <option value="Weather">🌨️ Weather & Roads</option>
+                <option value="Community">🤝 Community</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <div class="sm:col-span-2">
+              <label class="block text-[11px] text-slate-400 mb-1">Feed URL or Webpage Link *</label>
+              <input type="url" id="srcUrl" required placeholder="https://www.barrietoday.com/rss or https://..." class="w-full bg-slate-900 border border-slate-800 focus:border-buzz-400 rounded-lg px-3 py-2 text-xs text-white focus:outline-none" />
+            </div>
+            <div>
+              <label class="block text-[11px] text-slate-400 mb-1">Default Location *</label>
+              <input type="text" id="srcLocation" required value="Barrie, ON" class="w-full bg-slate-900 border border-slate-800 focus:border-buzz-400 rounded-lg px-3 py-2 text-xs text-white focus:outline-none" />
+            </div>
+          </div>
+
+          <div class="flex items-center justify-end gap-2 pt-1">
+            <button type="submit" class="px-4 py-2 rounded-lg bg-buzz-500 hover:bg-buzz-400 text-slate-950 font-bold text-xs transition-all">
+              + Add & Scrape Source Now
+            </button>
+          </div>
+        </form>
+
+        <!-- Active Configured Sources List -->
+        <div>
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">Configured Scraper Sources</span>
+            <span class="text-[11px] text-slate-500">Saved in browser & ready for `sources.json`</span>
+          </div>
+          <div id="sourcesListContainer" class="space-y-2 max-h-60 overflow-y-auto pr-1"></div>
+        </div>
+
+        <!-- Modal Footer Actions -->
+        <div class="pt-4 border-t border-slate-800 flex flex-wrap items-center justify-between gap-3">
+          <div class="flex items-center gap-2">
+            <button type="button" onclick="downloadSourcesJson()" class="px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-buzz-400 border border-slate-700 text-xs font-semibold transition-all">
+              💾 Download sources.json (for GitHub Action)
+            </button>
+          </div>
+          <div class="flex items-center gap-2">
+            <button type="button" onclick="runAllConfiguredSources()" class="px-4 py-2 rounded-xl bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-300 border border-emerald-500/30 text-xs font-semibold transition-all">
+              ⚡ Scrape All Now
+            </button>
+            <button type="button" onclick="closeModal('sourcesModal')" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold">
+              Done
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Story Reader Modal -->
   <div id="readerModal" class="fixed inset-0 z-50 hidden overflow-y-auto bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
@@ -309,7 +407,7 @@
     </div>
   </div>
 
-  <!-- Submit a News Tip / Event Modal (with JSON Snippet Generator) -->
+  <!-- Submit a News Tip / Event Modal -->
   <div id="tipModal" class="fixed inset-0 z-50 hidden overflow-y-auto bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
     <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-lg w-full overflow-hidden shadow-2xl transform transition-all">
       <div class="flex items-center justify-between px-6 py-4 border-b border-slate-800 bg-slate-900/50">
@@ -319,7 +417,7 @@
           </div>
           <div>
             <h3 class="font-display font-bold text-lg text-white">Submit a 705 News Tip or Event</h3>
-            <p class="text-xs text-slate-400">Add to live feed or copy JSON for <code class="text-buzz-400">stories.json</code></p>
+            <p class="text-xs text-slate-400">Share what's happening in Barrie & Simcoe County</p>
           </div>
         </div>
         <button onclick="closeModal('tipModal')" class="text-slate-400 hover:text-white p-1">
@@ -367,7 +465,7 @@
 
         <div class="pt-3 flex flex-wrap items-center justify-between gap-2 border-t border-slate-800">
           <button type="button" onclick="copyFormAsJson()" class="px-3.5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-buzz-400 border border-slate-700 text-xs font-semibold transition-colors">
-            📋 Copy JSON for stories.json
+            📋 Copy JSON
           </button>
           <div class="flex items-center gap-2 ml-auto">
             <button type="button" onclick="closeModal('tipModal')" class="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold transition-colors">
@@ -398,11 +496,11 @@
         <span>— Built for Barrie, Orillia, Innisfil, Collingwood & Simcoe County.</span>
       </div>
       <div class="flex items-center gap-4">
-        <a href="#" onclick="openModal('tipModal'); return false;" class="hover:text-buzz-400 transition-colors">Submit Event</a>
+        <a href="#" onclick="openModal('sourcesModal'); return false;" class="hover:text-buzz-400 transition-colors">Manage Sources</a>
         <span>•</span>
-        <a href="#" onclick="loadHostedJson(true); return false;" class="hover:text-buzz-400 transition-colors">Reload stories.json</a>
+        <a href="#" onclick="downloadSourcesJson(); return false;" class="hover:text-buzz-400 transition-colors">Download sources.json</a>
         <span>•</span>
-        <a href="#" onclick="downloadStoriesJson(); return false;" class="hover:text-buzz-400 transition-colors">Export JSON</a>
+        <a href="#" onclick="downloadStoriesJson(); return false;" class="hover:text-buzz-400 transition-colors">Download stories.json</a>
       </div>
     </div>
   </footer>
@@ -410,8 +508,46 @@
   <!-- Application JavaScript -->
   <script>
     /********************************************************************
-     * 1. BUILT-IN SEED STORIES (Fallback & Baseline Local Content)
+     * 1. DEFAULT SOURCES & INITIAL SEED STORIES
      ********************************************************************/
+    const defaultSources = [
+      {
+        name: 'BarrieToday',
+        type: 'rss',
+        url: 'https://www.barrietoday.com/rss',
+        category: 'News',
+        location: 'Barrie, ON'
+      },
+      {
+        name: 'Barrie 360',
+        type: 'rss',
+        url: 'https://barrie360.com/feed/',
+        category: 'Community',
+        location: 'Barrie, ON'
+      },
+      {
+        name: 'InnisfilToday',
+        type: 'rss',
+        url: 'https://www.innisfiltoday.ca/rss',
+        category: 'News',
+        location: 'Innisfil, ON'
+      },
+      {
+        name: 'OrilliaMatters',
+        type: 'rss',
+        url: 'https://www.orilliamatters.com/rss',
+        category: 'News',
+        location: 'Orillia, ON'
+      },
+      {
+        name: 'CollingwoodToday',
+        type: 'rss',
+        url: 'https://www.collingwoodtoday.ca/rss',
+        category: 'News',
+        location: 'Collingwood, ON'
+      }
+    ];
+
     const initialStories = [
       {
         id: 'barrie-1',
@@ -496,52 +632,17 @@
         image: 'https://images.unsplash.com/photo-1515703407324-5f753afd8be8?auto=format&fit=crop&w=800&q=80',
         url: 'https://chl.ca/ohl-colts',
         tags: ['Barrie Colts', 'Sadlon Arena', 'OHL', 'Barrie Food Bank']
-      },
-      {
-        id: 'barrie-7',
-        title: 'Barrie Farmers’ Market Transitions to Indoor Saturday Layout at City Hall Rotunda',
-        category: 'Community',
-        source: 'Barrie Farmers Market',
-        location: '70 Collier St',
-        timestamp: '12 hours ago',
-        sortOrder: 70,
-        buzzScore: 81,
-        summary: 'Over 45 local Simcoe County growers, bakers, maple syrup producers, and craft artisans are back inside the warm City Hall Rotunda every Saturday from 9:00 AM to 1:00 PM with free weekend parking.',
-        image: 'https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80',
-        url: 'https://barriefarmersmarket.ca',
-        tags: ['Farmers Market', 'City Hall', 'Shop Local', 'Simcoe Farms']
-      },
-      {
-        id: 'barrie-8',
-        title: 'Overnight Lane Restrictions Scheduled on Duckworth Street & Grove Street Overpass',
-        category: 'Weather',
-        source: 'Barrie Traffic & Roads',
-        location: 'East End Barrie',
-        timestamp: '1 day ago',
-        sortOrder: 65,
-        buzzScore: 72,
-        summary: 'MTO bridge rehabilitation work continues along the Highway 400 Duckworth interchange. Expect alternating single-lane closures between 10:00 PM and 5:00 AM through Thursday.',
-        image: 'https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?auto=format&fit=crop&w=800&q=80',
-        url: 'https://511on.ca',
-        tags: ['Road Closure', 'Duckworth St', 'MTO', 'Traffic']
-      },
-      {
-        id: 'barrie-9',
-        title: 'RVH Launches New Community Diagnostic Imaging Clinic in Innisfil to Cut Wait Times',
-        category: 'Community',
-        source: 'Royal Victoria Regional Health',
-        location: 'Barrie / Innisfil',
-        timestamp: '1 day ago',
-        sortOrder: 60,
-        buzzScore: 91,
-        summary: 'Royal Victoria Regional Health Centre (RVH) has officially opened its satellite outpatient imaging hub at the Rizzardo Health & Wellness Centre, expanding ultrasound and X-ray capacity for South Simcoe residents.',
-        image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80',
-        url: 'https://www.rvh.on.ca',
-        tags: ['RVH', 'Healthcare', 'Innisfil', 'Community']
       }
     ];
 
-    // Load any locally submitted tips from browser localStorage
+    const categoryDefaultImages = {
+      News: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80',
+      Events: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80',
+      Weather: 'https://images.unsplash.com/photo-1516912481808-3406841bd33c?auto=format&fit=crop&w=800&q=80',
+      Community: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=800&q=80'
+    };
+
+    let sources = JSON.parse(localStorage.getItem('705buzz_sources') || 'null') || [...defaultSources];
     const savedLocalTips = JSON.parse(localStorage.getItem('705buzz_custom_tips') || '[]');
     let stories = [...savedLocalTips, ...initialStories];
     let activeCategory = 'All';
@@ -549,65 +650,296 @@
     let currentSort = 'newest';
 
     /********************************************************************
-     * 2. METHOD 2: HOSTED ./stories.json LOADER & EXPORTER
+     * 2. UNIVERSAL SCRAPER ENGINE (Supports RSS Feeds & Regular Web Links)
      ********************************************************************/
-    async function loadHostedJson(showUserToast = false) {
+    function stripHtml(html) {
+      const tmp = document.createElement('div');
+      tmp.innerHTML = html || '';
+      return (tmp.textContent || tmp.innerText || '').replace(/\s+/g, ' ').trim();
+    }
+
+    // Scrapes an RSS feed via rss2json OR AllOrigins XML fallback
+    async function scrapeRssFeedInBrowser(source) {
+      try {
+        const apiProxy = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(source.url)}`;
+        const response = await fetch(apiProxy);
+        const data = await response.json();
+        if (data.status === 'ok' && Array.isArray(data.items)) {
+          return data.items.slice(0, 4).map((item, idx) => ({
+            id: `rss-${Date.now()}-${idx}`,
+            title: stripHtml(item.title),
+            category: source.category || 'News',
+            source: source.name,
+            location: source.location || 'Barrie, ON',
+            timestamp: item.pubDate ? new Date(item.pubDate).toLocaleDateString('en-CA', { month: 'short', day: 'numeric' }) : 'Latest',
+            sortOrder: Date.now() + idx,
+            buzzScore: Math.floor(Math.random() * 18) + 80,
+            summary: stripHtml(item.description || item.content || '').slice(0, 240) + '...',
+            image: item.enclosure?.link || item.thumbnail || categoryDefaultImages[source.category] || categoryDefaultImages.News,
+            url: item.link || source.url,
+            tags: [source.location.split(',')[0], source.category, source.name]
+          }));
+        }
+      } catch (e) {}
+
+      // Fallback to raw XML parsing via CORS proxy
+      const rawRes = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(source.url)}`);
+      const rawJson = await rawRes.json();
+      const xmlDoc = new DOMParser().parseFromString(rawJson.contents, 'text/xml');
+      const items = Array.from(xmlDoc.querySelectorAll('item, entry')).slice(0, 4);
+
+      return items.map((el, idx) => {
+        const title = el.querySelector('title')?.textContent || 'Local Update';
+        const desc = el.querySelector('description, summary, content')?.textContent || '';
+        const link = el.querySelector('link')?.textContent || el.querySelector('link')?.getAttribute('href') || source.url;
+        return {
+          id: `xml-${Date.now()}-${idx}`,
+          title: stripHtml(title),
+          category: source.category || 'News',
+          source: source.name,
+          location: source.location || 'Barrie, ON',
+          timestamp: 'Latest',
+          sortOrder: Date.now() + idx,
+          buzzScore: Math.floor(Math.random() * 18) + 80,
+          summary: stripHtml(desc).slice(0, 240) + '...',
+          image: categoryDefaultImages[source.category] || categoryDefaultImages.News,
+          url: link.trim(),
+          tags: [source.location.split(',')[0], source.category, source.name]
+        };
+      });
+    }
+
+    // Scrapes ANY regular HTML webpage or article URL using OpenGraph & meta tags
+    async function scrapeWebpageInBrowser(source) {
+      const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(source.url)}`;
+      const response = await fetch(proxyUrl);
+      if (!response.ok) throw new Error('Could not reach webpage proxy');
+      const data = await response.json();
+      const doc = new DOMParser().parseFromString(data.contents, 'text/html');
+
+      // Extract OpenGraph metadata or standard HTML headings
+      const ogTitle =
+        doc.querySelector('meta[property="og:title"]')?.getAttribute('content') ||
+        doc.querySelector('meta[name="twitter:title"]')?.getAttribute('content') ||
+        doc.querySelector('h1')?.textContent ||
+        doc.querySelector('title')?.textContent ||
+        source.name;
+
+      const ogDesc =
+        doc.querySelector('meta[property="og:description"]')?.getAttribute('content') ||
+        doc.querySelector('meta[name="description"]')?.getAttribute('content') ||
+        doc.querySelector('article p, main p, p')?.textContent ||
+        `Latest scraped update from ${source.name}.`;
+
+      let ogImg =
+        doc.querySelector('meta[property="og:image"]')?.getAttribute('content') ||
+        doc.querySelector('meta[name="twitter:image"]')?.getAttribute('content') ||
+        categoryDefaultImages[source.category] ||
+        categoryDefaultImages.News;
+
+      if (ogImg && !ogImg.startsWith('http')) {
+        try {
+          ogImg = new URL(ogImg, source.url).href;
+        } catch (e) {
+          ogImg = categoryDefaultImages[source.category];
+        }
+      }
+
+      const scrapedCards = [
+        {
+          id: `web-${Date.now()}`,
+          title: stripHtml(ogTitle),
+          category: source.category || 'News',
+          source: source.name,
+          location: source.location || 'Barrie, ON',
+          timestamp: 'Scraped Link',
+          sortOrder: Date.now() + 50,
+          buzzScore: 92,
+          summary: stripHtml(ogDesc).slice(0, 240) + '...',
+          image: ogImg,
+          url: source.url,
+          tags: [source.location.split(',')[0], source.category, 'Web Link']
+        }
+      ];
+
+      return scrapedCards;
+    }
+
+    // Runs a single source (RSS or Webpage) and merges results
+    async function scrapeSingleSource(source) {
+      const items =
+        source.type === 'html'
+          ? await scrapeWebpageInBrowser(source)
+          : await scrapeRssFeedInBrowser(source);
+
+      const existingTitles = new Set(stories.map(s => s.title.toLowerCase()));
+      const newUnique = items.filter(item => item.title && !existingTitles.has(item.title.toLowerCase()));
+
+      if (newUnique.length > 0) {
+        stories = [...newUnique, ...stories];
+        renderStories();
+      }
+      return newUnique.length;
+    }
+
+    // Loops through all sources in sources.json / Manager
+    async function runAllConfiguredSources() {
       const syncIcon = document.getElementById('syncIcon');
       const syncText = document.getElementById('syncText');
       const logEl = document.getElementById('rssStatusLog');
-      const dotEl = document.getElementById('jsonStatusDot');
 
       syncIcon.classList.add('animate-spin');
-      syncText.textContent = 'Loading JSON...';
+      syncText.textContent = 'Scraping...';
+      logEl.textContent = `[${new Date().toLocaleTimeString()}] Running universal scraper across ${sources.length} configured RSS & Web sources...`;
 
+      let totalAdded = 0;
+      for (const src of sources) {
+        try {
+          const added = await scrapeSingleSource(src);
+          totalAdded += added;
+        } catch (err) {
+          console.warn('Source scrape error:', src.name, err);
+        }
+      }
+
+      syncIcon.classList.remove('animate-spin');
+      syncText.textContent = 'Auto-Scrape Sources';
+      logEl.textContent = `[${new Date().toLocaleTimeString()}] Scrape complete! Added ${totalAdded} new stories across ${sources.length} sources. Click "Export stories.json" to save.`;
+      showToast(totalAdded > 0 ? `Scraped ${totalAdded} new stories from your sources!` : 'All sources scraped — feed is up to date!');
+    }
+
+    /********************************************************************
+     * 3. LOAD ./stories.json & ./sources.json ON STARTUP
+     ********************************************************************/
+    async function initializeDataFiles() {
+      const logEl = document.getElementById('rssStatusLog');
+
+      // 1. Check for ./sources.json
       try {
-        // Cache-busting query string guarantees visitors always get the newest stories.json
-        const response = await fetch('./stories.json?t=' + Date.now());
-        if (!response.ok) {
-          throw new Error(`HTTP ${response.status} (${response.statusText})`);
+        const srcRes = await fetch('./sources.json?t=' + Date.now());
+        if (srcRes.ok) {
+          const fileSources = await srcRes.json();
+          if (Array.isArray(fileSources) && fileSources.length > 0) {
+            sources = fileSources;
+            localStorage.setItem('705buzz_sources', JSON.stringify(sources));
+            renderSourcesList();
+          }
         }
+      } catch (e) {}
 
-        const customStories = await response.json();
-        if (!Array.isArray(customStories)) {
-          throw new Error('stories.json root must be a JSON array []');
-        }
-
-        // Deduplicate by title or ID so stories never double up
-        const existingTitles = new Set(stories.map(s => s.title));
-        const existingIds = new Set(stories.map(s => s.id));
-
-        const uniqueIncoming = customStories.filter(
-          item => item && item.title && !existingTitles.has(item.title) && !existingIds.has(item.id)
-        );
-
-        if (uniqueIncoming.length > 0) {
-          stories = [...uniqueIncoming, ...stories];
-          renderStories();
-        }
-
-        dotEl.className = 'w-2.5 h-2.5 rounded-full bg-emerald-400';
-        logEl.textContent = `[${new Date().toLocaleTimeString()}] Loaded ./stories.json (${customStories.length} items in file, ${uniqueIncoming.length} new merged into feed).`;
-        if (showUserToast) {
-          showToast(`Loaded ${customStories.length} stories from stories.json!`);
+      // 2. Check for ./stories.json
+      try {
+        const res = await fetch('./stories.json?t=' + Date.now());
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const customStories = await res.json();
+        if (Array.isArray(customStories)) {
+          const existingTitles = new Set(stories.map(s => s.title.toLowerCase()));
+          const uniqueIncoming = customStories.filter(item => item?.title && !existingTitles.has(item.title.toLowerCase()));
+          if (uniqueIncoming.length > 0) {
+            stories = [...uniqueIncoming, ...stories];
+            renderStories();
+          }
+          logEl.textContent = `[${new Date().toLocaleTimeString()}] Loaded ./stories.json (${customStories.length} stories).`;
         }
       } catch (err) {
-        dotEl.className = 'w-2.5 h-2.5 rounded-full bg-amber-400';
-        logEl.textContent = `[${new Date().toLocaleTimeString()}] ./stories.json not detected yet (${err.message}). Displaying ${stories.length} built-in Barrie stories. Click "Download stories.json" to generate your starter file!`;
-        if (showUserToast) {
-          showToast('No ./stories.json found in root yet — using built-in feed.');
-        }
-      } finally {
-        setTimeout(() => {
-          syncIcon.classList.remove('animate-spin');
-          syncText.textContent = 'Reload stories.json';
-        }, 400);
+        logEl.textContent = `[${new Date().toLocaleTimeString()}] Ready! ${sources.length} sources configured. Click "Scrape All Sources Now" or "Manage Sources" to add links.`;
       }
     }
 
-    /**
-     * Downloads the current stories array as a formatted stories.json file
-     * so you can drop it straight into your GitHub repo or web host.
-     */
+    /********************************************************************
+     * 4. SOURCE MANAGER UI FUNCTIONS
+     ********************************************************************/
+    function renderSourcesList() {
+      const container = document.getElementById('sourcesListContainer');
+      const badge = document.getElementById('sourcesCountBadge');
+      badge.textContent = sources.length;
+
+      if (sources.length === 0) {
+        container.innerHTML = `<div class="text-xs text-slate-500 py-4 text-center">No sources configured yet. Add an RSS feed or webpage URL above!</div>`;
+        return;
+      }
+
+      container.innerHTML = sources.map((src, idx) => `
+        <div class="flex items-center justify-between gap-2 bg-slate-950 border border-slate-800/90 rounded-xl px-3.5 py-2.5">
+          <div class="min-w-0 flex-1">
+            <div class="flex items-center gap-2">
+              <span class="px-1.5 py-0.5 rounded text-[10px] font-bold uppercase ${src.type === 'html' ? 'bg-kempenfelt-500/20 text-kempenfelt-400' : 'bg-buzz-500/20 text-buzz-400'}">
+                ${src.type}
+              </span>
+              <span class="font-semibold text-xs text-white truncate">${src.name}</span>
+              <span class="text-[11px] text-slate-500">• ${src.category}</span>
+            </div>
+            <div class="text-[11px] text-slate-400 truncate mt-0.5">${src.url}</div>
+          </div>
+          <div class="flex items-center gap-1.5 shrink-0">
+            <button onclick="testSingleSourceByIndex(${idx})" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-buzz-400 text-[11px] font-semibold transition-colors">
+              Scrape
+            </button>
+            <button onclick="removeSource(${idx})" class="p-1 text-slate-500 hover:text-rose-400 transition-colors" title="Remove source">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    async function handleAddSource(e) {
+      e.preventDefault();
+      const newSource = {
+        name: document.getElementById('srcName').value.trim(),
+        type: document.getElementById('srcType').value,
+        category: document.getElementById('srcCategory').value,
+        url: document.getElementById('srcUrl').value.trim(),
+        location: document.getElementById('srcLocation').value.trim() || 'Barrie, ON'
+      };
+
+      sources.unshift(newSource);
+      localStorage.setItem('705buzz_sources', JSON.stringify(sources));
+      renderSourcesList();
+      document.getElementById('addSourceForm').reset();
+      document.getElementById('srcLocation').value = 'Barrie, ON';
+
+      showToast(`Added "${newSource.name}" — scraping now...`);
+      try {
+        const added = await scrapeSingleSource(newSource);
+        showToast(`Scraped ${added} new item(s) from ${newSource.name}!`);
+      } catch (err) {
+        showToast(`Saved "${newSource.name}" to sources.json list!`);
+      }
+    }
+
+    async function testSingleSourceByIndex(idx) {
+      const src = sources[idx];
+      if (!src) return;
+      showToast(`Scraping ${src.name}...`);
+      try {
+        const added = await scrapeSingleSource(src);
+        showToast(added > 0 ? `Pulled ${added} new story from ${src.name}!` : `No new unseen items from ${src.name}.`);
+      } catch (e) {
+        showToast(`Could not live-preview ${src.name} in browser; GitHub Action will scrape it.`);
+      }
+    }
+
+    function removeSource(idx) {
+      sources.splice(idx, 1);
+      localStorage.setItem('705buzz_sources', JSON.stringify(sources));
+      renderSourcesList();
+    }
+
+    function downloadSourcesJson() {
+      const dataStr = JSON.stringify(sources, null, 2);
+      const blob = new Blob([dataStr], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'sources.json';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      showToast('Downloaded sources.json! Commit it to your repo.');
+    }
+
     function downloadStoriesJson() {
       const dataStr = JSON.stringify(stories, null, 2);
       const blob = new Blob([dataStr], { type: 'application/json' });
@@ -619,99 +951,11 @@
       a.click();
       document.body.removeChild(a);
       URL.revokeObjectURL(url);
-      showToast('Downloaded stories.json! Place it next to index.html.');
+      showToast('Downloaded stories.json!');
     }
 
     /********************************************************************
-     * 3. SECONDARY LIVE RSS-TO-JSON BACKUP INGESTION
-     ********************************************************************/
-    const SIMCOE_RSS_ENDPOINTS = [
-      {
-        name: 'BarrieToday',
-        category: 'News',
-        location: 'Barrie, ON',
-        rssUrl: 'https://www.barrietoday.com/rss'
-      },
-      {
-        name: 'InnisfilToday',
-        category: 'News',
-        location: 'Innisfil, ON',
-        rssUrl: 'https://www.innisfiltoday.ca/rss'
-      },
-      {
-        name: 'OrilliaMatters',
-        category: 'News',
-        location: 'Orillia, ON',
-        rssUrl: 'https://www.orilliamatters.com/rss'
-      },
-      {
-        name: 'Barrie 360',
-        category: 'Community',
-        location: 'Barrie, ON',
-        rssUrl: 'https://barrie360.com/feed/'
-      }
-    ];
-
-    async function fetchRssToJsonFeed(endpointConfig) {
-      const apiProxy = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(endpointConfig.rssUrl)}`;
-      const response = await fetch(apiProxy);
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      const data = await response.json();
-      if (data.status !== 'ok' || !Array.isArray(data.items)) throw new Error('Invalid RSS payload');
-
-      return data.items.slice(0, 3).map((item, idx) => ({
-        id: `rss-${Date.now()}-${idx}`,
-        title: item.title,
-        category: endpointConfig.category,
-        source: endpointConfig.name,
-        location: endpointConfig.location,
-        timestamp: 'Live RSS Sync',
-        sortOrder: Date.now() + idx,
-        buzzScore: Math.floor(Math.random() * 18) + 80,
-        summary: stripHtml(item.description || item.content || '').slice(0, 240) + '...',
-        image: item.enclosure?.link || item.thumbnail || 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80',
-        url: item.link || 'https://www.barrietoday.com',
-        tags: [endpointConfig.location.split(',')[0], endpointConfig.category, '705 Feed']
-      }));
-    }
-
-    function stripHtml(html) {
-      const tmp = document.createElement('div');
-      tmp.innerHTML = html;
-      return tmp.textContent || tmp.innerText || '';
-    }
-
-    async function syncLiveFeeds() {
-      const logEl = document.getElementById('rssStatusLog');
-      logEl.textContent = `[${new Date().toLocaleTimeString()}] Fetching live Simcoe County RSS feeds...`;
-
-      try {
-        const results = await Promise.allSettled(
-          SIMCOE_RSS_ENDPOINTS.map(ep => fetchRssToJsonFeed(ep))
-        );
-        const fetchedStories = results
-          .filter(r => r.status === 'fulfilled')
-          .flatMap(r => r.value);
-
-        const existingTitles = new Set(stories.map(s => s.title));
-        const uniqueNew = fetchedStories.filter(item => !existingTitles.has(item.title));
-
-        if (uniqueNew.length > 0) {
-          stories = [...uniqueNew, ...stories];
-          renderStories();
-          logEl.textContent = `[${new Date().toLocaleTimeString()}] Pulled ${uniqueNew.length} live RSS stories! Click "Download stories.json" to save them permanently.`;
-          showToast(`Pulled ${uniqueNew.length} fresh Simcoe County RSS stories!`);
-        } else {
-          logEl.textContent = `[${new Date().toLocaleTimeString()}] All feeds up to date.`;
-          showToast('Feeds are already up to date.');
-        }
-      } catch (e) {
-        logEl.textContent = `[${new Date().toLocaleTimeString()}] RSS proxy rate-limited. Relying on ./stories.json.`;
-      }
-    }
-
-    /********************************************************************
-     * 4. RENDERING & FILTERING LOGIC
+     * 5. RENDERING & FILTERING LOGIC
      ********************************************************************/
     const categoryStyles = {
       News: 'bg-buzz-500/15 text-buzz-400 border-buzz-500/30',
@@ -726,16 +970,10 @@
           const matchesCategory = activeCategory === 'All' || story.category === activeCategory;
           const q = searchQuery.trim().toLowerCase();
           if (!q) return matchesCategory;
-
           const hayStack = `${story.title} ${story.summary} ${story.location} ${story.source} ${(story.tags || []).join(' ')}`.toLowerCase();
           return matchesCategory && hayStack.includes(q);
         })
-        .sort((a, b) => {
-          if (currentSort === 'popular') {
-            return b.buzzScore - a.buzzScore;
-          }
-          return b.sortOrder - a.sortOrder;
-        });
+        .sort((a, b) => (currentSort === 'popular' ? b.buzzScore - a.buzzScore : b.sortOrder - a.sortOrder));
     }
 
     function renderStories() {
@@ -773,15 +1011,12 @@
                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div>
-                
                 <span class="absolute top-3 left-3 px-2.5 py-1 rounded-lg text-xs font-bold border backdrop-blur-md ${badgeStyle}">
                   ${story.category}
                 </span>
-
                 <span class="absolute top-3 right-3 px-2 py-0.5 rounded-lg text-[11px] font-semibold bg-slate-950/80 text-buzz-400 border border-slate-800 backdrop-blur-md">
                   ⚡ ${story.buzzScore}
                 </span>
-
                 <div class="absolute bottom-2.5 left-3 right-3 flex items-center justify-between text-xs text-slate-200">
                   <span class="inline-flex items-center gap-1 font-medium drop-shadow">
                     <svg class="w-3.5 h-3.5 text-buzz-400 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
@@ -789,28 +1024,22 @@
                   </span>
                 </div>
               </div>
-
               <div class="p-5">
                 <div class="flex items-center gap-2 text-xs text-slate-400 mb-2">
                   <span class="font-semibold text-slate-300">${story.source}</span>
                   <span>•</span>
                   <span>${story.timestamp}</span>
                 </div>
-
                 <h3 class="font-display font-bold text-lg text-white group-hover:text-buzz-400 transition-colors leading-snug mb-2.5">
                   ${story.title}
                 </h3>
-
                 <p class="text-slate-400 text-sm leading-relaxed line-clamp-3">
                   ${story.summary}
                 </p>
               </div>
             </div>
-
             <div class="px-5 pb-4 pt-2 flex items-center justify-between gap-2 border-t border-slate-800/60 mt-2">
-              <div class="flex flex-wrap gap-1.5">
-                ${tagsHtml}
-              </div>
+              <div class="flex flex-wrap gap-1.5">${tagsHtml}</div>
               <span class="text-xs font-semibold text-buzz-400 group-hover:translate-x-0.5 transition-transform shrink-0 flex items-center gap-1">
                 Read
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
@@ -822,7 +1051,7 @@
     }
 
     /********************************************************************
-     * 5. INTERACTIVE CONTROLS & JSON SNIPPET BUILDER
+     * 6. UI HELPERS & EVENT LISTENERS
      ********************************************************************/
     document.querySelectorAll('.category-btn').forEach(btn => {
       btn.addEventListener('click', () => {
@@ -835,11 +1064,9 @@
     function updateCategoryUI() {
       document.querySelectorAll('.category-btn').forEach(btn => {
         const cat = btn.getAttribute('data-category');
-        if (cat === activeCategory) {
-          btn.className = 'category-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all shrink-0 bg-buzz-500 text-slate-950 shadow-md shadow-buzz-500/10';
-        } else {
-          btn.className = 'category-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all shrink-0 bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800';
-        }
+        btn.className = cat === activeCategory
+          ? 'category-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all shrink-0 bg-buzz-500 text-slate-950 shadow-md shadow-buzz-500/10'
+          : 'category-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all shrink-0 bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800';
       });
     }
 
@@ -852,44 +1079,22 @@
       searchQuery = value;
       desktopSearch.value = value;
       mobileSearch.value = value;
-
-      if (value.trim().length > 0) {
-        clearDesktopBtn.classList.remove('hidden');
-        clearMobileBtn.classList.remove('hidden');
-      } else {
-        clearDesktopBtn.classList.add('hidden');
-        clearMobileBtn.classList.add('hidden');
-      }
+      clearDesktopBtn.classList.toggle('hidden', !value.trim());
+      clearMobileBtn.classList.toggle('hidden', !value.trim());
       renderStories();
     }
 
     desktopSearch.addEventListener('input', e => handleSearchInput(e.target.value));
     mobileSearch.addEventListener('input', e => handleSearchInput(e.target.value));
 
-    function clearSearch() {
-      handleSearchInput('');
-    }
-
-    function filterByTag(tag) {
-      handleSearchInput(tag);
-      window.scrollTo({ top: 240, behavior: 'smooth' });
-    }
-
-    function resetFilters() {
-      activeCategory = 'All';
-      updateCategoryUI();
-      handleSearchInput('');
-    }
-
-    function handleSortChange(val) {
-      currentSort = val;
-      renderStories();
-    }
+    function clearSearch() { handleSearchInput(''); }
+    function filterByTag(tag) { handleSearchInput(tag); window.scrollTo({ top: 240, behavior: 'smooth' }); }
+    function resetFilters() { activeCategory = 'All'; updateCategoryUI(); handleSearchInput(''); }
+    function handleSortChange(val) { currentSort = val; renderStories(); }
 
     function openStoryReader(id) {
       const story = stories.find(s => s.id === id);
       if (!story) return;
-
       document.getElementById('readerImage').src = story.image;
       document.getElementById('readerCategory').textContent = story.category;
       document.getElementById('readerTitle').textContent = story.title;
@@ -898,12 +1103,9 @@
       document.getElementById('readerLocation').textContent = `📍 ${story.location}`;
       document.getElementById('readerSummary').textContent = story.summary;
       document.getElementById('readerLink').href = story.url || '#';
-
-      const tagsContainer = document.getElementById('readerTags');
-      tagsContainer.innerHTML = (story.tags || []).map(t =>
+      document.getElementById('readerTags').innerHTML = (story.tags || []).map(t =>
         `<span class="text-xs bg-slate-800 text-slate-300 px-2.5 py-1 rounded-lg">#${t}</span>`
       ).join('');
-
       openModal('readerModal');
     }
 
@@ -914,13 +1116,6 @@
       const summary = document.getElementById('tipSummary').value.trim() || '';
       const source = document.getElementById('tipSource').value.trim() || '705 Resident Tip';
       const url = document.getElementById('tipUrl').value.trim() || 'https://www.barrie.ca';
-
-      const categoryDefaultImages = {
-        News: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80',
-        Events: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80',
-        Weather: 'https://images.unsplash.com/photo-1516912481808-3406841bd33c?auto=format&fit=crop&w=800&q=80',
-        Community: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=800&q=80'
-      };
 
       return {
         id: 'tip-' + Date.now(),
@@ -940,30 +1135,24 @@
 
     function copyFormAsJson() {
       const storyObj = buildStoryObjectFromForm();
-      const jsonSnippet = JSON.stringify(storyObj, null, 2);
-      navigator.clipboard.writeText(jsonSnippet).then(() => {
-        showToast('Copied JSON object! Paste it into your stories.json array.');
+      navigator.clipboard.writeText(JSON.stringify(storyObj, null, 2)).then(() => {
+        showToast('Copied JSON object!');
       });
     }
 
     function handleTipSubmit(event) {
       event.preventDefault();
       const newStory = buildStoryObjectFromForm();
-
       stories.unshift(newStory);
-
-      // Persist in browser localStorage so user sees their added tips across refreshes
       const stored = JSON.parse(localStorage.getItem('705buzz_custom_tips') || '[]');
       stored.unshift(newStory);
       localStorage.setItem('705buzz_custom_tips', JSON.stringify(stored.slice(0, 25)));
-
       activeCategory = 'All';
       updateCategoryUI();
       renderStories();
-
       document.getElementById('tipForm').reset();
       closeModal('tipModal');
-      showToast('Published! Click "Download stories.json" below to save permanently.');
+      showToast('Published to feed!');
     }
 
     function openModal(modalId) {
@@ -976,37 +1165,31 @@
       document.body.style.overflow = '';
     }
 
-    window.addEventListener('keydown', (e) => {
+    window.addEventListener('keydown', e => {
       if (e.key === 'Escape') {
         closeModal('readerModal');
         closeModal('tipModal');
+        closeModal('sourcesModal');
       }
     });
 
     function showToast(message) {
       const toast = document.getElementById('toast');
-      const toastMsg = document.getElementById('toastMsg');
-      toastMsg.textContent = message;
+      document.getElementById('toastMsg').textContent = message;
       toast.classList.remove('hidden', 'translate-y-4', 'opacity-0');
-
       setTimeout(() => {
         toast.classList.add('translate-y-4', 'opacity-0');
         setTimeout(() => toast.classList.add('hidden'), 300);
       }, 3500);
     }
 
-    // Initialize Date, Render Seed Stories, and Automatically Fetch ./stories.json
     document.addEventListener('DOMContentLoaded', () => {
-      const dateEl = document.getElementById('currentDateDisplay');
-      const now = new Date();
-      dateEl.textContent = now.toLocaleDateString('en-CA', {
-        weekday: 'short',
-        month: 'short',
-        day: 'numeric',
-        year: 'numeric'
+      document.getElementById('currentDateDisplay').textContent = new Date().toLocaleDateString('en-CA', {
+        weekday: 'short', month: 'short', day: 'numeric', year: 'numeric'
       });
+      renderSourcesList();
       renderStories();
-      loadHostedJson(false);
+      initializeDataFiles();
     });
   </script>
 </body>
