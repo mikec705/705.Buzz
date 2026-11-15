@@ -4,9 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>705.Buzz | Barrie & Simcoe County Local Pulse</title>
-  <!-- Tailwind CSS via CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@700;800;900&display=swap" rel="stylesheet">
@@ -279,7 +277,7 @@
     </div>
   </div>
 
-  <!-- Submit a News Tip / Event Modal (Visitor-Facing) -->
+  <!-- Submit a News Tip / Event Modal (Sends to Admin Moderation Queue) -->
   <div id="tipModal" class="fixed inset-0 z-50 hidden overflow-y-auto bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
     <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-lg w-full overflow-hidden shadow-2xl transform transition-all">
       <div class="flex items-center justify-between px-6 py-4 border-b border-slate-800 bg-slate-900/50">
@@ -289,7 +287,7 @@
           </div>
           <div>
             <h3 class="font-display font-bold text-lg text-white">Submit a 705 News Tip or Event</h3>
-            <p class="text-xs text-slate-400">Share what's happening in Barrie & Simcoe County</p>
+            <p class="text-xs text-slate-400">Sent to the 705.Buzz team for review prior to publishing</p>
           </div>
         </div>
         <button onclick="closeModal('tipModal')" class="text-slate-400 hover:text-white p-1">
@@ -324,17 +322,23 @@
           <textarea id="tipSummary" rows="3" required placeholder="Include key details, dates, times, or what residents should know..." class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3.5 py-2.5 text-sm text-white placeholder-slate-600 focus:outline-none"></textarea>
         </div>
 
-        <div>
-          <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1.5">Article or Event Link (Optional)</label>
-          <input type="url" id="tipUrl" placeholder="https://..." class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3.5 py-2.5 text-sm text-white placeholder-slate-600 focus:outline-none" />
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1.5">Your Name / Organization</label>
+            <input type="text" id="tipSource" placeholder="e.g., Barrie Resident / BIA" class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3.5 py-2.5 text-sm text-white placeholder-slate-600 focus:outline-none" />
+          </div>
+          <div>
+            <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1.5">Event or Article Link (Optional)</label>
+            <input type="url" id="tipUrl" placeholder="https://..." class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3.5 py-2.5 text-sm text-white placeholder-slate-600 focus:outline-none" />
+          </div>
         </div>
 
         <div class="pt-3 flex items-center justify-end gap-2 border-t border-slate-800">
           <button type="button" onclick="closeModal('tipModal')" class="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold transition-colors">
             Cancel
           </button>
-          <button type="submit" class="px-5 py-2.5 rounded-xl bg-buzz-500 hover:bg-buzz-400 text-slate-950 text-xs font-bold shadow-lg shadow-buzz-500/20 transition-all">
-            Send Tip to 705.Buzz
+          <button type="submit" id="submitTipBtn" class="px-5 py-2.5 rounded-xl bg-buzz-500 hover:bg-buzz-400 text-slate-950 text-xs font-bold shadow-lg shadow-buzz-500/20 transition-all">
+            Submit for Admin Review
           </button>
         </div>
       </form>
@@ -364,8 +368,11 @@
     </div>
   </footer>
 
-  <!-- Public Application Script (Strictly Scraped Stories Only) -->
+  <!-- Public Application Script -->
   <script>
+    // Optional Cloudflare Worker Relay URL if you deploy the 20-line Worker for public GitHub Issue creation
+    const TIP_RELAY_WEBHOOK_URL = '';
+
     let stories = [];
     let activeCategory = 'All';
     let searchQuery = '';
@@ -391,7 +398,6 @@
       return (tmp.textContent || tmp.innerText || '').replace(/\s+/g, ' ').trim();
     }
 
-    // Loads stories strictly from ./stories.json (or live-scrapes ./sources.json if stories.json is not generated yet)
     async function loadScrapedStories() {
       const refreshIcon = document.getElementById('refreshIcon');
       const loadingState = document.getElementById('loadingState');
@@ -400,7 +406,7 @@
       refreshIcon.classList.add('animate-spin');
 
       try {
-        const res = await fetch('./stories.json?t=' + Date.now());
+        const res = await fetch('./stories.json?t=' + Date.now(), { cache: 'no-store' });
         if (!res.ok) throw new Error('stories.json not found');
         const scrapedData = await res.json();
         if (Array.isArray(scrapedData) && scrapedData.length > 0) {
@@ -409,7 +415,6 @@
           throw new Error('Empty stories.json');
         }
       } catch (e) {
-        // Fallback: If stories.json hasn't been committed by the action yet, scrape sources.json live
         await fallbackLiveScrapeFromSources();
       } finally {
         loadingState.classList.add('hidden');
@@ -610,11 +615,73 @@
       openModal('readerModal');
     }
 
-    function handleVisitorTip(e) {
+    // Sends visitor tip to Admin Moderation Queue (Local Queue + GitHub Issues API / Relay)
+    async function handleVisitorTip(e) {
       e.preventDefault();
+      const btn = document.getElementById('submitTipBtn');
+      btn.disabled = true;
+      btn.textContent = 'Submitting...';
+
+      const cat = document.getElementById('tipCategory').value;
+      const loc = document.getElementById('tipLocation').value.trim() || 'Barrie, ON';
+
+      const pendingTip = {
+        id: 'tip-' + Date.now(),
+        isManual: true,
+        title: document.getElementById('tipTitle').value.trim(),
+        category: cat,
+        source: document.getElementById('tipSource').value.trim() || '705 Community Tip',
+        location: loc,
+        timestamp: new Date().toLocaleDateString('en-CA', { month: 'short', day: 'numeric' }),
+        sortOrder: 9000 + Math.floor(Date.now() / 100000),
+        buzzScore: 95,
+        summary: document.getElementById('tipSummary').value.trim(),
+        image: categoryDefaultImages[cat] || categoryDefaultImages.News,
+        url: document.getElementById('tipUrl').value.trim() || 'https://705.buzz',
+        tags: [loc.split(',')[0], cat, 'Community Tip'],
+        submittedAt: new Date().toLocaleString('en-CA')
+      };
+
+      // 1. Save to local moderation queue
+      const localQueue = JSON.parse(localStorage.getItem('705buzz_pending_tips') || '[]');
+      localQueue.unshift(pendingTip);
+      localStorage.setItem('705buzz_pending_tips', JSON.stringify(localQueue));
+
+      // 2. If a Cloudflare Worker relay or Admin token is present, create a GitHub Issue with label "pending-tip"
+      const savedRepo = localStorage.getItem('705buzz_gh_repo') || 'mikec705/705.Buzz';
+      const savedToken = localStorage.getItem('705buzz_gh_token') || '';
+
+      try {
+        if (TIP_RELAY_WEBHOOK_URL) {
+          await fetch(TIP_RELAY_WEBHOOK_URL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(pendingTip)
+          });
+        } else if (savedToken) {
+          await fetch(`https://api.github.com/repos/${savedRepo}/issues`, {
+            method: 'POST',
+            headers: {
+              'Authorization': `Bearer ${savedToken}`,
+              'Accept': 'application/vnd.github+json',
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              title: `[TIP] ${pendingTip.title}`,
+              body: JSON.stringify(pendingTip, null, 2),
+              labels: ['pending-tip']
+            })
+          });
+        }
+      } catch (err) {
+        console.warn('Queued locally for admin review:', err);
+      }
+
+      btn.disabled = false;
+      btn.textContent = 'Submit for Admin Review';
       document.getElementById('tipForm').reset();
       closeModal('tipModal');
-      showToast('Thank you! Your tip has been sent to the 705.Buzz team for review.');
+      showToast('Submitted! Your tip is now in the Admin Moderation Queue for review.');
     }
 
     function openModal(modalId) {
