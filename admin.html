@@ -120,4 +120,586 @@
           </div>
         </div>
 
-        <div id="rssStatusLog" class="mt-4 bg-slate-950 border border-slate-800 rounded-xl p-3 font-mono text-xs text-slate-400 overflow-x
+        <div id="rssStatusLog" class="mt-4 bg-slate-950 border border-slate-800 rounded-xl p-3 font-mono text-xs text-slate-400 overflow-x-auto">
+          [System Ready] Configure your GitHub Repo & Token above to push updates directly to index.html.
+        </div>
+      </section>
+
+      <!-- Section 2: Two-Column Workspace (Manual Story Publisher + Source Scraper Manager) -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+        
+        <!-- LEFT COLUMN: Publish a Manual Article / Event Directly to Index -->
+        <div class="lg:col-span-6 bg-slate-900/70 border border-slate-800 rounded-2xl p-6">
+          <div class="flex items-center justify-between mb-4">
+            <div>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-buzz-400">Manual Publisher</span>
+              <h3 class="font-display font-bold text-lg text-white">Post a Custom Article or Event</h3>
+            </div>
+            <span class="px-2.5 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs">Pinned to Index</span>
+          </div>
+
+          <form id="manualStoryForm" onsubmit="handleManualStorySubmit(event)" class="space-y-3.5">
+            <div>
+              <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1">Headline / Event Title *</label>
+              <input type="text" id="manTitle" required placeholder="e.g., Waterfront Artisan Market This Weekend at Centennial Park" class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none" />
+            </div>
+
+            <div class="grid grid-cols-2 gap-3">
+              <div>
+                <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1">Category *</label>
+                <select id="manCategory" class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3 py-2.5 text-xs text-white focus:outline-none">
+                  <option value="News">📰 Local News</option>
+                  <option value="Events">🎪 Events</option>
+                  <option value="Weather">🌨️ Weather & Roads</option>
+                  <option value="Community">🤝 Community</option>
+                </select>
+              </div>
+              <div>
+                <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1">Location *</label>
+                <input type="text" id="manLocation" required value="Barrie, ON" class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none" />
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1">Summary / Story Details *</label>
+              <textarea id="manSummary" rows="3" required placeholder="Write the story summary or event details..." class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none"></textarea>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div>
+                <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1">Source Label</label>
+                <input type="text" id="manSource" value="705.Buzz Exclusive" class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none" />
+              </div>
+              <div>
+                <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1">External Link URL</label>
+                <input type="url" id="manUrl" placeholder="https://..." class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none" />
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1">Image URL (Optional — Auto-fills if blank)</label>
+              <input type="url" id="manImage" placeholder="https://images.unsplash.com/..." class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none" />
+            </div>
+
+            <button type="submit" class="w-full py-3 rounded-xl bg-buzz-500 hover:bg-buzz-400 text-slate-950 font-bold text-xs shadow-lg shadow-buzz-500/20 transition-all">
+              ✨ Add Story & Push Live to GitHub
+            </button>
+          </form>
+        </div>
+
+        <!-- RIGHT COLUMN: Add & Scrape RSS / Webpage Sources -->
+        <div class="lg:col-span-6 bg-slate-900/70 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div>
+                <span class="text-[11px] font-bold uppercase tracking-wider text-kempenfelt-400">Automated Scraper</span>
+                <h3 class="font-display font-bold text-lg text-white">Add RSS Feed or Webpage to Scrape</h3>
+              </div>
+              <button onclick="scrapeAndPushAll()" class="px-3.5 py-2 rounded-xl bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-300 border border-emerald-500/30 font-bold text-xs transition-all">
+                ⚡ Scrape All & Push Live
+              </button>
+            </div>
+
+            <form id="addSourceForm" onsubmit="handleAddSource(event)" class="space-y-3 bg-slate-950/70 border border-slate-800/90 rounded-xl p-4 mb-5">
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                <div>
+                  <label class="block text-[10px] font-semibold uppercase text-slate-400 mb-1">Source Name *</label>
+                  <input type="text" id="srcName" required placeholder="e.g., BarrieToday" class="w-full bg-slate-900 border border-slate-800 rounded-lg px-3 py-2 text-xs text-white focus:outline-none" />
+                </div>
+                <div>
+                  <label class="block text-[10px] font-semibold uppercase text-slate-400 mb-1">Type *</label>
+                  <select id="srcType" class="w-full bg-slate-900 border border-slate-800 rounded-lg px-2.5 py-2 text-xs text-white focus:outline-none">
+                    <option value="rss">📡 RSS Feed</option>
+                    <option value="html">🌐 Webpage Link</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="block text-[10px] font-semibold uppercase text-slate-400 mb-1">Category *</label>
+                  <select id="srcCategory" class="w-full bg-slate-900 border border-slate-800 rounded-lg px-2.5 py-2 text-xs text-white focus:outline-none">
+                    <option value="News">News</option>
+                    <option value="Events">Events</option>
+                    <option value="Weather">Weather</option>
+                    <option value="Community">Community</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                <div class="sm:col-span-2">
+                  <label class="block text-[10px] font-semibold uppercase text-slate-400 mb-1">Feed or Webpage URL *</label>
+                  <input type="url" id="srcUrl" required placeholder="https://www.barrietoday.com/rss" class="w-full bg-slate-900 border border-slate-800 rounded-lg px-3 py-2 text-xs text-white focus:outline-none" />
+                </div>
+                <div>
+                  <label class="block text-[10px] font-semibold uppercase text-slate-400 mb-1">Location *</label>
+                  <input type="text" id="srcLocation" required value="Barrie, ON" class="w-full bg-slate-900 border border-slate-800 rounded-lg px-3 py-2 text-xs text-white focus:outline-none" />
+                </div>
+              </div>
+
+              <button type="submit" class="w-full py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-buzz-400 border border-slate-700 font-bold text-xs transition-all">
+                + Add Source, Scrape & Push to GitHub
+              </button>
+            </form>
+
+            <!-- Active Sources List -->
+            <div class="flex items-center justify-between mb-2">
+              <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">Active Sources (<span id="sourcesCountBadge">0</span>)</span>
+            </div>
+            <div id="sourcesListContainer" class="space-y-2 max-h-56 overflow-y-auto pr-1"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Section 3: Live Stories Currently on Index Page (stories.json) -->
+      <section class="bg-slate-900/70 border border-slate-800 rounded-2xl p-6">
+        <div class="flex flex-wrap items-center justify-between gap-4 mb-4">
+          <div>
+            <h3 class="font-display font-bold text-base text-white">Active Stories on Public Index Page (<span id="scrapedCountBadge">0</span>)</h3>
+            <p class="text-xs text-slate-400">Delete any unwanted story below and click <strong>Save & Push Live to Index Page</strong>.</p>
+          </div>
+          <div class="flex items-center gap-3">
+            <button onclick="pushAllToGitHub()" class="px-3.5 py-1.5 rounded-lg bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-300 border border-emerald-500/30 text-xs font-semibold">
+              🚀 Push Changes to GitHub
+            </button>
+          </div>
+        </div>
+        <div id="adminStoriesPreview" class="space-y-2 max-h-96 overflow-y-auto text-xs"></div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" class="fixed bottom-5 right-5 z-50 hidden transform transition-all duration-300 translate-y-4 opacity-0">
+    <div class="bg-slate-900 border border-buzz-500/40 text-slate-100 px-4 py-3 rounded-xl shadow-2xl flex items-center gap-3">
+      <span class="w-2.5 h-2.5 rounded-full bg-buzz-400 animate-ping"></span>
+      <span id="toastMsg" class="text-xs sm:text-sm font-medium"></span>
+    </div>
+  </div>
+
+  <script>
+    /********************************************************************
+     * 1. ADMIN AUTHENTICATION (Default Password: "705buzz")
+     ********************************************************************/
+    const ADMIN_PASSWORD_PLAIN = '705buzz';
+
+    function checkAuthSession() {
+      if (sessionStorage.getItem('705buzz_admin_unlocked') === 'true') {
+        document.getElementById('loginScreen').classList.add('hidden');
+        document.getElementById('adminDashboard').classList.remove('hidden');
+        loadGitHubConfigUI();
+        initializeAdminData();
+      }
+    }
+
+    function handleAdminLogin(e) {
+      e.preventDefault();
+      const input = document.getElementById('adminPasswordInput').value;
+      if (input === ADMIN_PASSWORD_PLAIN) {
+        sessionStorage.setItem('705buzz_admin_unlocked', 'true');
+        document.getElementById('loginError').classList.add('hidden');
+        checkAuthSession();
+      } else {
+        document.getElementById('loginError').classList.remove('hidden');
+      }
+    }
+
+    function logoutAdmin() {
+      sessionStorage.removeItem('705buzz_admin_unlocked');
+      window.location.reload();
+    }
+
+    /********************************************************************
+     * 2. GITHUB DIRECT API PUSH ENGINE (With Anti-Cache & Auto-Retry)
+     ********************************************************************/
+    function autoDetectGitHubRepo() {
+      const host = window.location.hostname;
+      const pathParts = window.location.pathname.split('/').filter(Boolean);
+      if (host.endsWith('.github.io')) {
+        const owner = host.split('.')[0];
+        const repo = pathParts[0] && !pathParts[0].endsWith('.html') ? pathParts[0] : `${owner}.github.io`;
+        return `${owner}/${repo}`;
+      }
+      return 'mikec705/705.Buzz';
+    }
+
+    function loadGitHubConfigUI() {
+      const savedRepo = localStorage.getItem('705buzz_gh_repo') || autoDetectGitHubRepo();
+      const savedBranch = localStorage.getItem('705buzz_gh_branch') || 'main';
+      const savedToken = localStorage.getItem('705buzz_gh_token') || '';
+
+      document.getElementById('ghRepo').value = savedRepo;
+      document.getElementById('ghBranch').value = savedBranch;
+      document.getElementById('ghToken').value = savedToken;
+
+      const dot = document.getElementById('ghConnectionDot');
+      dot.className = (savedRepo && savedToken)
+        ? 'w-2.5 h-2.5 rounded-full bg-emerald-400'
+        : 'w-2.5 h-2.5 rounded-full bg-amber-400';
+    }
+
+    function saveGitHubConfig() {
+      const repo = document.getElementById('ghRepo').value.trim();
+      const branch = document.getElementById('ghBranch').value.trim() || 'main';
+      const token = document.getElementById('ghToken').value.trim();
+
+      localStorage.setItem('705buzz_gh_repo', repo);
+      localStorage.setItem('705buzz_gh_branch', branch);
+      localStorage.setItem('705buzz_gh_token', token);
+
+      loadGitHubConfigUI();
+      showToast('Saved GitHub API settings in browser!');
+    }
+
+    function utf8ToBase64(str) {
+      const bytes = new TextEncoder().encode(str);
+      let binary = '';
+      for (let i = 0; i < bytes.length; i++) {
+        binary += String.fromCharCode(bytes[i]);
+      }
+      return btoa(binary);
+    }
+
+    async function pushFileToGitHub(filePath, jsonData, commitMessage, retryCount = 0) {
+      const repo = document.getElementById('ghRepo').value.trim();
+      const branch = document.getElementById('ghBranch').value.trim() || 'main';
+      const token = document.getElementById('ghToken').value.trim();
+
+      if (!repo || !token) {
+        throw new Error('Please enter your GitHub Repo and Personal Access Token at the top of the Admin page first.');
+      }
+
+      const apiUrl = `https://api.github.com/repos/${repo}/contents/${filePath}`;
+      const headers = {
+        'Authorization': `Bearer ${token}`,
+        'Accept': 'application/vnd.github+json',
+        'Content-Type': 'application/json'
+      };
+
+      // 1. Fetch live SHA with cache: 'no-store' so browser NEVER uses a stale SHA
+      let existingSha = null;
+      const getRes = await fetch(`${apiUrl}?ref=${encodeURIComponent(branch)}&t=${Date.now()}`, {
+        headers,
+        cache: 'no-store'
+      });
+
+      if (getRes.ok) {
+        const existingData = await getRes.json();
+        existingSha = existingData.sha;
+      }
+
+      // 2. PUT updated file contents directly to GitHub
+      const bodyPayload = {
+        message: commitMessage,
+        content: utf8ToBase64(JSON.stringify(jsonData, null, 2)),
+        branch
+      };
+      if (existingSha) {
+        bodyPayload.sha = existingSha;
+      }
+
+      const putRes = await fetch(apiUrl, {
+        method: 'PUT',
+        headers,
+        cache: 'no-store',
+        body: JSON.stringify(bodyPayload)
+      });
+
+      if (!putRes.ok) {
+        const errJson = await putRes.json().catch(() => ({}));
+        const errMsg = errJson.message || `GitHub API HTTP ${putRes.status}`;
+
+        // 3. Auto-retry if SHA changed mid-flight
+        if ((putRes.status === 409 || errMsg.includes('does not match')) && retryCount < 3) {
+          await new Promise(r => setTimeout(r, 800));
+          return pushFileToGitHub(filePath, jsonData, commitMessage, retryCount + 1);
+        }
+        throw new Error(errMsg);
+      }
+    }
+
+    async function pushAllToGitHub() {
+      const logEl = document.getElementById('rssStatusLog');
+      const btn = document.getElementById('topPushBtn');
+      saveGitHubConfig();
+
+      try {
+        btn.disabled = true;
+        btn.textContent = '⏳ Pushing to GitHub...';
+        logEl.textContent = `[${new Date().toLocaleTimeString()}] Pushing sources.json and stories.json (${scrapedStories.length} stories) to GitHub...`;
+
+        await pushFileToGitHub('sources.json', sources, 'chore(admin): update sources.json from Admin portal');
+        await pushFileToGitHub('stories.json', scrapedStories, 'chore(admin): publish updated stories.json to index page [skip ci]');
+
+        logEl.textContent = `[${new Date().toLocaleTimeString()}] SUCCESS! Pushed ${scrapedStories.length} stories & ${sources.length} sources live to GitHub. Your index.html is updated!`;
+        showToast('Pushed live to GitHub! Your index page is updated.');
+      } catch (err) {
+        logEl.textContent = `[${new Date().toLocaleTimeString()}] GitHub Push Error: ${err.message}`;
+        showToast(`Error: ${err.message}`);
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = '<span>🚀 Save & Push Live to Index Page</span>';
+      }
+    }
+
+    /********************************************************************
+     * 3. SCRAPER & MANUAL ARTICLE LOGIC
+     ********************************************************************/
+    const defaultSources = [
+      { name: 'BarrieToday', type: 'rss', url: 'https://www.barrietoday.com/rss', category: 'News', location: 'Barrie, ON' },
+      { name: 'Barrie 360', type: 'rss', url: 'https://barrie360.com/feed/', category: 'Community', location: 'Barrie, ON' },
+      { name: 'InnisfilToday', type: 'rss', url: 'https://www.innisfiltoday.ca/rss', category: 'News', location: 'Innisfil, ON' },
+      { name: 'OrilliaMatters', type: 'rss', url: 'https://www.orilliamatters.com/rss', category: 'News', location: 'Orillia, ON' },
+      { name: 'CollingwoodToday', type: 'rss', url: 'https://www.collingwoodtoday.ca/rss', category: 'News', location: 'Collingwood, ON' }
+    ];
+
+    const categoryDefaultImages = {
+      News: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80',
+      Events: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80',
+      Weather: 'https://images.unsplash.com/photo-1516912481808-3406841bd33c?auto=format&fit=crop&w=800&q=80',
+      Community: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=800&q=80'
+    };
+
+    let sources = [...defaultSources];
+    let scrapedStories = [];
+
+    async function initializeAdminData() {
+      try {
+        const sRes = await fetch('./sources.json?t=' + Date.now(), { cache: 'no-store' });
+        if (sRes.ok) {
+          const fileSources = await sRes.json();
+          if (Array.isArray(fileSources) && fileSources.length > 0) sources = fileSources;
+        }
+      } catch (e) {}
+
+      try {
+        const stRes = await fetch('./stories.json?t=' + Date.now(), { cache: 'no-store' });
+        if (stRes.ok) {
+          const fileStories = await stRes.json();
+          if (Array.isArray(fileStories)) scrapedStories = fileStories;
+        }
+      } catch (e) {}
+
+      renderSourcesList();
+      renderAdminStoriesPreview();
+    }
+
+    function stripHtml(html) {
+      const tmp = document.createElement('div');
+      tmp.innerHTML = html || '';
+      return (tmp.textContent || tmp.innerText || '').replace(/\s+/g, ' ').trim();
+    }
+
+    async function handleManualStorySubmit(e) {
+      e.preventDefault();
+      const cat = document.getElementById('manCategory').value;
+      const loc = document.getElementById('manLocation').value.trim() || 'Barrie, ON';
+      const customImg = document.getElementById('manImage').value.trim();
+
+      const newStory = {
+        id: 'manual-' + Date.now(),
+        isManual: true,
+        title: document.getElementById('manTitle').value.trim(),
+        category: cat,
+        source: document.getElementById('manSource').value.trim() || '705.Buzz Exclusive',
+        location: loc,
+        timestamp: new Date().toLocaleDateString('en-CA', { month: 'short', day: 'numeric' }),
+        sortOrder: 9000 + Math.floor(Date.now() / 100000),
+        buzzScore: 98,
+        summary: document.getElementById('manSummary').value.trim(),
+        image: customImg || categoryDefaultImages[cat] || categoryDefaultImages.News,
+        url: document.getElementById('manUrl').value.trim() || 'https://705.buzz',
+        tags: [loc.split(',')[0], cat, 'Featured']
+      };
+
+      scrapedStories.unshift(newStory);
+      renderAdminStoriesPreview();
+      document.getElementById('manualStoryForm').reset();
+      document.getElementById('manLocation').value = 'Barrie, ON';
+      document.getElementById('manSource').value = '705.Buzz Exclusive';
+
+      await pushAllToGitHub();
+    }
+
+    async function scrapeRssFeedInBrowser(source) {
+      const apiProxy = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(source.url)}`;
+      const response = await fetch(apiProxy);
+      const data = await response.json();
+      if (data.status === 'ok' && Array.isArray(data.items)) {
+        return data.items.slice(0, 6).map((item, idx) => ({
+          id: `${source.name.toLowerCase().replace(/[^a-z0-9]/g, '-')}-${idx}`,
+          title: stripHtml(item.title),
+          category: source.category || 'News',
+          source: source.name,
+          location: source.location || 'Barrie, ON',
+          timestamp: item.pubDate ? new Date(item.pubDate).toLocaleDateString('en-CA', { month: 'short', day: 'numeric' }) : 'Latest',
+          sortOrder: 2000 - idx,
+          buzzScore: Math.floor(Math.random() * 18) + 80,
+          summary: stripHtml(item.description || item.content || '').slice(0, 240) + '...',
+          image: item.enclosure?.link || item.thumbnail || categoryDefaultImages[source.category] || categoryDefaultImages.News,
+          url: item.link || source.url,
+          tags: [source.location.split(',')[0], source.category, source.name]
+        }));
+      }
+      throw new Error('RSS proxy unavailable');
+    }
+
+    async function scrapeWebpageInBrowser(source) {
+      const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(source.url)}`;
+      const response = await fetch(proxyUrl);
+      const data = await response.json();
+      const doc = new DOMParser().parseFromString(data.contents, 'text/html');
+
+      const ogTitle =
+        doc.querySelector('meta[property="og:title"]')?.getAttribute('content') ||
+        doc.querySelector('h1')?.textContent ||
+        doc.querySelector('title')?.textContent ||
+        source.name;
+
+      const ogDesc =
+        doc.querySelector('meta[property="og:description"]')?.getAttribute('content') ||
+        doc.querySelector('meta[name="description"]')?.getAttribute('content') ||
+        doc.querySelector('article p, main p, p')?.textContent ||
+        `Latest update from ${source.name}.`;
+
+      const ogImg =
+        doc.querySelector('meta[property="og:image"]')?.getAttribute('content') ||
+        categoryDefaultImages[source.category] ||
+        categoryDefaultImages.News;
+
+      return [{
+        id: `${source.name.toLowerCase().replace(/[^a-z0-9]/g, '-')}-web`,
+        title: stripHtml(ogTitle),
+        category: source.category || 'Events',
+        source: source.name,
+        location: source.location || 'Barrie, ON',
+        timestamp: 'Featured Link',
+        sortOrder: 2500,
+        buzzScore: 92,
+        summary: stripHtml(ogDesc).slice(0, 240) + '...',
+        image: ogImg,
+        url: source.url,
+        tags: [source.location.split(',')[0], source.category, 'Web Link']
+      }];
+    }
+
+    async function scrapeSingleSource(source) {
+      const items = source.type === 'html'
+        ? await scrapeWebpageInBrowser(source)
+        : await scrapeRssFeedInBrowser(source);
+
+      const existingTitles = new Set(scrapedStories.map(s => s.title.toLowerCase()));
+      const newUnique = items.filter(item => item.title && !existingTitles.has(item.title.toLowerCase()));
+
+      if (newUnique.length > 0) {
+        scrapedStories = [...newUnique, ...scrapedStories];
+        renderAdminStoriesPreview();
+      }
+      return newUnique.length;
+    }
+
+    async function scrapeAndPushAll() {
+      const logEl = document.getElementById('rssStatusLog');
+      logEl.textContent = `[${new Date().toLocaleTimeString()}] Scraping all ${sources.length} sources...`;
+
+      for (const src of sources) {
+        try {
+          await scrapeSingleSource(src);
+        } catch (err) {
+          console.warn('Skipped source:', src.name, err);
+        }
+      }
+      await pushAllToGitHub();
+    }
+
+    async function handleAddSource(e) {
+      e.preventDefault();
+      const newSource = {
+        name: document.getElementById('srcName').value.trim(),
+        type: document.getElementById('srcType').value,
+        category: document.getElementById('srcCategory').value,
+        url: document.getElementById('srcUrl').value.trim(),
+        location: document.getElementById('srcLocation').value.trim() || 'Barrie, ON'
+      };
+
+      sources.unshift(newSource);
+      renderSourcesList();
+      document.getElementById('addSourceForm').reset();
+      document.getElementById('srcLocation').value = 'Barrie, ON';
+
+      try {
+        await scrapeSingleSource(newSource);
+      } catch (err) {}
+
+      await pushAllToGitHub();
+    }
+
+    function renderSourcesList() {
+      const container = document.getElementById('sourcesListContainer');
+      document.getElementById('sourcesCountBadge').textContent = sources.length;
+
+      container.innerHTML = sources.map((src, idx) => `
+        <div class="flex items-center justify-between gap-2 bg-slate-950 border border-slate-800 rounded-xl px-3 py-2">
+          <div class="min-w-0 flex-1">
+            <div class="flex items-center gap-2">
+              <span class="px-1.5 py-0.5 rounded text-[10px] font-bold uppercase ${src.type === 'html' ? 'bg-kempenfelt-500/20 text-kempenfelt-400' : 'bg-buzz-500/20 text-buzz-400'}">${src.type}</span>
+              <span class="font-semibold text-xs text-white truncate">${src.name}</span>
+              <span class="text-[11px] text-slate-500">• ${src.category}</span>
+            </div>
+            <div class="text-[11px] text-slate-400 truncate">${src.url}</div>
+          </div>
+          <div class="flex items-center gap-1.5 shrink-0">
+            <button onclick="removeSource(${idx})" class="p-1 text-slate-500 hover:text-rose-400" title="Remove source">✕</button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function renderAdminStoriesPreview() {
+      const previewEl = document.getElementById('adminStoriesPreview');
+      document.getElementById('scrapedCountBadge').textContent = scrapedStories.length;
+
+      if (scrapedStories.length === 0) {
+        previewEl.innerHTML = `<div class="text-slate-500 py-6 text-center">No stories in stories.json yet. Click "Scrape All & Push Live" or post a manual article above!</div>`;
+        return;
+      }
+
+      previewEl.innerHTML = scrapedStories.map((st, i) => `
+        <div class="flex items-center justify-between gap-3 bg-slate-950 border border-slate-800/80 rounded-lg px-3 py-2">
+          <div class="truncate">
+            ${st.isManual ? '<span class="px-1.5 py-0.5 rounded bg-buzz-500/20 text-buzz-400 text-[10px] font-bold mr-1.5">MANUAL</span>' : ''}
+            <span class="text-buzz-400 font-semibold">[${st.source}]</span>
+            <span class="text-slate-200 ml-1.5 font-medium">${st.title}</span>
+          </div>
+          <div class="flex items-center gap-2 shrink-0">
+            <a href="${st.url}" target="_blank" class="text-kempenfelt-400 hover:underline">Link ↗</a>
+            <button onclick="removeScrapedStory(${i})" class="text-slate-500 hover:text-rose-400 ml-1" title="Delete story">✕</button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function removeSource(idx) {
+      sources.splice(idx, 1);
+      renderSourcesList();
+    }
+
+    function removeScrapedStory(idx) {
+      scrapedStories.splice(idx, 1);
+      renderAdminStoriesPreview();
+    }
+
+    function showToast(message) {
+      const toast = document.getElementById('toast');
+      document.getElementById('toastMsg').textContent = message;
+      toast.classList.remove('hidden', 'translate-y-4', 'opacity-0');
+      setTimeout(() => {
+        toast.classList.add('translate-y-4', 'opacity-0');
+        setTimeout(() => toast.classList.add('hidden'), 300);
+      }, 3500);
+    }
+
+    document.addEventListener('DOMContentLoaded', checkAuthSession);
+  </script>
+</body>
+</html>
