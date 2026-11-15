@@ -1,12 +1,5 @@
 [
   {
-    "name": "Global News",
-    "type": "rss",
-    "category": "News",
-    "url": "https://globalnews.ca/barrie/feed/",
-    "location": "Barrie, ON"
-  },
-  {
     "name": "MidlandToday",
     "type": "rss",
     "category": "News",
