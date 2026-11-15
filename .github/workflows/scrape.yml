@@ -2,15 +2,19 @@ name: 705.Buzz Automated Source Scraper
 
 on:
   schedule:
-    - cron: '0 * * * *' # Runs every hour on the hour
+    - cron: '0 * * * *'
   push:
     paths:
       - 'sources.json'
       - '.github/workflows/scrape.yml'
-  workflow_dispatch:    # Lets you click "Run workflow" manually
+  workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: scraper-group
+  cancel-in-progress: true
 
 jobs:
   scrape:
@@ -44,10 +48,8 @@ jobs:
             Community: "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80"
           };
 
-          // Ensure sources.json exists; create default if missing
           if (!fs.existsSync('./sources.json')) {
             fs.writeFileSync('./sources.json', JSON.stringify(DEFAULT_SOURCES, null, 2));
-            console.log('Created default sources.json');
           }
 
           const sources = JSON.parse(fs.readFileSync('./sources.json', 'utf8'));
@@ -158,7 +160,6 @@ jobs:
             }
           }
 
-          // Preserve manual stories posted from admin.html
           let existingManualStories = [];
           if (fs.existsSync('./stories.json')) {
             try {
@@ -189,5 +190,9 @@ jobs:
         run: |
           git config --global user.name "705.Buzz Auto-Scraper"
           git config --global user.email "bot@705.buzz"
+          git pull --rebase -X ours origin main || true
           git add stories.json sources.json
-          git diff --staged --quiet || (git pull --rebase && git commit -m "chore: auto-scrape latest 705 sources" && git push)
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: auto-scrape latest 705 sources"
+            git push origin HEAD:main
+          fi
