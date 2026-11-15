@@ -158,8 +158,20 @@ jobs:
             }
           }
 
+          // Preserve manual stories posted from admin.html
+          let existingManualStories = [];
+          if (fs.existsSync('./stories.json')) {
+            try {
+              const existing = JSON.parse(fs.readFileSync('./stories.json', 'utf8'));
+              if (Array.isArray(existing)) {
+                existingManualStories = existing.filter(s => s && s.isManual === true);
+              }
+            } catch (e) {}
+          }
+
+          const combined = [...existingManualStories, ...allStories];
           const seen = new Set();
-          const unique = allStories.filter(s => {
+          const unique = combined.filter(s => {
             if (!s.title || seen.has(s.title.toLowerCase())) return false;
             seen.add(s.title.toLowerCase());
             return true;
