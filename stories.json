@@ -1,12 +1,66 @@
 [
   {
     "id": "midlandtoday-0",
-    "title": "How did tariffs hit your town? This interactive map zooms in for the answer",
+    "title": "Man sustained ‘serious, life-threatening injuries’ in crash with police vehicle: SIU",
     "category": "News",
     "source": "MidlandToday",
     "location": "Midland, ON",
     "timestamp": "Nov 15",
     "sortOrder": 2000,
+    "buzzScore": 86,
+    "summary": "Incident between South Simcoe police cruiser and Honda Civic happened Friday in Bradford West Gwillimbury...",
+    "image": "https://www.vmcdn.ca/f/files/bradfordtoday/2026-11-13-ssp-vehicle-crash-6-bt.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/police-beat/man-sustained-serious-life-threatening-injuries-in-crash-with-police-vehicle-siu-13019537",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
+    "title": "PM Carney takes his investment pitch to Francophonie summit in Cambodia",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1999,
+    "buzzScore": 80,
+    "summary": "PHNOM PENH — Prime Minister Mark Carney brought his pitch for Canada as an investment destination to a group of mostly French-speaking countries in Cambodia on Sunday....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/21deda31ec8d558e02a7d4b4123a4a2a0a08bb18e13199b4a899d8bb6e078ce6.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/pm-carney-takes-his-investment-pitch-to-francophonie-summit-in-cambodia-13019316",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-2",
+    "title": "Penetanguishene to host community drop-in, budget info session",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1998,
+    "buzzScore": 84,
+    "summary": "Newly elected council members, town staff will be available for questions during Dec. 9 event at arena...",
+    "image": "https://www.vmcdn.ca/f/files/midlandtoday/images/landmarks/2020-02-25-penetang-memorial-comm-centre.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/penetanguishene-to-host-community-drop-in-budget-info-session-12995405",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-3",
+    "title": "How did tariffs hit your town? This interactive map zooms in for the answer",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1997,
     "buzzScore": 83,
     "summary": "The tool provides a closer look at how Canadian industries – and their employees – have fared town to town...",
     "image": "https://www.vmcdn.ca/f/files/closerlook/bg1026-qa-tariff-map002.jpg;w=960",
@@ -18,14 +72,14 @@
     ]
   },
   {
-    "id": "midlandtoday-1",
+    "id": "midlandtoday-4",
     "title": "BEYOND LOCAL: Writer turns &#39;ancient history&#39; into historical preservation with veterans&#39; stories",
     "category": "News",
     "source": "MidlandToday",
     "location": "Midland, ON",
     "timestamp": "Nov 15",
-    "sortOrder": 1999,
-    "buzzScore": 83,
+    "sortOrder": 1996,
+    "buzzScore": 97,
     "summary": "'Each of them had a fascinating story ... They were given a shot at building a life, a career, raising a family, and many of the others didn't,' says Evert Akkerman...",
     "image": "https://www.vmcdn.ca/f/files/barrietoday/images/military/20261110doncordycrop.jpg;w=960",
     "url": "https://www.midlandtoday.ca/local-news/beyond-local-writer-turns-ancient-history-into-historical-preservation-with-veterans-stories-13014963",
@@ -36,14 +90,14 @@
     ]
   },
   {
-    "id": "midlandtoday-2",
+    "id": "midlandtoday-5",
     "title": "VIDEO: Hazel Mae steps up to the plate in new memoir",
     "category": "News",
     "source": "MidlandToday",
     "location": "Midland, ON",
     "timestamp": "Nov 15",
-    "sortOrder": 1998,
-    "buzzScore": 97,
+    "sortOrder": 1995,
+    "buzzScore": 88,
     "summary": "This week on Village Media's 'Closer Look' podcast: We sit down with the Toronto Blue Jays' longtime on-field reporter to talk baseball, broadcasting and the story behind her new book...",
     "image": "https://www.vmcdn.ca/f/files/closerlook/images/cl_2000x1333_185.jpg;w=960",
     "url": "https://www.midlandtoday.ca/closer-look/video-hazel-mae-steps-up-to-the-plate-in-new-memoir-13015774",
@@ -51,6 +105,312 @@
       "Midland",
       "News",
       "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrietoday-1",
+    "title": "SUNDAY SEVEN: BarrieToday&#39;s top stories of the past week",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1979,
+    "buzzScore": 84,
+    "summary": "Alleged arson at Elizabeth Fry Society in downtown Barrie, local Remembrance Day services and Lehman out as Muskoka chair among top headlines...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/holidays/remembrance-day/20261111remembrancedaybarrie15.jpg;w=960",
+    "url": "https://www.barrietoday.com/local-news/sunday-seven-barrietodays-top-stories-of-the-past-week-13011580",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-2",
+    "title": "DEWAR, Flora \"Flo\"",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1978,
+    "buzzScore": 82,
+    "summary": "It is with heavy hearts that we announce the passing of Flora \"Flo\" Dewar at the Royal Victoria Regional Health Centre in Barrie on Thursday, November 12, 2026, at the age of 95....",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/announcements/obituaries/20261115-dewar.jpg;w=960",
+    "url": "https://www.barrietoday.com/obituaries/dewar-flora-flo-13019479",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-5",
+    "title": "CONDO REPORT: Buyers gain leverage as Barrie market cools",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1975,
+    "buzzScore": 96,
+    "summary": "Apartment and townhouse prices have fallen 38% and 40%, respectively, from their 2022 peaks, giving buyers greater negotiating power...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/barrie/06192023goodmorningkl1.jpg;w=960",
+    "url": "https://www.barrietoday.com/columns/condo-market-report/condo-report-buyers-gain-leverage-as-barrie-market-cools-13016505",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "Here's where the County of Simcoe is opening warming centre locations across the region",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1960,
+    "buzzScore": 93,
+    "summary": "To support communities and vulnerable residents this winter, the County of Simcoe and its partners will provide over 100 warming and emergency overnight spaces across the region, ensuring individuals and families living unhoused have access...",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/simcoe-county-warming-centres-list/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "Matheson’s magic lifts Colts past Steelheads in shootout, secures first winning week",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1959,
+    "buzzScore": 83,
+    "summary": "Lucas Matheson reached into his bag of tricks in the shootout and handed the Barrie Colts their first winning week of the season....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/colts-steelheads-matheson-shootout-win26/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-2",
+    "title": "Military says fifth Canadian soldier has died after fire in Wainwright",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 14",
+    "sortOrder": 1958,
+    "buzzScore": 80,
+    "summary": "Nearly a month after a deadly fire tore through a military base in Alberta, the Canadian Armed Forces announced Saturday that the tragedy has claimed a fifth life....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/ifth-canadian-soldier-dies-wainwright-fire/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-3",
+    "title": "Two people injured in crash east of Loretto, SIU investigating",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 14",
+    "sortOrder": 1957,
+    "buzzScore": 87,
+    "summary": "Ontario's Special Investigations Unit (SIU) is investigating after a single-vehicle crash east of Loretto early Saturday morning....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/siu-investigating-crash-east-of-loretto/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-4",
+    "title": "Town of Collingwood officially unveils new mural at Sunset Point Park",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 14",
+    "sortOrder": 1956,
+    "buzzScore": 96,
+    "summary": "A new mural can now be seen at Sunset Point Park in Collingwood as part of the town's Public Art Program....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/collingwood-sunset-point-point-park-mural/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-5",
+    "title": "Collision involving SSP cruiser in Bradford, SIU invokes mandate",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 14",
+    "sortOrder": 1955,
+    "buzzScore": 87,
+    "summary": "Ontario's Special Investigations Unit (SIU) has invoked its mandate after a collision between a South Simcoe Police cruiser and a vehicle in Bradford West Gwillimbury....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/siu-investigating-ssp-cruiser-collision-bradford/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "innisfiltoday-1",
+    "title": "&#39;Here to stay&#39;: New regulations coming for lithium-ion batteries",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1939,
+    "buzzScore": 87,
+    "summary": "'Lithium-ion batteries are in everything today, from mobile devices to power tools ... They’re not going anywhere,' says local fire chief...",
+    "image": "https://www.vmcdn.ca/f/files/kamloopsthisweek/images/fire/electric-bike-48v-18ah-rechargeable-lithium-battery-pack-e-scooter-lithium-ion-battery.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/here-to-stay-new-regulations-coming-for-lithium-ion-batteries-13010989",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-4",
+    "title": "New research hub blossoms at Georgian College thanks to donation",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1936,
+    "buzzScore": 97,
+    "summary": "Blossom Group Commons at Barrie campus features workstations, interactive learning zones and collaboration space...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/georgian-college/20261112-gc-blossom-group.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/new-research-hub-blossoms-at-georgian-college-thanks-to-donation-13011335",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-0",
+    "title": "COLUMN: Autumn peeper prompts dive into frogs’ winter survival",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1920,
+    "buzzScore": 83,
+    "summary": "Aquatic frogs remain partly exposed in pond mud to absorb oxygen, while woodland species use glucose to protect their organs as much of their bodies freezes...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/outdoors/20140808_wye-marsh_bullfrog-hawke-6.jpg;w=960",
+    "url": "https://www.orilliamatters.com/outdoors/column-autumn-peeper-prompts-dive-into-frogs-winter-survival-13013031",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-2",
+    "title": "Canadiana Band to celebrate our musical heritage at Opera House",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1918,
+    "buzzScore": 89,
+    "summary": "Orillia Opera House hosting a performance of A Celebration of Canada’s Sound on March 4, 2027, as part of the production’s debut Ontario theatre tour...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/entertainment/2026-10-13-the-canadiana-band-with-rob-baker.jpg;w=960",
+    "url": "https://www.orilliamatters.com/local-news/canadiana-band-to-celebrate-our-musical-heritage-at-opera-house-12886008",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-3",
+    "title": "Temporary Road Closure - North Street West, November 16, 2026",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1917,
+    "buzzScore": 87,
+    "summary": "Closure information: North Street West will be closed between West St N and Lawrence Ave, on November 16, 2026 from 8:00am to 8:00pm, for a Sewer Repair....",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/city-of-orillia/city-of-orillia-logo.jpg;w=960",
+    "url": "https://www.orilliamatters.com/cityinfo/temporary-road-closure-north-street-west-november-16-2026-13019452",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-1",
+    "title": "County of Simcoe Paramedic Services Food and Toy Drive underway",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1899,
+    "buzzScore": 87,
+    "summary": "This year marks the 24th edition of the campaign...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/charity/20261113-county-of-simcoe-paramedic-services-kick-off-24th-annual-food-and-toy-drive-1.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/local-news/county-of-simcoe-paramedic-services-food-and-toy-drive-underway-13013413",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-4",
+    "title": "Inside a Canada Post mail carrier&#39;s last day of home delivery in Toronto",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1896,
+    "buzzScore": 80,
+    "summary": "TORONTO — Like clockwork, Anita McCulloch moves from house to house with a stack of flyers and letters tucked under her arm. The dogs know when the Canada Post mail carrier is coming up the driveway....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/d1602391f78cc34c4660f1dd7c02af2c49b2061135b77f86c1a6501b06e20990.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/ontario-news/inside-a-canada-post-mail-carriers-last-day-of-home-delivery-in-toronto-13019319",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-5",
+    "title": "Less than half of Crown-owned heritage buildings in fair or better condition",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1895,
+    "buzzScore": 88,
+    "summary": "OTTAWA — Forty-five per cent of Crown-owned heritage buildings are in fair or better condition, says a federal government report....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/59eb8c8324b6510129b773350e21632a152297b30182334fb9904bd9228ce60c.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/national-news/less-than-half-of-crown-owned-heritage-buildings-in-fair-or-better-condition-13019317",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
     ]
   },
   {
@@ -90,78 +450,6 @@
     ]
   },
   {
-    "id": "midlandtoday-5",
-    "title": "Inside a Canada Post mail carrier&#39;s last day of home delivery in Toronto",
-    "category": "News",
-    "source": "MidlandToday",
-    "location": "Midland, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1995,
-    "buzzScore": 81,
-    "summary": "TORONTO — Like clockwork, Anita McCulloch moves from house to house with a stack of flyers and letters tucked under her arm. The dogs know when the Canada Post mail carrier is coming up the driveway....",
-    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/d1602391f78cc34c4660f1dd7c02af2c49b2061135b77f86c1a6501b06e20990.jpg;w=960",
-    "url": "https://www.midlandtoday.ca/ontario-news/inside-a-canada-post-mail-carriers-last-day-of-home-delivery-in-toronto-13019319",
-    "tags": [
-      "Midland",
-      "News",
-      "MidlandToday"
-    ]
-  },
-  {
-    "id": "barrietoday-0",
-    "title": "DEWAR, Flora \"Flo\"",
-    "category": "News",
-    "source": "BarrieToday",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1980,
-    "buzzScore": 95,
-    "summary": "It is with heavy hearts that we announce the passing of Flora \"Flo\" Dewar at the Royal Victoria Regional Health Centre in Barrie on Thursday, November 12, 2026, at the age of 95....",
-    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/announcements/obituaries/20261115-dewar.jpg;w=960",
-    "url": "https://www.barrietoday.com/obituaries/dewar-flora-flo-13019479",
-    "tags": [
-      "Barrie",
-      "News",
-      "BarrieToday"
-    ]
-  },
-  {
-    "id": "barrietoday-1",
-    "title": "Man sustained ‘serious, life-threatening injuries’ in crash with police vehicle: SIU",
-    "category": "News",
-    "source": "BarrieToday",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1979,
-    "buzzScore": 85,
-    "summary": "Incident between South Simcoe police cruiser and Honda Civic happened Friday in the area of Line 8 and Summerlyn Trail in Bradford West Gwillimbury; man transported to a Toronto hospital for treatment...",
-    "image": "https://www.vmcdn.ca/f/files/bradfordtoday/2026-11-13-ssp-vehicle-crash-6-bt.jpg;w=960",
-    "url": "https://www.barrietoday.com/police-beat/man-sustained-serious-life-threatening-injuries-in-crash-with-police-vehicle-siu-13019460",
-    "tags": [
-      "Barrie",
-      "News",
-      "BarrieToday"
-    ]
-  },
-  {
-    "id": "barrietoday-3",
-    "title": "CONDO REPORT: Buyers gain leverage as Barrie market cools",
-    "category": "News",
-    "source": "BarrieToday",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1977,
-    "buzzScore": 94,
-    "summary": "Apartment and townhouse prices have fallen 38% and 40%, respectively, from their 2022 peaks, giving buyers greater negotiating power...",
-    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/barrie/06192023goodmorningkl1.jpg;w=960",
-    "url": "https://www.barrietoday.com/columns/condo-market-report/condo-report-buyers-gain-leverage-as-barrie-market-cools-13016505",
-    "tags": [
-      "Barrie",
-      "News",
-      "BarrieToday"
-    ]
-  },
-  {
     "id": "barrietoday-5",
     "title": "Collingwood train station the site of many final goodbyes",
     "category": "News",
@@ -180,132 +468,6 @@
     ]
   },
   {
-    "id": "barrie-360-0",
-    "title": "Here's where the County of Simcoe is opening warming centre locations across the region",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1960,
-    "buzzScore": 83,
-    "summary": "To support communities and vulnerable residents this winter, the County of Simcoe and its partners will provide over 100 warming and emergency overnight spaces across the region, ensuring individuals and families living unhoused have access...",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/simcoe-county-warming-centres-list/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-1",
-    "title": "Matheson’s magic lifts Colts past Steelheads in shootout, secures first winning week",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1959,
-    "buzzScore": 91,
-    "summary": "Lucas Matheson reached into his bag of tricks in the shootout and handed the Barrie Colts their first winning week of the season....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/colts-steelheads-matheson-shootout-win26/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-2",
-    "title": "Military says fifth Canadian soldier has died after fire in Wainwright",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 14",
-    "sortOrder": 1958,
-    "buzzScore": 90,
-    "summary": "Nearly a month after a deadly fire tore through a military base in Alberta, the Canadian Armed Forces announced Saturday that the tragedy has claimed a fifth life....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/ifth-canadian-soldier-dies-wainwright-fire/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-3",
-    "title": "Two people injured in crash east of Loretto, SIU investigating",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 14",
-    "sortOrder": 1957,
-    "buzzScore": 93,
-    "summary": "Ontario's Special Investigations Unit (SIU) is investigating after a single-vehicle crash east of Loretto early Saturday morning....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/siu-investigating-crash-east-of-loretto/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-4",
-    "title": "Town of Collingwood officially unveils new mural at Sunset Point Park",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 14",
-    "sortOrder": 1956,
-    "buzzScore": 87,
-    "summary": "A new mural can now be seen at Sunset Point Park in Collingwood as part of the town's Public Art Program....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/collingwood-sunset-point-point-park-mural/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-5",
-    "title": "Collision involving SSP cruiser in Bradford, SIU invokes mandate",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 14",
-    "sortOrder": 1955,
-    "buzzScore": 83,
-    "summary": "Ontario's Special Investigations Unit (SIU) has invoked its mandate after a collision between a South Simcoe Police cruiser and a vehicle in Bradford West Gwillimbury....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/siu-investigating-ssp-cruiser-collision-bradford/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "innisfiltoday-2",
-    "title": "New research hub blossoms at Georgian College thanks to donation",
-    "category": "News",
-    "source": "InnisfilToday",
-    "location": "Innisfil, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1938,
-    "buzzScore": 89,
-    "summary": "Blossom Group Commons at Barrie campus features workstations, interactive learning zones and collaboration space...",
-    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/georgian-college/20261112-gc-blossom-group.jpg;w=960",
-    "url": "https://www.innisfiltoday.ca/local-news/new-research-hub-blossoms-at-georgian-college-thanks-to-donation-13011335",
-    "tags": [
-      "Innisfil",
-      "News",
-      "InnisfilToday"
-    ]
-  },
-  {
     "id": "innisfiltoday-4",
     "title": "&#39;It&#39;s outrageous&#39;: Man questions police response after he reports assault by e-bike riders",
     "category": "News",
@@ -321,24 +483,6 @@
       "Innisfil",
       "News",
       "InnisfilToday"
-    ]
-  },
-  {
-    "id": "orilliamatters-0",
-    "title": "Temporary Road Closure - North Street West, November 16, 2026",
-    "category": "News",
-    "source": "OrilliaMatters",
-    "location": "Orillia, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1920,
-    "buzzScore": 96,
-    "summary": "Closure information: North Street West will be closed between West St N and Lawrence Ave, on November 16, 2026 from 8:00am to 8:00pm, for a Sewer Repair....",
-    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/city-of-orillia/city-of-orillia-logo.jpg;w=960",
-    "url": "https://www.orilliamatters.com/cityinfo/temporary-road-closure-north-street-west-november-16-2026-13019452",
-    "tags": [
-      "Orillia",
-      "News",
-      "OrilliaMatters"
     ]
   },
   {
@@ -375,42 +519,6 @@
       "Orillia",
       "News",
       "OrilliaMatters"
-    ]
-  },
-  {
-    "id": "collingwoodtoday-0",
-    "title": "County of Simcoe Paramedic Services Food and Toy Drive underway",
-    "category": "News",
-    "source": "CollingwoodToday",
-    "location": "Collingwood, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1900,
-    "buzzScore": 85,
-    "summary": "This year marks the 24th edition of the campaign...",
-    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/charity/20261113-county-of-simcoe-paramedic-services-kick-off-24th-annual-food-and-toy-drive-1.jpg;w=960",
-    "url": "https://www.collingwoodtoday.ca/local-news/county-of-simcoe-paramedic-services-food-and-toy-drive-underway-13013413",
-    "tags": [
-      "Collingwood",
-      "News",
-      "CollingwoodToday"
-    ]
-  },
-  {
-    "id": "collingwoodtoday-5",
-    "title": "Less than half of Crown-owned heritage buildings in fair or better condition",
-    "category": "News",
-    "source": "CollingwoodToday",
-    "location": "Collingwood, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1895,
-    "buzzScore": 95,
-    "summary": "OTTAWA — Forty-five per cent of Crown-owned heritage buildings are in fair or better condition, says a federal government report....",
-    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/59eb8c8324b6510129b773350e21632a152297b30182334fb9904bd9228ce60c.jpg;w=960",
-    "url": "https://www.collingwoodtoday.ca/national-news/less-than-half-of-crown-owned-heritage-buildings-in-fair-or-better-condition-13019317",
-    "tags": [
-      "Collingwood",
-      "News",
-      "CollingwoodToday"
     ]
   },
   {
