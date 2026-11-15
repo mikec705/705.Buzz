@@ -1,13 +1,31 @@
 [
   {
     "id": "midlandtoday-0",
-    "title": "From Scotiabank to health-care hub: Penetanguishene clinic marks first year",
+    "title": "VIDEO: Hazel Mae steps up to the plate in new memoir",
     "category": "News",
     "source": "MidlandToday",
     "location": "Midland, ON",
     "timestamp": "Nov 15",
     "sortOrder": 2000,
-    "buzzScore": 86,
+    "buzzScore": 83,
+    "summary": "This week on Village Media's 'Closer Look' podcast: We sit down with the Toronto Blue Jays' longtime on-field reporter to talk baseball, broadcasting and the story behind her new book...",
+    "image": "https://www.vmcdn.ca/f/files/closerlook/images/cl_2000x1333_185.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/closer-look/video-hazel-mae-steps-up-to-the-plate-in-new-memoir-13015774",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
+    "title": "From Scotiabank to health-care hub: Penetanguishene clinic marks first year",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1999,
+    "buzzScore": 88,
     "summary": "Clinic adds 5,000 patients and welcomes another doctor, while pharmacy brings drive-through convenience and expanded services...",
     "image": "https://www.vmcdn.ca/f/files/midlandtoday/images/business/2026-11-09gaffneymr.jpg;w=960",
     "url": "https://www.midlandtoday.ca/local-news/penetanguishene-medical-clinic-marks-first-year-13014249",
@@ -18,14 +36,14 @@
     ]
   },
   {
-    "id": "midlandtoday-1",
+    "id": "midlandtoday-2",
     "title": "PM Carney in Cambodia for Francophonie summit, will meet Quebec premier Plamondon",
     "category": "News",
     "source": "MidlandToday",
     "location": "Midland, ON",
     "timestamp": "Nov 15",
-    "sortOrder": 1999,
-    "buzzScore": 81,
+    "sortOrder": 1998,
+    "buzzScore": 93,
     "summary": "PHNOM PENH — Prime Minister Mark Carney will meet shortly with Quebec Premier Paul St-Pierre Plamondon at a summit in Cambodia, after the province elected a sovereigntist government....",
     "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/a228992a4c21771571272e1c4b586ba0206aea319624b37695d06f8219e63a74.jpg;w=960",
     "url": "https://www.midlandtoday.ca/national-news/pm-carney-in-cambodia-for-francophonie-summit-will-meet-quebec-premier-plamondon-13019316",
@@ -36,14 +54,14 @@
     ]
   },
   {
-    "id": "midlandtoday-2",
+    "id": "midlandtoday-3",
     "title": "Inside a Canada Post mail carrier&#39;s last day of home delivery in Toronto",
     "category": "News",
     "source": "MidlandToday",
     "location": "Midland, ON",
     "timestamp": "Nov 15",
-    "sortOrder": 1998,
-    "buzzScore": 90,
+    "sortOrder": 1997,
+    "buzzScore": 88,
     "summary": "TORONTO — Like clockwork, Anita McCulloch moves from house to house with a stack of flyers and letters tucked under her arm. The dogs know when the Canada Post mail carrier is coming up the driveway....",
     "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/d1602391f78cc34c4660f1dd7c02af2c49b2061135b77f86c1a6501b06e20990.jpg;w=960",
     "url": "https://www.midlandtoday.ca/ontario-news/inside-a-canada-post-mail-carriers-last-day-of-home-delivery-in-toronto-13019319",
@@ -54,14 +72,14 @@
     ]
   },
   {
-    "id": "midlandtoday-3",
+    "id": "midlandtoday-4",
     "title": "Less than half of Crown-owned heritage buildings in fair or better condition",
     "category": "News",
     "source": "MidlandToday",
     "location": "Midland, ON",
     "timestamp": "Nov 15",
-    "sortOrder": 1997,
-    "buzzScore": 81,
+    "sortOrder": 1996,
+    "buzzScore": 85,
     "summary": "OTTAWA — Forty-five per cent of Crown-owned heritage buildings are in fair or better condition, says a federal government report....",
     "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/59eb8c8324b6510129b773350e21632a152297b30182334fb9904bd9228ce60c.jpg;w=960",
     "url": "https://www.midlandtoday.ca/national-news/less-than-half-of-crown-owned-heritage-buildings-in-fair-or-better-condition-13019317",
@@ -72,14 +90,14 @@
     ]
   },
   {
-    "id": "midlandtoday-4",
+    "id": "midlandtoday-5",
     "title": "Freshwater supply challenges threaten Canada&#39;s security, internal federal memo says",
     "category": "News",
     "source": "MidlandToday",
     "location": "Midland, ON",
     "timestamp": "Nov 15",
-    "sortOrder": 1996,
-    "buzzScore": 95,
+    "sortOrder": 1995,
+    "buzzScore": 82,
     "summary": "OTTAWA — Pressures on the supply of fresh water pose challenges that will affect Canada's \"long-term security and prosperity\" if left unaddressed, an internal government memo warns....",
     "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/abfd28eaf09e2b4c10538edad484416d1ff191f4b6465a0203289f54c2d5f596.jpg;w=960",
     "url": "https://www.midlandtoday.ca/national-news/freshwater-supply-challenges-threaten-canadas-security-internal-federal-memo-says-13019318",
@@ -90,53 +108,17 @@
     ]
   },
   {
-    "id": "midlandtoday-5",
-    "title": "Good morning, Midland! Here&#39;s today&#39;s weather!",
-    "category": "News",
-    "source": "MidlandToday",
-    "location": "Midland, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1995,
-    "buzzScore": 87,
-    "summary": "Here's a look at the current local weather and gas prices...",
-    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/midland/nov-15-good-morning-midland.jpeg;w=960",
-    "url": "https://www.midlandtoday.ca/good-morning/good-morning-midland-heres-todays-weather-12998594",
-    "tags": [
-      "Midland",
-      "News",
-      "MidlandToday"
-    ]
-  },
-  {
-    "id": "barrietoday-0",
+    "id": "barrietoday-1",
     "title": "Collingwood train station the site of many final goodbyes",
     "category": "News",
     "source": "BarrieToday",
     "location": "Barrie, ON",
     "timestamp": "Nov 15",
-    "sortOrder": 1980,
-    "buzzScore": 81,
+    "sortOrder": 1979,
+    "buzzScore": 89,
     "summary": "Multiple war memorials on museum grounds have their own stories to tell...",
     "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/images/x969_650_1_cenotaph_1924_stamped.jpg;w=960",
     "url": "https://www.barrietoday.com/local-news/collingwood-train-station-the-site-of-many-final-goodbyes-13007118",
-    "tags": [
-      "Barrie",
-      "News",
-      "BarrieToday"
-    ]
-  },
-  {
-    "id": "barrietoday-5",
-    "title": "Good morning, Barrie! Here&#39;s today&#39;s weather!",
-    "category": "News",
-    "source": "BarrieToday",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1975,
-    "buzzScore": 86,
-    "summary": "Here's a look at the current local weather and gas prices...",
-    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/barrie/20261104goodmorningbarriefallcorn.jpg;w=960",
-    "url": "https://www.barrietoday.com/good-morning/good-morning-barrie-heres-todays-weather-12980418",
     "tags": [
       "Barrie",
       "News",
@@ -151,7 +133,7 @@
     "location": "Barrie, ON",
     "timestamp": "Nov 15",
     "sortOrder": 1960,
-    "buzzScore": 80,
+    "buzzScore": 85,
     "summary": "Lucas Matheson reached into his bag of tricks in the shootout and handed the Barrie Colts their first winning week of the season....",
     "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
     "url": "https://barrie360.com/colts-steelheads-matheson-shootout-win26/",
@@ -169,8 +151,8 @@
     "location": "Barrie, ON",
     "timestamp": "Nov 14",
     "sortOrder": 1959,
-    "buzzScore": 87,
-    "summary": "A fifth Canadian soldier has died from injuries he sustained in a fire last month at a military base in Alberta, the Canadian Armed Forces said Saturday....",
+    "buzzScore": 94,
+    "summary": "Nearly a month after a deadly fire tore through a military base in Alberta, the Canadian Armed Forces announced Saturday that the tragedy has claimed a fifth life....",
     "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
     "url": "https://barrie360.com/ifth-canadian-soldier-dies-wainwright-fire/",
     "tags": [
@@ -205,7 +187,7 @@
     "location": "Barrie, ON",
     "timestamp": "Nov 14",
     "sortOrder": 1957,
-    "buzzScore": 80,
+    "buzzScore": 97,
     "summary": "A new mural can now be seen at Sunset Point Park in Collingwood as part of the town's Public Art Program....",
     "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
     "url": "https://barrie360.com/collingwood-sunset-point-point-park-mural/",
@@ -223,7 +205,7 @@
     "location": "Barrie, ON",
     "timestamp": "Nov 14",
     "sortOrder": 1956,
-    "buzzScore": 82,
+    "buzzScore": 93,
     "summary": "Ontario's Special Investigations Unit (SIU) has invoked its mandate after a collision between a South Simcoe Police cruiser and a vehicle in Bradford West Gwillimbury....",
     "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
     "url": "https://barrie360.com/siu-investigating-ssp-cruiser-collision-bradford/",
@@ -241,7 +223,7 @@
     "location": "Barrie, ON",
     "timestamp": "Nov 14",
     "sortOrder": 1955,
-    "buzzScore": 93,
+    "buzzScore": 94,
     "summary": "The Barrie Colts have had trouble closing out games this season, and Friday night in Kitchener provided the latest example....",
     "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
     "url": "https://barrie360.com/colts-rangers-third-period-collapse26/",
@@ -252,14 +234,14 @@
     ]
   },
   {
-    "id": "innisfiltoday-0",
+    "id": "innisfiltoday-1",
     "title": "&#39;It&#39;s outrageous&#39;: Man questions police response after he reports assault by e-bike riders",
     "category": "News",
     "source": "InnisfilToday",
     "location": "Innisfil, ON",
     "timestamp": "Nov 15",
-    "sortOrder": 1940,
-    "buzzScore": 80,
+    "sortOrder": 1939,
+    "buzzScore": 88,
     "summary": "The 66-year-old from York Region says he fears for his safety after police close the case despite him being followed and tackled by teens he had confronted over dangerous driving in Newmarket...",
     "image": "https://www.vmcdn.ca/f/files/shared/transportation/ebikeadobestock_181143387.jpeg;w=960",
     "url": "https://www.innisfiltoday.ca/local-news/its-outrageous-man-questions-police-response-after-he-reports-assault-by-e-bike-riders-13007227",
@@ -267,6 +249,78 @@
       "Innisfil",
       "News",
       "InnisfilToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-1",
+    "title": "Nice guys finish last? Local leadership coach challenges myth in new book",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1919,
+    "buzzScore": 95,
+    "summary": "‘You can achieve significant success without selling your soul,’ says author...",
+    "image": "https://www.vmcdn.ca/f/files/aurora/20261110-jerome-zeyen-new-book.jpeg;w=960",
+    "url": "https://www.orilliamatters.com/local-news/nice-guys-finish-last-local-leadership-coach-challenges-myth-in-new-book-13012840",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-5",
+    "title": "Good morning, Collingwood. Here&#39;s today&#39;s weather",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1895,
+    "buzzScore": 94,
+    "summary": "Latest update from CollingwoodToday....",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/collingwood/used20221119_gmc_ee5.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/good-morning-collingwood/good-morning-collingwood-heres-todays-weather-13017980",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-5",
+    "title": "Good morning, Midland! Here&#39;s today&#39;s weather!",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1995,
+    "buzzScore": 87,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/midland/nov-15-good-morning-midland.jpeg;w=960",
+    "url": "https://www.midlandtoday.ca/good-morning/good-morning-midland-heres-todays-weather-12998594",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrietoday-5",
+    "title": "Good morning, Barrie! Here&#39;s today&#39;s weather!",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1975,
+    "buzzScore": 86,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/barrie/20261104goodmorningbarriefallcorn.jpg;w=960",
+    "url": "https://www.barrietoday.com/good-morning/good-morning-barrie-heres-todays-weather-12980418",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
     ]
   },
   {
@@ -288,24 +342,6 @@
     ]
   },
   {
-    "id": "orilliamatters-0",
-    "title": "Nice guys finish last? Local leadership coach challenges myth in new book",
-    "category": "News",
-    "source": "OrilliaMatters",
-    "location": "Orillia, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1920,
-    "buzzScore": 80,
-    "summary": "‘You can achieve significant success without selling your soul,’ says author...",
-    "image": "https://www.vmcdn.ca/f/files/aurora/20261110-jerome-zeyen-new-book.jpeg;w=960",
-    "url": "https://www.orilliamatters.com/local-news/nice-guys-finish-last-local-leadership-coach-challenges-myth-in-new-book-13012840",
-    "tags": [
-      "Orillia",
-      "News",
-      "OrilliaMatters"
-    ]
-  },
-  {
     "id": "orilliamatters-5",
     "title": "Good morning, Orillia! Here&#39;s today&#39;s weather!",
     "category": "News",
@@ -321,24 +357,6 @@
       "Orillia",
       "News",
       "OrilliaMatters"
-    ]
-  },
-  {
-    "id": "collingwoodtoday-4",
-    "title": "Good morning, Collingwood. Here&#39;s today&#39;s weather",
-    "category": "News",
-    "source": "CollingwoodToday",
-    "location": "Collingwood, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1896,
-    "buzzScore": 87,
-    "summary": "Latest update from CollingwoodToday....",
-    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/collingwood/used20221119_gmc_ee5.jpg;w=960",
-    "url": "https://www.collingwoodtoday.ca/good-morning-collingwood/good-morning-collingwood-heres-todays-weather-13017980",
-    "tags": [
-      "Collingwood",
-      "News",
-      "CollingwoodToday"
     ]
   },
   {
