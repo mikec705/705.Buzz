@@ -1,0 +1,37 @@
+[
+  {
+    "name": "BarrieToday",
+    "type": "rss",
+    "url": "https://www.barrietoday.com/rss",
+    "category": "News",
+    "location": "Barrie, ON"
+  },
+  {
+    "name": "Barrie 360",
+    "type": "rss",
+    "url": "https://barrie360.com/feed/",
+    "category": "Community",
+    "location": "Barrie, ON"
+  },
+  {
+    "name": "InnisfilToday",
+    "type": "rss",
+    "url": "https://www.innisfiltoday.ca/rss",
+    "category": "News",
+    "location": "Innisfil, ON"
+  },
+  {
+    "name": "OrilliaMatters",
+    "type": "rss",
+    "url": "https://www.orilliamatters.com/rss",
+    "category": "News",
+    "location": "Orillia, ON"
+  },
+  {
+    "name": "CollingwoodToday",
+    "type": "rss",
+    "url": "https://www.collingwoodtoday.ca/rss",
+    "category": "News",
+    "location": "Collingwood, ON"
+  }
+]
