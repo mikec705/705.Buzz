@@ -1,5 +1,12 @@
 [
   {
+    "name": "MidlandToday",
+    "type": "rss",
+    "category": "News",
+    "url": "https://www.midlandtoday.ca/rss",
+    "location": "Midland, ON"
+  },
+  {
     "name": "BarrieToday",
     "type": "rss",
     "url": "https://www.barrietoday.com/rss",
