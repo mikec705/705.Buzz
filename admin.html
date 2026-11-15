@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>705.Buzz | Admin & Scraper Control Center</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@700;800;900&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'sans-serif'], display: ['Outfit', 'sans-serif'] },
+          colors: {
+            buzz: { 400: '#fbbf24', 500: '#f59e0b', 600: '#d97706' },
+            kempenfelt: { 400: '#38bdf8', 500: '#0ea5e9', 900: '#0c4a6e' }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col font-sans selection:bg-buzz-500 selection:text-slate-950">
+
+  <!-- PASSWORD LOCK SCREEN OVERLAY -->
+  <div id="loginScreen" class="fixed inset-0 z-50 bg-slate-950 flex items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl max-w-md w-full p-6 sm:p-8 shadow-2xl">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-buzz-400 to-buzz-600 flex items-center justify-center shadow-lg shadow-buzz-500/20">
+          <svg class="w-6 h-6 text-slate-950" fill="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+        </div>
+        <div>
+          <span class="font-display font-black text-2xl text-white">705</span><span class="font-display font-black text-2xl text-buzz-400">.BUZZ</span>
+          <p class="text-xs text-slate-400 font-medium uppercase tracking-wider">Protected Admin Console</p>
+        </div>
+      </div>
+
+      <form onsubmit="handleAdminLogin(event)" class="space-y-4">
+        <div>
+          <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1.5">Enter Admin Password</label>
+          <input 
+            type="password" 
+            id="adminPasswordInput" 
+            required 
+            autofocus
+            placeholder="••••••••••••" 
+            class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-4 py-3 text-sm text-white focus:outline-none"
+          />
+          <p id="loginError" class="hidden text-xs text-rose-400 mt-2">Incorrect password. Default password is: <strong>705buzz</strong></p>
+        </div>
+
+        <button type="submit" class="w-full py-3 rounded-xl bg-buzz-500 hover:bg-buzz-400 text-slate-950 font-bold text-sm shadow-lg shadow-buzz-500/20 transition-all">
+          Unlock Scraper Dashboard
+        </button>
+
+        <div class="text-center pt-2">
+          <a href="index.html" class="text-xs text-slate-500 hover:text-slate-300 transition-colors">← Return to public 705.Buzz site</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- PROTECTED ADMIN DASHBOARD CONTENT -->
+  <div id="adminDashboard" class="hidden flex-1 flex flex-col">
+    <!-- Top Admin Bar -->
+    <header class="bg-slate-900 border-b border-slate-800 px-4 sm:px-8 py-4">
+      <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-4">
+        <div class="flex items-center gap-3">
+          <span class="px-2.5 py-1 rounded-lg bg-buzz-500/20 text-buzz-400 border border-buzz-500/30 font-display font-bold text-xs uppercase">Admin Mode</span>
+          <h1 class="font-display font-bold text-lg sm:text-xl text-white">705.Buzz Universal Scraper & Source Manager</h1>
+        </div>
+        <div class="flex items-center gap-3">
+          <a href="index.html" class="px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold transition-colors">
+            View Live Public Site ↗
+          </a>
+          <button onclick="logoutAdmin()" class="px-3.5 py-2 rounded-xl bg-rose-500/10 hover:bg-rose-500/20 text-rose-300 border border-rose-500/20 text-xs font-semibold transition-colors">
+            Lock Session
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="max-w-6xl w-full mx-auto px-4 sm:px-8 py-8 space-y-8 flex-1">
+
+      <!-- Section 1: Universal Scraper Engine Status & One-Click Exports -->
+      <section class="bg-slate-900/70 border border-slate-800 rounded-2xl p-6">
+        <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
+              <h2 class="font-display font-bold text-lg text-white">Universal Scraper Engine (`sources.json` → `stories.json`)</h2>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-400 mt-1">
+              Test-scrape your feeds right here, or download <code class="text-buzz-400 bg-slate-950 px-1.5 py-0.5 rounded">sources.json</code> and commit it to GitHub so your hourly GitHub Action scrapes everything automatically.
+            </p>
+          </div>
+          <div class="flex flex-wrap items-center gap-2.5 shrink-0">
+            <button onclick="runAllConfiguredSources()" class="px-4 py-2.5 rounded-xl bg-buzz-500 hover:bg-buzz-400 text-slate-950 font-bold text-xs transition-all shadow-lg shadow-buzz-500/10">
+              ⚡ Scrape All Sources Now
+            </button>
+            <button onclick="downloadSourcesJson()" class="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-buzz-400 border border-slate-700 text-xs font-semibold transition-all">
+              💾 Download sources.json
+            </button>
+            <button onclick="downloadStoriesJson()" class="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-semibold transition-all">
+              📥 Download stories.json (<span id="scrapedCountBadge">0</span>)
+            </button>
+          </div>
+        </div>
+
+        <div id="rssStatusLog" class="mt-4 bg-slate-950 border border-slate-800 rounded-xl p-3.5 font-mono text-xs text-slate-400 overflow-x-auto">
+          [Admin Console Ready] Loaded sources. Click "Scrape All Sources Now" to test live ingestion.
+        </div>
+      </section>
+
+      <!-- Section 2: Add & Manage Scraper Sources -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+        
+        <!-- Add Source Column -->
+        <div class="lg:col-span-5 bg-slate-900/70 border border-slate-800 rounded-2xl p-6 h-fit">
+          <h3 class="font-display font-bold text-base text-white mb-1">Add New RSS Feed or Webpage Link</h3>
+          <p class="text-xs text-slate-400 mb-4">Add any XML RSS feed or standard HTML webpage to scrape.</p>
+
+          <form id="addSourceForm" onsubmit="handleAddSource(event)" class="space-y-3.5">
+            <div>
+              <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1">Source Name *</label>
+              <input type="text" id="srcName" required placeholder="e.g., BarrieToday, Tourism Barrie" class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none" />
+            </div>
+
+            <div class="grid grid-cols-2 gap-3">
+              <div>
+                <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1">Source Type *</label>
+                <select id="srcType" class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3 py-2.5 text-xs text-white focus:outline-none">
+                  <option value="rss">📡 RSS / XML Feed</option>
+                  <option value="html">🌐 Webpage (HTML)</option>
+                </select>
+              </div>
+              <div>
+                <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1">Category *</label>
+                <select id="srcCategory" class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3 py-2.5 text-xs text-white focus:outline-none">
+                  <option value="News">📰 Local News</option>
+                  <option value="Events">🎪 Events</option>
+                  <option value="Weather">🌨️ Weather & Roads</option>
+                  <option value="Community">🤝 Community</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1">Feed URL or Webpage Link *</label>
+              <input type="url" id="srcUrl" required placeholder="https://www.barrietoday.com/rss" class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none" />
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-1">Town / Location Label *</label>
+              <input type="text" id="srcLocation" required value="Barrie, ON" class="w-full bg-slate-950 border border-slate-800 focus:border-buzz-400 rounded-xl px-3.5 py-2.5 text-xs text-white focus:outline-none" />
+            </div>
+
+            <button type="submit" class="w-full py-2.5 rounded-xl bg-buzz-500 hover:bg-buzz-400 text-slate-950 font-bold text-xs transition-all">
+              + Add to Scraper List & Test
+            </button>
+          </form>
+        </div>
+
+        <!-- Configured Sources List Column -->
+        <div class="lg:col-span-7 bg-slate-900/70 border border-slate-800 rounded-2xl p-6">
+          <div class="flex items-center justify-between mb-4">
+            <div>
+              <h3 class="font-display font-bold text-base text-white">Active Scraper Sources (<span id="sourcesCountBadge">0</span>)</h3>
+              <p class="text-xs text-slate-400">After adding or removing sources, click <strong>Download sources.json</strong> and upload to GitHub.</p>
+            </div>
+          </div>
+          <div id="sourcesListContainer" class="space-y-2.5 max-h-96 overflow-y-auto pr-1"></div>
+        </div>
+
+      </div>
+
+      <!-- Section 3: Preview of Currently Scraped Stories -->
+      <section class="bg-slate-900/70 border border-slate-800 rounded-2xl p-6">
+        <div class="flex items-center justify-between mb-4">
+          <h3 class="font-display font-bold text-base text-white">Live Scraped Stories Preview</h3>
+          <button onclick="clearScrapedPreview()" class="text-xs text-slate-400 hover:text-rose-400">Clear Preview Table</button>
+        </div>
+        <div id="adminStoriesPreview" class="space-y-2 max-h-80 overflow-y-auto text-xs"></div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" class="fixed bottom-5 right-5 z-50 hidden transform transition-all duration-300 translate-y-4 opacity-0">
+    <div class="bg-slate-900 border border-buzz-500/40 text-slate-100 px-4 py-3 rounded-xl shadow-2xl flex items-center gap-3">
+      <span class="w-2.5 h-2.5 rounded-full bg-buzz-400 animate-ping"></span>
+      <span id="toastMsg" class="text-xs sm:text-sm font-medium"></span>
+    </div>
+  </div>
+
+  <script>
+    /********************************************************************
+     * 1. ADMIN AUTHENTICATION (Default Password: "705buzz")
+     ********************************************************************/
+    const ADMIN_PASSWORD_PLAIN = '705buzz'; // Change this string anytime to set a new password
+
+    function checkAuthSession() {
+      if (sessionStorage.getItem('705buzz_admin_unlocked') === 'true') {
+        document.getElementById('loginScreen').classList.add('hidden');
+        document.getElementById('adminDashboard').classList.remove('hidden');
+        initializeAdminData();
+      }
+    }
+
+    function handleAdminLogin(e) {
+      e.preventDefault();
+      const input = document.getElementById('adminPasswordInput').value;
+      const errEl = document.getElementById('loginError');
+
+      if (input === ADMIN_PASSWORD_PLAIN) {
+        sessionStorage.setItem('705buzz_admin_unlocked', 'true');
+        errEl.classList.add('hidden');
+        checkAuthSession();
+      } else {
+        errEl.classList.remove('hidden');
+      }
+    }
+
+    function logoutAdmin() {
+      sessionStorage.removeItem('705buzz_admin_unlocked');
+      window.location.reload();
+    }
+
+    /********************************************************************
+     * 2. SCRAPER SOURCES & STORIES MANAGEMENT
+     ********************************************************************/
+    const defaultSources = [
+      { name: 'BarrieToday', type: 'rss', url: 'https://www.barrietoday.com/rss', category: 'News', location: 'Barrie, ON' },
+      { name: 'Barrie 360', type: 'rss', url: 'https://barrie360.com/feed/', category: 'Community', location: 'Barrie, ON' },
+      { name: 'InnisfilToday', type: 'rss', url: 'https://www.innisfiltoday.ca/rss', category: 'News', location: 'Innisfil, ON' },
+      { name: 'OrilliaMatters', type: 'rss', url: 'https://www.orilliamatters.com/rss', category: 'News', location: 'Orillia, ON' },
+      { name: 'CollingwoodToday', type: 'rss', url: 'https://www.collingwoodtoday.ca/rss', category: 'News', location: 'Collingwood, ON' }
+    ];
+
+    const categoryDefaultImages = {
+      News: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80',
+      Events: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80',
+      Weather: 'https://images.unsplash.com/photo-1516912481808-3406841bd33c?auto=format&fit=crop&w=800&q=80',
+      Community: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=800&q=80'
+    };
+
+    let sources = JSON.parse(localStorage.getItem('705buzz_sources') || 'null') || [...defaultSources];
+    let scrapedStories = [];
+
+    async function initializeAdminData() {
+      // Load ./sources.json if hosted
+      try {
+        const sRes = await fetch('./sources.json?t=' + Date.now());
+        if (sRes.ok) {
+          const fileSources = await sRes.json();
+          if (Array.isArray(fileSources) && fileSources.length > 0) {
+            sources = fileSources;
+            localStorage.setItem('705buzz_sources', JSON.stringify(sources));
+          }
+        }
+      } catch (e) {}
+
+      // Load ./stories.json if hosted
+      try {
+        const stRes = await fetch('./stories.json?t=' + Date.now());
+        if (stRes.ok) {
+          const fileStories = await stRes.json();
+          if (Array.isArray(fileStories)) {
+            scrapedStories = fileStories;
+          }
+        }
+      } catch (e) {}
+
+      renderSourcesList();
+      renderAdminStoriesPreview();
+    }
+
+    function stripHtml(html) {
+      const tmp = document.createElement('div');
+      tmp.innerHTML = html || '';
+      return (tmp.textContent || tmp.innerText || '').replace(/\s+/g, ' ').trim();
+    }
+
+    async function scrapeRssFeedInBrowser(source) {
+      const apiProxy = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(source.url)}`;
+      const response = await fetch(apiProxy);
+      const data = await response.json();
+      if (data.status === 'ok' && Array.isArray(data.items)) {
+        return data.items.slice(0, 6).map((item, idx) => ({
+          id: `${source.name.toLowerCase().replace(/[^a-z0-9]/g, '-')}-${idx}`,
+          title: stripHtml(item.title),
+          category: source.category || 'News',
+          source: source.name,
+          location: source.location || 'Barrie, ON',
+          timestamp: item.pubDate ? new Date(item.pubDate).toLocaleDateString('en-CA', { month: 'short', day: 'numeric' }) : 'Latest',
+          sortOrder: Date.now() - idx,
+          buzzScore: Math.floor(Math.random() * 18) + 80,
+          summary: stripHtml(item.description || item.content || '').slice(0, 240) + '...',
+          image: item.enclosure?.link || item.thumbnail || categoryDefaultImages[source.category] || categoryDefaultImages.News,
+          url: item.link || source.url,
+          tags: [source.location.split(',')[0], source.category, source.name]
+        }));
+      }
+      throw new Error('RSS proxy error');
+    }
+
+    async function scrapeWebpageInBrowser(source) {
+      const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(source.url)}`;
+      const response = await fetch(proxyUrl);
+      const data = await response.json();
+      const doc = new DOMParser().parseFromString(data.contents, 'text/html');
+
+      const ogTitle =
+        doc.querySelector('meta[property="og:title"]')?.getAttribute('content') ||
+        doc.querySelector('h1')?.textContent ||
+        doc.querySelector('title')?.textContent ||
+        source.name;
+
+      const ogDesc =
+        doc.querySelector('meta[property="og:description"]')?.getAttribute('content') ||
+        doc.querySelector('meta[name="description"]')?.getAttribute('content') ||
+        doc.querySelector('article p, main p, p')?.textContent ||
+        `Latest update from ${source.name}.`;
+
+      let ogImg =
+        doc.querySelector('meta[property="og:image"]')?.getAttribute('content') ||
+        categoryDefaultImages[source.category] ||
+        categoryDefaultImages.News;
+
+      return [{
+        id: `${source.name.toLowerCase().replace(/[^a-z0-9]/g, '-')}-web`,
+        title: stripHtml(ogTitle),
+        category: source.category || 'Events',
+        source: source.name,
+        location: source.location || 'Barrie, ON',
+        timestamp: 'Scraped Link',
+        sortOrder: Date.now(),
+        buzzScore: 92,
+        summary: stripHtml(ogDesc).slice(0, 240) + '...',
+        image: ogImg,
+        url: source.url,
+        tags: [source.location.split(',')[0], source.category, 'Web Link']
+      }];
+    }
+
+    async function scrapeSingleSource(source) {
+      const items = source.type === 'html'
+        ? await scrapeWebpageInBrowser(source)
+        : await scrapeRssFeedInBrowser(source);
+
+      const existingTitles = new Set(scrapedStories.map(s => s.title.toLowerCase()));
+      const newUnique = items.filter(item => item.title && !existingTitles.has(item.title.toLowerCase()));
+
+      if (newUnique.length > 0) {
+        scrapedStories = [...newUnique, ...scrapedStories];
+        renderAdminStoriesPreview();
+      }
+      return newUnique.length;
+    }
+
+    async function runAllConfiguredSources() {
+      const logEl = document.getElementById('rssStatusLog');
+      logEl.textContent = `[${new Date().toLocaleTimeString()}] Scraping all ${sources.length} sources...`;
+
+      let totalAdded = 0;
+      for (const src of sources) {
+        try {
+          const added = await scrapeSingleSource(src);
+          totalAdded += added;
+        } catch (err) {
+          console.warn('Error on source:', src.name, err);
+        }
+      }
+
+      logEl.textContent = `[${new Date().toLocaleTimeString()}] Done! Added ${totalAdded} new stories (${scrapedStories.length} total). Click "Download stories.json" or let GitHub Action auto-commit.`;
+      showToast(`Scraped ${totalAdded} new stories!`);
+    }
+
+    function renderSourcesList() {
+      const container = document.getElementById('sourcesListContainer');
+      document.getElementById('sourcesCountBadge').textContent = sources.length;
+
+      container.innerHTML = sources.map((src, idx) => `
+        <div class="flex items-center justify-between gap-2 bg-slate-950 border border-slate-800 rounded-xl px-3.5 py-2.5">
+          <div class="min-w-0 flex-1">
+            <div class="flex items-center gap-2">
+              <span class="px-1.5 py-0.5 rounded text-[10px] font-bold uppercase ${src.type === 'html' ? 'bg-kempenfelt-500/20 text-kempenfelt-400' : 'bg-buzz-500/20 text-buzz-400'}">${src.type}</span>
+              <span class="font-semibold text-xs text-white truncate">${src.name}</span>
+              <span class="text-[11px] text-slate-500">• ${src.category} • ${src.location}</span>
+            </div>
+            <div class="text-[11px] text-slate-400 truncate mt-0.5">${src.url}</div>
+          </div>
+          <div class="flex items-center gap-1.5 shrink-0">
+            <button onclick="testSingleSourceByIndex(${idx})" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-buzz-400 text-[11px] font-semibold">Test</button>
+            <button onclick="removeSource(${idx})" class="p-1 text-slate-500 hover:text-rose-400" title="Delete source">✕</button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function renderAdminStoriesPreview() {
+      const previewEl = document.getElementById('adminStoriesPreview');
+      document.getElementById('scrapedCountBadge').textContent = scrapedStories.length;
+
+      if (scrapedStories.length === 0) {
+        previewEl.innerHTML = `<div class="text-slate-500 py-6 text-center">No stories in memory yet. Click "Scrape All Sources Now" above to test!</div>`;
+        return;
+      }
+
+      previewEl.innerHTML = scrapedStories.map((st, i) => `
+        <div class="flex items-center justify-between gap-3 bg-slate-950 border border-slate-800/80 rounded-lg px-3 py-2">
+          <div class="truncate">
+            <span class="text-buzz-400 font-semibold">[${st.source}]</span>
+            <span class="text-slate-200 ml-1.5 font-medium">${st.title}</span>
+          </div>
+          <div class="flex items-center gap-2 shrink-0">
+            <a href="${st.url}" target="_blank" class="text-kempenfelt-400 hover:underline">Link ↗</a>
+            <button onclick="removeScrapedStory(${i})" class="text-slate-500 hover:text-rose-400 ml-1">✕</button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    async function handleAddSource(e) {
+      e.preventDefault();
+      const newSource = {
+        name: document.getElementById('srcName').value.trim(),
+        type: document.getElementById('srcType').value,
+        category: document.getElementById('srcCategory').value,
+        url: document.getElementById('srcUrl').value.trim(),
+        location: document.getElementById('srcLocation').value.trim() || 'Barrie, ON'
+      };
+
+      sources.unshift(newSource);
+      localStorage.setItem('705buzz_sources', JSON.stringify(sources));
+      renderSourcesList();
+      document.getElementById('addSourceForm').reset();
+      document.getElementById('srcLocation').value = 'Barrie, ON';
+
+      showToast(`Added ${newSource.name} — testing scrape...`);
+      try {
+        const count = await scrapeSingleSource(newSource);
+        showToast(`Scraped ${count} stories from ${newSource.name}!`);
+      } catch (err) {
+        showToast(`Saved ${newSource.name}! Download sources.json to update GitHub.`);
+      }
+    }
+
+    async function testSingleSourceByIndex(idx) {
+      const src = sources[idx];
+      showToast(`Testing ${src.name}...`);
+      try {
+        const added = await scrapeSingleSource(src);
+        showToast(`Pulled ${added} new stories from ${src.name}!`);
+      } catch (e) {
+        showToast(`Browser CORS blocked live preview; GitHub Action will scrape it automatically.`);
+      }
+    }
+
+    function removeSource(idx) {
+      sources.splice(idx, 1);
+      localStorage.setItem('705buzz_sources', JSON.stringify(sources));
+      renderSourcesList();
+    }
+
+    function removeScrapedStory(idx) {
+      scrapedStories.splice(idx, 1);
+      renderAdminStoriesPreview();
+    }
+
+    function clearScrapedPreview() {
+      scrapedStories = [];
+      renderAdminStoriesPreview();
+    }
+
+    function downloadSourcesJson() {
+      const blob = new Blob([JSON.stringify(sources, null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'sources.json';
+      a.click();
+      showToast('Downloaded sources.json! Upload to your GitHub repo.');
+    }
+
+    function downloadStoriesJson() {
+      const blob = new Blob([JSON.stringify(scrapedStories, null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'stories.json';
+      a.click();
+      showToast('Downloaded stories.json!');
+    }
+
+    function showToast(message) {
+      const toast = document.getElementById('toast');
+      document.getElementById('toastMsg').textContent = message;
+      toast.classList.remove('hidden', 'translate-y-4', 'opacity-0');
+      setTimeout(() => {
+        toast.classList.add('translate-y-4', 'opacity-0');
+        setTimeout(() => toast.classList.add('hidden'), 300);
+      }, 3500);
+    }
+
+    document.addEventListener('DOMContentLoaded', checkAuthSession);
+  </script>
+</body>
+</html>
