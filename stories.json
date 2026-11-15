@@ -1,5 +1,24 @@
 [
   {
+    "id": "manual-1794708786331",
+    "isManual": true,
+    "title": "MIKE IS AWESOME",
+    "category": "News",
+    "source": "705.Buzz Exclusive",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 14",
+    "sortOrder": 17956087,
+    "buzzScore": 98,
+    "summary": "HE IS A MASTER CODER!!!!!!!",
+    "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*TMAo0Qpl4j9TaE3sDyBTLg.jpeg",
+    "url": "https://705.buzz",
+    "tags": [
+      "Barrie",
+      "News",
+      "Featured"
+    ]
+  },
+  {
     "id": "collingwoodtoday-5",
     "title": "'It’s crazy': Travellers, airlines report busy day at airports after U.S. flight stop",
     "category": "News",
