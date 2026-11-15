@@ -7,8 +7,8 @@
     "location": "Midland, ON",
     "timestamp": "Nov 15",
     "sortOrder": 2000,
-    "buzzScore": 80,
-    "summary": "OTTAWA — The Green Party of Canada has elected former MP Mike Morrice to lead the party -- the sole candidate running in the leadership race....",
+    "buzzScore": 87,
+    "summary": "OTTAWA — The Green Party of Canada has elected former MP Mike Morrice to lead the party — the sole candidate running in the leadership race....",
     "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/868d9a991b42963235c2ecb8e31267392db0c32c83510a1a260fd569d8e735af.jpg;w=960",
     "url": "https://www.midlandtoday.ca/national-news/greens-elect-former-mp-mike-morrice-the-sole-candidate-to-lead-party-13019606",
     "tags": [
@@ -25,7 +25,7 @@
     "location": "Midland, ON",
     "timestamp": "Nov 15",
     "sortOrder": 1999,
-    "buzzScore": 94,
+    "buzzScore": 90,
     "summary": "PICKERING — Police say two people died after they were struck by an out-of-control Tesla car while working at a construction site east of Toronto....",
     "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/723f252b3370b5bf2159d4db012506bea4ad1b6654addfa56eb2564bd4ef3cdf.jpg;w=960",
     "url": "https://www.midlandtoday.ca/ontario-news/two-people-dead-after-crash-involving-out-of-control-tesla-durham-police-13019607",
@@ -61,7 +61,7 @@
     "location": "Midland, ON",
     "timestamp": "Nov 15",
     "sortOrder": 1997,
-    "buzzScore": 94,
+    "buzzScore": 82,
     "summary": "PHNOM PENH — Prime Minister Mark Carney brought his pitch for Canada as an investment destination to a group of mostly French-speaking countries in Cambodia on Sunday....",
     "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/21deda31ec8d558e02a7d4b4123a4a2a0a08bb18e13199b4a899d8bb6e078ce6.jpg;w=960",
     "url": "https://www.midlandtoday.ca/national-news/pm-carney-takes-his-investment-pitch-to-francophonie-summit-in-cambodia-13019316",
@@ -79,7 +79,7 @@
     "location": "Midland, ON",
     "timestamp": "Nov 15",
     "sortOrder": 1996,
-    "buzzScore": 94,
+    "buzzScore": 91,
     "summary": "Newly elected council members, town staff will be available for questions during Dec. 9 event at arena...",
     "image": "https://www.vmcdn.ca/f/files/midlandtoday/images/landmarks/2020-02-25-penetang-memorial-comm-centre.jpg;w=960",
     "url": "https://www.midlandtoday.ca/local-news/penetanguishene-to-host-community-drop-in-budget-info-session-12995405",
@@ -97,7 +97,7 @@
     "location": "Midland, ON",
     "timestamp": "Nov 15",
     "sortOrder": 1995,
-    "buzzScore": 87,
+    "buzzScore": 97,
     "summary": "The tool provides a closer look at how Canadian industries – and their employees – have fared town to town...",
     "image": "https://www.vmcdn.ca/f/files/closerlook/bg1026-qa-tariff-map002.jpg;w=960",
     "url": "https://www.midlandtoday.ca/local-news/how-did-tariffs-hit-your-town-this-interactive-map-zooms-in-for-the-answer-13019196",
@@ -108,14 +108,50 @@
     ]
   },
   {
+    "id": "barrietoday-0",
+    "title": "Jason McCoy brings World Vision message to tour, local show",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1980,
+    "buzzScore": 89,
+    "summary": "'We are One is a reminder that we’re all connected,' says local radio host of song he wrote in support of World Vision...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/entertainment/20261021jmpress-photo1auglandscapephotocredtravis-nesbitt.jpg;w=960",
+    "url": "https://www.barrietoday.com/local-entertainment/jason-mccoy-brings-world-vision-message-to-tour-local-show-13015345",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
     "id": "barrietoday-2",
-    "title": "THEN AND NOW: Elegant Worsley St. home remains strong link to old Barrie",
+    "title": "&#39;Little extra help&#39;: Online applications now open for Christmas Cheer",
     "category": "News",
     "source": "BarrieToday",
     "location": "Barrie, ON",
     "timestamp": "Nov 15",
     "sortOrder": 1978,
-    "buzzScore": 94,
+    "buzzScore": 89,
+    "summary": "Long-standing Barrie-area organization will also offer in-person application support on five dates at Kozlov Mall, beginning Nov. 21...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/11282025barriechristmascheer2.jpg;w=960",
+    "url": "https://www.barrietoday.com/local-news/online-applications-now-open-for-christmas-cheer-13019617",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-4",
+    "title": "THEN AND NOW: Elegant Worsley St. home remains strong link to old Barrie",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1976,
+    "buzzScore": 90,
     "summary": "The dwelling at 84 Worsley St. continues to be one of downtown neighbourhood’s more 'dignified' homes...",
     "image": "https://www.vmcdn.ca/f/files/barrietoday/images/historical-images/barrie-historical-archive-group/20261115-bt-then-now-368-84-worsley-street-1935-then.jpg;w=960",
     "url": "https://www.barrietoday.com/local-news/then-and-now-elegant-worsley-st-home-remains-strong-link-to-old-barrie-13019408",
@@ -123,6 +159,258 @@
       "Barrie",
       "News",
       "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "Bryan Adams sensed a political shift when red states cheered his anti-Trump song",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1960,
+    "buzzScore": 94,
+    "summary": "Last week's U.S....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/bryan-adams-political-shift-anti-trump-song/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "County of Simcoe launches interactive population growth dashboard",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1959,
+    "buzzScore": 93,
+    "summary": "Residents can explore long-term population forecasts, compare municipal growth and examine demographic trends through the new online tool....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/simcoe-county-launches-population-growth-dashboard/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-2",
+    "title": "Here's where the County of Simcoe is opening warming centre locations across the region",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1958,
+    "buzzScore": 89,
+    "summary": "To support communities and vulnerable residents this winter, the County of Simcoe and its partners will provide over 100 warming and emergency overnight spaces across the region, ensuring individuals and families living unhoused have access...",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/simcoe-county-warming-centres-list/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-3",
+    "title": "Matheson’s magic lifts Colts past Steelheads in shootout, secures first winning week",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1957,
+    "buzzScore": 85,
+    "summary": "Lucas Matheson reached into his bag of tricks in the shootout and handed the Barrie Colts their first winning week of the season....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/colts-steelheads-matheson-shootout-win26/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-4",
+    "title": "Less than half of Crown-owned heritage buildings in fair or better condition",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1956,
+    "buzzScore": 85,
+    "summary": "Forty-five per cent of Crown-owned heritage buildings are in fair or better condition, says a federal government report....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/crown-owned-heritage-buildings-condition-report26/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-5",
+    "title": "Military says fifth Canadian soldier has died after fire in Wainwright",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 14",
+    "sortOrder": 1955,
+    "buzzScore": 93,
+    "summary": "Nearly a month after a deadly fire tore through a military base in Alberta, the Canadian Armed Forces announced Saturday that the tragedy has claimed a fifth life....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/ifth-canadian-soldier-dies-wainwright-fire/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "innisfiltoday-0",
+    "title": "‘Impossible barrier’: Healthcare workers slam changes to safer supply prescriptions",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1940,
+    "buzzScore": 90,
+    "summary": "Toronto street nurses and doctors are protesting policy changes that will restrict their ability to prescribe medications to individuals at high risk of overdose...",
+    "image": "https://www.vmcdn.ca/f/files/torontotoday/images/health-care/11-26-2024-supervisedconsumptionsiteadcampaigndowntowntoronto-ka.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/healthcare-workers-condemn-changes-to-safer-supply-prescriptions-13013515",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-4",
+    "title": "&#39;Here to stay&#39;: New regulations coming for lithium-ion batteries",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1936,
+    "buzzScore": 95,
+    "summary": "'Lithium-ion batteries are in everything today, from mobile devices to power tools ... They’re not going anywhere,' says local fire chief...",
+    "image": "https://www.vmcdn.ca/f/files/kamloopsthisweek/images/fire/electric-bike-48v-18ah-rechargeable-lithium-battery-pack-e-scooter-lithium-ion-battery.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/here-to-stay-new-regulations-coming-for-lithium-ion-batteries-13010989",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-1",
+    "title": "Jason McCoy brings World Vision message to tour, Orillia show",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1919,
+    "buzzScore": 80,
+    "summary": "'We are One is a reminder that we’re all connected,' says local radio host of song he wrote in support of World Vision...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/entertainment/20261021jmpress-photo1auglandscapephotocredtravis-nesbitt.jpg;w=960",
+    "url": "https://www.orilliamatters.com/local-news/jason-mccoy-brings-world-vision-message-to-tour-orillia-show-12946780",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-3",
+    "title": "SUMRALL, Linda Marie",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1917,
+    "buzzScore": 95,
+    "summary": "In loving memory of Linda Marie Sumrall June 28, 1952 – October 23, 2026 Linda passed away at the age of 74. She was dearly loved and will be missed by her sons Derek Martin and Dwayne Martin....",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/announcements/obituaries/20261115-linda-sumrall.jpg;w=960",
+    "url": "https://www.orilliamatters.com/obituaries/sumrall-linda-marie-13019582",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-4",
+    "title": "Feds say they’re ‘committed’ to feedback on nuclear site decision",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1916,
+    "buzzScore": 83,
+    "summary": "Whether to designate the proposed deep geological repository for high-level nuclear waste as a project of national interest is still to be decided...",
+    "image": "https://www.vmcdn.ca/f/files/tbnewswatch/images/local-news/2026/september/ignace-nuclear-waste/ignace-nuclear-waste.jpg;w=960",
+    "url": "https://www.orilliamatters.com/local-news/feds-say-theyre-committed-to-feedback-on-nuclear-site-decision-13018956",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-5",
+    "title": "COLUMN: Autumn peeper prompts dive into frogs’ winter survival",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1915,
+    "buzzScore": 81,
+    "summary": "Aquatic frogs remain partly exposed in pond mud to absorb oxygen, while woodland species use glucose to protect their organs as much of their bodies freezes...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/outdoors/20140808_wye-marsh_bullfrog-hawke-6.jpg;w=960",
+    "url": "https://www.orilliamatters.com/outdoors/column-autumn-peeper-prompts-dive-into-frogs-winter-survival-13013031",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-2",
+    "title": "LETTER: Premier-appointed regional chairs undemocratic",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1898,
+    "buzzScore": 84,
+    "summary": "'This action is a slippery slope,' says letter writer...",
+    "image": "https://www.vmcdn.ca/f/files/shared/miscellaneous-stock-images/adobestock_528183508.jpeg;w=960",
+    "url": "https://www.collingwoodtoday.ca/letters-to-the-editor/letter-premier-appointed-regional-chairs-undemocratic-13018072",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-4",
+    "title": "County of Simcoe Paramedic Services Food and Toy Drive underway",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1896,
+    "buzzScore": 87,
+    "summary": "This year marks the 24th edition of the campaign...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/charity/20261113-county-of-simcoe-paramedic-services-kick-off-24th-annual-food-and-toy-drive-1.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/local-news/county-of-simcoe-paramedic-services-food-and-toy-drive-underway-13013413",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
     ]
   },
   {
@@ -162,78 +450,6 @@
     ]
   },
   {
-    "id": "barrie-360-0",
-    "title": "County of Simcoe launches interactive population growth dashboard",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1960,
-    "buzzScore": 85,
-    "summary": "Residents can explore long-term population forecasts, compare municipal growth and examine demographic trends through the new online tool....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/simcoe-county-launches-population-growth-dashboard/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-1",
-    "title": "Here's where the County of Simcoe is opening warming centre locations across the region",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1959,
-    "buzzScore": 92,
-    "summary": "To support communities and vulnerable residents this winter, the County of Simcoe and its partners will provide over 100 warming and emergency overnight spaces across the region, ensuring individuals and families living unhoused have access...",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/simcoe-county-warming-centres-list/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-2",
-    "title": "Matheson’s magic lifts Colts past Steelheads in shootout, secures first winning week",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1958,
-    "buzzScore": 95,
-    "summary": "Lucas Matheson reached into his bag of tricks in the shootout and handed the Barrie Colts their first winning week of the season....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/colts-steelheads-matheson-shootout-win26/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-3",
-    "title": "Military says fifth Canadian soldier has died after fire in Wainwright",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 14",
-    "sortOrder": 1957,
-    "buzzScore": 87,
-    "summary": "Nearly a month after a deadly fire tore through a military base in Alberta, the Canadian Armed Forces announced Saturday that the tragedy has claimed a fifth life....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/ifth-canadian-soldier-dies-wainwright-fire/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
     "id": "barrie-360-4",
     "title": "Two people injured in crash east of Loretto, SIU investigating",
     "category": "Community",
@@ -267,114 +483,6 @@
       "Barrie",
       "Community",
       "Barrie 360"
-    ]
-  },
-  {
-    "id": "innisfiltoday-3",
-    "title": "&#39;Here to stay&#39;: New regulations coming for lithium-ion batteries",
-    "category": "News",
-    "source": "InnisfilToday",
-    "location": "Innisfil, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1937,
-    "buzzScore": 80,
-    "summary": "'Lithium-ion batteries are in everything today, from mobile devices to power tools ... They’re not going anywhere,' says local fire chief...",
-    "image": "https://www.vmcdn.ca/f/files/kamloopsthisweek/images/fire/electric-bike-48v-18ah-rechargeable-lithium-battery-pack-e-scooter-lithium-ion-battery.jpg;w=960",
-    "url": "https://www.innisfiltoday.ca/local-news/here-to-stay-new-regulations-coming-for-lithium-ion-batteries-13010989",
-    "tags": [
-      "Innisfil",
-      "News",
-      "InnisfilToday"
-    ]
-  },
-  {
-    "id": "orilliamatters-2",
-    "title": "SUMRALL, Linda Marie",
-    "category": "News",
-    "source": "OrilliaMatters",
-    "location": "Orillia, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1918,
-    "buzzScore": 94,
-    "summary": "In loving memory of Linda Marie Sumrall June 28, 1952 – October 23, 2026 Linda passed away at the age of 74. She was dearly loved and will be missed by her sons Derek Martin and Dwayne Martin....",
-    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/announcements/obituaries/20261115-linda-sumrall.jpg;w=960",
-    "url": "https://www.orilliamatters.com/obituaries/sumrall-linda-marie-13019582",
-    "tags": [
-      "Orillia",
-      "News",
-      "OrilliaMatters"
-    ]
-  },
-  {
-    "id": "orilliamatters-3",
-    "title": "Feds say they’re ‘committed’ to feedback on nuclear site decision",
-    "category": "News",
-    "source": "OrilliaMatters",
-    "location": "Orillia, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1917,
-    "buzzScore": 91,
-    "summary": "Whether to designate the proposed deep geological repository for high-level nuclear waste as a project of national interest is still to be decided...",
-    "image": "https://www.vmcdn.ca/f/files/tbnewswatch/images/local-news/2026/september/ignace-nuclear-waste/ignace-nuclear-waste.jpg;w=960",
-    "url": "https://www.orilliamatters.com/local-news/feds-say-theyre-committed-to-feedback-on-nuclear-site-decision-13018956",
-    "tags": [
-      "Orillia",
-      "News",
-      "OrilliaMatters"
-    ]
-  },
-  {
-    "id": "orilliamatters-4",
-    "title": "COLUMN: Autumn peeper prompts dive into frogs’ winter survival",
-    "category": "News",
-    "source": "OrilliaMatters",
-    "location": "Orillia, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1916,
-    "buzzScore": 86,
-    "summary": "Aquatic frogs remain partly exposed in pond mud to absorb oxygen, while woodland species use glucose to protect their organs as much of their bodies freezes...",
-    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/outdoors/20140808_wye-marsh_bullfrog-hawke-6.jpg;w=960",
-    "url": "https://www.orilliamatters.com/outdoors/column-autumn-peeper-prompts-dive-into-frogs-winter-survival-13013031",
-    "tags": [
-      "Orillia",
-      "News",
-      "OrilliaMatters"
-    ]
-  },
-  {
-    "id": "collingwoodtoday-2",
-    "title": "LETTER: Premier-appointed regional chairs undemocratic",
-    "category": "News",
-    "source": "CollingwoodToday",
-    "location": "Collingwood, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1898,
-    "buzzScore": 96,
-    "summary": "'This action is a slippery slope,' says letter writer...",
-    "image": "https://www.vmcdn.ca/f/files/shared/miscellaneous-stock-images/adobestock_528183508.jpeg;w=960",
-    "url": "https://www.collingwoodtoday.ca/letters-to-the-editor/letter-premier-appointed-regional-chairs-undemocratic-13018072",
-    "tags": [
-      "Collingwood",
-      "News",
-      "CollingwoodToday"
-    ]
-  },
-  {
-    "id": "collingwoodtoday-4",
-    "title": "County of Simcoe Paramedic Services Food and Toy Drive underway",
-    "category": "News",
-    "source": "CollingwoodToday",
-    "location": "Collingwood, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1896,
-    "buzzScore": 90,
-    "summary": "This year marks the 24th edition of the campaign...",
-    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/charity/20261113-county-of-simcoe-paramedic-services-kick-off-24th-annual-food-and-toy-drive-1.jpg;w=960",
-    "url": "https://www.collingwoodtoday.ca/local-news/county-of-simcoe-paramedic-services-food-and-toy-drive-underway-13013413",
-    "tags": [
-      "Collingwood",
-      "News",
-      "CollingwoodToday"
     ]
   },
   {
@@ -515,24 +623,6 @@
     "summary": "TORONTO — Like clockwork, Anita McCulloch moves from house to house with a stack of flyers and letters tucked under her arm. The dogs know when the Canada Post mail carrier is coming up the driveway....",
     "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/d1602391f78cc34c4660f1dd7c02af2c49b2061135b77f86c1a6501b06e20990.jpg;w=960",
     "url": "https://www.collingwoodtoday.ca/ontario-news/inside-a-canada-post-mail-carriers-last-day-of-home-delivery-in-toronto-13019319",
-    "tags": [
-      "Collingwood",
-      "News",
-      "CollingwoodToday"
-    ]
-  },
-  {
-    "id": "collingwoodtoday-5",
-    "title": "Less than half of Crown-owned heritage buildings in fair or better condition",
-    "category": "News",
-    "source": "CollingwoodToday",
-    "location": "Collingwood, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1895,
-    "buzzScore": 88,
-    "summary": "OTTAWA — Forty-five per cent of Crown-owned heritage buildings are in fair or better condition, says a federal government report....",
-    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/59eb8c8324b6510129b773350e21632a152297b30182334fb9904bd9228ce60c.jpg;w=960",
-    "url": "https://www.collingwoodtoday.ca/national-news/less-than-half-of-crown-owned-heritage-buildings-in-fair-or-better-condition-13019317",
     "tags": [
       "Collingwood",
       "News",
