@@ -1,13 +1,85 @@
 [
   {
     "id": "midlandtoday-0",
-    "title": "Greens elect former MP Mike Morrice, the sole candidate, to lead party",
+    "title": "Jason McCoy brings World Vision message to tour, local show",
     "category": "News",
     "source": "MidlandToday",
     "location": "Midland, ON",
     "timestamp": "Nov 15",
     "sortOrder": 2000,
-    "buzzScore": 87,
+    "buzzScore": 96,
+    "summary": "'We Are One' is a reminder that we’re all connected, says local radio host of song he wrote in support of World Vision...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/entertainment/20261021jmpress-photo1auglandscapephotocredtravis-nesbitt.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/jason-mccoy-brings-world-vision-message-to-tour-local-show-13015176",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
+    "title": "Lawyers unsure if extra funding can reduce massive caseload at Federal Court",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1999,
+    "buzzScore": 93,
+    "summary": "OTTAWA — The recent federal budget included $58 million in additional funding court administration but the Federal Court still doesn't have a clear picture of how it can be used to reduce a massive caseload that has grown rapidly since 2020...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/059f91e139f2a31e9fd19e790f6a824009531a70413ef53414030ff9848d46ef.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/lawyers-unsure-if-extra-funding-can-reduce-massive-caseload-at-federal-court-13017759",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-2",
+    "title": "Alliston snaps Penetang Kings win streak at seven games",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1998,
+    "buzzScore": 94,
+    "summary": "Penetang rebounded on Saturday with a dominant performance against Midland...",
+    "image": "https://www.vmcdn.ca/f/files/midlandtoday/images/sports/20261115-brycen-kingma-scores-vs-midland-nov-6.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/local-sports/alliston-snaps-penetang-kings-win-streak-at-seven-games-13019701",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-3",
+    "title": "Breast milk can be lifesaving for premature babies, Quebec charity says",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1997,
+    "buzzScore": 96,
+    "summary": "MONTREAL — When Annie Sicotte gave birth to her first daughter 11 weeks early, she couldn't hold her baby in her arms. She had to wait until the following day to see her, lying in an incubator and connected to a ventilator. \"It's the unknow...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/83c87f28cbcd786bbafbc88bee73f3a94e0e2018c487814b10d0206db252121f.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/breast-milk-can-be-lifesaving-for-premature-babies-quebec-charity-says-13019709",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-4",
+    "title": "Greens elect former MP Mike Morrice, the sole candidate, to lead party",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1996,
+    "buzzScore": 97,
     "summary": "OTTAWA — The Green Party of Canada has elected former MP Mike Morrice to lead the party — the sole candidate running in the leadership race....",
     "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/868d9a991b42963235c2ecb8e31267392db0c32c83510a1a260fd569d8e735af.jpg;w=960",
     "url": "https://www.midlandtoday.ca/national-news/greens-elect-former-mp-mike-morrice-the-sole-candidate-to-lead-party-13019606",
@@ -18,14 +90,14 @@
     ]
   },
   {
-    "id": "midlandtoday-1",
+    "id": "midlandtoday-5",
     "title": "Two people dead after crash involving out-of-control Tesla: Durham police",
     "category": "News",
     "source": "MidlandToday",
     "location": "Midland, ON",
     "timestamp": "Nov 15",
-    "sortOrder": 1999,
-    "buzzScore": 90,
+    "sortOrder": 1995,
+    "buzzScore": 85,
     "summary": "PICKERING — Police say two people died after they were struck by an out-of-control Tesla car while working at a construction site east of Toronto....",
     "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/723f252b3370b5bf2159d4db012506bea4ad1b6654addfa56eb2564bd4ef3cdf.jpg;w=960",
     "url": "https://www.midlandtoday.ca/ontario-news/two-people-dead-after-crash-involving-out-of-control-tesla-durham-police-13019607",
@@ -33,6 +105,276 @@
       "Midland",
       "News",
       "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrietoday-0",
+    "title": "&#39;Not what we hoped for&#39;: Barrie’s Sober Sips closing doors at year’s end",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1980,
+    "buzzScore": 85,
+    "summary": "After more than two years on Dunlop West, Shannon and Jeff Cunningham will close Sober Sips on Dec. 31, citing economic pressures and declining downtown foot traffic...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/11142026ncsobersips1.jpeg;w=960",
+    "url": "https://www.barrietoday.com/local-news/not-what-we-hoped-for-barries-sober-sips-closing-doors-at-years-end-13018551",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-2",
+    "title": "Creating comfort: Massage therapy moves into canine world",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1978,
+    "buzzScore": 97,
+    "summary": "Susan McDermott relocated from New York to Barrie where she launched Restorative Canine Massage Therapy last April...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/animals/20261112petssusanmcdermottcrop.jpg;w=960",
+    "url": "https://www.barrietoday.com/pets-animals/creating-comfort-massage-therapy-moves-into-canine-world-12996042",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "Russia will not compete at world juniors in Canada: IIHF",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1960,
+    "buzzScore": 80,
+    "summary": "The International Ice Hockey Federation confirms in a statement that Russia will not have a team at the world junior hockey championship next month in Alberta....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/russia-barred-2026-world-juniors-alberta/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "Bryan Adams sensed a political shift when red states cheered his anti-Trump song",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1959,
+    "buzzScore": 92,
+    "summary": "Last week's U.S....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/bryan-adams-political-shift-anti-trump-song/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-2",
+    "title": "County of Simcoe launches interactive population growth dashboard",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1958,
+    "buzzScore": 96,
+    "summary": "Residents can explore long-term population forecasts, compare municipal growth and examine demographic trends through the new online tool....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/simcoe-county-launches-population-growth-dashboard/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-3",
+    "title": "Here's where the County of Simcoe is opening warming centre locations across the region",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1957,
+    "buzzScore": 95,
+    "summary": "To support communities and vulnerable residents this winter, the County of Simcoe and its partners will provide over 100 warming and emergency overnight spaces across the region, ensuring individuals and families living unhoused have access...",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/simcoe-county-warming-centres-list/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-4",
+    "title": "Matheson’s magic lifts Colts past Steelheads in shootout, secures first winning week",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1956,
+    "buzzScore": 80,
+    "summary": "Lucas Matheson reached into his bag of tricks in the shootout and handed the Barrie Colts their first winning week of the season....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/colts-steelheads-matheson-shootout-win26/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-5",
+    "title": "Less than half of Crown-owned heritage buildings in fair or better condition",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1955,
+    "buzzScore": 81,
+    "summary": "Forty-five per cent of Crown-owned heritage buildings are in fair or better condition, says a federal government report....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/crown-owned-heritage-buildings-condition-report26/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "innisfiltoday-0",
+    "title": "County calls on Ontario to fix &#39;lagging&#39; ambulance funding formula",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1940,
+    "buzzScore": 96,
+    "summary": "'Either pay up or change the formula,' says Tay Township deputy mayor; as municipal councils prepare 2027 budgets, funding gap adds pressure on local taxpayers...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/health/11072023simcoeambulance3.jpeg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/county-calls-on-ontario-to-fix-lagging-ambulance-funding-formula-13005024",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-3",
+    "title": "‘Impossible barrier’: Healthcare workers slam changes to safer supply prescriptions",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1937,
+    "buzzScore": 89,
+    "summary": "Toronto street nurses and doctors are protesting policy changes that will restrict their ability to prescribe medications to individuals at high risk of overdose...",
+    "image": "https://www.vmcdn.ca/f/files/torontotoday/images/health-care/11-26-2024-supervisedconsumptionsiteadcampaigndowntowntoronto-ka.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/healthcare-workers-condemn-changes-to-safer-supply-prescriptions-13013515",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-0",
+    "title": "City defends controversial arena renovation amid viral criticism",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1920,
+    "buzzScore": 94,
+    "summary": "'When I walk in the arena, it feels like nothing makes sense. So that tells me that they didn't consult the right people,' says local hockey personality...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/sports/gillstreetcommunitycomplex-11-13-26-1.jpg;w=960",
+    "url": "https://www.orilliamatters.com/local-sports/city-defends-controversial-arena-renovation-amid-viral-criticism-13016266",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-2",
+    "title": "What&#39;s happening with largely unused historic Oro African church?",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1918,
+    "buzzScore": 82,
+    "summary": "Two local women say they've developed strategic management and business plan, which is expected to be discussed by Oro-Medonte council during upcoming term...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/barrie/10192023goodmorningphotooroblackchurch.jpg;w=960",
+    "url": "https://www.orilliamatters.com/local-news/whats-happening-with-largely-unused-historic-oro-african-church-13016013",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-5",
+    "title": "Jason McCoy brings World Vision message to tour, Orillia show",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1915,
+    "buzzScore": 95,
+    "summary": "'We are One is a reminder that we’re all connected,' says local radio host of song he wrote in support of World Vision...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/entertainment/20261021jmpress-photo1auglandscapephotocredtravis-nesbitt.jpg;w=960",
+    "url": "https://www.orilliamatters.com/local-news/jason-mccoy-brings-world-vision-message-to-tour-orillia-show-12946780",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-0",
+    "title": "Collingwood woman becomes Peloton’s first-ever Canadian instructor",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1900,
+    "buzzScore": 80,
+    "summary": "People of Collingwood: Greta Dopp, Peloton instructor...",
+    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/images/people/2026-11-13dopp-001.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/local-news/collingwood-woman-becomes-pelotons-first-ever-canadian-instructor-13016311",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-5",
+    "title": "LETTER: Premier-appointed regional chairs undemocratic",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1895,
+    "buzzScore": 89,
+    "summary": "'This action is a slippery slope,' says letter writer...",
+    "image": "https://www.vmcdn.ca/f/files/shared/miscellaneous-stock-images/adobestock_528183508.jpeg;w=960",
+    "url": "https://www.collingwoodtoday.ca/letters-to-the-editor/letter-premier-appointed-regional-chairs-undemocratic-13018072",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
     ]
   },
   {
@@ -108,24 +450,6 @@
     ]
   },
   {
-    "id": "barrietoday-0",
-    "title": "Jason McCoy brings World Vision message to tour, local show",
-    "category": "News",
-    "source": "BarrieToday",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1980,
-    "buzzScore": 89,
-    "summary": "'We are One is a reminder that we’re all connected,' says local radio host of song he wrote in support of World Vision...",
-    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/entertainment/20261021jmpress-photo1auglandscapephotocredtravis-nesbitt.jpg;w=960",
-    "url": "https://www.barrietoday.com/local-entertainment/jason-mccoy-brings-world-vision-message-to-tour-local-show-13015345",
-    "tags": [
-      "Barrie",
-      "News",
-      "BarrieToday"
-    ]
-  },
-  {
     "id": "barrietoday-2",
     "title": "&#39;Little extra help&#39;: Online applications now open for Christmas Cheer",
     "category": "News",
@@ -162,96 +486,6 @@
     ]
   },
   {
-    "id": "barrie-360-0",
-    "title": "Bryan Adams sensed a political shift when red states cheered his anti-Trump song",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1960,
-    "buzzScore": 94,
-    "summary": "Last week's U.S....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/bryan-adams-political-shift-anti-trump-song/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-1",
-    "title": "County of Simcoe launches interactive population growth dashboard",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1959,
-    "buzzScore": 93,
-    "summary": "Residents can explore long-term population forecasts, compare municipal growth and examine demographic trends through the new online tool....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/simcoe-county-launches-population-growth-dashboard/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-2",
-    "title": "Here's where the County of Simcoe is opening warming centre locations across the region",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1958,
-    "buzzScore": 89,
-    "summary": "To support communities and vulnerable residents this winter, the County of Simcoe and its partners will provide over 100 warming and emergency overnight spaces across the region, ensuring individuals and families living unhoused have access...",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/simcoe-county-warming-centres-list/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-3",
-    "title": "Matheson’s magic lifts Colts past Steelheads in shootout, secures first winning week",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1957,
-    "buzzScore": 85,
-    "summary": "Lucas Matheson reached into his bag of tricks in the shootout and handed the Barrie Colts their first winning week of the season....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/colts-steelheads-matheson-shootout-win26/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-4",
-    "title": "Less than half of Crown-owned heritage buildings in fair or better condition",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1956,
-    "buzzScore": 85,
-    "summary": "Forty-five per cent of Crown-owned heritage buildings are in fair or better condition, says a federal government report....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/crown-owned-heritage-buildings-condition-report26/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
     "id": "barrie-360-5",
     "title": "Military says fifth Canadian soldier has died after fire in Wainwright",
     "category": "Community",
@@ -270,24 +504,6 @@
     ]
   },
   {
-    "id": "innisfiltoday-0",
-    "title": "‘Impossible barrier’: Healthcare workers slam changes to safer supply prescriptions",
-    "category": "News",
-    "source": "InnisfilToday",
-    "location": "Innisfil, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1940,
-    "buzzScore": 90,
-    "summary": "Toronto street nurses and doctors are protesting policy changes that will restrict their ability to prescribe medications to individuals at high risk of overdose...",
-    "image": "https://www.vmcdn.ca/f/files/torontotoday/images/health-care/11-26-2024-supervisedconsumptionsiteadcampaigndowntowntoronto-ka.jpg;w=960",
-    "url": "https://www.innisfiltoday.ca/local-news/healthcare-workers-condemn-changes-to-safer-supply-prescriptions-13013515",
-    "tags": [
-      "Innisfil",
-      "News",
-      "InnisfilToday"
-    ]
-  },
-  {
     "id": "innisfiltoday-4",
     "title": "&#39;Here to stay&#39;: New regulations coming for lithium-ion batteries",
     "category": "News",
@@ -303,24 +519,6 @@
       "Innisfil",
       "News",
       "InnisfilToday"
-    ]
-  },
-  {
-    "id": "orilliamatters-1",
-    "title": "Jason McCoy brings World Vision message to tour, Orillia show",
-    "category": "News",
-    "source": "OrilliaMatters",
-    "location": "Orillia, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1919,
-    "buzzScore": 80,
-    "summary": "'We are One is a reminder that we’re all connected,' says local radio host of song he wrote in support of World Vision...",
-    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/entertainment/20261021jmpress-photo1auglandscapephotocredtravis-nesbitt.jpg;w=960",
-    "url": "https://www.orilliamatters.com/local-news/jason-mccoy-brings-world-vision-message-to-tour-orillia-show-12946780",
-    "tags": [
-      "Orillia",
-      "News",
-      "OrilliaMatters"
     ]
   },
   {
@@ -375,24 +573,6 @@
       "Orillia",
       "News",
       "OrilliaMatters"
-    ]
-  },
-  {
-    "id": "collingwoodtoday-2",
-    "title": "LETTER: Premier-appointed regional chairs undemocratic",
-    "category": "News",
-    "source": "CollingwoodToday",
-    "location": "Collingwood, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1898,
-    "buzzScore": 84,
-    "summary": "'This action is a slippery slope,' says letter writer...",
-    "image": "https://www.vmcdn.ca/f/files/shared/miscellaneous-stock-images/adobestock_528183508.jpeg;w=960",
-    "url": "https://www.collingwoodtoday.ca/letters-to-the-editor/letter-premier-appointed-regional-chairs-undemocratic-13018072",
-    "tags": [
-      "Collingwood",
-      "News",
-      "CollingwoodToday"
     ]
   },
   {
