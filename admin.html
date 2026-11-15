@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>705.Buzz | Admin & GitHub Live Publisher</title>
+  <title>705.Buzz | Admin & Moderation Queue</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -70,7 +70,7 @@
       <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-4">
         <div class="flex items-center gap-3">
           <span class="px-2.5 py-1 rounded-lg bg-buzz-500/20 text-buzz-400 border border-buzz-500/30 font-display font-bold text-xs uppercase">Admin Mode</span>
-          <h1 class="font-display font-bold text-lg sm:text-xl text-white">705.Buzz Live GitHub Publisher</h1>
+          <h1 class="font-display font-bold text-lg sm:text-xl text-white">705.Buzz Moderation & Live Publisher</h1>
         </div>
         <div class="flex items-center gap-2.5">
           <button onclick="pushAllToGitHub()" id="topPushBtn" class="px-4 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs transition-all shadow-lg shadow-emerald-500/20 flex items-center gap-1.5">
@@ -97,7 +97,7 @@
               <h2 class="font-display font-bold text-base sm:text-lg text-white">GitHub Live Sync Configuration</h2>
             </div>
             <p class="text-xs text-slate-400 mt-0.5">
-              Connect your GitHub repository once so every manual article or scraped feed pushes directly to <code class="text-buzz-400">stories.json</code> and updates <code class="text-buzz-400">index.html</code> automatically.
+              Connect your GitHub repository once so approved tips, manual articles, and scraped feeds push directly to <code class="text-buzz-400">stories.json</code>.
             </p>
           </div>
           <button onclick="saveGitHubConfig()" class="px-4 py-2 rounded-xl bg-buzz-500 hover:bg-buzz-400 text-slate-950 font-bold text-xs shrink-0 transition-all">
@@ -121,11 +121,33 @@
         </div>
 
         <div id="rssStatusLog" class="mt-4 bg-slate-950 border border-slate-800 rounded-xl p-3 font-mono text-xs text-slate-400 overflow-x-auto">
-          [System Ready] Unlocked! Configure your GitHub Repo & Token above to push updates directly to index.html.
+          [System Ready] Unlocked! Checking for pending community tips and active stories...
         </div>
       </section>
 
-      <!-- Section 2: Two-Column Workspace -->
+      <!-- Section 2: PENDING COMMUNITY TIPS & EVENTS MODERATION QUEUE -->
+      <section class="bg-slate-900/90 border-2 border-buzz-500/30 rounded-2xl p-6 shadow-xl">
+        <div class="flex flex-wrap items-center justify-between gap-4 mb-4">
+          <div class="flex items-center gap-3">
+            <span class="px-2.5 py-1 rounded-lg bg-buzz-500 text-slate-950 font-display font-black text-xs uppercase">
+              Review Queue (<span id="pendingCountBadge">0</span>)
+            </span>
+            <div>
+              <h2 class="font-display font-bold text-lg text-white">Pending Visitor Tips & Event Submissions</h2>
+              <p class="text-xs text-slate-400">Submitted from the public index page. Review and click <strong>Approve & Publish</strong> to push live.</p>
+            </div>
+          </div>
+          <button onclick="fetchPendingTipsQueue()" class="px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-buzz-400 border border-slate-700 text-xs font-semibold transition-all">
+            🔄 Refresh Queue
+          </button>
+        </div>
+
+        <div id="pendingQueueContainer" class="space-y-3">
+          <!-- Populated dynamically -->
+        </div>
+      </section>
+
+      <!-- Section 3: Two-Column Workspace -->
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
         
         <!-- LEFT COLUMN: Publish a Manual Article / Event Directly to Index -->
@@ -250,7 +272,7 @@
 
       </div>
 
-      <!-- Section 3: Live Stories Currently on Index Page (stories.json) -->
+      <!-- Section 4: Live Stories Currently on Index Page (stories.json) -->
       <section class="bg-slate-900/70 border border-slate-800 rounded-2xl p-6">
         <div class="flex flex-wrap items-center justify-between gap-4 mb-4">
           <div>
@@ -279,7 +301,7 @@
 
   <script>
     /********************************************************************
-     * 1. STATE & CONFIGURATION (Initialized First!)
+     * 1. STATE & CONFIGURATION
      ********************************************************************/
     const ADMIN_PASSWORD_PLAIN = '705buzz';
 
@@ -300,15 +322,17 @@
 
     let sources = [...defaultSources];
     let scrapedStories = [];
+    let pendingTips = [];
 
     /********************************************************************
-     * 2. ADMIN LOGIN (Case-Insensitive & Trim-Safe)
+     * 2. ADMIN LOGIN
      ********************************************************************/
     function unlockDashboardUI() {
       document.getElementById('loginScreen').classList.add('hidden');
       document.getElementById('adminDashboard').classList.remove('hidden');
       loadGitHubConfigUI();
       initializeAdminData();
+      fetchPendingTipsQueue();
     }
 
     function checkAuthSession() {
@@ -320,9 +344,7 @@
     function handleAdminLogin(e) {
       e.preventDefault();
       const rawInput = document.getElementById('adminPasswordInput').value || '';
-      const cleanedInput = rawInput.trim().toLowerCase();
-
-      if (cleanedInput === ADMIN_PASSWORD_PLAIN.toLowerCase()) {
+      if (rawInput.trim().toLowerCase() === ADMIN_PASSWORD_PLAIN.toLowerCase()) {
         sessionStorage.setItem('705buzz_admin_unlocked', 'true');
         document.getElementById('loginError').classList.add('hidden');
         unlockDashboardUI();
@@ -337,7 +359,160 @@
     }
 
     /********************************************************************
-     * 3. GITHUB DIRECT API PUSH ENGINE
+     * 3. PENDING TIPS MODERATION QUEUE (Local + GitHub Issues Sync)
+     ********************************************************************/
+    async function fetchPendingTipsQueue() {
+      const localPending = JSON.parse(localStorage.getItem('705buzz_pending_tips') || '[]');
+      const repo = document.getElementById('ghRepo').value.trim();
+      const token = document.getElementById('ghToken').value.trim();
+
+      let ghIssuesPending = [];
+      if (repo && token) {
+        try {
+          const res = await fetch(`https://api.github.com/repos/${repo}/issues?labels=pending-tip&state=open&t=${Date.now()}`, {
+            headers: {
+              'Authorization': `Bearer ${token}`,
+              'Accept': 'application/vnd.github+json'
+            },
+            cache: 'no-store'
+          });
+          if (res.ok) {
+            const issues = await res.json();
+            ghIssuesPending = issues.map(issue => {
+              try {
+                const parsed = JSON.parse(issue.body);
+                return { ...parsed, ghIssueNumber: issue.number };
+              } catch (e) {
+                return {
+                  id: 'issue-' + issue.number,
+                  ghIssueNumber: issue.number,
+                  isManual: true,
+                  title: issue.title.replace(/^\[TIP\]\s*/i, ''),
+                  category: 'Community',
+                  source: '705 Community Tip',
+                  location: 'Barrie, ON',
+                  timestamp: new Date(issue.created_at).toLocaleDateString('en-CA', { month: 'short', day: 'numeric' }),
+                  sortOrder: 9000,
+                  buzzScore: 95,
+                  summary: issue.body || '',
+                  image: categoryDefaultImages.Community,
+                  url: 'https://705.buzz',
+                  tags: ['Barrie', 'Community Tip']
+                };
+              }
+            });
+          }
+        } catch (err) {
+          console.warn('Could not fetch GitHub Issues queue:', err);
+        }
+      }
+
+      // Combine & deduplicate by ID
+      const seenIds = new Set();
+      pendingTips = [...ghIssuesPending, ...localPending].filter(tip => {
+        if (!tip || seenIds.has(tip.id)) return false;
+        seenIds.add(tip.id);
+        return true;
+      });
+
+      renderPendingQueue();
+    }
+
+    function renderPendingQueue() {
+      const container = document.getElementById('pendingQueueContainer');
+      document.getElementById('pendingCountBadge').textContent = pendingTips.length;
+
+      if (pendingTips.length === 0) {
+        container.innerHTML = `
+          <div class="bg-slate-950/60 border border-dashed border-slate-800 rounded-xl p-6 text-center text-xs text-slate-500">
+            No pending community tips awaiting review right now. Try submitting a test tip on your public index page!
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = pendingTips.map((tip, idx) => `
+        <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div class="space-y-1 flex-1">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="px-2 py-0.5 rounded bg-buzz-500/20 text-buzz-400 text-[10px] font-bold uppercase">${tip.category}</span>
+              <span class="text-xs font-semibold text-slate-300">📍 ${tip.location}</span>
+              <span class="text-[11px] text-slate-500">• From: ${tip.source}</span>
+              ${tip.ghIssueNumber ? `<span class="text-[11px] text-kempenfelt-400">• GitHub Issue #${tip.ghIssueNumber}</span>` : ''}
+            </div>
+            <h4 class="font-display font-bold text-sm sm:text-base text-white">${tip.title}</h4>
+            <p class="text-xs text-slate-400 leading-relaxed">${tip.summary}</p>
+            ${tip.url && tip.url !== 'https://705.buzz' ? `<a href="${tip.url}" target="_blank" class="inline-block text-[11px] text-kempenfelt-400 hover:underline mt-1">🔗 ${tip.url}</a>` : ''}
+          </div>
+          <div class="flex sm:flex-col gap-2 shrink-0">
+            <button onclick="approvePendingTip(${idx})" class="px-4 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs transition-all">
+              ✅ Approve & Publish
+            </button>
+            <button onclick="rejectPendingTip(${idx})" class="px-4 py-2 rounded-xl bg-rose-500/10 hover:bg-rose-500/20 text-rose-300 border border-rose-500/20 font-semibold text-xs transition-all">
+              🗑️ Reject
+            </button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    async function closeGitHubIssueIfPresent(tip) {
+      if (!tip.ghIssueNumber) return;
+      const repo = document.getElementById('ghRepo').value.trim();
+      const token = document.getElementById('ghToken').value.trim();
+      if (!repo || !token) return;
+
+      try {
+        await fetch(`https://api.github.com/repos/${repo}/issues/${tip.ghIssueNumber}`, {
+          method: 'PATCH',
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            'Accept': 'application/vnd.github+json',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ state: 'closed' })
+        });
+      } catch (e) {}
+    }
+
+    async function approvePendingTip(idx) {
+      const tip = pendingTips[idx];
+      if (!tip) return;
+
+      // Clean internal queue fields and promote to active stories
+      const approvedStory = { ...tip, isManual: true };
+      delete approvedStory.ghIssueNumber;
+      delete approvedStory.submittedAt;
+
+      scrapedStories.unshift(approvedStory);
+      pendingTips.splice(idx, 1);
+
+      // Update localStorage queue
+      const localPending = JSON.parse(localStorage.getItem('705buzz_pending_tips') || '[]').filter(t => t.id !== tip.id);
+      localStorage.setItem('705buzz_pending_tips', JSON.stringify(localPending));
+
+      renderPendingQueue();
+      renderAdminStoriesPreview();
+
+      await closeGitHubIssueIfPresent(tip);
+      await pushAllToGitHub();
+    }
+
+    async function rejectPendingTip(idx) {
+      const tip = pendingTips[idx];
+      if (!tip) return;
+
+      pendingTips.splice(idx, 1);
+      const localPending = JSON.parse(localStorage.getItem('705buzz_pending_tips') || '[]').filter(t => t.id !== tip.id);
+      localStorage.setItem('705buzz_pending_tips', JSON.stringify(localPending));
+
+      renderPendingQueue();
+      await closeGitHubIssueIfPresent(tip);
+      showToast('Tip rejected and removed from queue.');
+    }
+
+    /********************************************************************
+     * 4. GITHUB DIRECT API PUSH ENGINE
      ********************************************************************/
     function loadGitHubConfigUI() {
       const savedRepo = localStorage.getItem('705buzz_gh_repo') || 'mikec705/705.Buzz';
@@ -364,6 +539,7 @@
       localStorage.setItem('705buzz_gh_token', token);
 
       loadGitHubConfigUI();
+      fetchPendingTipsQueue();
       showToast('Saved GitHub API settings in browser!');
     }
 
@@ -456,7 +632,7 @@
     }
 
     /********************************************************************
-     * 4. SCRAPER & MANUAL ARTICLE LOGIC
+     * 5. SCRAPER & MANUAL ARTICLE LOGIC
      ********************************************************************/
     async function initializeAdminData() {
       try {
@@ -662,7 +838,7 @@
       previewEl.innerHTML = scrapedStories.map((st, i) => `
         <div class="flex items-center justify-between gap-3 bg-slate-950 border border-slate-800/80 rounded-lg px-3 py-2">
           <div class="truncate">
-            ${st.isManual ? '<span class="px-1.5 py-0.5 rounded bg-buzz-500/20 text-buzz-400 text-[10px] font-bold mr-1.5">MANUAL</span>' : ''}
+            ${st.isManual ? '<span class="px-1.5 py-0.5 rounded bg-buzz-500/20 text-buzz-400 text-[10px] font-bold mr-1.5">MANUAL / APPROVED</span>' : ''}
             <span class="text-buzz-400 font-semibold">[${st.source}]</span>
             <span class="text-slate-200 ml-1.5 font-medium">${st.title}</span>
           </div>
