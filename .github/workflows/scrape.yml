@@ -187,19 +187,36 @@ jobs:
             } catch (e) {}
           }
 
+          let deletedKeys = new Set();
+          if (fs.existsSync('./deleted.json')) {
+            try {
+              const del = JSON.parse(fs.readFileSync('./deleted.json', 'utf8'));
+              if (Array.isArray(del)) del.forEach(k => deletedKeys.add(String(k).toLowerCase()));
+            } catch (e) {}
+          }
+
+          const normTitle = t => String(t || '').toLowerCase().replace(/['’"`]/g, '').replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').trim();
+          const normUrl = u => String(u || '').split('?')[0].replace(/\/$/, '').trim().toLowerCase();
+
           const manualStories = existingStories.filter(s => s && s.isManual === true);
           const combined = [...manualStories, ...allStories, ...existingStories];
-          const seen = new Set();
+          const seenTitles = new Set();
+          const seenUrls = new Set();
+
           const unique = combined.filter(s => {
             if (!s || !s.title) return false;
-            const key = s.title.toLowerCase();
-            if (seen.has(key)) return false;
-            seen.add(key);
+            const tKey = normTitle(s.title);
+            const uKey = normUrl(s.url);
+            if (deletedKeys.has(tKey) || (uKey && deletedKeys.has(uKey))) return false;
+            const hasUrl = uKey && uKey !== 'https://705.buzz';
+            if (seenTitles.has(tKey) || (hasUrl && seenUrls.has(uKey))) return false;
+            seenTitles.add(tKey);
+            if (hasUrl) seenUrls.add(uKey);
             return true;
           });
 
           fs.writeFileSync('./stories.json', JSON.stringify(unique, null, 2));
-          console.log(`Successfully wrote ${unique.length} stories to stories.json`);
+          console.log(`Successfully wrote ${unique.length} unique stories to stories.json`);
           EOF
           node run-scraper.mjs
           rm -f run-scraper.mjs
