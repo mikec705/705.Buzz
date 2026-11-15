@@ -5,8 +5,9 @@ on:
     - cron: '0 * * * *' # Runs every hour on the hour
   push:
     paths:
-      - 'sources.json'  # Runs immediately whenever you add a link to sources.json!
-  workflow_dispatch:    # Lets you click "Run workflow" manually anytime
+      - 'sources.json'
+      - '.github/workflows/scrape.yml'
+  workflow_dispatch:    # Lets you click "Run workflow" manually
 
 permissions:
   contents: write
@@ -15,16 +16,166 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js 24
+        uses: actions/setup-node@v5
         with:
-          node-version: '20'
-      - run: npm install rss-parser cheerio
-      - run: node scraper.js
-      - name: Commit updated stories.json
+          node-version: '24'
+
+      - name: Scrape RSS & Web Sources into stories.json
+        run: |
+          cat << 'EOF' > run-scraper.mjs
+          import fs from 'fs';
+
+          const DEFAULT_SOURCES = [
+            { name: "BarrieToday", type: "rss", url: "https://www.barrietoday.com/rss", category: "News", location: "Barrie, ON" },
+            { name: "Barrie 360", type: "rss", url: "https://barrie360.com/feed/", category: "Community", location: "Barrie, ON" },
+            { name: "InnisfilToday", type: "rss", url: "https://www.innisfiltoday.ca/rss", category: "News", location: "Innisfil, ON" },
+            { name: "OrilliaMatters", type: "rss", url: "https://www.orilliamatters.com/rss", category: "News", location: "Orillia, ON" },
+            { name: "CollingwoodToday", type: "rss", url: "https://www.collingwoodtoday.ca/rss", category: "News", location: "Collingwood, ON" }
+          ];
+
+          const FALLBACK_IMAGES = {
+            News: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+            Events: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=80",
+            Weather: "https://images.unsplash.com/photo-1491002052546-bf38f186af56?auto=format&fit=crop&w=800&q=80",
+            Community: "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80"
+          };
+
+          // Ensure sources.json exists; create default if missing
+          if (!fs.existsSync('./sources.json')) {
+            fs.writeFileSync('./sources.json', JSON.stringify(DEFAULT_SOURCES, null, 2));
+            console.log('Created default sources.json');
+          }
+
+          const sources = JSON.parse(fs.readFileSync('./sources.json', 'utf8'));
+
+          function cleanText(str = '') {
+            return str
+              .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+              .replace(/<[^>]*>?/gm, '')
+              .replace(/&amp;/g, '&')
+              .replace(/&quot;/g, '"')
+              .replace(/&#039;/g, "'")
+              .replace(/&apos;/g, "'")
+              .replace(/&lt;/g, '<')
+              .replace(/&gt;/g, '>')
+              .replace(/\s+/g, ' ')
+              .trim();
+          }
+
+          function extractTag(xml, tag) {
+            const match = xml.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, 'i'));
+            return match ? match[1] : '';
+          }
+
+          async function scrapeRss(source, startOrder) {
+            const res = await fetch(source.url, {
+              headers: { 'User-Agent': 'Mozilla/5.0 (compatible; 705BuzzBot/1.0)' }
+            });
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            const xml = await res.text();
+
+            const items = xml.split(/<item[\s>]|<entry[\s>]/i).slice(1, 7);
+            return items.map((block, idx) => {
+              const title = cleanText(extractTag(block, 'title') || 'Local 705 Update');
+              const desc = cleanText(extractTag(block, 'description') || extractTag(block, 'summary') || extractTag(block, 'content:encoded') || '');
+              let link = cleanText(extractTag(block, 'link'));
+              if (!link) {
+                const hrefMatch = block.match(/<link[^>]+href=["']([^"']+)["']/i);
+                link = hrefMatch ? hrefMatch[1] : source.url;
+              }
+              const pubDate = extractTag(block, 'pubDate') || extractTag(block, 'published') || '';
+              const encMatch = block.match(/url=["']([^"']+\.(?:jpg|jpeg|png|webp)[^"']*)["']/i);
+              const img = encMatch ? encMatch[1] : (FALLBACK_IMAGES[source.category] || FALLBACK_IMAGES.News);
+
+              return {
+                id: `${source.name.toLowerCase().replace(/[^a-z0-9]/g, '-')}-${idx}`,
+                title,
+                category: source.category || 'News',
+                source: source.name,
+                location: source.location || 'Barrie, ON',
+                timestamp: pubDate ? new Date(pubDate).toLocaleDateString('en-CA', { month: 'short', day: 'numeric' }) : 'Latest',
+                sortOrder: startOrder - idx,
+                buzzScore: Math.floor(Math.random() * 18) + 80,
+                summary: (desc || `Latest update from ${source.name}.`).slice(0, 240) + '...',
+                image: img,
+                url: link,
+                tags: [source.location.split(',')[0], source.category, source.name]
+              };
+            });
+          }
+
+          async function scrapeHtml(source, startOrder) {
+            const res = await fetch(source.url, {
+              headers: { 'User-Agent': 'Mozilla/5.0 (compatible; 705BuzzBot/1.0)' }
+            });
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            const html = await res.text();
+
+            const ogTitle = html.match(/<meta[^>]+property=["']og:title["'][^>]+content=["']([^"']+)["']/i)?.[1]
+              || html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1]
+              || source.name;
+
+            const ogDesc = html.match(/<meta[^>]+(?:property=["']og:description["']|name=["']description["'])[^>]+content=["']([^"']+)["']/i)?.[1]
+              || `Click to view the latest updates from ${source.name}.`;
+
+            const ogImg = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i)?.[1]
+              || FALLBACK_IMAGES[source.category]
+              || FALLBACK_IMAGES.News;
+
+            return [{
+              id: `${source.name.toLowerCase().replace(/[^a-z0-9]/g, '-')}-web`,
+              title: cleanText(ogTitle),
+              category: source.category || 'Events',
+              source: source.name,
+              location: source.location || 'Barrie, ON',
+              timestamp: 'Featured Link',
+              sortOrder: startOrder,
+              buzzScore: 92,
+              summary: cleanText(ogDesc).slice(0, 240) + '...',
+              image: ogImg,
+              url: source.url,
+              tags: [source.location.split(',')[0], source.category, 'Web Link']
+            }];
+          }
+
+          const allStories = [];
+          let order = 2000;
+
+          for (const src of sources) {
+            try {
+              console.log(`Scraping [${src.type}]: ${src.name} -> ${src.url}`);
+              const items = src.type === 'html'
+                ? await scrapeHtml(src, order)
+                : await scrapeRss(src, order);
+              allStories.push(...items);
+              order -= 20;
+            } catch (e) {
+              console.warn(`Skipped ${src.name}: ${e.message}`);
+            }
+          }
+
+          const seen = new Set();
+          const unique = allStories.filter(s => {
+            if (!s.title || seen.has(s.title.toLowerCase())) return false;
+            seen.add(s.title.toLowerCase());
+            return true;
+          });
+
+          if (unique.length > 0) {
+            fs.writeFileSync('./stories.json', JSON.stringify(unique, null, 2));
+            console.log(`Successfully wrote ${unique.length} stories to stories.json`);
+          }
+          EOF
+          node run-scraper.mjs
+          rm run-scraper.mjs
+
+      - name: Commit and Push updated stories.json
         run: |
           git config --global user.name "705.Buzz Auto-Scraper"
           git config --global user.email "bot@705.buzz"
-          git add stories.json
-          git diff --staged --quiet || git commit -m "chore: auto-scrape latest 705 sources"
-          git push
+          git add stories.json sources.json
+          git diff --staged --quiet || (git pull --rebase && git commit -m "chore: auto-scrape latest 705 sources" && git push)
