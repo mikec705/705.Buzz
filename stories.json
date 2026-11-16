@@ -1,6 +1,402 @@
 [
   {
     "id": "midlandtoday-0",
+    "title": "Surveillance pricing could lead to more expensive groceries for some, MPs hear",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 2000,
+    "buzzScore": 94,
+    "summary": "OTTAWA — People with religious or health-based food restrictions could end up paying more for groceries with the use of algorithmic pricing, an expert told MPs at a Parliamentary committee Monday....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/e6ebe3dfb371952287f001319e969b4298bb9d559e9a0141b69ef63f27bcb0fe.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/surveillance-pricing-could-lead-to-more-expensive-groceries-for-some-mps-hear-13023050",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
+    "title": "Ecuadorian politicians warn about legal provisions in free trade deal",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1999,
+    "buzzScore": 96,
+    "summary": "OTTAWA — Twenty-five former cabinet ministers and former heads of parliament in Ecuador are warning that some provisions of the Canada-Ecuador free trade deal are putting the countries' economic relationship at risk....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/cf86facdbf0121a3a4b7cffaa06195c836e9d4421d57e59b2f06999c2f5d330a.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/ecuadorian-politicians-warn-about-legal-provisions-in-free-trade-deal-13023775",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-2",
+    "title": "Inquest into death of Jamal Francique hears from Peel region constable",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1998,
+    "buzzScore": 90,
+    "summary": "A police constable told a coroner's inquest Monday he was concerned about the risk of an ambush as he approached a car that had crashed into a pillar after it was hit by police gunfire during a botched arrest in Mississauga, Ont....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/fec999d5c90e00eb7fd8bda79fa91fd2c9f58e40b9d780b093dc8a8d1c5f07df.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/ontario-news/inquest-into-death-of-jamal-francique-hears-from-peel-region-constable-13021948",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-3",
+    "title": "&#39;I&#39;m just happy that I saved my dad&#39;s life&#39;: Midland family displaced after fire leaves home uninhabitable",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1997,
+    "buzzScore": 92,
+    "summary": "Resident recounts Saturday evening blaze at Riverwalk Place home; fire chief says extensive damage prevented investigators from determining cause...",
+    "image": "https://www.vmcdn.ca/f/files/midlandtoday/images/emergency/2026-11-16firemr.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/midland-riverwalk-place-fire-family-displaced-13024341",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-4",
+    "title": "Giving Tuesday event to bring charities together in Midland",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1996,
+    "buzzScore": 85,
+    "summary": "A mix of local organizations will be part of the Dec. 1 event, representing causes and programs that touch all corners of community life...",
+    "image": "https://www.vmcdn.ca/f/files/shared/charity/charity-adobestock_189505994.jpeg;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/giving-tuesday-event-to-bring-charities-together-in-midland-13023048",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-5",
+    "title": "Countries willing to pay more for stable energy supply from Canada, Hogan says",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1995,
+    "buzzScore": 93,
+    "summary": "OTTAWA — Countries are willing to pay more to sign long-term energy supply deals with Canada because it can offer both security and stability, Calgary MP Corey Hogan said at an energy conference Monday....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/e25ecca22db3accb076d0a0cdca5b055109090146ab05e9cd2744056e9c0bbee.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/countries-willing-to-pay-more-for-stable-energy-supply-from-canada-hogan-says-13022430",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrietoday-0",
+    "title": "Thousands of local kids need your support this holiday season",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1980,
+    "buzzScore": 83,
+    "summary": "Simcoe Muskoka Family Connexions looking for donors for its 2026 Holiday Program...",
+    "image": "https://www.vmcdn.ca/f/files/shared/holidays/christmas/christmas-gifts-pexels-tofroscom-257855.jpg;w=960",
+    "url": "https://www.barrietoday.com/local-news/thousands-of-local-kids-need-your-support-this-holiday-season-13022583",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-2",
+    "title": "&#39;I&#39;m just happy that I saved my dad&#39;s life&#39;: Midland family displaced by fire",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1978,
+    "buzzScore": 92,
+    "summary": "Resident recounts Saturday evening blaze at Riverwalk Place home; fire chief says extensive damage prevented investigators from determining cause...",
+    "image": "https://www.vmcdn.ca/f/files/midlandtoday/images/emergency/2026-11-16firemr.jpg;w=960",
+    "url": "https://www.barrietoday.com/local-news/midland-riverwalk-place-fire-family-displaced-13024391",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-5",
+    "title": "Local townships doing the math on rising winter maintenance costs",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1975,
+    "buzzScore": 97,
+    "summary": "Essa Township official says municipality has seen around 37% hike in the cost of winter salt compared to previous years...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/township-of-springwater-snowplow.jpg;w=960",
+    "url": "https://www.barrietoday.com/local-news/local-townships-doing-the-math-on-rising-winter-maintenance-costs-13023375",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "U.S. defends world women’s hockey gold medal with 6-2 win over Canada",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1960,
+    "buzzScore": 91,
+    "summary": "Hilary Knight and Kelly Pannek each scored twice as the United States defended its women’s world hockey title with a 6-2 win over Canada in Monday’s gold-medal game....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/us-beats-canada-womens-world-hockey-gold-2026/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "Nearly double the speed limit in Essa results in stunt driving charge: OPP",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1959,
+    "buzzScore": 90,
+    "summary": "Ontario Provincial Police charged a motorist with travelling nearly double the speed limit in Essa Township....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/nearly-double-speed-essa-stunt-driving/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-2",
+    "title": "Grammy nominations snub Harry Styles and hip-hop, while surprises include Dolly Parton",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1958,
+    "buzzScore": 95,
+    "summary": "NEW YORK (AP) — The 2027 Grammy Award nominees are here and there’s a lot to discuss, from Raye and Rosalía dominating the nominations to John Cale receiving his first nod at 84....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/grammy-nominations-harry-styles/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-3",
+    "title": "(Update) Ontario Catholic teachers vote overwhelmingly in favour of strike mandate",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1957,
+    "buzzScore": 83,
+    "summary": "The teachers of Ontario's English Catholic schools have voted to give their union a strike mandate as negotiations with the government stall.&#160; The union representing 45,000 teachers in Ontario's English Catholic schools said 98 per cen...",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/ontario-catholic-teachers-strike-mandate/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-4",
+    "title": "(Update) Toronto police arrest suspect in Bridle Path home invasion investigation",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1956,
+    "buzzScore": 87,
+    "summary": "Toronto police have arrested one suspect in last month's violent home invasion in the Bridle Path neighbourhood.&#160; Police say 24-year-old Daijohn Richards was arrested in Ottawa over this past weekend following a weekslong investigation...",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/toronto-bridle-path-home-invasion-arrest-november-2026/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-5",
+    "title": "(Video) Barrie Police charge G2 driver with having alcohol in their system",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1955,
+    "buzzScore": 92,
+    "summary": "A G2 driver from Orillia has been charged with having alcohol in their system after being stopped by Barrie Police....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/barrie-police-g2-driver-alcohol-charge/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "innisfiltoday-1",
+    "title": "REVIEW: &#39;Ebenezer&#39; teaches Johnny Depp the true meaning of Christmas",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1939,
+    "buzzScore": 80,
+    "summary": "Superstar Depp brings moments of heart and occasional excess to Ebenezer Scrooge in his first Hollywood studio film in eight years...",
+    "image": "https://www.vmcdn.ca/f/files/oakville/images/movies/ebenezer-pic1.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/review-ebenezer-teaches-johnny-depp-the-true-meaning-of-christmas-13021128",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-5",
+    "title": "Several Innisfil elementary schools placed in hold and secure Monday afternoon",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1935,
+    "buzzScore": 95,
+    "summary": "This was a 'precautionary measure while officers investigated a potential safety concern in the surrounding community,' police official says...",
+    "image": "https://www.vmcdn.ca/f/files/innisfiltoday/images/school/2021-03-29alconaglenmk-01.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/police-beat/several-innisfil-elementary-schools-placed-in-hold-and-secure-monday-afternoon-13024147",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-0",
+    "title": "&#39;It was crazy&#39;: Family displaced after fire leaves home uninhabitable",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1920,
+    "buzzScore": 92,
+    "summary": "'I'm just happy that I saved my dad's life,' says resident of blaze in Midland; fire chief says extensive damage prevented investigators from determining cause...",
+    "image": "https://www.vmcdn.ca/f/files/midlandtoday/images/emergency/2026-11-16firemr.jpg;w=960",
+    "url": "https://www.orilliamatters.com/local-news/midland-riverwalk-place-fire-family-displaced-13024434",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-1",
+    "title": "EARLE, James Barr",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1919,
+    "buzzScore": 92,
+    "summary": "We are saddened to announce the passing of James Barr Earle who died peacefully at Soldiers Memorial Hospital on November 13, 2026....",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/announcements/obituaries/20261116-james-earle.jpg;w=960",
+    "url": "https://www.orilliamatters.com/obituaries/earle-james-barr-13024562",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-3",
+    "title": "Too many patients, too few doctors: Local hospital under pressure",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1917,
+    "buzzScore": 96,
+    "summary": "Temporary closures of maternity services at Georgian Bay General Hospital have disrupted care for expectant families in north Simcoe; no 'quick solution' on horizon...",
+    "image": "https://www.vmcdn.ca/f/files/midlandtoday/images/health/2022-04-26-matthew-lawson-media.jpg;w=960",
+    "url": "https://www.orilliamatters.com/local-news/gbgh-hospital-pressure-obstetrical-closures-13022144",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-3",
+    "title": "New camp near Barrie offers respite, recreation and independence for neurodivergent adults",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1897,
+    "buzzScore": 90,
+    "summary": "Horseshoe Valley Camp Frith celebrated its grand opening Saturday in Minesing, showcasing year-round day and overnight programs for neurodivergent adults aged 18 to 65...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/11142026nccampfrith7.jpeg;w=960",
+    "url": "https://www.collingwoodtoday.ca/local-news/new-camp-near-barrie-offers-respite-recreation-and-independence-for-neurodivergent-adults-13023014",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-5",
+    "title": "Community &#39;distraught&#39; after copper Jesus statue stolen from B.C. school",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1895,
+    "buzzScore": 82,
+    "summary": "A Catholic school in Surrey, B.C., is praying that Jesus will help a group of thieves after they stole a life-size copper statue of Christ from the school's courtyard....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/7f3599733cc6d98a52bb521c9728dd4ab6af398d77942726b865333b9da2a80a.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/national-news/community-distraught-after-copper-jesus-statue-stolen-from-bc-school-13023309",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-0",
     "title": "At least 17 people killed in 2 mass shootings on the same day in South Africa",
     "category": "News",
     "source": "MidlandToday",
@@ -2013,24 +2409,6 @@
       "Orillia",
       "News",
       "OrilliaMatters"
-    ]
-  },
-  {
-    "id": "barrietoday-5",
-    "title": "New camp near Barrie offers respite, recreation and independence for neurodivergent adults",
-    "category": "News",
-    "source": "BarrieToday",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 14",
-    "sortOrder": 1995,
-    "buzzScore": 84,
-    "summary": "Horseshoe Valley Camp Frith celebrated its grand opening Saturday in Minesing, showcasing year-round day and overnight programs for neurodivergent adults aged 18 to 65....",
-    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/11142026nccampfrith7.jpeg;w=960",
-    "url": "https://www.barrietoday.com/local-news/new-camp-near-barrie-offers-respite-recreation-and-independence-for-neurodivergent-adults-13018403",
-    "tags": [
-      "Barrie",
-      "News",
-      "BarrieToday"
     ]
   },
   {
