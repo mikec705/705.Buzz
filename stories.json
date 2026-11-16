@@ -1,6 +1,402 @@
 [
   {
     "id": "midlandtoday-0",
+    "title": "At least 17 people killed in 2 mass shootings on the same day in South Africa",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 2000,
+    "buzzScore": 93,
+    "summary": "JOHANNESBURG (AP) — At least 17 people were killed in two mass shootings on the same day in South Africa. Motives have not been immediately established for the crimes some 530 kilometers (330 miles) apart, police said Monday....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/498b41046c8f5b07894a14ee02bac649600a5189d4aac7d75cf08f6d10d2465a.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/world-news/at-least-17-people-killed-in-2-mass-shootings-on-the-same-day-in-south-africa-13020495",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
+    "title": "In this Tay Township school, the great outdoors is the classroom",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1999,
+    "buzzScore": 90,
+    "summary": "Nature Nurtures Tay Forest School uses children’s curiosity about natural world to teach reading, writing, math, social skills...",
+    "image": "https://www.vmcdn.ca/f/files/midlandtoday/images/education/2026-11-13-nature-nurtures-tay-forest-school1.jpeg;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/in-this-tay-township-school-the-great-outdoors-is-the-classroom-13016200",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-2",
+    "title": "Good morning, Midland! Here&#39;s today&#39;s weather!",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1998,
+    "buzzScore": 89,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/midland/nov-16-good-morning-midland.jpeg;w=960",
+    "url": "https://www.midlandtoday.ca/good-morning/good-morning-midland-heres-todays-weather-12998600",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-3",
+    "title": "Strong calving season provides glimmer of hope for endangered right whales",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1997,
+    "buzzScore": 92,
+    "summary": "HALIFAX — The most recent calving season for North Atlantic right whales was one of the strongest on record, providing a glimmer of hope for the critically endangered species....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/46c58e6dcfc5a70d117af251c3762d9e66d9534b916d3a3ab247f96ff4e13e87.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/strong-calving-season-provides-glimmer-of-hope-for-endangered-right-whales-13020571",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-4",
+    "title": "In the news today: Carney to meet Xi, Chinese exports surge, GTA VI arrives",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1996,
+    "buzzScore": 81,
+    "summary": "Here is a roundup of stories from The Canadian Press designed to bring you up to speed … Carney heads to China to meet with President Xi, leaders from across Pacific Rim Prime Minister Mark Carney travels to China today, where he is set to ...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/76e624d6687c3b661bc235bc9d2294b446a2103b3153c273e525bd64e793a566.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/in-the-news-today-carney-to-meet-xi-chinese-exports-surge-gta-vi-arrives-13020558",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-5",
+    "title": "Carney heads to China to meet with President Xi, leaders from across Pacific Rim",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1995,
+    "buzzScore": 92,
+    "summary": "PHNOM PENH — Prime Minister Mark Carney is travelling to China today, where he is set to meet with Chinese President Xi Jinping and leaders from across the Pacific Rim....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/76e624d6687c3b661bc235bc9d2294b446a2103b3153c273e525bd64e793a566.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/carney-heads-to-china-to-meet-with-president-xi-leaders-from-across-pacific-rim-13020533",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrietoday-0",
+    "title": "COLUMN: Autumn peeper prompts dive into frogs’ winter survival",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1980,
+    "buzzScore": 88,
+    "summary": "Aquatic frogs remain partly exposed in pond mud to absorb oxygen, while woodland species use glucose to protect their organs as much of their bodies freezes...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/outdoors/20140808_wye-marsh_bullfrog-hawke-6.jpg;w=960",
+    "url": "https://www.barrietoday.com/columns/outdoors/column-autumn-peeper-prompts-dive-into-frogs-winter-survival-13013078",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-2",
+    "title": "Good morning, Barrie! Here&#39;s today&#39;s weather!",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1978,
+    "buzzScore": 86,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/barrie/20261111barriesunriseck2(1).png;w=960",
+    "url": "https://www.barrietoday.com/good-morning/good-morning-barrie-heres-todays-weather-13007173",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "Johnny Depp film ‘Ebenezer’ gets actor first No. 1 opening in 8 years",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1960,
+    "buzzScore": 81,
+    "summary": "Johnny Depp is back at the top of the box office with his first studio movie in eight years, and since fallout from a contentious libel trial against ex-wife Amber Heard left his future in Hollywood in jeopardy....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/johnny-depp-film-ebenezer/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "Phil Collins cries, Billy Idol shouts and rappers romp at Rock &#038; Roll Hall of Fame ceremony",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1959,
+    "buzzScore": 86,
+    "summary": "LOS ANGELES (AP) — Phil Collins gave a tearful acceptance speech and got an electrifying tribute from Cynthia Erivo, Oprah Winfrey inducted the late Luther Vandross, the crowd yelled along with Billy Idol, and Wu-Tang Clan crowded the stage...",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/phil-collins-rock-hall/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-2",
+    "title": "Need help this holiday season? Christmas Cheer Barrie now accepting 2026 applications",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1958,
+    "buzzScore": 97,
+    "summary": "Barrie &#38; District Christmas Cheer is now accepting applications for its 2026 Christmas assistance program, providing support to families and individuals across the region ahead of the holiday season....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/christmas-cheer-barrie-2026-applications-open/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-3",
+    "title": "Elks win Grey Cup against Alouettes, QB Fajardo gets MVP after 4 touchdowns",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1957,
+    "buzzScore": 84,
+    "summary": "Cody Fajardo earned his Grey Cup redemption....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/elks-win-grey-cup-fajardo-mvp/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-4",
+    "title": "(Update) Russia will not compete at world juniors in Canada: IIHF",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1956,
+    "buzzScore": 92,
+    "summary": "The International Ice Hockey Federation confirms in a statement that Russia will not have a team at the world junior hockey championship next month in Alberta, citing government restrictions in Canada....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/russia-barred-2026-world-juniors-alberta/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-5",
+    "title": "Bryan Adams sensed a political shift when red states cheered his anti-Trump song",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1955,
+    "buzzScore": 93,
+    "summary": "Last week's U.S....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/bryan-adams-political-shift-anti-trump-song/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "innisfiltoday-1",
+    "title": "‘Oh my gosh, I won gold’: Local stylist to compete in world finals",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1939,
+    "buzzScore": 96,
+    "summary": "Alissa Pfeiffer, who was raised in Alliston, won gold in New York and is headed to Portugal...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/business/fabstyle-11-12-26.jpeg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/oh-my-gosh-i-won-gold-local-stylist-to-compete-in-world-finals-13013550",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-2",
+    "title": "Good morning, Innisfil! Here&#39;s today&#39;s weather!",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1938,
+    "buzzScore": 95,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/innisfil/2026-11-09-good-morning-innisfil-6.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/good-morning/good-morning-innisfil-heres-todays-weather-12997219",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-0",
+    "title": "&#39;Outrageous&#39;: Resident questions police response after assault by e-bike riders",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1920,
+    "buzzScore": 90,
+    "summary": "'I'm 66. I almost lost my leg to cancer, and I'm thinking these kids are going to kill me,' laments senior after frightening incident left him shaken...",
+    "image": "https://www.vmcdn.ca/f/files/shared/transportation/ebikeadobestock_181143387.jpeg;w=960",
+    "url": "https://www.orilliamatters.com/police-beat/outrageous-resident-questions-police-response-after-assault-by-e-bike-riders-13019347",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-2",
+    "title": "New local camp offers recreation and independence for neurodivergent adults",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1918,
+    "buzzScore": 80,
+    "summary": "'It's more of a recreation resort-type model as opposed to a strict, regimented model, and that gives people individuality and choice,' says manager of camp...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/11142026nccampfrith7.jpeg;w=960",
+    "url": "https://www.orilliamatters.com/local-news/new-local-camp-offers-recreation-and-independence-for-neurodivergent-adults-13018994",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-3",
+    "title": "Find a little holiday magic and a moment for yourself at Orillia&#39;s Holistic Healing Fair",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1917,
+    "buzzScore": 91,
+    "summary": "From crystals and handmade gifts to free wellness workshops, mermaid photos and family fun, the Heart of Winter Holiday Holistic Healing Fair™ returns Nov. 29...",
+    "image": "https://www.vmcdn.ca/f/files/aurora/images/spotlight/aurora-chamber-of-commerce/adobestock_381417107.jpeg;w=960",
+    "url": "https://www.orilliamatters.com/spotlight/find-a-little-holiday-magic-and-a-moment-for-yourself-at-orillias-holistic-healing-fair-13009862",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-4",
+    "title": "Good morning, Orillia! Here&#39;s today&#39;s weather!",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1916,
+    "buzzScore": 92,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/orillia/2026-11-09-gm-lower-trail-off-james-street.jpg;w=960",
+    "url": "https://www.orilliamatters.com/good-morning-orillia/good-morning-orillia-heres-todays-weather-12998194",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-1",
+    "title": "Local auto body shop wins coveted Reader Favourite award for the fourth year in a row",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1899,
+    "buzzScore": 92,
+    "summary": "What continues to make CARSTAR Collingwood a customer favourite....",
+    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/spotlight-images/carstar/carstar-3.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/spotlight/local-auto-body-shop-wins-coveted-reader-favourite-award-for-the-fourth-year-in-a-row-13005432",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-2",
+    "title": "Good morning, Collingwood. Here&#39;s today&#39;s weather",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1898,
+    "buzzScore": 90,
+    "summary": "Latest update from CollingwoodToday....",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/collingwood/used20221119_gmc_ee3.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/good-morning-collingwood/good-morning-collingwood-heres-todays-weather-13017986",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-0",
     "title": "PM Carney takes his investment pitch to Francophonie summit in Cambodia",
     "category": "News",
     "source": "MidlandToday",
@@ -180,42 +576,6 @@
     ]
   },
   {
-    "id": "barrie-360-0",
-    "title": "(Update) Russia will not compete at world juniors in Canada: IIHF",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1960,
-    "buzzScore": 93,
-    "summary": "The International Ice Hockey Federation confirms in a statement that Russia will not have a team at the world junior hockey championship next month in Alberta, citing government restrictions in Canada....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/russia-barred-2026-world-juniors-alberta/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-1",
-    "title": "Bryan Adams sensed a political shift when red states cheered his anti-Trump song",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1959,
-    "buzzScore": 91,
-    "summary": "Last week's U.S....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/bryan-adams-political-shift-anti-trump-song/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
     "id": "barrie-360-2",
     "title": "County of Simcoe launches interactive population growth dashboard",
     "category": "Community",
@@ -285,24 +645,6 @@
       "Barrie",
       "Community",
       "Barrie 360"
-    ]
-  },
-  {
-    "id": "innisfiltoday-1",
-    "title": "COLUMN: Autumn peeper prompts dive into frogs’ winter survival",
-    "category": "News",
-    "source": "InnisfilToday",
-    "location": "Innisfil, ON",
-    "timestamp": "Nov 16",
-    "sortOrder": 1939,
-    "buzzScore": 86,
-    "summary": "Aquatic frogs remain partly exposed in pond mud to absorb oxygen, while woodland species use glucose to protect their organs as much of their bodies freezes...",
-    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/outdoors/20140808_wye-marsh_bullfrog-hawke-6.jpg;w=960",
-    "url": "https://www.innisfiltoday.ca/local-news/column-autumn-peeper-prompts-dive-into-frogs-winter-survival-13013140",
-    "tags": [
-      "Innisfil",
-      "News",
-      "InnisfilToday"
     ]
   },
   {
@@ -1332,24 +1674,6 @@
     ]
   },
   {
-    "id": "collingwoodtoday-5",
-    "title": "Good morning, Collingwood. Here&#39;s today&#39;s weather",
-    "category": "News",
-    "source": "CollingwoodToday",
-    "location": "Collingwood, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1895,
-    "buzzScore": 95,
-    "summary": "Latest update from CollingwoodToday....",
-    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/collingwood/used20221119_gmc_ee5.jpg;w=960",
-    "url": "https://www.collingwoodtoday.ca/good-morning-collingwood/good-morning-collingwood-heres-todays-weather-13017980",
-    "tags": [
-      "Collingwood",
-      "News",
-      "CollingwoodToday"
-    ]
-  },
-  {
     "id": "barrie-360-5",
     "title": "Colts let multi-goal third period lead slip as Rangers steal 4-2 win",
     "category": "Community",
@@ -1365,78 +1689,6 @@
       "Barrie",
       "Community",
       "Barrie 360"
-    ]
-  },
-  {
-    "id": "midlandtoday-5",
-    "title": "Good morning, Midland! Here&#39;s today&#39;s weather!",
-    "category": "News",
-    "source": "MidlandToday",
-    "location": "Midland, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1995,
-    "buzzScore": 87,
-    "summary": "Here's a look at the current local weather and gas prices...",
-    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/midland/nov-15-good-morning-midland.jpeg;w=960",
-    "url": "https://www.midlandtoday.ca/good-morning/good-morning-midland-heres-todays-weather-12998594",
-    "tags": [
-      "Midland",
-      "News",
-      "MidlandToday"
-    ]
-  },
-  {
-    "id": "barrietoday-5",
-    "title": "Good morning, Barrie! Here&#39;s today&#39;s weather!",
-    "category": "News",
-    "source": "BarrieToday",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1975,
-    "buzzScore": 86,
-    "summary": "Here's a look at the current local weather and gas prices...",
-    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/barrie/20261104goodmorningbarriefallcorn.jpg;w=960",
-    "url": "https://www.barrietoday.com/good-morning/good-morning-barrie-heres-todays-weather-12980418",
-    "tags": [
-      "Barrie",
-      "News",
-      "BarrieToday"
-    ]
-  },
-  {
-    "id": "innisfiltoday-5",
-    "title": "Good morning, Innisfil! Here&#39;s today&#39;s weather!",
-    "category": "News",
-    "source": "InnisfilToday",
-    "location": "Innisfil, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1935,
-    "buzzScore": 85,
-    "summary": "Here's a look at the current local weather and gas prices...",
-    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/innisfil/2026-11-09-good-morning-innisfil-1.jpg;w=960",
-    "url": "https://www.innisfiltoday.ca/good-morning/good-morning-innisfil-heres-todays-weather-12997193",
-    "tags": [
-      "Innisfil",
-      "News",
-      "InnisfilToday"
-    ]
-  },
-  {
-    "id": "orilliamatters-5",
-    "title": "Good morning, Orillia! Here&#39;s today&#39;s weather!",
-    "category": "News",
-    "source": "OrilliaMatters",
-    "location": "Orillia, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1915,
-    "buzzScore": 92,
-    "summary": "Here's a look at the current local weather and gas prices...",
-    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/orillia/2026-11-09-gm-park-on-fittons-road-margot.jpg;w=960",
-    "url": "https://www.orilliamatters.com/good-morning-orillia/good-morning-orillia-heres-todays-weather-12998159",
-    "tags": [
-      "Orillia",
-      "News",
-      "OrilliaMatters"
     ]
   },
   {
