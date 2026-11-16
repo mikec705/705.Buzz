@@ -1,13 +1,31 @@
 [
   {
     "id": "midlandtoday-0",
+    "title": "PM Carney takes his investment pitch to Francophonie summit in Cambodia",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 2000,
+    "buzzScore": 83,
+    "summary": "PHNOM PENH — Prime Minister Mark Carney brought his pitch for Canada as an investment destination to a group of mostly French-speaking countries in Cambodia on Sunday....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/21deda31ec8d558e02a7d4b4123a4a2a0a08bb18e13199b4a899d8bb6e078ce6.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/pm-carney-takes-his-investment-pitch-to-francophonie-summit-in-cambodia-13019316",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
     "title": "Canoe trio arrives in Vancouver, marking end of 8,000-kilometre cross-Canada journey",
     "category": "News",
     "source": "MidlandToday",
     "location": "Midland, ON",
     "timestamp": "Nov 15",
-    "sortOrder": 2000,
-    "buzzScore": 94,
+    "sortOrder": 1999,
+    "buzzScore": 96,
     "summary": "It was an emotional welcome for a trio of canoeists as they made their final landing in Vancouver on Sunday afternoon, completing an 8,000-kilometre cross-country journey....",
     "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/177eea5ac545dd520a8b32cedc60e84890a6b3a162b32a9616904a04bfa61e78.jpg;w=960",
     "url": "https://www.midlandtoday.ca/national-news/canoe-trio-arrives-in-vancouver-marking-end-of-8000-kilometre-cross-canada-journey-13019870",
@@ -18,14 +36,14 @@
     ]
   },
   {
-    "id": "midlandtoday-1",
+    "id": "midlandtoday-2",
     "title": "Penetanguishene author releasing sixth book in series",
     "category": "News",
     "source": "MidlandToday",
     "location": "Midland, ON",
     "timestamp": "Nov 15",
-    "sortOrder": 1999,
-    "buzzScore": 97,
+    "sortOrder": 1998,
+    "buzzScore": 80,
     "summary": "David Dupuis will release ‘Signs,’ the sixth book in ‘The Hildegard Prophecies,’ on Nov. 28...",
     "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/education/20241206-13-crop.jpeg;w=960",
     "url": "https://www.midlandtoday.ca/local-news/penetanguishene-author-releasing-sixth-book-in-series-13018385",
@@ -36,14 +54,14 @@
     ]
   },
   {
-    "id": "midlandtoday-2",
+    "id": "midlandtoday-3",
     "title": "Violent deaths, lockdown shine light on life inside Beaver Creek",
     "category": "News",
     "source": "MidlandToday",
     "location": "Midland, ON",
     "timestamp": "Nov 15",
-    "sortOrder": 1998,
-    "buzzScore": 86,
+    "sortOrder": 1997,
+    "buzzScore": 91,
     "summary": "Lockdown imposed about one week after Devin Paskimin was killed; Kadeem Francis charged with second-degree murder in his death...",
     "image": "https://www.vmcdn.ca/f/files/barrietoday/images/court/08192025spencechambers.jpg;w=960",
     "url": "https://www.midlandtoday.ca/local-news/violent-deaths-lockdown-shine-light-on-life-inside-beaver-creek-13013483",
@@ -54,14 +72,14 @@
     ]
   },
   {
-    "id": "midlandtoday-3",
+    "id": "midlandtoday-4",
     "title": "Severn operators encouraged to apply early for short-term-rental licences",
     "category": "News",
     "source": "MidlandToday",
     "location": "Midland, ON",
     "timestamp": "Nov 15",
-    "sortOrder": 1997,
-    "buzzScore": 81,
+    "sortOrder": 1996,
+    "buzzScore": 88,
     "summary": "The program takes effect Jan. 1...",
     "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/severn-township/20261113-severn-short-term-rental-licensing.jpg;w=960",
     "url": "https://www.midlandtoday.ca/local-news/severn-operators-encouraged-to-apply-early-for-short-term-rental-licences-13015718",
@@ -72,14 +90,14 @@
     ]
   },
   {
-    "id": "midlandtoday-4",
+    "id": "midlandtoday-5",
     "title": "Flight ground stop in Canada, like the FAA&#39;s on Friday, unlikely: aviation expert",
     "category": "News",
     "source": "MidlandToday",
     "location": "Midland, ON",
     "timestamp": "Nov 15",
-    "sortOrder": 1996,
-    "buzzScore": 80,
+    "sortOrder": 1995,
+    "buzzScore": 90,
     "summary": "OTTAWA — An aviation management expert says Canada is less likely than the United States to ground flights nationwide as that country did on Friday afternoon, calling the Canadian system a model its southern neighbours should look to....",
     "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/e294538ca3cbb258b740e5a41b1b0eac851464fc9f88792574b38e4ba9bdcf31.jpg;w=960",
     "url": "https://www.midlandtoday.ca/national-news/flight-ground-stop-in-canada-like-the-faas-on-friday-unlikely-aviation-expert-13019831",
@@ -87,6 +105,366 @@
       "Midland",
       "News",
       "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrietoday-1",
+    "title": "Bill Watters remembered as hockey dynamo, family man",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1979,
+    "buzzScore": 90,
+    "summary": "'For a kid from Orillia, to be the team’s assistant general manager was like two steps short of heaven,' Watters once said; the local legend died Sunday...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/sports/bill-watters-5-28-22.jpg;w=960",
+    "url": "https://www.barrietoday.com/local-sports/orillias-bill-watters-remembered-as-hockey-dynamo-family-man-13020094",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-2",
+    "title": "Two dead after crash involving out-of-control Tesla: police",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1978,
+    "buzzScore": 82,
+    "summary": "Durham police responded to call Friday morning for crash near large mall called The Shops at Pickering City Centre...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/723f252b3370b5bf2159d4db012506bea4ad1b6654addfa56eb2564bd4ef3cdf.jpg;w=960",
+    "url": "https://www.barrietoday.com/police-beat/two-dead-after-crash-involving-out-of-control-tesla-police-13020019",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-4",
+    "title": "One of Bradford&#39;s first Portuguese families honoured with park renaming",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1976,
+    "buzzScore": 88,
+    "summary": "Araujos settled in town in the 1960s, later founding Lisbon Paving and helping begin the Portuguese Cultural Centre of Bradford...",
+    "image": "https://www.vmcdn.ca/f/files/bradfordtoday/images/announcements/2026-11-07-araujopark-xx001.JPG;w=960",
+    "url": "https://www.barrietoday.com/local-news/one-of-bradfords-first-portuguese-families-honoured-with-park-renaming-13009107",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-5",
+    "title": "MOVIE REVIEW: New kids learn the tale of &#39;The Cat in the Hat&#39;",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1975,
+    "buzzScore": 87,
+    "summary": "'The Cat in the Hat' offers colourful production design, playful gags and consistent laughs, yet provides little in the way of narrative payoff...",
+    "image": "https://www.vmcdn.ca/f/files/oakville/images/movies/thecatinthehat-pic1.png;w=960",
+    "url": "https://www.barrietoday.com/local-entertainment/review-dr-seuss-the-cat-in-the-hat-13004435",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "(Update) Russia will not compete at world juniors in Canada: IIHF",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1960,
+    "buzzScore": 93,
+    "summary": "The International Ice Hockey Federation confirms in a statement that Russia will not have a team at the world junior hockey championship next month in Alberta, citing government restrictions in Canada....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/russia-barred-2026-world-juniors-alberta/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "Bryan Adams sensed a political shift when red states cheered his anti-Trump song",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1959,
+    "buzzScore": 91,
+    "summary": "Last week's U.S....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/bryan-adams-political-shift-anti-trump-song/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-2",
+    "title": "County of Simcoe launches interactive population growth dashboard",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1958,
+    "buzzScore": 80,
+    "summary": "Residents can explore long-term population forecasts, compare municipal growth and examine demographic trends through the new online tool....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/simcoe-county-launches-population-growth-dashboard/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-3",
+    "title": "Here's where the County of Simcoe is opening warming centre locations across the region",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1957,
+    "buzzScore": 84,
+    "summary": "To support communities and vulnerable residents this winter, the County of Simcoe and its partners will provide over 100 warming and emergency overnight spaces across the region, ensuring individuals and families living unhoused have access...",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/simcoe-county-warming-centres-list/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-4",
+    "title": "Matheson’s magic lifts Colts past Steelheads in shootout, secures first winning week",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1956,
+    "buzzScore": 80,
+    "summary": "Lucas Matheson reached into his bag of tricks in the shootout and handed the Barrie Colts their first winning week of the season....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/colts-steelheads-matheson-shootout-win26/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-5",
+    "title": "Less than half of Crown-owned heritage buildings in fair or better condition",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1955,
+    "buzzScore": 89,
+    "summary": "Forty-five per cent of Crown-owned heritage buildings are in fair or better condition, says a federal government report....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/crown-owned-heritage-buildings-condition-report26/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "innisfiltoday-1",
+    "title": "COLUMN: Autumn peeper prompts dive into frogs’ winter survival",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1939,
+    "buzzScore": 86,
+    "summary": "Aquatic frogs remain partly exposed in pond mud to absorb oxygen, while woodland species use glucose to protect their organs as much of their bodies freezes...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/outdoors/20140808_wye-marsh_bullfrog-hawke-6.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/column-autumn-peeper-prompts-dive-into-frogs-winter-survival-13013140",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-3",
+    "title": "COLUMN: To believe or not to believe weather forecasters",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1937,
+    "buzzScore": 91,
+    "summary": "When weather forecasters start talking about a warmer, dryer winter, Bob Bruton just asks them to check back with him in late January to see how things are going...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/weather/20261110boyinthesnowcrop.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/column-to-believe-or-not-to-believe-weather-forecasters-13008617",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-5",
+    "title": "County calls on Ontario to fix &#39;lagging&#39; ambulance funding formula",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1935,
+    "buzzScore": 87,
+    "summary": "'Either pay up or change the formula,' says Tay Township deputy mayor; as municipal councils prepare 2027 budgets, funding gap adds pressure on local taxpayers...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/health/11072023simcoeambulance3.jpeg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/county-calls-on-ontario-to-fix-lagging-ambulance-funding-formula-13005024",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-1",
+    "title": "JOHNSTON, Deborah Ann Johnston (n&#233;e Speiran)",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1919,
+    "buzzScore": 81,
+    "summary": "Debbie passed away peacefully on November 14th to be with her LORD, at Mariposa House Hospice, surrounded by her family...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/announcements/obituaries/debbie-johnston.jpg;w=960",
+    "url": "https://www.orilliamatters.com/obituaries/johnston-deborah-ann-johnston-nee-speiran-13020207",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-2",
+    "title": "Jacob Cole",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1918,
+    "buzzScore": 87,
+    "summary": "May 30/2006-Sept 5/2023 Not a day passes that I don't miss you, my son. Your sister, Dad and I are so heartbroken but we know you want us to live life for you....",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/announcements/jacob-cole.jpg;w=960",
+    "url": "https://www.orilliamatters.com/in-memoriam/jacob-cole-13020205",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-3",
+    "title": "WATTERS, William Wayne &#39;Bill&#39;",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1917,
+    "buzzScore": 84,
+    "summary": "William Wayne 'Bill' Watters, born and raised in Orillia, passed away on Sunday, November 15, at the age of 83...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/announcements/obituaries/bill-watters.jpg;w=960",
+    "url": "https://www.orilliamatters.com/obituaries/watters-william-wayne-bill-13020198",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-4",
+    "title": "Orillia’s Bill Watters remembered as a hockey dynamo and family man",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1916,
+    "buzzScore": 96,
+    "summary": "'For a kid from Orillia, to be the team’s assistant general manager was like two steps short of heaven,' Watters once said; the local legend died Sunday...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/sports/bill-watters-5-28-22.jpg;w=960",
+    "url": "https://www.orilliamatters.com/local-sports/orillias-bill-watters-remembered-as-a-hockey-dynamo-and-family-man-13020047",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-2",
+    "title": "&#39;Don&#39;t give up&#39;: Tiny Township woman shares powerful message after spinal surgery",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1898,
+    "buzzScore": 95,
+    "summary": "After years of troubling symptoms and a frightening operation, Karna Wingate is finding strength in family, community and a lifelong dream...",
+    "image": "https://www.vmcdn.ca/f/files/midlandtoday/images/people/2026-11-13karnamr-cropped.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/local-news/tiny-woman-finds-strength-after-spinal-surgery-13018016",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-4",
+    "title": "Collingwood woman becomes Peloton’s first-ever Canadian instructor",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1896,
+    "buzzScore": 88,
+    "summary": "People of Collingwood: Greta Dopp, Peloton instructor...",
+    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/images/people/2026-11-13dopp-001.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/local-news/collingwood-woman-becomes-pelotons-first-ever-canadian-instructor-13016311",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-5",
+    "title": "Lawyers unsure if extra funding can reduce massive caseload at Federal Court",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 15",
+    "sortOrder": 1895,
+    "buzzScore": 83,
+    "summary": "OTTAWA — The recent federal budget included $58 million in additional funding court administration but the Federal Court still doesn't have a clear picture of how it can be used to reduce a massive caseload that has grown rapidly since 2020...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/059f91e139f2a31e9fd19e790f6a824009531a70413ef53414030ff9848d46ef.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/national-news/lawyers-unsure-if-extra-funding-can-reduce-massive-caseload-at-federal-court-13017759",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
     ]
   },
   {
@@ -105,60 +483,6 @@
       "Midland",
       "News",
       "MidlandToday"
-    ]
-  },
-  {
-    "id": "barrietoday-0",
-    "title": "Two dead after crash involving out-of-control Tesla: police",
-    "category": "News",
-    "source": "BarrieToday",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1980,
-    "buzzScore": 87,
-    "summary": "Durham police responded to call Friday morning for crash near large mall called The Shops at Pickering City Centre...",
-    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/723f252b3370b5bf2159d4db012506bea4ad1b6654addfa56eb2564bd4ef3cdf.jpg;w=960",
-    "url": "https://www.barrietoday.com/police-beat/two-dead-after-crash-involving-out-of-control-tesla-police-13020019",
-    "tags": [
-      "Barrie",
-      "News",
-      "BarrieToday"
-    ]
-  },
-  {
-    "id": "barrietoday-2",
-    "title": "One of Bradford&#39;s first Portuguese families honoured with park renaming",
-    "category": "News",
-    "source": "BarrieToday",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1978,
-    "buzzScore": 81,
-    "summary": "Araujos settled in town in the 1960s, later founding Lisbon Paving and helping begin the Portuguese Cultural Centre of Bradford...",
-    "image": "https://www.vmcdn.ca/f/files/bradfordtoday/images/announcements/2026-11-07-araujopark-xx001.JPG;w=960",
-    "url": "https://www.barrietoday.com/local-news/one-of-bradfords-first-portuguese-families-honoured-with-park-renaming-13009107",
-    "tags": [
-      "Barrie",
-      "News",
-      "BarrieToday"
-    ]
-  },
-  {
-    "id": "barrietoday-3",
-    "title": "MOVIE REVIEW: New kids learn the tale of &#39;The Cat in the Hat&#39;",
-    "category": "News",
-    "source": "BarrieToday",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1977,
-    "buzzScore": 84,
-    "summary": "'The Cat in the Hat' offers colourful production design, playful gags and consistent laughs, yet provides little in the way of narrative payoff...",
-    "image": "https://www.vmcdn.ca/f/files/oakville/images/movies/thecatinthehat-pic1.png;w=960",
-    "url": "https://www.barrietoday.com/local-entertainment/review-dr-seuss-the-cat-in-the-hat-13004435",
-    "tags": [
-      "Barrie",
-      "News",
-      "BarrieToday"
     ]
   },
   {
@@ -195,168 +519,6 @@
       "Barrie",
       "News",
       "BarrieToday"
-    ]
-  },
-  {
-    "id": "barrie-360-0",
-    "title": "(Update) Russia will not compete at world juniors in Canada: IIHF",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1960,
-    "buzzScore": 82,
-    "summary": "The International Ice Hockey Federation confirms in a statement that Russia will not have a team at the world junior hockey championship next month in Alberta, citing government restrictions in Canada....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/russia-barred-2026-world-juniors-alberta/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-1",
-    "title": "Bryan Adams sensed a political shift when red states cheered his anti-Trump song",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1959,
-    "buzzScore": 87,
-    "summary": "Last week's U.S....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/bryan-adams-political-shift-anti-trump-song/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-2",
-    "title": "County of Simcoe launches interactive population growth dashboard",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1958,
-    "buzzScore": 81,
-    "summary": "Residents can explore long-term population forecasts, compare municipal growth and examine demographic trends through the new online tool....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/simcoe-county-launches-population-growth-dashboard/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-3",
-    "title": "Here's where the County of Simcoe is opening warming centre locations across the region",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1957,
-    "buzzScore": 81,
-    "summary": "To support communities and vulnerable residents this winter, the County of Simcoe and its partners will provide over 100 warming and emergency overnight spaces across the region, ensuring individuals and families living unhoused have access...",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/simcoe-county-warming-centres-list/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-4",
-    "title": "Matheson’s magic lifts Colts past Steelheads in shootout, secures first winning week",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1956,
-    "buzzScore": 93,
-    "summary": "Lucas Matheson reached into his bag of tricks in the shootout and handed the Barrie Colts their first winning week of the season....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/colts-steelheads-matheson-shootout-win26/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-5",
-    "title": "Less than half of Crown-owned heritage buildings in fair or better condition",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1955,
-    "buzzScore": 95,
-    "summary": "Forty-five per cent of Crown-owned heritage buildings are in fair or better condition, says a federal government report....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/crown-owned-heritage-buildings-condition-report26/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "innisfiltoday-1",
-    "title": "COLUMN: To believe or not to believe weather forecasters",
-    "category": "News",
-    "source": "InnisfilToday",
-    "location": "Innisfil, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1939,
-    "buzzScore": 82,
-    "summary": "When weather forecasters start talking about a warmer, dryer winter, Bob Bruton just asks them to check back with him in late January to see how things are going...",
-    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/weather/20261110boyinthesnowcrop.jpg;w=960",
-    "url": "https://www.innisfiltoday.ca/local-news/column-to-believe-or-not-to-believe-weather-forecasters-13008617",
-    "tags": [
-      "Innisfil",
-      "News",
-      "InnisfilToday"
-    ]
-  },
-  {
-    "id": "innisfiltoday-3",
-    "title": "County calls on Ontario to fix &#39;lagging&#39; ambulance funding formula",
-    "category": "News",
-    "source": "InnisfilToday",
-    "location": "Innisfil, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1937,
-    "buzzScore": 90,
-    "summary": "'Either pay up or change the formula,' says Tay Township deputy mayor; as municipal councils prepare 2027 budgets, funding gap adds pressure on local taxpayers...",
-    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/health/11072023simcoeambulance3.jpeg;w=960",
-    "url": "https://www.innisfiltoday.ca/local-news/county-calls-on-ontario-to-fix-lagging-ambulance-funding-formula-13005024",
-    "tags": [
-      "Innisfil",
-      "News",
-      "InnisfilToday"
-    ]
-  },
-  {
-    "id": "innisfiltoday-4",
-    "title": "Lawyers unsure if extra funding can reduce massive caseload at Federal Court",
-    "category": "News",
-    "source": "InnisfilToday",
-    "location": "Innisfil, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1936,
-    "buzzScore": 86,
-    "summary": "OTTAWA — The recent federal budget included $58 million in additional funding court administration but the Federal Court still doesn't have a clear picture of how it can be used to reduce a massive caseload that has grown rapidly since 2020...",
-    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/059f91e139f2a31e9fd19e790f6a824009531a70413ef53414030ff9848d46ef.jpg;w=960",
-    "url": "https://www.innisfiltoday.ca/national-news/lawyers-unsure-if-extra-funding-can-reduce-massive-caseload-at-federal-court-13017759",
-    "tags": [
-      "Innisfil",
-      "News",
-      "InnisfilToday"
     ]
   },
   {
@@ -429,42 +591,6 @@
       "Orillia",
       "News",
       "OrilliaMatters"
-    ]
-  },
-  {
-    "id": "collingwoodtoday-1",
-    "title": "&#39;Don&#39;t give up&#39;: Tiny Township woman shares powerful message after spinal surgery",
-    "category": "News",
-    "source": "CollingwoodToday",
-    "location": "Collingwood, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1899,
-    "buzzScore": 95,
-    "summary": "After years of troubling symptoms and a frightening operation, Karna Wingate is finding strength in family, community and a lifelong dream...",
-    "image": "https://www.vmcdn.ca/f/files/midlandtoday/images/people/2026-11-13karnamr-cropped.jpg;w=960",
-    "url": "https://www.collingwoodtoday.ca/local-news/tiny-woman-finds-strength-after-spinal-surgery-13018016",
-    "tags": [
-      "Collingwood",
-      "News",
-      "CollingwoodToday"
-    ]
-  },
-  {
-    "id": "collingwoodtoday-3",
-    "title": "Collingwood woman becomes Peloton’s first-ever Canadian instructor",
-    "category": "News",
-    "source": "CollingwoodToday",
-    "location": "Collingwood, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1897,
-    "buzzScore": 88,
-    "summary": "People of Collingwood: Greta Dopp, Peloton instructor...",
-    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/images/people/2026-11-13dopp-001.jpg;w=960",
-    "url": "https://www.collingwoodtoday.ca/local-news/collingwood-woman-becomes-pelotons-first-ever-canadian-instructor-13016311",
-    "tags": [
-      "Collingwood",
-      "News",
-      "CollingwoodToday"
     ]
   },
   {
@@ -720,24 +846,6 @@
     ]
   },
   {
-    "id": "midlandtoday-3",
-    "title": "PM Carney takes his investment pitch to Francophonie summit in Cambodia",
-    "category": "News",
-    "source": "MidlandToday",
-    "location": "Midland, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1997,
-    "buzzScore": 82,
-    "summary": "PHNOM PENH — Prime Minister Mark Carney brought his pitch for Canada as an investment destination to a group of mostly French-speaking countries in Cambodia on Sunday....",
-    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/21deda31ec8d558e02a7d4b4123a4a2a0a08bb18e13199b4a899d8bb6e078ce6.jpg;w=960",
-    "url": "https://www.midlandtoday.ca/national-news/pm-carney-takes-his-investment-pitch-to-francophonie-summit-in-cambodia-13019316",
-    "tags": [
-      "Midland",
-      "News",
-      "MidlandToday"
-    ]
-  },
-  {
     "id": "midlandtoday-4",
     "title": "Penetanguishene to host community drop-in, budget info session",
     "category": "News",
@@ -857,24 +965,6 @@
     "summary": "In loving memory of Linda Marie Sumrall June 28, 1952 – October 23, 2026 Linda passed away at the age of 74. She was dearly loved and will be missed by her sons Derek Martin and Dwayne Martin....",
     "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/announcements/obituaries/20261115-linda-sumrall.jpg;w=960",
     "url": "https://www.orilliamatters.com/obituaries/sumrall-linda-marie-13019582",
-    "tags": [
-      "Orillia",
-      "News",
-      "OrilliaMatters"
-    ]
-  },
-  {
-    "id": "orilliamatters-5",
-    "title": "COLUMN: Autumn peeper prompts dive into frogs’ winter survival",
-    "category": "News",
-    "source": "OrilliaMatters",
-    "location": "Orillia, ON",
-    "timestamp": "Nov 15",
-    "sortOrder": 1915,
-    "buzzScore": 81,
-    "summary": "Aquatic frogs remain partly exposed in pond mud to absorb oxygen, while woodland species use glucose to protect their organs as much of their bodies freezes...",
-    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/outdoors/20140808_wye-marsh_bullfrog-hawke-6.jpg;w=960",
-    "url": "https://www.orilliamatters.com/outdoors/column-autumn-peeper-prompts-dive-into-frogs-winter-survival-13013031",
     "tags": [
       "Orillia",
       "News",
