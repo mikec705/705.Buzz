@@ -1,6 +1,492 @@
 [
   {
     "id": "midlandtoday-0",
+    "title": "Tactical unit called for spat involving kitchen knife, pepper spray",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 2000,
+    "buzzScore": 92,
+    "summary": "Area woman, 29, arrested after hours-long incident Monday afternoon...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/police/crime-scenes/20261116peelstreetstandoff.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/police-beat/tactical-unit-called-for-spat-involving-kitchen-knife-pepper-spray-13026031",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
+    "title": "Office romances can go wrong quickly. Just ask Nvidia&#39;s Jensen Huang",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1999,
+    "buzzScore": 89,
+    "summary": "Office romances are risky at the best of times, but they can be especially damaging when they involve the founder of one of the biggest companies in the world. Just ask Jensen Huang....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/a911c04c79240e3cc1082e62f8144b54826da8defb69daa524cea1800e384e70.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/ontario-news/office-romances-can-go-wrong-quickly-just-ask-nvidias-jensen-huang-13025914",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-2",
+    "title": "Midland has plenty to be merry about with national ranking",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1998,
+    "buzzScore": 87,
+    "summary": "Community places fourth nationally, behind Drummondville, Charlottetown and Owen Sound...",
+    "image": "https://www.vmcdn.ca/f/files/midlandtoday/images/events/tree-lighting-file-photo.png;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/midland-has-plenty-to-be-merry-about-with-national-ranking-13023109",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-3",
+    "title": "Trump arrives in Philippines to kick off Asia trip with economic deals and talks with allies",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1997,
+    "buzzScore": 97,
+    "summary": "MANILA, Philippines (AP) — President Donald Trump arrived in the Philippines on Tuesday, where he met with regional partners, sought to formalize a trade deal and get a break from a series of setbacks at home, ranging from a major disruptio...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/f2c264c7d8a50eebe29f5e82c00d86b719f8df7c9a1a19a90c014e3b5e7f0d7b.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/world-news/trump-arrives-in-philippines-to-kick-off-asia-trip-with-economic-deals-and-talks-with-allies-13025401",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-4",
+    "title": "New local camp offers recreation and independence for neurodivergent adults",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1996,
+    "buzzScore": 84,
+    "summary": "Horseshoe Valley Camp Frith celebrated its grand opening Saturday in Minesing, showcasing year-round day and overnight programs...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/11142026nccampfrith7.jpeg;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/new-local-camp-offers-recreation-and-independence-for-neurodivergent-adults-13021700",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-5",
+    "title": "Carney and Sheinbaum meet at summit in China, as both navigate Trump&#39;s tumult",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1995,
+    "buzzScore": 91,
+    "summary": "SHENZHEN — Prime Minister Mark Carney met Tuesday with Mexican President Claudia Sheinbaum on the sidelines of an economic summit in China, as both leaders navigate tumultuous and unpredictable trade talks with the United States....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/a00b87ffd14e61bec95a7abbb0e880361e6eb70ca9690b35d0dfe09bb80eb570.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/carney-and-sheinbaum-meet-at-summit-in-china-as-both-navigate-trumps-tumult-13025383",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrietoday-1",
+    "title": "OPP looking for witnesses, video footage after Loretto-area crash",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1979,
+    "buzzScore": 96,
+    "summary": "Nottawasaga OPP asking residents, businesses and motorists in the area Saturday morning to review doorbell camera, security camera or dashcam footage...",
+    "image": "https://www.vmcdn.ca/f/files/shared/stock-images/cruiser-2-(1).jpg;w=960",
+    "url": "https://www.barrietoday.com/police-beat/opp-looking-for-witnesses-video-footage-after-loretto-area-crash-13025918",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-3",
+    "title": "Place to shine: Barrie City Centre hosts art showcase (8 photos)",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1977,
+    "buzzScore": 95,
+    "summary": "Five artists received cash awards and certificates at recent recognition event celebrating works inspired by connections among people, places and experiences...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/arts/20261116bowen.jpeg;w=960",
+    "url": "https://www.barrietoday.com/local-entertainment/place-to-shine-barrie-city-centre-hosts-art-showcase-8-photos-13021074",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-4",
+    "title": "LETTER: Premier-appointed regional chairs creates &#39;disregard&#39; for democracy",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1976,
+    "buzzScore": 86,
+    "summary": "'The optics are really bad, considering most of the appointments have very close Conservative ties,' says letter writer...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/education/2022-05-30-simcoe-county-rb.jpeg;w=960",
+    "url": "https://www.barrietoday.com/letters-to-the-editor/letter-premier-appointed-regional-chairs-creates-disregard-for-democracy-13019616",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-5",
+    "title": "Audit undercuts Ford&#39;s &#39;Taj Mahal&#39; claims on Children&#39;s Aid costs",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1975,
+    "buzzScore": 86,
+    "summary": "Audit validated concerns from parents and child welfare workers about escalating costs for caring for kids with complex needs where provincial services are lacking...",
+    "image": "https://www.vmcdn.ca/f/files/trillium/images/parsa2nov16.JPG;w=960",
+    "url": "https://www.barrietoday.com/local-news/audit-undercuts-fords-taj-mahal-claims-on-childrens-aid-costs-13025507",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "Ontario introduces fast-track process for victims of intimate image abuse",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1960,
+    "buzzScore": 80,
+    "summary": "Ontario Premier Doug Ford's government tabled a bill Monday that would create a new legal pathway for victims of intimate image abuse to have those images deleted....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/ontario-intimate-image-abuse/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "RVH Auxiliary ending community 50/50 lottery after six years of supporting patient care",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1959,
+    "buzzScore": 80,
+    "summary": "The RVH Auxiliary is preparing to close a successful chapter in local healthcare fundraising, announcing that its Community 50/50 lottery will hold its final Auxiliary-operated draw on Nov....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/rvh-lottery-changing-lanes/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-2",
+    "title": "Royal Paws founder wins Barrie Young Professional Award for unique wedding pet service",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1958,
+    "buzzScore": 96,
+    "summary": "When couples want their four-legged family members included in their wedding day, they often turn to Royal Paws Pet Services....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/royal-paws-pet-services/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-3",
+    "title": "U.S. defends world women’s hockey gold medal with 6-2 win over Canada",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1957,
+    "buzzScore": 88,
+    "summary": "Hilary Knight and Kelly Pannek each scored twice as the United States defended its women’s world hockey title with a 6-2 win over Canada in Monday’s gold-medal game....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/us-beats-canada-womens-world-hockey-gold-2026/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-4",
+    "title": "Nearly double the speed limit in Essa results in stunt driving charge: OPP",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1956,
+    "buzzScore": 88,
+    "summary": "Ontario Provincial Police charged a motorist with travelling nearly double the speed limit in Essa Township....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/nearly-double-speed-essa-stunt-driving/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-5",
+    "title": "Grammy nominations snub Harry Styles and hip-hop, while surprises include Dolly Parton",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1955,
+    "buzzScore": 84,
+    "summary": "NEW YORK (AP) — The 2027 Grammy Award nominees are here and there’s a lot to discuss, from Raye and Rosalía dominating the nominations to John Cale receiving his first nod at 84....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/grammy-nominations-harry-styles/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "innisfiltoday-0",
+    "title": "Woman accused of $500K charity fraud says ‘there is more to my story’",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1940,
+    "buzzScore": 83,
+    "summary": "Annabelle Menezes has asked the public to reserve judgment as her case proceeds through the courts, but did not deny the allegations against her...",
+    "image": "https://www.vmcdn.ca/f/files/torontotoday/images/police/20240822superiorcourtofjusticeuniversityavenuecourthouseka01.JPG;w=960",
+    "url": "https://www.innisfiltoday.ca/court/toronto-woman-accused-500k-charity-fraud-says-more-to-story-13021724",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-2",
+    "title": "&#39;Not scared but disturbed&#39;: Sikh community responds to alleged hate crimes",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1938,
+    "buzzScore": 93,
+    "summary": "'It doesn't matter if a person has a turban or not, no one should be manhandled or feel unsafe while in the city or riding a transit bus,' says Barrie community leader...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/police/crime/20261110policehatecrimeassaults.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/police-beat/not-scared-but-disturbed-sikh-community-responds-to-alleged-hate-crimes-13023337",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-5",
+    "title": "French soccer leader Diallo confirms bid to challenge Infantino for FIFA presidency",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1935,
+    "buzzScore": 90,
+    "summary": "PARIS (AP) — French soccer leader Philippe Diallo confirmed his intention on Tuesday to challenge Gianni Infantino for the FIFA presidency....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/619e4eca1037b624a3e56869274e5b5ebc0e159c0a61d17b9f8c99eea57e8853.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/world-news/french-soccer-leader-diallo-confirms-bid-to-challenge-infantino-for-fifa-presidency-13025439",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-0",
+    "title": "Morningstar Park Refresh",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1920,
+    "buzzScore": 88,
+    "summary": "Latest update from OrilliaMatters....",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/city-of-orillia/city-of-orillia-logo.jpg;w=960",
+    "url": "https://www.orilliamatters.com/cityinfo/morningstar-park-refresh-13026037",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-1",
+    "title": "CAMERON, Ronald John",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1919,
+    "buzzScore": 80,
+    "summary": "(Member of Three Pillars Masonic Lodge No....",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/announcements/obituaries/20261117cameron1.jpeg;w=960",
+    "url": "https://www.orilliamatters.com/obituaries/cameron-ronald-john-13026004",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-2",
+    "title": "&#39;It’s easy to make a difference&#39; with Ramara&#39;s Feeding Families campaign",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1918,
+    "buzzScore": 97,
+    "summary": "The campaign aims to raise monetary and gift card donations to support Ramara families and children during the holiday season...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/charity/20241219-feeding-families2.jpg;w=960",
+    "url": "https://www.orilliamatters.com/local-news/its-easy-to-make-a-difference-with-ramaras-feeding-families-campaign-13022946",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-4",
+    "title": "LETTER: Carney&#39;s plan to &#39;end homelessness&#39; is political theatre",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1916,
+    "buzzScore": 82,
+    "summary": "'It is designed to win headlines today while kicking the real crisis down the road until the next election cycle, and it will fail,' says letter writer...",
+    "image": "https://www.vmcdn.ca/f/files/shared/politics/politicians/federal/02282025markcarneyflyingmonkeys5.jpg;w=960",
+    "url": "https://www.orilliamatters.com/letters-to-the-editor/letter-carneys-plan-to-end-homelessness-is-political-theatre-13022880",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-5",
+    "title": "LETTER: Ontario needs better waste solutions, not faster disposal",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1915,
+    "buzzScore": 93,
+    "summary": "'Better solutions are reached when the public is involved in decision-making,' says frustrated letter writer...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/city-of-orillia/basement-leads-to-bin-of-garbage-at-youth-centre.jpeg;w=960",
+    "url": "https://www.orilliamatters.com/letters-to-the-editor/letter-ontario-needs-better-waste-solutions-not-faster-disposal-13023402",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-0",
+    "title": "Thousands of local kids need your support this holiday season",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1900,
+    "buzzScore": 95,
+    "summary": "Simcoe Muskoka Family Connexions looking for donors for its 2026 Holiday Program...",
+    "image": "https://www.vmcdn.ca/f/files/shared/holidays/christmas/christmas-gifts-pexels-tofroscom-257855.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/local-news/thousands-of-local-kids-need-your-support-this-holiday-season-13025498",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-1",
+    "title": "SWANZEY, James “Jim”",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1899,
+    "buzzScore": 85,
+    "summary": "Died peacefully at the Collingwood General & Marine Hospital on Saturday November 14, 2026, at the age of 84. Jim was predeceased by his beloved wife Ola (2023)....",
+    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/images/announcements/obituaries/20261117swanzey-james-jim.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/obituaries/swanzey-james-jim-13025957",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-3",
+    "title": "Collingwood’s new council sworn in (7 photos)",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1897,
+    "buzzScore": 96,
+    "summary": "The 2026-30 Collingwood council inauguration ceremony took place at Bear Estate on Monday afternoon...",
+    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/images/politics/2026-11-16counciljo-001.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/local-news/collingwoods-new-council-sworn-in-7-photos-13024211",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-0",
     "title": "Mongolia’s president says he will step down after facing accusations of corruption",
     "category": "News",
     "source": "MidlandToday",
@@ -72,24 +558,6 @@
     ]
   },
   {
-    "id": "midlandtoday-4",
-    "title": "&#39;Not scared but disturbed&#39;: Sikh community responds to alleged hate crimes",
-    "category": "News",
-    "source": "MidlandToday",
-    "location": "Midland, ON",
-    "timestamp": "Nov 17",
-    "sortOrder": 1996,
-    "buzzScore": 94,
-    "summary": "'It doesn't matter if a person has a turban or not; no one should be manhandled or feel unsafe while in the city or riding a transit bus,' says community leader...",
-    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/police/crime/20261110policehatecrimeassaults.jpg;w=960",
-    "url": "https://www.midlandtoday.ca/local-news/not-scared-but-disturbed-sikh-community-responds-to-alleged-hate-crimes-13024084",
-    "tags": [
-      "Midland",
-      "News",
-      "MidlandToday"
-    ]
-  },
-  {
     "id": "midlandtoday-5",
     "title": "Several staffers leaving Poilievre&#39;s office weeks after B.C. election",
     "category": "News",
@@ -141,60 +609,6 @@
       "Barrie",
       "News",
       "BarrieToday"
-    ]
-  },
-  {
-    "id": "barrie-360-0",
-    "title": "U.S. defends world women’s hockey gold medal with 6-2 win over Canada",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 16",
-    "sortOrder": 1960,
-    "buzzScore": 91,
-    "summary": "Hilary Knight and Kelly Pannek each scored twice as the United States defended its women’s world hockey title with a 6-2 win over Canada in Monday’s gold-medal game....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/us-beats-canada-womens-world-hockey-gold-2026/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-1",
-    "title": "Nearly double the speed limit in Essa results in stunt driving charge: OPP",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 16",
-    "sortOrder": 1959,
-    "buzzScore": 92,
-    "summary": "Ontario Provincial Police charged a motorist with travelling nearly double the speed limit in Essa Township....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/nearly-double-speed-essa-stunt-driving/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-2",
-    "title": "Grammy nominations snub Harry Styles and hip-hop, while surprises include Dolly Parton",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 16",
-    "sortOrder": 1958,
-    "buzzScore": 86,
-    "summary": "NEW YORK (AP) — The 2027 Grammy Award nominees are here and there’s a lot to discuss, from Raye and Rosalía dominating the nominations to John Cale receiving his first nod at 84....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/grammy-nominations-harry-styles/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
     ]
   },
   {
@@ -267,24 +681,6 @@
       "Innisfil",
       "News",
       "InnisfilToday"
-    ]
-  },
-  {
-    "id": "orilliamatters-3",
-    "title": "Audit undercuts Ford&#39;s &#39;Taj Mahal&#39; claims on Children&#39;s Aid costs",
-    "category": "News",
-    "source": "OrilliaMatters",
-    "location": "Orillia, ON",
-    "timestamp": "Nov 17",
-    "sortOrder": 1917,
-    "buzzScore": 94,
-    "summary": "Audit validated concerns from parents and child welfare workers about escalating costs for caring for kids with complex needs where provincial services are lacking...",
-    "image": "https://www.vmcdn.ca/f/files/trillium/images/parsa2nov16.JPG;w=960",
-    "url": "https://www.orilliamatters.com/local-news/audit-undercuts-fords-taj-mahal-claims-on-childrens-aid-costs-13025048",
-    "tags": [
-      "Orillia",
-      "News",
-      "OrilliaMatters"
     ]
   },
   {
@@ -393,24 +789,6 @@
       "Midland",
       "News",
       "MidlandToday"
-    ]
-  },
-  {
-    "id": "barrietoday-0",
-    "title": "Thousands of local kids need your support this holiday season",
-    "category": "News",
-    "source": "BarrieToday",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 16",
-    "sortOrder": 1980,
-    "buzzScore": 83,
-    "summary": "Simcoe Muskoka Family Connexions looking for donors for its 2026 Holiday Program...",
-    "image": "https://www.vmcdn.ca/f/files/shared/holidays/christmas/christmas-gifts-pexels-tofroscom-257855.jpg;w=960",
-    "url": "https://www.barrietoday.com/local-news/thousands-of-local-kids-need-your-support-this-holiday-season-13022583",
-    "tags": [
-      "Barrie",
-      "News",
-      "BarrieToday"
     ]
   },
   {
@@ -875,24 +1253,6 @@
     "summary": "'I'm 66. I almost lost my leg to cancer, and I'm thinking these kids are going to kill me,' laments senior after frightening incident left him shaken...",
     "image": "https://www.vmcdn.ca/f/files/shared/transportation/ebikeadobestock_181143387.jpeg;w=960",
     "url": "https://www.orilliamatters.com/police-beat/outrageous-resident-questions-police-response-after-assault-by-e-bike-riders-13019347",
-    "tags": [
-      "Orillia",
-      "News",
-      "OrilliaMatters"
-    ]
-  },
-  {
-    "id": "orilliamatters-2",
-    "title": "New local camp offers recreation and independence for neurodivergent adults",
-    "category": "News",
-    "source": "OrilliaMatters",
-    "location": "Orillia, ON",
-    "timestamp": "Nov 16",
-    "sortOrder": 1918,
-    "buzzScore": 80,
-    "summary": "'It's more of a recreation resort-type model as opposed to a strict, regimented model, and that gives people individuality and choice,' says manager of camp...",
-    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/11142026nccampfrith7.jpeg;w=960",
-    "url": "https://www.orilliamatters.com/local-news/new-local-camp-offers-recreation-and-independence-for-neurodivergent-adults-13018994",
     "tags": [
       "Orillia",
       "News",
