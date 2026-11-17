@@ -1,20 +1,308 @@
 [
   {
     "id": "midlandtoday-0",
+    "title": "Mongolia’s president says he will step down after facing accusations of corruption",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 2000,
+    "buzzScore": 86,
+    "summary": "ULAANBAATAR, Mongolia (AP) — Mongolia’s President Khurelsukh Ukhnaa said Tuesday he will resign after the opposition party accused him of benefiting financially from a government railway project. He said he would cooperate with investigator...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/760ceaf0a7063c30ba0c1da3afb0d01caa6e3762e11d1d5dfcdd89b9424ef3c5.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/world-news/mongolias-president-says-he-will-step-down-after-facing-accusations-of-corruption-13025274",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
+    "title": "Carney meets with Chinese President Xi in Shenzhen, China",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1999,
+    "buzzScore": 91,
+    "summary": "SHENZHEN — Prime Minister Mark Carney and Chinese President Xi Jinping agreed to drop trade restrictions on more goods at a bilateral meeting in Shenzhen, China, as Carney seeks to expand trade with the world's second-largest economy on eve...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/ac7620f4968f0b79283434660f39eee0f483cf169d8adb3979dbb91e0b01118a.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/carney-meets-with-chinese-president-xi-in-shenzhen-china-13025183",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-2",
     "title": "Surveillance pricing could lead to more expensive groceries for some, MPs hear",
     "category": "News",
     "source": "MidlandToday",
     "location": "Midland, ON",
-    "timestamp": "Nov 16",
-    "sortOrder": 2000,
-    "buzzScore": 94,
-    "summary": "OTTAWA — People with religious or health-based food restrictions could end up paying more for groceries with the use of algorithmic pricing, an expert told MPs at a Parliamentary committee Monday....",
+    "timestamp": "Nov 17",
+    "sortOrder": 1998,
+    "buzzScore": 96,
+    "summary": "OTTAWA — People with religious or health-based food restrictions could end up paying more for groceries with the use of algorithmic pricing, an expert told MPs at a parliamentary committee Monday....",
     "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/e6ebe3dfb371952287f001319e969b4298bb9d559e9a0141b69ef63f27bcb0fe.jpg;w=960",
     "url": "https://www.midlandtoday.ca/national-news/surveillance-pricing-could-lead-to-more-expensive-groceries-for-some-mps-hear-13023050",
     "tags": [
       "Midland",
       "News",
       "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-3",
+    "title": "Liberals&#39; &#39;lawful access&#39; bill vulnerable to constitutional challenge: professor",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1997,
+    "buzzScore": 82,
+    "summary": "OTTAWA — A law professor says a Liberal government bill that would make it easier for police and spies to navigate the online world could be found unconstitutional due to a provision on retaining metadata....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/d407cb6b5b901f38a1913d30d6a9aabae95dae95745c6fec210760bc194d9f57.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/liberals-lawful-access-bill-vulnerable-to-constitutional-challenge-professor-13024788",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-4",
+    "title": "&#39;Not scared but disturbed&#39;: Sikh community responds to alleged hate crimes",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1996,
+    "buzzScore": 94,
+    "summary": "'It doesn't matter if a person has a turban or not; no one should be manhandled or feel unsafe while in the city or riding a transit bus,' says community leader...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/police/crime/20261110policehatecrimeassaults.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/not-scared-but-disturbed-sikh-community-responds-to-alleged-hate-crimes-13024084",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-5",
+    "title": "Several staffers leaving Poilievre&#39;s office weeks after B.C. election",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1995,
+    "buzzScore": 86,
+    "summary": "OTTAWA — Five staff members are leaving the office of Opposition Conservative Leader Pierre Poilievre, including his deputy chief of staff and two of his senior communications aides....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/a3f0e476ac8e5b3784f36d3604f1b11328d3d61e3810e6fae9b72c8c27aa6f45.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/several-staffers-leaving-poilievres-office-weeks-after-bc-election-13024933",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrietoday-4",
+    "title": "&#39;Dale would&#39;ve been so proud&#39;: Scheifele passes Hawerchuk atop Jets scoring list",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1976,
+    "buzzScore": 80,
+    "summary": "Mark Scheifele's four-point game Saturday moved former Barrie Colts star past late coach Dale Hawerchuk as the Winnipeg's all-time leading scorer...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/sports/barrie-colts/20261116scheifelehawerchuk.jpg;w=960",
+    "url": "https://www.barrietoday.com/local-sports/dale-wouldve-been-so-proud-scheifele-passes-hawerchuk-atop-jets-scoring-list-13024621",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-5",
+    "title": "Barrie&#39;s second Hilton hotel officially opens in west end",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1975,
+    "buzzScore": 91,
+    "summary": "Home2 Suites by Hilton Barrie, located at 19 Lennox Dr., includes 101 extended-stay suites...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/16112026cutcut.jpg;w=960",
+    "url": "https://www.barrietoday.com/local-news/barries-second-hilton-hotel-officially-opens-in-west-end-13024710",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "U.S. defends world women’s hockey gold medal with 6-2 win over Canada",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1960,
+    "buzzScore": 91,
+    "summary": "Hilary Knight and Kelly Pannek each scored twice as the United States defended its women’s world hockey title with a 6-2 win over Canada in Monday’s gold-medal game....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/us-beats-canada-womens-world-hockey-gold-2026/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "Nearly double the speed limit in Essa results in stunt driving charge: OPP",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1959,
+    "buzzScore": 92,
+    "summary": "Ontario Provincial Police charged a motorist with travelling nearly double the speed limit in Essa Township....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/nearly-double-speed-essa-stunt-driving/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-2",
+    "title": "Grammy nominations snub Harry Styles and hip-hop, while surprises include Dolly Parton",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1958,
+    "buzzScore": 86,
+    "summary": "NEW YORK (AP) — The 2027 Grammy Award nominees are here and there’s a lot to discuss, from Raye and Rosalía dominating the nominations to John Cale receiving his first nod at 84....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/grammy-nominations-harry-styles/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-3",
+    "title": "(Update) Ontario Catholic teachers vote overwhelmingly in favour of strike mandate",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1957,
+    "buzzScore": 97,
+    "summary": "The teachers of Ontario's English Catholic schools have voted to give their union a strike mandate as negotiations with the government stall.&#160; The union representing 45,000 teachers in Ontario's English Catholic schools said 98 per cen...",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/ontario-catholic-teachers-strike-mandate/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-4",
+    "title": "(Update) Toronto police arrest suspect in Bridle Path home invasion investigation",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1956,
+    "buzzScore": 97,
+    "summary": "Toronto police have arrested one suspect in last month's violent home invasion in the Bridle Path neighbourhood.&#160; Police say 24-year-old Daijohn Richards was arrested in Ottawa over this past weekend following a weekslong investigation...",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/toronto-bridle-path-home-invasion-arrest-november-2026/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-5",
+    "title": "(Video) Barrie Police charge G2 driver with having alcohol in their system",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 16",
+    "sortOrder": 1955,
+    "buzzScore": 92,
+    "summary": "A G2 driver from Orillia has been charged with having alcohol in their system after being stopped by Barrie Police....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/barrie-police-g2-driver-alcohol-charge/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "innisfiltoday-5",
+    "title": "Ontario&#39;s medical regulator pauses safer supply drug changes after legal challenge",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1935,
+    "buzzScore": 81,
+    "summary": "TORONTO — Ontario’s medical regulator is hitting pause on implementing a host of changes to the ways doctors prescribe safer supply drugs after it was served with a legal challenge....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/01002dbe7def1e8938b0884fa6a5443dbefe494e7feed7d5b3cb3a7fce445af2.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/ontario-news/ontarios-medical-regulator-pauses-safer-supply-drug-changes-after-legal-challenge-13022163",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-3",
+    "title": "Audit undercuts Ford&#39;s &#39;Taj Mahal&#39; claims on Children&#39;s Aid costs",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1917,
+    "buzzScore": 94,
+    "summary": "Audit validated concerns from parents and child welfare workers about escalating costs for caring for kids with complex needs where provincial services are lacking...",
+    "image": "https://www.vmcdn.ca/f/files/trillium/images/parsa2nov16.JPG;w=960",
+    "url": "https://www.orilliamatters.com/local-news/audit-undercuts-fords-taj-mahal-claims-on-childrens-aid-costs-13025048",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-5",
+    "title": "DAVIS, Janet Marie (n&#233;e Cranney)",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1915,
+    "buzzScore": 94,
+    "summary": "It is with profound sadness that we announce the passing of Janet Marie Davis on November 11, 2026, at Royal Victoria Hospital in Barrie, at the age of 53....",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/announcements/obituaries/20261116-janet-davis.jpg;w=960",
+    "url": "https://www.orilliamatters.com/obituaries/davis-janet-marie-nee-cranney-13025025",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
     ]
   },
   {
@@ -159,114 +447,6 @@
       "Barrie",
       "News",
       "BarrieToday"
-    ]
-  },
-  {
-    "id": "barrie-360-0",
-    "title": "U.S. defends world women’s hockey gold medal with 6-2 win over Canada",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 16",
-    "sortOrder": 1960,
-    "buzzScore": 91,
-    "summary": "Hilary Knight and Kelly Pannek each scored twice as the United States defended its women’s world hockey title with a 6-2 win over Canada in Monday’s gold-medal game....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/us-beats-canada-womens-world-hockey-gold-2026/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-1",
-    "title": "Nearly double the speed limit in Essa results in stunt driving charge: OPP",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 16",
-    "sortOrder": 1959,
-    "buzzScore": 90,
-    "summary": "Ontario Provincial Police charged a motorist with travelling nearly double the speed limit in Essa Township....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/nearly-double-speed-essa-stunt-driving/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-2",
-    "title": "Grammy nominations snub Harry Styles and hip-hop, while surprises include Dolly Parton",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 16",
-    "sortOrder": 1958,
-    "buzzScore": 95,
-    "summary": "NEW YORK (AP) — The 2027 Grammy Award nominees are here and there’s a lot to discuss, from Raye and Rosalía dominating the nominations to John Cale receiving his first nod at 84....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/grammy-nominations-harry-styles/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-3",
-    "title": "(Update) Ontario Catholic teachers vote overwhelmingly in favour of strike mandate",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 16",
-    "sortOrder": 1957,
-    "buzzScore": 83,
-    "summary": "The teachers of Ontario's English Catholic schools have voted to give their union a strike mandate as negotiations with the government stall.&#160; The union representing 45,000 teachers in Ontario's English Catholic schools said 98 per cen...",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/ontario-catholic-teachers-strike-mandate/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-4",
-    "title": "(Update) Toronto police arrest suspect in Bridle Path home invasion investigation",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 16",
-    "sortOrder": 1956,
-    "buzzScore": 87,
-    "summary": "Toronto police have arrested one suspect in last month's violent home invasion in the Bridle Path neighbourhood.&#160; Police say 24-year-old Daijohn Richards was arrested in Ottawa over this past weekend following a weekslong investigation...",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/toronto-bridle-path-home-invasion-arrest-november-2026/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-5",
-    "title": "(Video) Barrie Police charge G2 driver with having alcohol in their system",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 16",
-    "sortOrder": 1955,
-    "buzzScore": 92,
-    "summary": "A G2 driver from Orillia has been charged with having alcohol in their system after being stopped by Barrie Police....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/barrie-police-g2-driver-alcohol-charge/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
     ]
   },
   {
