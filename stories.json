@@ -1,5 +1,203 @@
 [
   {
+    "id": "collingwoodtoday-3",
+    "title": "Good morning, Collingwood. Here's today's weather",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1997,
+    "buzzScore": 84,
+    "summary": "...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/collingwood/20201109_gmc_os6.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/good-morning-collingwood/good-morning-collingwood-heres-todays-weather-13025479",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-0",
+    "title": "Frustration mounts as Hwy. 69 death toll for this year his 13",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 2000,
+    "buzzScore": 95,
+    "summary": "‘Since this house last sat, 10 days ago, three people died on the two-lane section of Highway 69,’ frustrated MPP tells the Legislature...",
+    "image": "https://www.vmcdn.ca/f/files/sudbury/uploadedImages/news/localNews/2022/04/highway-signs/190422_hu_highway69_3.jpg;w=960",
+    "url": "https://www.orilliamatters.com/local-news/frustration-mounts-as-hwy-69-death-toll-for-this-year-his-13-13025477",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-5",
+    "title": "Wear a purple scarf and support those affected by gender-based violence",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1995,
+    "buzzScore": 92,
+    "summary": "Wrapped in Courage month kicks off season of giving for Green Haven Shelter for Women....",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/spotlight-images/green-haven-shelter-for-women/20251117-ghs-wrapped-in-courage-flag-raising-2024-flag-raising.jpg;w=960",
+    "url": "https://www.orilliamatters.com/spotlight/wear-a-purple-scarf-and-support-those-affected-by-gender-based-violence-13001066",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "innisfiltoday-4",
+    "title": "Good morning, Innisfil! Here's today's weather!",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1996,
+    "buzzScore": 85,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/innisfil/2026-11-16-good-morning-innisfil-5.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/good-morning/good-morning-innisfil-heres-todays-weather-13023041",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-5",
+    "title": "In the news today: China trade deal extended, Carney meets Sheinbaum, Giller awarded",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1995,
+    "buzzScore": 87,
+    "summary": "Here is a roundup of stories from The Canadian Press designed to bring you up to speed … Xi opens more pork access as Carney loosens steel restrictions during China visit Prime Minister Mark Carney and Chinese President Xi Jinping agreed to...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/df2f30e178e2ffa9bc06b36ea11b74f9012b0c88f8ef842ae2a3a2ed01ad27a9.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/national-news/in-the-news-today-china-trade-deal-extended-carney-meets-sheinbaum-giller-awarded-13025395",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "barrietoday-0",
+    "title": "Barrie police searching for teen missing since Nov. 8 (update: found)",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 2000,
+    "buzzScore": 86,
+    "summary": "16-year-old known to frequent Bayfield/Livingstone Street area, including Walmart, as well as convenience store at St. Vincent and Livingstone streets...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/police/barrie-police-service/04092024barriepolicecarheadquarters4.jpg;w=960",
+    "url": "https://www.barrietoday.com/police-beat/barrie-police-searching-for-teen-missing-since-nov-8-13020898",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-1",
+    "title": "REVIEW: 'Cinderella … If the Shoe Fits' asks audience to be 'goofy'",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1999,
+    "buzzScore": 95,
+    "summary": "South Simcoe Theatre's latest production runs until Nov. 29 in Cookstown...",
+    "image": "https://www.vmcdn.ca/f/files/innisfiltoday/images/theatre/20261113-3-cinderella.jpeg;w=960",
+    "url": "https://www.barrietoday.com/local-entertainment/review-cinderellaif-the-shoe-fits-encoruages-audience-particpation-13017179",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-3",
+    "title": "Carney and Sheinbaum meet at summit in China, as both navigate Trump's tumult",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1997,
+    "buzzScore": 81,
+    "summary": "SHENZHEN — Prime Minister Mark Carney met Tuesday with Mexican President Claudia Sheinbaum on the sidelines of an economic summit in China, as both leaders navigate tumultuous and unpredictable trade talks with the United States....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/a00b87ffd14e61bec95a7abbb0e880361e6eb70ca9690b35d0dfe09bb80eb570.jpg;w=960",
+    "url": "https://www.barrietoday.com/national-news/carney-and-sheinbaum-meet-at-summit-in-china-as-both-navigate-trumps-tumult-13025383",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-5",
+    "title": "Redwood's $3M loan from city remains unpaid as talks continue",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1995,
+    "buzzScore": 85,
+    "summary": "Barrie council passed motion in mid-September to give charitable organization 90 days to pay off construction loan related to Lillian Place project...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/17092026lillianplace.jpeg;w=960",
+    "url": "https://www.barrietoday.com/local-news/redwoods-3m-loan-from-city-remains-unpaid-as-talks-continue-13023352",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-4",
+    "title": "Off Menu delivers homestyle prepared meals created with a healthy dash of enterprising spirit",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1996,
+    "buzzScore": 94,
+    "summary": "With support from North Simcoe Business Centre, Off Menu’s Sara Sprung delivers on her vision of making delicious, convenient, accessible meal options available to everyone....",
+    "image": "https://www.vmcdn.ca/f/files/miltontoday/images/spotlight/off-menu/om-1.png;w=960",
+    "url": "https://www.midlandtoday.ca/spotlight/off-menu-delivers-homestyle-prepared-meals-created-with-a-healthy-dash-of-enterprising-spirit-13021390",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-5",
+    "title": "Good morning, Midland! Here's today's weather!",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1995,
+    "buzzScore": 87,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/midland/2024-11-02-0070-awenda-pp-kettles-lake-trail.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/good-morning/good-morning-midland-heres-todays-weather-13023012",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
     "id": "midlandtoday-0",
     "title": "LETTER: Penetanguishene’s rapid growth comes at a cost",
     "category": "News",
