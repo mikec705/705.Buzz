@@ -1,6 +1,474 @@
 [
   {
     "id": "midlandtoday-0",
+    "title": "LETTER: Penetanguishene’s rapid growth comes at a cost",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 2000,
+    "buzzScore": 95,
+    "summary": "Planned housing growth could outpace local employment, medical services and the community’s ability to integrate new residents, says letter write...",
+    "image": "https://www.vmcdn.ca/f/files/midlandtoday/images/development/2026-11-10-penetang-heights2.jpeg;w=960",
+    "url": "https://www.midlandtoday.ca/letters-to-the-editor/letter-penetanguishenes-rapid-growth-comes-at-a-cost-13021789",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
+    "title": "Carney tells Pacific Rim businesses that China&#39;s growth a model for Canada",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1999,
+    "buzzScore": 89,
+    "summary": "SHENZHEN — Prime Minister Mark Carney says Canadians should learn from China’s breakneck economic growth, even as he insists Ottawa maintains guardrails on expanding trade with Beijing to limit interference and U.S. blowback....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/1a3b9e1b38c83691af570ebe79c59859732ac197a83960570aa9aa8bbb9d2577.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/carney-tells-pacific-rim-businesses-that-chinas-growth-a-model-for-canada-13026113",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-2",
+    "title": "Carney meets Trump in China, says Canada&#39;s U.S. trade &#39;much more complex&#39; than China",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1998,
+    "buzzScore": 80,
+    "summary": "SHENZHEN — Mark Carney met with U.S. President Donald Trump in China on a day when the prime minister noted trade talks with Washington are far more complex than the ones Canada is having with Beijing....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/6ccf962388acfcd50d6d1e88d7dfa4b41ac2c6daf7015859227947b0cd91eee2.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/carney-meets-trump-in-china-says-canadas-us-trade-much-more-complex-than-china-13030292",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-3",
+    "title": "With textbooks in short supply, mom sounds alarm on school laptop shortage",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1997,
+    "buzzScore": 81,
+    "summary": "'It doesn’t seem like the school is even thinking of a solution to this problem,' parent says of Simcoe County District School Board's apparent issue...",
+    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/images/education/pexels-ryutaro-5745517.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/with-textbooks-in-short-supply-mom-sounds-alarm-on-school-laptop-shortage-13028188",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-4",
+    "title": "Trump seeks to show strength in China, but a series of technological snafus raises concerns at home",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1996,
+    "buzzScore": 80,
+    "summary": "SHENZHEN, China (AP) — President Donald Trump landed in China on Wednesday, seeking to reinforce the U.S....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/43736a47e7d666a51dc93fec0a266a51e7e79310e7f1c2ce1fed3480c672341a.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/world-news/trump-seeks-to-show-strength-in-china-but-a-series-of-technological-snafus-raises-concerns-at-home-13029871",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-5",
+    "title": "Good morning, Midland! Here&#39;s today&#39;s weather!",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1995,
+    "buzzScore": 86,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/midland/2026-11-14-0001-tiny-marsh-west.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/good-morning/good-morning-midland-heres-todays-weather-13026834",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrietoday-0",
+    "title": "Everything you need to know about the downtown tree-lighting",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1980,
+    "buzzScore": 82,
+    "summary": "The Redhill Valleys, festive family activities, Santa Claus Parade, Festival of Trees, tree lighting and fireworks highlight Saturday's celebration...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/entertainment/2021-11-20-noella-festival-rb-2.png;w=960",
+    "url": "https://www.barrietoday.com/local-entertainment/everything-you-need-to-know-about-the-downtown-tree-lighting-13027772",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-2",
+    "title": "LETTER: It’s time we stop looking away from homelessness in Barrie",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1978,
+    "buzzScore": 96,
+    "summary": "'When we see someone as a problem rather than a person, we may overlook their vulnerability,' says letter writer...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/housing/05042024homelessmansleeping1.jpg;w=960",
+    "url": "https://www.barrietoday.com/letters-to-the-editor/letter-its-time-we-stop-looking-away-from-homelessness-in-barrie-13025630",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-4",
+    "title": "Read all about it: Rotary Book Day brings 1,200 books to Barrie students",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1976,
+    "buzzScore": 82,
+    "summary": "Annual partnership between school board and Rotary Club of Barrie has now provided more than 11,000 books to Grade 2 students...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/education/school-boards/simcoe-county-district-school-board/20261117-rotary-book-day.jpg;w=960",
+    "url": "https://www.barrietoday.com/local-news/read-all-about-it-rotary-book-day-brings-1200-books-to-barrie-students-13029023",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-5",
+    "title": "COLUMN: Newly elected councils offer fresh opportunities for farmers",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1975,
+    "buzzScore": 95,
+    "summary": "'Having farmers involved in local government brings practical agricultural experience directly to the council table,' says OFA director...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/agriculture/20261116-ofa-viewpoint-newly-elected-municipal-councils-offer-fresh-opportunities.jpg;w=960",
+    "url": "https://www.barrietoday.com/local-news/column-newly-elected-councils-offer-fresh-opportunities-for-farmers-13021889",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "Barrie's about to lose sleep: GTA VI launches after 13 years of hype",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1960,
+    "buzzScore": 97,
+    "summary": "After a 13-year wait, one of entertainment’s biggest releases is finally here....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/gta-vi-launches-tonight/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "RVH warns healthcare demand is outpacing capacity as Barrie, region continue rapid growth",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1959,
+    "buzzScore": 81,
+    "summary": "Royal Victoria Regional Health Centre says innovation and regional partnerships are helping improve access to care across Simcoe Muskoka, but growing demand continues to put significant pressure on the region's healthcare system....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/rvh-healthcare-demand-capacity/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-2",
+    "title": "Barrie Police partner to combat auto theft as 2026 numbers surpass 2025 total",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1958,
+    "buzzScore": 97,
+    "summary": "The Barrie Police Service is partnering with Équité Association to combat auto theft across the city....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/barrie-police-equite-association-auto-theft-partnership/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-3",
+    "title": "What to bring (and what to skip) when visiting someone in hospital over the holidays",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1957,
+    "buzzScore": 85,
+    "summary": "Nobody plans to spend the holidays in hospital....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/what-to-bring-someone-in-hospital/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-4",
+    "title": "South Simcoe Police launch new online incident reporting system",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1956,
+    "buzzScore": 86,
+    "summary": "The South Simcoe Police Service is launching a new online system that will allow residents to report non-emergency incidents directly to police....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/south-simcoe-police-new-online-incident-reporting-system/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-5",
+    "title": "Ontario secondary teachers vote 96 per cent in favour of strike mandate",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 17",
+    "sortOrder": 1955,
+    "buzzScore": 81,
+    "summary": "Ontario public high school teachers have voted 96 per cent in favour of giving their union a strike mandate....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/ontario-public-high-school-teachers-strike-mandate-vote/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "innisfiltoday-1",
+    "title": "Manchu Wok hosting grand opening at new south-Barrie location",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1939,
+    "buzzScore": 88,
+    "summary": "Chinese restaurant says Nov. 20 event at Mapleview Drive West address marks 'exciting milestone'...",
+    "image": "https://www.vmcdn.ca/f/files/guelphtoday/images/food-and-restaurants/20231124manchuwokmp1.JPG;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/manchu-wok-hosting-grand-opening-at-new-south-barrie-location-13023436",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-3",
+    "title": "Local auto shops &#39;face challenges&#39; over massive used tire backlog",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1937,
+    "buzzScore": 86,
+    "summary": "‘You get a response but no action,’ says employee at local auto shop; issue has also plagued county landfills which, at one point, held 30,000 used tires...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/ramara-township/20261103_mikes_automotive_brechin.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/local-auto-shops-face-challenges-over-massive-used-tire-backlog-13014947",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-5",
+    "title": "Good morning, Innisfil! Here&#39;s today&#39;s weather!",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1935,
+    "buzzScore": 80,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/innisfil/2026-11-09-good-morning-innisfil-7.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/good-morning/good-morning-innisfil-heres-todays-weather-13026843",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-0",
+    "title": "Orillia presentation will look beyond familiar Anne Boleyn portrayals",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1920,
+    "buzzScore": 88,
+    "summary": "Author/Anglican priest will talk about 'complex, educated' Boleyn at upcoming CFUW Orillia meeting...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/people/20261116-martha-tatarnic.jpg;w=960",
+    "url": "https://www.orilliamatters.com/local-news/orillia-presentation-will-look-beyond-familiar-anne-boleyn-portrayals-13020772",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-2",
+    "title": "LETTER: Ford-appointed regional chairs show &#39;disregard&#39; for democracy",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1918,
+    "buzzScore": 93,
+    "summary": "'The optics are really bad, considering most of the appointments have very close Conservative ties,' says letter writer...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/city-of-orillia/20261110donmcisaac.jpeg;w=960",
+    "url": "https://www.orilliamatters.com/letters-to-the-editor/letter-ford-appointed-regional-chairs-show-disregard-for-democracy-13025874",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-4",
+    "title": "Orillia&#39;s CDC unveils new grant for local businesses on the grow",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1916,
+    "buzzScore": 88,
+    "summary": "Grant offers $15,000 in funding to support a local business with a project that will contribute to the growth and economic vitality of the region...",
+    "image": "https://www.vmcdn.ca/f/files/shared/stock-images/applications.jpg;w=960",
+    "url": "https://www.orilliamatters.com/local-news/orillias-cdc-unveils-new-grant-for-local-businesses-on-the-grow-13023098",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-5",
+    "title": "Taco restaurant, resort spa and others cited for health hazards",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1915,
+    "buzzScore": 86,
+    "summary": "Simcoe Muskoka District Health Unit inspectors have been busy throughout the county at local restaurants, hotels, spas and nail salons...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/11152026ghosttaco(1)crop.png;w=960",
+    "url": "https://www.orilliamatters.com/local-news/taco-restaurant-resort-spa-and-others-cited-for-health-hazards-13028060",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-2",
+    "title": "No Collingwood warming centre announced for this winter, but there are new options",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1898,
+    "buzzScore": 87,
+    "summary": "‘We worked with the town to identify appropriate sites, but a lot of them would have required significant capital and infrastructure upgrades, and for a temporary warming centre, that’s just not feasible,’ says county official...",
+    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/images/recreation/img_3834.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/local-news/no-collingwood-warming-centre-announced-for-this-winter-but-there-are-new-options-13021379",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-3",
+    "title": "Collingwood rallies on and off the ice to help feed neighbours in need",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1897,
+    "buzzScore": 93,
+    "summary": "From a charity hockey tournament to a community concert, two October fundraisers brought residents together to support Mobile Soup Kitchen's hunger relief programs...",
+    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/spotlight-images/home-horizons/img_3019.jpeg;w=960",
+    "url": "https://www.collingwoodtoday.ca/spotlight/collingwood-rallies-on-and-off-the-ice-to-help-feed-neighbours-in-need-13021691",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-5",
+    "title": "In the news today: Carney at APEC, complex U.S. trade talks, whale snot science",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1895,
+    "buzzScore": 87,
+    "summary": "Here is a roundup of stories from The Canadian Press designed to bring you up to speed … Prime Minister Mark Carney says Canadians should learn from China’s breakneck economic growth....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/f108662ff09fa6ddbfed6b7c2b519430ed8131e2cd749d3e6573250f8065ddff.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/national-news/in-the-news-today-carney-at-apec-complex-us-trade-talks-whale-snot-science-13030327",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-0",
     "title": "Democrats flipped 9 US Senate seats - the most in almost 70 years",
     "category": "News",
     "source": "MidlandToday",
@@ -105,78 +573,6 @@
       "Midland",
       "News",
       "MidlandToday"
-    ]
-  },
-  {
-    "id": "barrie-360-0",
-    "title": "Barrie Police partner to combat auto theft as 2026 numbers surpass 2025 total",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 17",
-    "sortOrder": 1960,
-    "buzzScore": 91,
-    "summary": "The Barrie Police Service is partnering with Équité Association to combat auto theft across the city....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/barrie-police-equite-association-auto-theft-partnership/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-1",
-    "title": "What to bring (and what to skip) when visiting someone in hospital over the holidays",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 17",
-    "sortOrder": 1959,
-    "buzzScore": 91,
-    "summary": "Nobody plans to spend the holidays in hospital....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/what-to-bring-someone-in-hospital/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-2",
-    "title": "South Simcoe Police launch new online incident reporting system",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 17",
-    "sortOrder": 1958,
-    "buzzScore": 85,
-    "summary": "The South Simcoe Police Service is launching a new online system that will allow residents to report non-emergency incidents directly to police....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/south-simcoe-police-new-online-incident-reporting-system/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-3",
-    "title": "Ontario secondary teachers vote 96 per cent in favour of strike mandate",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 17",
-    "sortOrder": 1957,
-    "buzzScore": 87,
-    "summary": "Ontario public high school teachers have voted 96 per cent in favour of giving their union a strike mandate....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/ontario-public-high-school-teachers-strike-mandate-vote/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
     ]
   },
   {
@@ -1440,24 +1836,6 @@
     ]
   },
   {
-    "id": "midlandtoday-2",
-    "title": "Good morning, Midland! Here&#39;s today&#39;s weather!",
-    "category": "News",
-    "source": "MidlandToday",
-    "location": "Midland, ON",
-    "timestamp": "Nov 16",
-    "sortOrder": 1998,
-    "buzzScore": 89,
-    "summary": "Here's a look at the current local weather and gas prices...",
-    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/midland/nov-16-good-morning-midland.jpeg;w=960",
-    "url": "https://www.midlandtoday.ca/good-morning/good-morning-midland-heres-todays-weather-12998600",
-    "tags": [
-      "Midland",
-      "News",
-      "MidlandToday"
-    ]
-  },
-  {
     "id": "midlandtoday-3",
     "title": "Strong calving season provides glimmer of hope for endangered right whales",
     "category": "News",
@@ -1667,24 +2045,6 @@
     "summary": "Alissa Pfeiffer, who was raised in Alliston, won gold in New York and is headed to Portugal...",
     "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/business/fabstyle-11-12-26.jpeg;w=960",
     "url": "https://www.innisfiltoday.ca/local-news/oh-my-gosh-i-won-gold-local-stylist-to-compete-in-world-finals-13013550",
-    "tags": [
-      "Innisfil",
-      "News",
-      "InnisfilToday"
-    ]
-  },
-  {
-    "id": "innisfiltoday-2",
-    "title": "Good morning, Innisfil! Here&#39;s today&#39;s weather!",
-    "category": "News",
-    "source": "InnisfilToday",
-    "location": "Innisfil, ON",
-    "timestamp": "Nov 16",
-    "sortOrder": 1938,
-    "buzzScore": 95,
-    "summary": "Here's a look at the current local weather and gas prices...",
-    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/innisfil/2026-11-09-good-morning-innisfil-6.jpg;w=960",
-    "url": "https://www.innisfiltoday.ca/good-morning/good-morning-innisfil-heres-todays-weather-12997219",
     "tags": [
       "Innisfil",
       "News",
