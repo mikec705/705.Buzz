@@ -1,5 +1,329 @@
 [
   {
+    "id": "midlandtoday-0",
+    "title": "Cincinnati Zoo says Fiona the hippo has died, days after ingesting a visitor’s hat",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 2000,
+    "buzzScore": 97,
+    "summary": "CINCINNATI (AP) — Fiona, the hippo whose premature birth and fight for survival at the Cincinnati Zoo turned her into a global sensation nearly a decade ago, died Thursday from complications after swallowing a knit hat that was accidentally...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/51df169c85195ab673d2ccc87260df0c19081ca6a3fc8f53a346a8d4dea22098.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/world-news/cincinnati-zoo-says-fiona-the-hippo-has-died-days-after-ingesting-a-visitors-hat-13038628",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
+    "title": "Education minister speculates Ontario teachers would strike after March break at the earliest",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1999,
+    "buzzScore": 86,
+    "summary": "Paul Calandra suggests that’s when unions could put the most pressure on the government...",
+    "image": "https://www.vmcdn.ca/f/files/trillium/calandra3-nov-18.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/the-trillium/education-minister-speculates-ontario-teachers-would-strike-after-march-break-at-the-earliest-13038351",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-2",
+    "title": "Experts cite child suicide, trafficking as they urge MPs to pass digital safety bill",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1998,
+    "buzzScore": 89,
+    "summary": "OTTAWA — A pediatrician who is urging the Liberal government to quickly pass its digital safety bill says social media and AI chatbots amount to a massive experiment on children’s brains....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/ab5cae66284672a158f35e0172b72d5f4efd4391d62587238a192f645d60d67f.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/experts-cite-child-suicide-trafficking-as-they-urge-mps-to-pass-digital-safety-bill-13037776",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-3",
+    "title": "Al models used to announce new list of 25 most wanted fugitives in Canada",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1997,
+    "buzzScore": 86,
+    "summary": "TORONTO — Police agencies from across Canada have used artificial intelligence to create virtual models of the country's 25 most wanted criminals moving as they would in real life....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/02980e60347a53af9570445fccad2600b55665cdac8497bcd37c101b6a60e38d.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/al-models-used-to-announce-new-list-of-25-most-wanted-fugitives-in-canada-13037105",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-4",
+    "title": "Prosecutor declines to charge a police officer who fatally shot a Black man in Wisconsin",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1996,
+    "buzzScore": 95,
+    "summary": "MADISON, Wis....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/e3d1059e3eaeca101cf61758b2a501e3e1377ca16a53999e2d7d3b2c741d8dcf.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/world-news/prosecutor-declines-to-charge-a-police-officer-who-fatally-shot-a-black-man-in-wisconsin-13037921",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-5",
+    "title": "Chow shakes up city hall leadership, taps former Liberal MP for housing",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1995,
+    "buzzScore": 86,
+    "summary": "TORONTO — Mayor Olivia Chow shuffled her leadership team at city hall on Thursday, tapping a former Liberal MP to head up the housing committee and her Scarborough deputy as transit chair....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/7ba2fc147b517ef3a212d2756cfb133708d0989b382bf6eebaa06a0cd8c21e0d.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/ontario-news/chow-shakes-up-city-hall-leadership-taps-former-liberal-mp-for-housing-13035257",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrietoday-0",
+    "title": "Resurrected improv group aims to become Collingwood&#39;s Second City",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1980,
+    "buzzScore": 80,
+    "summary": "Collingwood Improv Artists will hold Collingwood Night Live event on Nov. 21 at Simcoe Street Theatre...",
+    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/images/arts/2026-11-12cia-001.jpeg;w=960",
+    "url": "https://www.barrietoday.com/local-entertainment/resurrected-improv-group-aims-to-become-collingwoods-second-city-13011188",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-5",
+    "title": "Georgina teen charged with arson in $100K community bus fire",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1975,
+    "buzzScore": 95,
+    "summary": "Firefighters extinguished early-morning blaze without any reported injuries...",
+    "image": "https://www.vmcdn.ca/f/files/newmarkettoday/images/police/20240829-yrp-patch-dk.jpg;w=960",
+    "url": "https://www.barrietoday.com/police-beat/georgina-teen-charged-with-arson-in-100k-community-bus-fire-13037759",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "Menopause drug made in Canada won't be available to Canadians, but still sold in U.S.",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1960,
+    "buzzScore": 91,
+    "summary": "Canadian women will no longer have access to a menopause drug that is made in Canada, even though the drugmaker plans to continue producing it for patients in the United States....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/canadian-made-menopause-drug-premarin-discontinued-canada/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "Northlander passenger train set to return Dec. 10, with stops in Muskoka, Simcoe County",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1959,
+    "buzzScore": 91,
+    "summary": "Passenger rail service between Toronto and northeastern Ontario is set to resume next month, with the Northlander scheduled to return to the tracks on December 10....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/northlander-train-return-december-10-muskoka-washago/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-2",
+    "title": "Angus driver charged with impaired driving after allegedly running red light",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1958,
+    "buzzScore": 84,
+    "summary": "A motorist travelling on Mill Street in Angus without the vehicle headlights on drew the attention of a Nottawasaga OPP officer....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/angus-driver-impaired-driving-red-light-opp/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-3",
+    "title": "Barrie man charged after firearm seized at Highway 11 collision in Orillia",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1957,
+    "buzzScore": 95,
+    "summary": "A Barrie man is facing multiple charges after Ontario Provincial Police seized a prohibited firearm while investigating a two-vehicle collision in Orillia....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/barrie-man-charged-firearm-seized-highway-11-orillia/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-4",
+    "title": "Lehman says Ontario's regional chair appointments weaken local democracy",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1956,
+    "buzzScore": 93,
+    "summary": "Former Barrie mayor Jeff Lehman says he's disappointed, but not surprised, after being replaced as chair of the District of Muskoka as part of the Ontario government's move to appoint regional heads of council under Bill 100....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/jeff-lehman-local-democracy/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-5",
+    "title": "Nuttall outlines priorities as largely familiar Barrie council returns for new term",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1955,
+    "buzzScore": 83,
+    "summary": "For much of Barrie's city council, Wednesday's inaugural meeting wasn't a new beginning so much as a continuation....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/barrie-city-council-inauguration26/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "innisfiltoday-0",
+    "title": "No headlights leads to impaired charges for Angus resident: OPP",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1940,
+    "buzzScore": 86,
+    "summary": "Nottawasaga OPP says officer was on routine patrol last night on Mill Street when they spotted the vehicle, spurring further investigation...",
+    "image": "https://www.vmcdn.ca/f/files/shared/police/2020-04-01-opp-stock.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/police-beat/no-headlights-leads-to-impaired-charges-for-angus-resident-opp-13038081",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-1",
+    "title": "Four charged in connection with 2023 disappearance of Bracebridge man",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1919,
+    "buzzScore": 82,
+    "summary": "The disappearance of Daniel Holden, 38, is now being investigated as a homicide...",
+    "image": "https://www.vmcdn.ca/f/files/stratfordtoday/images/police-and-crime/2023-05-12-opp-stock.jpeg;w=960",
+    "url": "https://www.orilliamatters.com/police-beat/four-charged-in-connection-with-2023-dissapearnce-of-bracebridge-man-13038561",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-2",
+    "title": "STEVENSON, Gordon Wayne",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1918,
+    "buzzScore": 95,
+    "summary": "1940 - 2026 It is with very heavy hearts we announce the passing of Gordon “Wayne” Stevenson....",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/announcements/obituaries/20261119stevenson-cropped.jpg;w=960",
+    "url": "https://www.orilliamatters.com/obituaries/stevenson-gordon-wayne-13038506",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-1",
+    "title": "Collingwood&#39;s Santa Claus parade is this Saturday",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1899,
+    "buzzScore": 91,
+    "summary": "The parade starts at 5 p.m., followed by the official Christmas tree lighting...",
+    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/images/events/20251115_1734320.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/local-news/collingwoods-santa-claus-parade-is-this-saturday-13038196",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
     "id": "collingwoodtoday-0",
     "title": "New TBM council deals with another staff departure",
     "category": "News",
@@ -339,24 +663,6 @@
       "Barrie",
       "News",
       "BarrieToday"
-    ]
-  },
-  {
-    "id": "barrie-360-0",
-    "title": "Nuttall outlines priorities as largely familiar Barrie council returns for new term",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 19",
-    "sortOrder": 1960,
-    "buzzScore": 95,
-    "summary": "For much of Barrie's city council, Wednesday's inaugural meeting wasn't a new beginning so much as a continuation....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/barrie-city-council-inauguration26/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
     ]
   },
   {
