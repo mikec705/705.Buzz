@@ -1,5 +1,203 @@
 [
   {
+    "id": "collingwoodtoday-0",
+    "title": "New TBM council deals with another staff departure",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 2000,
+    "buzzScore": 86,
+    "summary": "Special meeting held to appoint acting treasurer and acting deputy treasurer...",
+    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/images/landmarks/town-hall.jpeg;w=960",
+    "url": "https://www.collingwoodtoday.ca/the-blue-mountains-and-grey-highlands/new-tbm-council-deals-with-another-staff-departure-13030702",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-1",
+    "title": "Driver nabbed for speeding on Hwy. 11 facing multiple charges",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1999,
+    "buzzScore": 93,
+    "summary": "During the traffic stop, Orillia OPP officer determined the driver was subject to a driving prohibition and subsequently placed them under arrest...",
+    "image": "https://www.vmcdn.ca/f/files/shared/police/2021-05-20-opp-cruiser.jpg;w=960",
+    "url": "https://www.orilliamatters.com/police-beat/driver-nabbed-for-speeding-on-hwy-11-facing-multiple-charges-13031580",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "innisfiltoday-0",
+    "title": "Changes coming to RVH's Community 50/50 draw starting next month",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 2000,
+    "buzzScore": 84,
+    "summary": "RVH Foundation will launch its own lottery; auxiliary's version of the 50/50 helped fulfill a $5-million pledge to the Keep Life Wild campaign...",
+    "image": "https://www.vmcdn.ca/f/files/shared/miscellaneous-stock-images/adobestock_1928606.jpeg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/changes-coming-to-rvhs-community-5050-draw-starting-next-month-13024401",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-4",
+    "title": "Carney meets Trump in China, says Canada's U.S. trade 'much more complex' than China",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1996,
+    "buzzScore": 80,
+    "summary": "SHENZHEN — Prime Minister Mark Carney met with U.S. President Donald Trump in Shenzhen, China on Wednesday — shortly after saying that trade talks with Washington are far more complex than the ones Canada is having with Beijing....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/6ccf962388acfcd50d6d1e88d7dfa4b41ac2c6daf7015859227947b0cd91eee2.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/national-news/carney-meets-trump-in-china-says-canadas-us-trade-much-more-complex-than-china-13030292",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "Ontario to increase fines against drivers who create excessive noise",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 2000,
+    "buzzScore": 83,
+    "summary": "Ontario is set to make it tougher on drivers who wheel around with excessive noise....",
+    "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/ontario-increase-fines-excessive-vehicle-noise/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "Christmas in Barrie: 20 Festive Things to Do",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1999,
+    "buzzScore": 91,
+    "summary": "Christmas in Barrie starts with a parade down the waterfront and ends with a walk past twinkling lights on Kempenfelt Bay....",
+    "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/christmas-activities-barrie/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "midlandtoday-0",
+    "title": "Techie Nesters launches in Barrie with a refreshingly human approach to aging well",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 2000,
+    "buzzScore": 94,
+    "summary": "Residents invited to a free November 24 launch event to discover a new kind of club built around genuine human connection, modern confidence and old-fashioned community....",
+    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/spotlight-images/techie-nesters/screenshot-2026-11-16-at-91928-am.png;w=960",
+    "url": "https://www.midlandtoday.ca/spotlight/techie-nesters-launches-in-barrie-with-a-refreshingly-human-approach-to-aging-well-13021274",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
+    "title": "Housing minister won't reaffirm Liberal pledge to double home construction",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1999,
+    "buzzScore": 83,
+    "summary": "OTTAWA — Housing Minister Gregor Robertson wouldn't reaffirm the Liberal government's long-standing goal of doubling the pace of home building when pressed by reporters today....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/2ef0250c18732d716295442f028fefb898290be4b7b512c1e22c1ec1a76ca434.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/housing-minister-wont-reaffirm-liberal-pledge-to-double-home-construction-13031529",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-2",
+    "title": "Cadet captain paralyzed from waist down after Hamilton attack",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1998,
+    "buzzScore": 85,
+    "summary": "A cadet leader who underwent spinal surgery after a violent attack says he is currently paralyzed from the waist down and will require months of physical rehabilitation. Capt....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/b0b35a2dfe60f8a9e70ae086391b5298ff3d9eb15093f4262ba63a2dea0b7eae.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/ontario-news/cadet-captain-paralyzed-from-waist-down-after-hamilton-attack-13028672",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-4",
+    "title": "Hegseth is in Venezuela to meet interim authorities, latest Trump Cabinet member since Maduro ouster",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1996,
+    "buzzScore": 85,
+    "summary": "CARACAS, Venezuela (AP) — Defense Secretary Pete Hegseth is visiting Venezuela to meet with interim authorities Wednesday, underscoring efforts by the Trump administration to deepen its influence in the Latin American country since U.S....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/437aaeae2bcfc20bfd5d131752621cc9e090eb7fcff3e85ebe5f2022482f0615.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/world-news/hegseth-is-in-venezuela-to-meet-interim-authorities-latest-trump-cabinet-member-since-maduro-ouster-13031414",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-5",
+    "title": "Local fieldnats host forest entomologist for bug talk Thursday",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 18",
+    "sortOrder": 1995,
+    "buzzScore": 92,
+    "summary": "Paul D. Bell's presentation at Wye Marsh Wildlife Centre is intriguingly titled ‘Bugs: Looking Where Sensible People Don't'...",
+    "image": "https://www.vmcdn.ca/f/files/midlandtoday/images/events/20260117-1000070513.png;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/local-fieldnats-host-forest-entomologist-for-bug-talk-thursday-13028535",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
     "id": "midlandtoday-0",
     "title": "China and Russia say they and US agree on UN reforms, boosting fuel supplies, dialogue on nuclear",
     "category": "News",
