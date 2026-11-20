@@ -1,6 +1,222 @@
 [
   {
     "id": "midlandtoday-0",
+    "title": "In the news today: budget passes, Ontario Liberals vote, O Canada bill, RCMP museum",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 20",
+    "sortOrder": 2000,
+    "buzzScore": 86,
+    "summary": "Here is a roundup of stories from The Canadian Press designed to bring you up to speed … Liberals' 2026 budget passes in House of Commons Members of Parliament voted Thursday to pass the 2026 federal budget in the House of Commons, 162 to 1...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/236d9110c1ae4375d8240f529bd1360f733c5c2080d4095d917299b6ecff2a10.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/in-the-news-today-budget-passes-ontario-liberals-vote-o-canada-bill-rcmp-museum-13040283",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
+    "title": "British Columbia&#39;s premier-designate Lorne Doerkson, cabinet to be sworn in today",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 20",
+    "sortOrder": 1999,
+    "buzzScore": 82,
+    "summary": "VICTORIA — British Columbia's first Conservative government in almost a century will take the reins of power when Lorne Doerkson becomes premier and unveils his first cabinet....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/b356bee544e64f23fa9a0a63c133f7916c40492c9878fa017e1b3264f21b0d23.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/british-columbias-premier-designate-lorne-doerkson-cabinet-to-be-sworn-in-today-13040272",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-2",
+    "title": "Historic guns locked away as RCMP centre set to become next national museum",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 20",
+    "sortOrder": 1998,
+    "buzzScore": 85,
+    "summary": "REGINA — At the RCMP Heritage Centre in Regina, which is set to become Canada's next national museum, one display case is glaringly empty....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/b522b6e466648032a79400c998b761a21cfebb011f96aa3240a3d7a60a00c523.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/historic-guns-locked-away-as-rcmp-centre-set-to-become-next-national-museum-13040273",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-3",
+    "title": "Who are the four candidates vying to lead the Ontario Liberals?",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 20",
+    "sortOrder": 1997,
+    "buzzScore": 82,
+    "summary": "TORONTO — Members of the Ontario Liberal party will learn Saturday who their next leader will be, after months of campaigning and weeks of voting. They have four contenders to choose from on their ranked ballots....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/65c3be45b23b09402e9f6d454d7b614483205b58500a3099162992e116d86bff.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/ontario-news/who-are-the-four-candidates-vying-to-lead-the-ontario-liberals-13040274",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-4",
+    "title": "Ontario Liberals to select third new leader since 2018",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 20",
+    "sortOrder": 1996,
+    "buzzScore": 84,
+    "summary": "TORONTO — Ontario Liberals wrap up a long leadership race Saturday, and, they hope, an even longer stretch without a long-term leader, as the party gets set to name the person they have selected to shepherd them into the next election....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/65c3be45b23b09402e9f6d454d7b614483205b58500a3099162992e116d86bff.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/ontario-news/ontario-liberals-to-select-third-new-leader-since-2018-13040275",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-5",
+    "title": "Myanmar dismisses UN court ruling finding country responsible of Rohingya genocide as &#39;unfair&#39;",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 20",
+    "sortOrder": 1995,
+    "buzzScore": 88,
+    "summary": "BANGKOK (AP) — Myanmar’s government on Friday dismissed a landmark judgment by the United Nations’ top court finding the country guilty of genocide against its Rohingya minority as “unfair....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/24a14a8bf838415f835b129baddebd2b74b27ee6d9b0dc6de2c85c008500af13.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/world-news/myanmar-dismisses-un-court-ruling-finding-country-responsible-of-rohingya-genocide-as-unfair-13040246",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "2026 Barrie Airshow generates nearly $5M in economic impact",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1960,
+    "buzzScore": 89,
+    "summary": "The Barrie Airshow attracted more than 127,000 visitors this year....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/barrie-airshow-2026-economic-impact-2027-dates/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "Orillia-area MPP and former colleges and universities minister refuses to answer OSAP questions",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1959,
+    "buzzScore": 87,
+    "summary": "Ontario's former minister of colleges and universities, who presided over the file for three years until 2024, is refusing to answer questions about a growing Ontario Student Assistance Program scandal....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/orillia-area-mpp-jill-dunlop-osap-scandal/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-2",
+    "title": "Two face murder charges as four arrested in 2023 disappearance of Bracebridge man",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1958,
+    "buzzScore": 88,
+    "summary": "Four people are facing charges in connection with the disappearance and suspected homicide of a 38-year-old Bracebridge man in 2023....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/four-charged-daniel-holden-bracebridge-homicide-investigation/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-3",
+    "title": "Two men face 16 charges after loaded handgun found during Bradford traffic stop",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1957,
+    "buzzScore": 91,
+    "summary": "Two men are facing a combined 16 charges after South Simcoe Police seized a loaded handgun during a traffic stop in Bradford West Gwillimbury....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/two-men-16-charges-loaded-handgun-bradford/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-4",
+    "title": "Menopause drug made in Canada won't be available to Canadians, but still sold in U.S.",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1956,
+    "buzzScore": 82,
+    "summary": "Canadian women will no longer have access to a menopause drug that is made in Canada, even though the drugmaker plans to continue producing it for patients in the United States....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/canadian-made-menopause-drug-premarin-discontinued-canada/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-5",
+    "title": "Northlander passenger train set to return Dec. 10, with stops in Muskoka, Simcoe County",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 19",
+    "sortOrder": 1955,
+    "buzzScore": 88,
+    "summary": "Passenger rail service between Toronto and northeastern Ontario is set to resume next month, with the Northlander scheduled to return to the tracks on December 10....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/northlander-train-return-december-10-muskoka-washago/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "midlandtoday-0",
     "title": "Texas execution took over an hour as staff struggled to find vein; Reinaldo Dennes moaned about pain",
     "category": "News",
     "source": "MidlandToday",
@@ -105,114 +321,6 @@
       "Midland",
       "News",
       "MidlandToday"
-    ]
-  },
-  {
-    "id": "barrie-360-0",
-    "title": "2026 Barrie Airshow generates nearly $5M in economic impact",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 19",
-    "sortOrder": 1960,
-    "buzzScore": 88,
-    "summary": "The Barrie Airshow attracted more than 127,000 visitors this year....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/barrie-airshow-2026-economic-impact-2027-dates/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-1",
-    "title": "Orillia-area MPP and former colleges and universities minister refuses to answer OSAP questions",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 19",
-    "sortOrder": 1959,
-    "buzzScore": 82,
-    "summary": "Ontario's former minister of colleges and universities, who presided over the file for three years until 2024, is refusing to answer questions about a growing Ontario Student Assistance Program scandal....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/orillia-area-mpp-jill-dunlop-osap-scandal/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-2",
-    "title": "Two face murder charges as four arrested in 2023 disappearance of Bracebridge man",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 19",
-    "sortOrder": 1958,
-    "buzzScore": 94,
-    "summary": "Four people are facing charges in connection with the disappearance and suspected homicide of a 38-year-old Bracebridge man in 2023....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/four-charged-daniel-holden-bracebridge-homicide-investigation/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-3",
-    "title": "Two men face 16 charges after loaded handgun found during Bradford traffic stop",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 19",
-    "sortOrder": 1957,
-    "buzzScore": 90,
-    "summary": "Two men are facing a combined 16 charges after South Simcoe Police seized a loaded handgun during a traffic stop in Bradford West Gwillimbury....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/two-men-16-charges-loaded-handgun-bradford/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-4",
-    "title": "Menopause drug made in Canada won't be available to Canadians, but still sold in U.S.",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 19",
-    "sortOrder": 1956,
-    "buzzScore": 87,
-    "summary": "Canadian women will no longer have access to a menopause drug that is made in Canada, even though the drugmaker plans to continue producing it for patients in the United States....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/canadian-made-menopause-drug-premarin-discontinued-canada/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-5",
-    "title": "Northlander passenger train set to return Dec. 10, with stops in Muskoka, Simcoe County",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 19",
-    "sortOrder": 1955,
-    "buzzScore": 82,
-    "summary": "Passenger rail service between Toronto and northeastern Ontario is set to resume next month, with the Northlander scheduled to return to the tracks on December 10....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/northlander-train-return-december-10-muskoka-washago/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
     ]
   },
   {
