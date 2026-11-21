@@ -1,6 +1,384 @@
 [
   {
     "id": "midlandtoday-0",
+    "title": "24 dead in Nigeria when boat capsizes while carrying people to a funeral",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 2000,
+    "buzzScore": 90,
+    "summary": "ABUJA, Nigeria (AP) — A boat carrying people to a funeral has capsized in southern Nigeria, killing at least 24 people, emergency services said on Saturday....",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.midlandtoday.ca/world-news/24-dead-in-nigeria-when-boat-capsizes-while-carrying-people-to-a-funeral-13045621",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
+    "title": "U.S. senator says Hegseth memo does not change military co-operation with Canada",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1999,
+    "buzzScore": 97,
+    "summary": "HALIFAX — A Republican senator says a U.S. defence department’s memo that reportedly placed restrictions on co-operation with Canada applies to things such as participating in think-tank conferences, not military operations. Sen....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/584b1910dc66f998be06a58d6939fec520a68da969fadb32c61a47a339280329.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/us-senator-says-hegseth-memo-does-not-change-military-co-operation-with-canada-13045331",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-2",
+    "title": "B.C. business groups are praising plans by Conservative government to cut red tape",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1998,
+    "buzzScore": 85,
+    "summary": "VICTORIA — Various business group are praising plans by Conservative Premier Lorne Doerkson to cut red tape and speed up approvals through the creation of a dedicated cabinet post....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/cb10c5e538807fccd5fd608b76b75b26ab60cf7f97589124652ca05695c82797.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/bc-business-groups-are-praising-plans-by-conservative-government-to-cut-red-tape-13045483",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-3",
+    "title": "Sunshine, Santa and a little Grinch mischief at Midland&#39;s 50th Santa Claus parade",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1997,
+    "buzzScore": 95,
+    "summary": "Hundreds lined King Street Saturday as festive floats, four-legged friends and generations of families celebrated the annual holiday tradition presented by the Midland Civitan Club....",
+    "image": "https://www.vmcdn.ca/f/files/midlandtoday/images/events/2026-11-21santa2mr.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/sunshine-santa-and-a-little-grinch-mischief-at-midlands-50th-santa-claus-parade-13045395",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-4",
+    "title": "Toronto zoo reviews enclosures and policies following Fiona the Hippo&#39;s death",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1996,
+    "buzzScore": 87,
+    "summary": "TORONTO — The Toronto Zoo says it has reviewed several animal habitats in the wake of Fiona the Hippo's tragic death after swallowing a hat earlier this week....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/51df169c85195ab673d2ccc87260df0c19081ca6a3fc8f53a346a8d4dea22098.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/ontario-news/toronto-zoo-reviews-enclosures-and-policies-following-fiona-the-hippos-death-13045420",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-5",
+    "title": "Penetanguishene businesses dress up storefronts for holiday challenge",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1995,
+    "buzzScore": 86,
+    "summary": "Residents can vote for their favourite display starting Nov. 23...",
+    "image": "https://www.vmcdn.ca/f/files/midlandtoday/images/business/2026-11-19-window-wonderland1.jpeg;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/penetanguishene-businesses-dress-up-storefronts-for-holiday-challenge-13035932",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrietoday-1",
+    "title": "&#39;Perfect historic backdrop&#39;: First Light returns Nov. 26",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1979,
+    "buzzScore": 83,
+    "summary": "More than 5,000 candles will again transform Sainte-Marie among the Hurons and Martyrs' Shrine during annual event that runs until Dec. 13...",
+    "image": "https://www.vmcdn.ca/f/files/midlandtoday/images/events/2026-11-17-first-light-premieres-lueurs-1.png;w=960",
+    "url": "https://www.barrietoday.com/local-entertainment/perfect-historic-backdrop-first-light-returns-nov-26-13035695",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-3",
+    "title": "Barrie city council sets priorities for next four years",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1977,
+    "buzzScore": 81,
+    "summary": "Council identifies jobs and affordability, thriving city, community safety and service excellence as strategic priorities for 2026-2030 term...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/politics/municipal/barrie-city-council-2026-30/20261121-council-with-mp-brassard-and-shipley.jpg;w=960",
+    "url": "https://www.barrietoday.com/local-news/barrie-city-council-sets-priorities-for-next-four-years-13045462",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-5",
+    "title": "Lehman left off fire-hall renaming list for former Barrie mayors",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1975,
+    "buzzScore": 95,
+    "summary": "Lehman, who served as mayor from 2010 to 2022, says it may have been 'a misunderstanding,' while Nuttall says his predecessor did not respond to invitations...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/politics/municipal/20261120barriemayorspast.jpg;w=960",
+    "url": "https://www.barrietoday.com/local-news/lehman-left-off-fire-hall-renaming-list-for-former-barrie-mayors-13042713",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "Barrie Police bringing 13 community agencies together for first-time victim services event",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1960,
+    "buzzScore": 81,
+    "summary": "Barrie residents will have an opportunity to learn more about the support available to victims and survivors of crime when 13 community agencies come together for a first-time information event next week....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/barrie-police-victim-services-information-event/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "‘Night and day’ effort not enough as Colts fall 5-1 in Guelph",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1959,
+    "buzzScore": 97,
+    "summary": "The final result Friday night against the Guelph Storm may have looked much the same, but don’t tell Dylan Smoskowitz that the four-goal loss bore any resemblance to the one his Barrie Colts suffered the night before....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/colts-loss-storm-effort-nov26/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-2",
+    "title": "(Update) Trump says Canada feeling 'emboldened' but he's seeking a 'fair' trade deal",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 20",
+    "sortOrder": 1958,
+    "buzzScore": 87,
+    "summary": "U.S....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/trump-canada-emboldened-fair-trade-deal/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-3",
+    "title": "Three Barrie males facing slew of charges in Innisfil home invasion",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 20",
+    "sortOrder": 1957,
+    "buzzScore": 95,
+    "summary": "Three males from Barrie are facing a combined 45 criminal charges following an April 4 home invasion in the area of Orchard Avenue and Mapleview Drive in Innisfil....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/barrie-males-innisfil-home-invasion/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-4",
+    "title": "New ownership partnership marks next chapter for Rock 95, Kool FM and Barrie 360",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 20",
+    "sortOrder": 1956,
+    "buzzScore": 92,
+    "summary": "Central Ontario Broadcasting, the locally-owned parent company of Rock 95, 107.5 Kool FM, Barrie 360 and Flying Pigs Marketing, is entering an unforeseen chapter in its 38-year history....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/central-ontario-broadcasting-new-ownership-structure/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-5",
+    "title": "(Update) No changes to 'core' cadet programming after cancellation emails: defence minister",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 20",
+    "sortOrder": 1955,
+    "buzzScore": 82,
+    "summary": "Defence Minister David McGuinty says there will be \"no changes to core weekly programming\" for the cadets after chapters received emails telling them to cancel weekend training, competitions and other activities through the end of March....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/cadet-programming-core-activities-defence-minister-mcguinty/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "innisfiltoday-3",
+    "title": "&#39;Act of love&#39;: Documentary captures dedication behind local outdoor hockey rink",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1937,
+    "buzzScore": 80,
+    "summary": "ICEMAKERS, a documentary featuring Newmarket's Lions Park Community Rink and others across Canada, will screen free Dec. 4, followed by a panel discussion...",
+    "image": "https://www.vmcdn.ca/f/files/newmarkettoday/images/2026-11-17-icemakers.PNG;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/act-of-love-documentary-captures-dedication-behind-local-outdoor-hockey-rink-13035657",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-4",
+    "title": "Innisfil church receives 1,010 pounds from Weed Man food drive",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1936,
+    "buzzScore": 91,
+    "summary": "Franchisees collected 9,695 pounds of food, equivalent to nearly 8,080 meals, for 10 food banks and community organizations across Ontario...",
+    "image": "https://www.vmcdn.ca/f/files/innisfiltoday/images/charity/20261119weedmanchairty.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/innisfil-church-receives-1010-pounds-from-weed-man-food-drive-13039221",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-3",
+    "title": "After laying off workers, Costco deal could kickstart Polyethics",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1917,
+    "buzzScore": 94,
+    "summary": "'We're excited about the additional business coming in and the opportunities it will create as production ramps up,' says official...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/business/20251119polyethicsexterior1.jpeg;w=960",
+    "url": "https://www.orilliamatters.com/local-news/after-laying-off-workers-costco-deal-could-kickstart-polyethics-13043577",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-5",
+    "title": "COLUMN: Touring troupe&#39;s racy posters stirred outrage in Orillia",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1915,
+    "buzzScore": 83,
+    "summary": "'So, it was all a scam. The promise of a titillating show that ended up being a no-talent display of bad singing and strutting,' says columnist...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/columns/david-town/burlesque-namaslaycrew_history-of-burlesque_1860s.jpg;w=960",
+    "url": "https://www.orilliamatters.com/local-news/column-touring-troupes-racy-posters-stirred-outrage-in-orillia-13035391",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-1",
+    "title": "Local paramedics celebrated at annual honours ceremony",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1899,
+    "buzzScore": 91,
+    "summary": "Ceremony recognized new graduates, career advancements and exceptional service to the community...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/2026-11-20-cosps-new-recruits.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/local-news/local-paramedics-celebrated-at-annual-honours-ceremony-13041094",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-4",
+    "title": "&#39;Hell of a way to go out,&#39; Realtor&#39;s final two deals grew women&#39;s shelter",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1896,
+    "buzzScore": 93,
+    "summary": "Marcia Hubbs didn't expect to retire this year, but she's proud of what she's been able to do...",
+    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/images/img_8181.jpeg;w=960",
+    "url": "https://www.collingwoodtoday.ca/local-news/hell-of-a-way-to-go-out-realtors-final-two-deals-grew-womens-shelter-13045085",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-0",
     "title": "Eight people arrested in distraction theft targeting seniors in Toronto",
     "category": "News",
     "source": "MidlandToday",
@@ -141,96 +519,6 @@
       "Barrie",
       "News",
       "BarrieToday"
-    ]
-  },
-  {
-    "id": "barrie-360-0",
-    "title": "‘Night and day’ effort not enough as Colts fall 5-1 in Guelph",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 21",
-    "sortOrder": 1960,
-    "buzzScore": 80,
-    "summary": "The final result Friday night against the Guelph Storm may have looked much the same, but don’t tell Dylan Smoskowitz that the four-goal loss bore any resemblance to the one his Barrie Colts suffered the night before....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/colts-loss-storm-effort-nov26/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-1",
-    "title": "(Update) Trump says Canada feeling 'emboldened' but he's seeking a 'fair' trade deal",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 20",
-    "sortOrder": 1959,
-    "buzzScore": 92,
-    "summary": "U.S....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/trump-canada-emboldened-fair-trade-deal/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-2",
-    "title": "Three Barrie males facing slew of charges in Innisfil home invasion",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 20",
-    "sortOrder": 1958,
-    "buzzScore": 84,
-    "summary": "Three males from Barrie are facing a combined 45 criminal charges following an April 4 home invasion in the area of Orchard Avenue and Mapleview Drive in Innisfil....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/barrie-males-innisfil-home-invasion/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-3",
-    "title": "New ownership partnership marks next chapter for Rock 95, Kool FM and Barrie 360",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 20",
-    "sortOrder": 1957,
-    "buzzScore": 88,
-    "summary": "Central Ontario Broadcasting, the locally-owned parent company of Rock 95, 107.5 Kool FM, Barrie 360 and Flying Pigs Marketing, is entering an unforeseen chapter in its 38-year history....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/central-ontario-broadcasting-new-ownership-structure/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-4",
-    "title": "(Update) No changes to 'core' cadet programming after cancellation emails: defence minister",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 20",
-    "sortOrder": 1956,
-    "buzzScore": 82,
-    "summary": "Defence Minister David McGuinty says there will be \"no changes to core weekly programming\" for the cadets after chapters received emails telling them to cancel weekend training, competitions and other activities through the end of March....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/cadet-programming-core-activities-defence-minister-mcguinty/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
     ]
   },
   {
