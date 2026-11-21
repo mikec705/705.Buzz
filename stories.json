@@ -1,6 +1,402 @@
 [
   {
     "id": "midlandtoday-0",
+    "title": "Eight people arrested in distraction theft targeting seniors in Toronto",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 2000,
+    "buzzScore": 86,
+    "summary": "TORONTO — Toronto police say they arrested eight people following a series of distraction thefts targeting seniors across the city....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/c724f61253a402ab113c5f60849af831ecac9780af377a1dae44bf5a9efe94b4.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/ontario-news/eight-people-arrested-in-distraction-theft-targeting-seniors-in-toronto-13045076",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
+    "title": "Here’s what to do when AI comes for your job",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1999,
+    "buzzScore": 81,
+    "summary": "Alfred Burgesson advised Canada’s AI minister. Now he’s working to help everyday workers find their way through tech disruption...",
+    "image": "https://www.vmcdn.ca/f/files/closerlook/bg1126-pr-alfred-burgesson-016.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/heres-what-to-do-when-ai-comes-for-your-job-13044886",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-2",
+    "title": "Former Quest Art head Ninette Gyorody no longer at OMAH&#39;s helm",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1998,
+    "buzzScore": 95,
+    "summary": "'Sometimes after many years, a new voice is what is needed,' said Orillia museum's board co-chair of decision to 'part ways' with long-time executive director...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/arts/ninette-at-landscape-show-opening.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/former-quest-art-head-ninette-gyorody-no-longer-at-omahs-helm-13030573",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-3",
+    "title": "BEYOND LOCAL: &#39;Act of love&#39;: Documentary captures dedication behind outdoor hockey rink",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1997,
+    "buzzScore": 90,
+    "summary": "ICEMAKERS, a documentary featuring Newmarket's Lions Park Community Rink and others across Canada, will screen free Dec. 4, followed by a panel discussion...",
+    "image": "https://www.vmcdn.ca/f/files/newmarkettoday/images/2026-11-17-icemakers.PNG;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/beyond-local-act-of-love-documentary-captures-dedication-behind-outdoor-hockey-rink-13042157",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-4",
+    "title": "Mexico detains top cartel boss &#39;El Chapo Isidro,&#39; one of FBI&#39;s 10 most wanted fugitives",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1996,
+    "buzzScore": 82,
+    "summary": "MEXICO CITY (AP) — Mexican authorities captured top cartel boss Fausto Isidro Meza Flores, known as “El Chapo Isidro,” in the Mexican state of Sinaloa overnight, resulting in a burst of violence that rattled civilians....",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.midlandtoday.ca/world-news/mexico-detains-top-cartel-boss-el-chapo-isidro-one-of-fbis-10-most-wanted-fugitives-13044994",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-5",
+    "title": "THE PAIKIN PODCAST: Should Canada trust America again?",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1995,
+    "buzzScore": 82,
+    "summary": "Hosted by one of Canada's most respected journalists, Steve Paikin's podcast is featured here every Saturday morning in cooperation with Village Media...",
+    "image": "https://www.vmcdn.ca/f/files/closerlook/paikinpodcast_america-redeemed_2000x1333.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/the-paikin-podcast-should-canada-trust-america-again-13044820",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrietoday-2",
+    "title": "&#39;No ordinary cycling race&#39;: Nantyr student trekking through cyclocross circuit",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1978,
+    "buzzScore": 80,
+    "summary": "Claire MacKinnon ready to ride radical course in Belguim at annual Christmas Cross next month...",
+    "image": "https://www.vmcdn.ca/f/files/innisfiltoday/claire-lamb.jpg;w=960",
+    "url": "https://www.barrietoday.com/local-sports/no-ordinary-cycling-race-nantyr-student-trekking-through-cyclocross-circuit-13041991",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-5",
+    "title": "GUEST COLUMN: IEPs mean little without measurable student progress",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1975,
+    "buzzScore": 96,
+    "summary": "Province must prove students receive special education supports promised in individual education plans, says advocate...",
+    "image": "https://www.vmcdn.ca/f/files/sootoday/spotlight-photos/soul-compass/adobestock_334357363.jpeg;w=960",
+    "url": "https://www.barrietoday.com/local-news/guest-column-ieps-mean-little-without-measurable-student-progress-13036027",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "‘Night and day’ effort not enough as Colts fall 5-1 in Guelph",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1960,
+    "buzzScore": 80,
+    "summary": "The final result Friday night against the Guelph Storm may have looked much the same, but don’t tell Dylan Smoskowitz that the four-goal loss bore any resemblance to the one his Barrie Colts suffered the night before....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/colts-loss-storm-effort-nov26/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "(Update) Trump says Canada feeling 'emboldened' but he's seeking a 'fair' trade deal",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 20",
+    "sortOrder": 1959,
+    "buzzScore": 92,
+    "summary": "U.S....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/trump-canada-emboldened-fair-trade-deal/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-2",
+    "title": "Three Barrie males facing slew of charges in Innisfil home invasion",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 20",
+    "sortOrder": 1958,
+    "buzzScore": 84,
+    "summary": "Three males from Barrie are facing a combined 45 criminal charges following an April 4 home invasion in the area of Orchard Avenue and Mapleview Drive in Innisfil....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/barrie-males-innisfil-home-invasion/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-3",
+    "title": "New ownership partnership marks next chapter for Rock 95, Kool FM and Barrie 360",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 20",
+    "sortOrder": 1957,
+    "buzzScore": 88,
+    "summary": "Central Ontario Broadcasting, the locally-owned parent company of Rock 95, 107.5 Kool FM, Barrie 360 and Flying Pigs Marketing, is entering an unforeseen chapter in its 38-year history....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/central-ontario-broadcasting-new-ownership-structure/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-4",
+    "title": "(Update) No changes to 'core' cadet programming after cancellation emails: defence minister",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 20",
+    "sortOrder": 1956,
+    "buzzScore": 82,
+    "summary": "Defence Minister David McGuinty says there will be \"no changes to core weekly programming\" for the cadets after chapters received emails telling them to cancel weekend training, competitions and other activities through the end of March....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/cadet-programming-core-activities-defence-minister-mcguinty/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-5",
+    "title": "What you need to know ahead of Barrie's Santa Claus parade",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 20",
+    "sortOrder": 1955,
+    "buzzScore": 96,
+    "summary": "No need to bundle the kids up in snowsuits for the 77th annual Barrie Santa Claus parade on Saturday....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/santa-claus-parade-in-barrie-on-saturday-need-to-know/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "innisfiltoday-1",
+    "title": "Twenty new benches added to Simcoe County Museum trail",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1939,
+    "buzzScore": 81,
+    "summary": "Seven of the benches are located along the accessible loop and feature concrete pads to better support wheelchair access...",
+    "image": "https://www.vmcdn.ca/f/files/bradfordtoday/images/outdoors/20261118-warbler-way-bench.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/twenty-new-benches-added-to-simcoe-county-museum-trail-13032602",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-5",
+    "title": "Thousands of local kids need your support this holiday season",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1935,
+    "buzzScore": 86,
+    "summary": "Simcoe Muskoka Family Connexions looking for donors for its 2026 Holiday Program...",
+    "image": "https://www.vmcdn.ca/f/files/shared/holidays/christmas/christmas-gifts-pexels-tofroscom-257855.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/thousands-of-local-kids-need-your-support-this-holiday-season-13030690",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-0",
+    "title": "Barrie police turning out eye in the sky to combat crime",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1920,
+    "buzzScore": 84,
+    "summary": "Operated remotely from headquarters, drones can be deployed as needed to provide valuable, real-time information to officers before they arrive on scene, say officials...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/police/surveillance/20261120policecityhalldronetrial2.jpg;w=960",
+    "url": "https://www.orilliamatters.com/police-beat/barrie-police-turning-out-eye-in-the-sky-to-combat-crime-13042990",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-1",
+    "title": "Toronto man arrested for homicide after appearing on Canada&#39;s most wanted list",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1919,
+    "buzzScore": 83,
+    "summary": "TORONTO — Toronto police say they have arrested a man in a homicide investigation, one day after he was placed at No. 9 on Canada's most wanted list of fugitives....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/c724f61253a402ab113c5f60849af831ecac9780af377a1dae44bf5a9efe94b4.jpg;w=960",
+    "url": "https://www.orilliamatters.com/ontario-news/toronto-man-arrested-for-homicide-after-appearing-on-canadas-most-wanted-list-13045095",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-4",
+    "title": "YouTuber pleads guilty to threatening to kill PM Carney",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1916,
+    "buzzScore": 96,
+    "summary": "'We're gonna go slaughter Mark Carney — the clown and his carnival. This ain't a circus no more, punk. We're coming for you and your children...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/ee6086c414a9d752aa9f9998621af288b316afbf8ede52d82a95d5e1f1b7d233.jpg;w=960",
+    "url": "https://www.orilliamatters.com/court/youtuber-pleads-guilty-to-threatening-to-kill-pm-carney-13044959",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-5",
+    "title": "Who are the four candidates vying to lead Ontario Liberals?",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1915,
+    "buzzScore": 85,
+    "summary": "After months of campaigning and weeks of voting, Ontario Liberal party members will learn Saturday who their next leader will be...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/65c3be45b23b09402e9f6d454d7b614483205b58500a3099162992e116d86bff.jpg;w=960",
+    "url": "https://www.orilliamatters.com/local-news/who-are-the-four-candidates-vying-to-lead-ontario-liberals-13042458",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-1",
+    "title": "Events for Life planning fundraising gala at Lora Bay",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1899,
+    "buzzScore": 96,
+    "summary": "Guests attending the gala will enjoy a delicious three-course meal...",
+    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/tbm-events-for-life-current-location.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/the-blue-mountains-and-grey-highlands/events-for-life-planning-fundraising-gala-at-lora-bay-13040728",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-3",
+    "title": "$50K grant will support more tree planting by Collingwood climate group",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1897,
+    "buzzScore": 88,
+    "summary": "This year CCAT welcomed 50 volunteers who planted 80 trees and shrubs at a local park...",
+    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/images/pxl_20261003_145050291mp.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/local-news/50k-grant-will-support-more-tree-planting-by-collingwood-climate-group-13045008",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-0",
     "title": "Joly meets with Stellantis officials over fate of Brampton plant",
     "category": "News",
     "source": "MidlandToday",
@@ -141,96 +537,6 @@
       "Barrie",
       "News",
       "BarrieToday"
-    ]
-  },
-  {
-    "id": "barrie-360-0",
-    "title": "(Update) Trump says Canada feeling 'emboldened' but he's seeking a 'fair' trade deal",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 20",
-    "sortOrder": 1960,
-    "buzzScore": 89,
-    "summary": "U.S....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/trump-canada-emboldened-fair-trade-deal/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-1",
-    "title": "Three Barrie males facing slew of charges in Innisfil home invasion",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 20",
-    "sortOrder": 1959,
-    "buzzScore": 80,
-    "summary": "Three males from Barrie are facing a combined 45 criminal charges following an April 4 home invasion in the area of Orchard Avenue and Mapleview Drive in Innisfil....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/barrie-males-innisfil-home-invasion/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-2",
-    "title": "New ownership partnership marks next chapter for Rock 95, Kool FM and Barrie 360",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 20",
-    "sortOrder": 1958,
-    "buzzScore": 92,
-    "summary": "Central Ontario Broadcasting, the locally-owned parent company of Rock 95, 107.5 Kool FM, Barrie 360 and Flying Pigs Marketing, is entering an unforeseen chapter in its 38-year history....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/central-ontario-broadcasting-new-ownership-structure/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-3",
-    "title": "(Update) No changes to 'core' cadet programming after cancellation emails: defence minister",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 20",
-    "sortOrder": 1957,
-    "buzzScore": 96,
-    "summary": "Defence Minister David McGuinty says there will be \"no changes to core weekly programming\" for the cadets after chapters received emails telling them to cancel weekend training, competitions and other activities through the end of March....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/cadet-programming-core-activities-defence-minister-mcguinty/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-4",
-    "title": "What you need to know ahead of Barrie's Santa Claus parade",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 20",
-    "sortOrder": 1956,
-    "buzzScore": 80,
-    "summary": "No need to bundle the kids up in snowsuits for the 77th annual Barrie Santa Claus parade on Saturday....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/santa-claus-parade-in-barrie-on-saturday-need-to-know/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
     ]
   },
   {
@@ -3111,24 +3417,6 @@
       "Innisfil",
       "News",
       "InnisfilToday"
-    ]
-  },
-  {
-    "id": "orilliamatters-0",
-    "title": "Thousands of local kids need your support this holiday season",
-    "category": "News",
-    "source": "OrilliaMatters",
-    "location": "Orillia, ON",
-    "timestamp": "Nov 17",
-    "sortOrder": 1920,
-    "buzzScore": 96,
-    "summary": "Simcoe Muskoka Family Connexions looking for donors for its 2026 Holiday Program...",
-    "image": "https://www.vmcdn.ca/f/files/shared/holidays/christmas/christmas-gifts-pexels-tofroscom-257855.jpg;w=960",
-    "url": "https://www.orilliamatters.com/local-news/thousands-of-local-kids-need-your-support-this-holiday-season-13023938",
-    "tags": [
-      "Orillia",
-      "News",
-      "OrilliaMatters"
     ]
   },
   {
