@@ -5,10 +5,10 @@
     "category": "News",
     "source": "MidlandToday",
     "location": "Midland, ON",
-    "timestamp": "Nov 22",
+    "timestamp": "Nov 23",
     "sortOrder": 2000,
-    "buzzScore": 82,
-    "summary": "OTTAWA — Two Mark Carneys and a Donald Trump shared the stage at the Parliamentary Press Gallery dinner Saturday, when the prime minister got a little help from This Hour Has 22 Minutes impersonators to give the traditional comedic speech....",
+    "buzzScore": 97,
+    "summary": "OTTAWA — Two Mark Carneys and a Donald Trump shared the stage at the Parliamentary Press Gallery dinner Saturday, when the prime minister got a little help from \"This Hour has 22 Minutes\" impersonators to give the traditional comedic speech...",
     "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/dc8e2560a1de04cc16744c46334f9bcefe0789f1fc498001943fe827054a6223.jpg;w=960",
     "url": "https://www.midlandtoday.ca/national-news/carney-federal-party-leaders-bust-out-comedic-chops-at-press-gallery-dinner-13046931",
     "tags": [
@@ -19,13 +19,85 @@
   },
   {
     "id": "midlandtoday-1",
+    "title": "BEYOND LOCAL: ‘MasterChef Canada’ winner closing restaurant after 11 years",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 23",
+    "sortOrder": 1999,
+    "buzzScore": 88,
+    "summary": "Chef Eric Chong announced the Michelin-recognized Spadina Avenue restaurant will serve its final meals on Dec. 31...",
+    "image": "https://www.vmcdn.ca/f/files/torontotoday/images/food/20261019-rd(1).png;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/rd-closing-masterchef-canada-winner-chinatown-restaurant-13042329",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-2",
+    "title": "First Nations leader says he&#39;s open to talks with Doerkson, but opposes DRIPA repeal",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 23",
+    "sortOrder": 1998,
+    "buzzScore": 97,
+    "summary": "VICTORIA — British Columbia's new Conservative government could face \"dire\" consequences if they repeal the Declaration on the Rights of Indigenous Peoples Act as promised, a First Nations leader said, adding that he's willing to work with ...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/d30fe249a5ce8ea1da0f374329d5b43b217de5fa3f19c5e255c97d231f73c60a.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/first-nations-leader-says-hes-open-to-talks-with-doerkson-but-opposes-dripa-repeal-13046654",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-3",
+    "title": "Tarik Skubal agrees to record $450 million, 9-year contract with New York Mets, AP source says",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 22",
+    "sortOrder": 1997,
+    "buzzScore": 88,
+    "summary": "Tarik Skubal, the two-time Cy Young Award winner who was this offseason's top free agent, has agreed to a record $450 million, nine-year contract with the New York Mets, a person familiar with the negotiations told The Associated Press on S...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/a39d3409bbabd91d021f556ab34cf378d53a2468e8e4b23bf0cc19edc28db63a.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/world-news/tarik-skubal-agrees-to-record-450-million-9-year-contract-with-new-york-mets-ap-source-says-13046985",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-4",
+    "title": "Redwood&#39;s $3M loan from city remains unpaid as talks continue",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 22",
+    "sortOrder": 1996,
+    "buzzScore": 83,
+    "summary": "'As per council’s direction, if the money is not paid back within 90 days, city staff will pursue additional measures to recover the outstanding loan,' says CAO...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/17092026lillianplace.jpeg;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/redwoods-3m-loan-from-city-remains-unpaid-as-talks-continue-13026052",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-5",
     "title": "U.S. trade chief sees progress in Canada talks, raises China concerns",
     "category": "News",
     "source": "MidlandToday",
     "location": "Midland, ON",
     "timestamp": "Nov 22",
-    "sortOrder": 1999,
-    "buzzScore": 96,
+    "sortOrder": 1995,
+    "buzzScore": 88,
     "summary": "OTTAWA — U.S. Trade Representative Jamieson Greer says Washington and Ottawa are making progress toward a trade agreement, but Canada's growing trade relationship with China remains a concern....",
     "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/a72c88b56dc46fec51569e4a1eeb28b80e2f6b4aeab0c62fbc2d821907d44a1f.jpg;w=960",
     "url": "https://www.midlandtoday.ca/national-news/us-trade-chief-sees-progress-in-canada-talks-raises-china-concerns-13046880",
@@ -33,6 +105,294 @@
       "Midland",
       "News",
       "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrietoday-2",
+    "title": "After laying off workers, Costco deal could kickstart Polyethics",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 23",
+    "sortOrder": 1978,
+    "buzzScore": 93,
+    "summary": "'We're excited about the additional business coming in and the opportunities it will create as production ramps up,' says official...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/business/20251119polyethicsexterior1.jpeg;w=960",
+    "url": "https://www.barrietoday.com/local-news/after-laying-off-workers-costco-deal-could-kickstart-polyethics-13046568",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-4",
+    "title": "ANDREW, Maureen Elizabeth",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 22",
+    "sortOrder": 1976,
+    "buzzScore": 95,
+    "summary": "Maureen Elizabeth Andrew passed away peacefully on November 21, 2026, following a lengthy battle with chronic illness and surviving a triple bypass surgery...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/announcements/obituaries/maureen-elizabeth-andrew.png;w=960",
+    "url": "https://www.barrietoday.com/obituaries/andrew-maureen-elizabeth-13046993",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-5",
+    "title": "COULSON, Evelyn &#39;Lorena&#39; (n&#233;e Feehan)",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 22",
+    "sortOrder": 1975,
+    "buzzScore": 84,
+    "summary": "Peacefully passed at the Royal Victoria Regional Health Centre on Thursday, November 19th, 2026 at the age of 88...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/announcements/obituaries/evelyn-coulson.png;w=960",
+    "url": "https://www.barrietoday.com/obituaries/coulson-evelyn-lorena-nee-feehan-13046989",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "All signs show Canada can’t meet its Paris target — here’s why Ottawa won’t admit it",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 22",
+    "sortOrder": 1960,
+    "buzzScore": 82,
+    "summary": "In June, Prime Minister Mark Carney told Canadians that the country's emissions would be higher “in the next few years” than previously projected....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/canada-paris-climate-emissions-target-2030/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "Post denies Colts’ late rally as Rangers stretch win streak to eight",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 22",
+    "sortOrder": 1959,
+    "buzzScore": 97,
+    "summary": "Eight days after watching the Kitchener Rangers storm back against them with four unanswered third-period goals, the Barrie Colts came within inches of pulling off a comeback of their own....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/barrie-colts-kitchener-rangers-late-rally-loss/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-2",
+    "title": "Navdeep Bains named new Ontario Liberal leader",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1958,
+    "buzzScore": 93,
+    "summary": "Former MP Navdeep Bains eked out a narrow victory Saturday to become the next Ontario Liberal leader, pledging to focus now on getting the party in fighting shape for the next election....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/navdeep-bains-new-ontario-liberal-leader/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-3",
+    "title": "Barrie council sets strategic priorities for next four years",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1957,
+    "buzzScore": 89,
+    "summary": "Barrie city council has identified four strategic priorities that will guide the city's direction over the next four years....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/barrie-council-strategic-priorities-2026-2030/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-4",
+    "title": "Barrie Police bringing 13 community agencies together for first-time victim services event",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1956,
+    "buzzScore": 88,
+    "summary": "Barrie residents will have an opportunity to learn more about the support available to victims and survivors of crime when 13 community agencies come together for a first-time information event next week....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/barrie-police-victim-services-information-event/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-5",
+    "title": "‘Night and day’ effort not enough as Colts fall 5-1 in Guelph",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 21",
+    "sortOrder": 1955,
+    "buzzScore": 95,
+    "summary": "The final result Friday night against the Guelph Storm may have looked much the same, but don’t tell Dylan Smoskowitz that the four-goal loss bore any resemblance to the one his Barrie Colts suffered the night before....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/colts-loss-storm-effort-nov26/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "innisfiltoday-4",
+    "title": "Santa Claus makes a sweet arrival in Alcona (30 photos)",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 22",
+    "sortOrder": 1936,
+    "buzzScore": 92,
+    "summary": "Double-digit temperatures welcomed the Jolly Old Elf as he made his way along Innisfil Beach Road Sunday afternoon...",
+    "image": "https://www.vmcdn.ca/f/files/innisfiltoday/2026-11-22-santa-parade-15.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/santa-claus-makes-a-sweet-arrival-in-alcona-30-photos-13046954",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-5",
+    "title": "Former municipal councillor joins Rescue Lake Simcoe Coalition board",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 22",
+    "sortOrder": 1935,
+    "buzzScore": 87,
+    "summary": "Dave Neeson represented Georgina’s Ward 3 for three terms and chaired the town’s environmental advisory committee...",
+    "image": "https://www.vmcdn.ca/f/files/bradfordtoday/images/politics/2021-09-01-neeson-scott-holland-river.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/former-municipal-councillor-joins-rescue-lake-simcoe-coalition-board-13041063",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-1",
+    "title": "Floats, bands and festive cheer reigns at Toronto Santa Claus Parade (25 photos)",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 23",
+    "sortOrder": 1919,
+    "buzzScore": 93,
+    "summary": "Local families spent their Sunday greeting familiar characters, including Mayor Olivia Chow and Santa Claus, in the 122nd Santa Claus Parade...",
+    "image": "https://www.vmcdn.ca/f/files/torontotoday/images/arts-and-culture/2026-santa-claus-parade/img_7569.jpg;w=960",
+    "url": "https://www.orilliamatters.com/local-news/2026-toronto-santa-claus-parade-photos-13047072",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-3",
+    "title": "Ethiopia to Simcoe County and back: Local senior helps people who have very little",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 23",
+    "sortOrder": 1917,
+    "buzzScore": 88,
+    "summary": "'We realized just giving people thing didn’t help them at all. It’s really empowering the local people,' says development worker Bob Black...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/barrieprimebobblackvocationaltrainingnov2026.jpg;w=960",
+    "url": "https://www.orilliamatters.com/local-news/ethiopia-to-simcoe-county-and-back-local-senior-helps-people-who-have-very-little-13046979",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-5",
+    "title": "Local student&#39;s app aims to take stress out of university applications",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 22",
+    "sortOrder": 1915,
+    "buzzScore": 96,
+    "summary": "High school student says she created UniTrack after struggling to organize university deadlines, scholarships, documents and other application tasks...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/11182026nc-imanbhindar.JPG;w=960",
+    "url": "https://www.orilliamatters.com/local-news/local-students-app-aims-to-take-stress-out-of-university-applications-13045578",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-1",
+    "title": "DD RUITER, George John",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 23",
+    "sortOrder": 1899,
+    "buzzScore": 90,
+    "summary": "It is with immense grief that we share the passing of George John de Ruiter on November 15th, 2026...",
+    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/images/announcements/obituaries/george-john-de-ruiter.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/obituaries/dd-ruiter-george-john-13047067",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-4",
+    "title": "&#39;Stoked&#39;: Orillia teen goes headfirst into pursuit of Olympic dream",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 22",
+    "sortOrder": 1896,
+    "buzzScore": 92,
+    "summary": "Twin Lakes Secondary School student Kail Huffman, 17, is training in Whistler after being selected for funding through RBC Training Ground program...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/2023/kail-huffman-run-photo-credit-kevin-sousa-crop.jpeg;w=960",
+    "url": "https://www.collingwoodtoday.ca/local-news/stoked-orillia-teen-goes-headfirst-into-pursuit-of-olympic-dream-13046271",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
     ]
   },
   {
@@ -83,24 +443,6 @@
     "summary": "With 58 original works available, the returning Art at Home fundraiser encourages residents to step outside their artistic comfort zones...",
     "image": "https://www.vmcdn.ca/f/files/midlandtoday/images/arts/2026-11-20cathymr.jpg;w=960",
     "url": "https://www.midlandtoday.ca/local-news/quest-art-at-home-58-ways-to-brighten-your-walls-13042490",
-    "tags": [
-      "Midland",
-      "News",
-      "MidlandToday"
-    ]
-  },
-  {
-    "id": "midlandtoday-5",
-    "title": "First Nations leader says he&#39;s open to talks with Doerkson, but opposes DRIPA repeal",
-    "category": "News",
-    "source": "MidlandToday",
-    "location": "Midland, ON",
-    "timestamp": "Nov 22",
-    "sortOrder": 1995,
-    "buzzScore": 93,
-    "summary": "VICTORIA — A British Columbia First Nations leader says he will try to work with Premier Lorne Doerkson, but warns of \"dire\" consequences if Conservatives follow through on their promise to repeal the Declaration on the Rights of Indigenous...",
-    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/d30fe249a5ce8ea1da0f374329d5b43b217de5fa3f19c5e255c97d231f73c60a.jpg;w=960",
-    "url": "https://www.midlandtoday.ca/national-news/first-nations-leader-says-hes-open-to-talks-with-doerkson-but-opposes-dripa-repeal-13046654",
     "tags": [
       "Midland",
       "News",
@@ -159,150 +501,6 @@
       "Barrie",
       "News",
       "BarrieToday"
-    ]
-  },
-  {
-    "id": "barrie-360-0",
-    "title": "All signs show Canada can’t meet its Paris target — here’s why Ottawa won’t admit it",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 22",
-    "sortOrder": 1960,
-    "buzzScore": 97,
-    "summary": "In June, Prime Minister Mark Carney told Canadians that the country's emissions would be higher “in the next few years” than previously projected....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/canada-paris-climate-emissions-target-2030/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-1",
-    "title": "Post denies Colts’ late rally as Rangers stretch win streak to eight",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 22",
-    "sortOrder": 1959,
-    "buzzScore": 90,
-    "summary": "Eight days after watching the Kitchener Rangers storm back against them with four unanswered third-period goals, the Barrie Colts came within inches of pulling off a comeback of their own....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/barrie-colts-kitchener-rangers-late-rally-loss/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-2",
-    "title": "Navdeep Bains named new Ontario Liberal leader",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 21",
-    "sortOrder": 1958,
-    "buzzScore": 85,
-    "summary": "Former MP Navdeep Bains eked out a narrow victory Saturday to become the next Ontario Liberal leader, pledging to focus now on getting the party in fighting shape for the next election....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/navdeep-bains-new-ontario-liberal-leader/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-3",
-    "title": "Barrie council sets strategic priorities for next four years",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 21",
-    "sortOrder": 1957,
-    "buzzScore": 90,
-    "summary": "Barrie city council has identified four strategic priorities that will guide the city's direction over the next four years....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/barrie-council-strategic-priorities-2026-2030/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-4",
-    "title": "Barrie Police bringing 13 community agencies together for first-time victim services event",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 21",
-    "sortOrder": 1956,
-    "buzzScore": 89,
-    "summary": "Barrie residents will have an opportunity to learn more about the support available to victims and survivors of crime when 13 community agencies come together for a first-time information event next week....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/barrie-police-victim-services-information-event/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-5",
-    "title": "‘Night and day’ effort not enough as Colts fall 5-1 in Guelph",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 21",
-    "sortOrder": 1955,
-    "buzzScore": 93,
-    "summary": "The final result Friday night against the Guelph Storm may have looked much the same, but don’t tell Dylan Smoskowitz that the four-goal loss bore any resemblance to the one his Barrie Colts suffered the night before....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/colts-loss-storm-effort-nov26/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "innisfiltoday-1",
-    "title": "Santa Claus makes a sweet arrival in Alcona (30 photos)",
-    "category": "News",
-    "source": "InnisfilToday",
-    "location": "Innisfil, ON",
-    "timestamp": "Nov 22",
-    "sortOrder": 1939,
-    "buzzScore": 86,
-    "summary": "Double-digit temperatures welcomed the Jolly Old Elf as he made his way along Innisfil Beach Road Sunday afternoon...",
-    "image": "https://www.vmcdn.ca/f/files/innisfiltoday/2026-11-22-santa-parade-15.jpg;w=960",
-    "url": "https://www.innisfiltoday.ca/local-news/santa-claus-makes-a-sweet-arrival-in-alcona-30-photos-13046954",
-    "tags": [
-      "Innisfil",
-      "News",
-      "InnisfilToday"
-    ]
-  },
-  {
-    "id": "innisfiltoday-2",
-    "title": "Former municipal councillor joins Rescue Lake Simcoe Coalition board",
-    "category": "News",
-    "source": "InnisfilToday",
-    "location": "Innisfil, ON",
-    "timestamp": "Nov 22",
-    "sortOrder": 1938,
-    "buzzScore": 83,
-    "summary": "Dave Neeson represented Georgina’s Ward 3 for three terms and chaired the town’s environmental advisory committee...",
-    "image": "https://www.vmcdn.ca/f/files/bradfordtoday/images/politics/2021-09-01-neeson-scott-holland-river.jpg;w=960",
-    "url": "https://www.innisfiltoday.ca/local-news/former-municipal-councillor-joins-rescue-lake-simcoe-coalition-board-13041063",
-    "tags": [
-      "Innisfil",
-      "News",
-      "InnisfilToday"
     ]
   },
   {
@@ -375,24 +573,6 @@
       "Orillia",
       "News",
       "OrilliaMatters"
-    ]
-  },
-  {
-    "id": "collingwoodtoday-1",
-    "title": "&#39;Stoked&#39;: Orillia teen goes headfirst into pursuit of Olympic dream",
-    "category": "News",
-    "source": "CollingwoodToday",
-    "location": "Collingwood, ON",
-    "timestamp": "Nov 22",
-    "sortOrder": 1899,
-    "buzzScore": 82,
-    "summary": "Twin Lakes Secondary School student Kail Huffman, 17, is training in Whistler after being selected for funding through RBC Training Ground program...",
-    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/2023/kail-huffman-run-photo-credit-kevin-sousa-crop.jpeg;w=960",
-    "url": "https://www.collingwoodtoday.ca/local-news/stoked-orillia-teen-goes-headfirst-into-pursuit-of-olympic-dream-13046271",
-    "tags": [
-      "Collingwood",
-      "News",
-      "CollingwoodToday"
     ]
   },
   {
@@ -1239,24 +1419,6 @@
       "Innisfil",
       "News",
       "InnisfilToday"
-    ]
-  },
-  {
-    "id": "orilliamatters-3",
-    "title": "After laying off workers, Costco deal could kickstart Polyethics",
-    "category": "News",
-    "source": "OrilliaMatters",
-    "location": "Orillia, ON",
-    "timestamp": "Nov 21",
-    "sortOrder": 1917,
-    "buzzScore": 94,
-    "summary": "'We're excited about the additional business coming in and the opportunities it will create as production ramps up,' says official...",
-    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/business/20251119polyethicsexterior1.jpeg;w=960",
-    "url": "https://www.orilliamatters.com/local-news/after-laying-off-workers-costco-deal-could-kickstart-polyethics-13043577",
-    "tags": [
-      "Orillia",
-      "News",
-      "OrilliaMatters"
     ]
   },
   {
