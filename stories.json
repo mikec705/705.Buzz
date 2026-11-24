@@ -1,6 +1,438 @@
 [
   {
     "id": "midlandtoday-0",
+    "title": "COLUMN: Unelected Don McIsaac now most powerful man in Simcoe County",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 2000,
+    "buzzScore": 95,
+    "summary": "Former Orillia mayor 'will be a blunt-force instrument for the Premier and the Housing Minister,' warns columnist of Ford appointee...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/health/osmhannouncment-10-20-23-3.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/column-unelected-don-mcisaac-now-most-powerful-man-in-simcoe-county-13047544",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
+    "title": "Changes to inspection rules at food plants putting safety at risk: union",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1999,
+    "buzzScore": 80,
+    "summary": "OTTAWA — A federal union is warning about risks to food safety as the government cuts back on inspections at meat plants. Canadian Food Inspection Agency documents, obtained by The Canadian Press, show that as of Oct....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/4100bf903b5bf24e3f71cf96c93b206b4a5972be1127a7744de7991a008fbe66.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/changes-to-inspection-rules-at-food-plants-putting-safety-at-risk-union-13052222",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-2",
+    "title": "Good morning, Midland! Here&#39;s today&#39;s weather!",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1998,
+    "buzzScore": 97,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/midland/2026-11-14-0030-tiny-marsh-west.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/good-morning/good-morning-midland-heres-todays-weather-13050518",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-3",
+    "title": "In the news today: cannabis pardons, B.C. storm surge, mortgage arrears climb",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1997,
+    "buzzScore": 91,
+    "summary": "Here is a roundup of stories from The Canadian Press designed to bring you up to speed … Parole board launches online portal for pot pardons — only 944 granted so far The Parole Board of Canada has granted 944 pardons for cannabis possessio...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/0268dc80b481c903aafeff092dfcf456ef29d2987c51796d839efefe806e20ec.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/in-the-news-today-cannabis-pardons-bc-storm-surge-mortgage-arrears-climb-13052162",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-4",
+    "title": "Storm surge, king tides converge to raise flooding risk on B.C. coast",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1996,
+    "buzzScore": 88,
+    "summary": "VANCOUVER — Another frontal system is washing over coastal B.C., bringing heavy rains and strong winds, swelling waterways just as king tides peak this week....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/c3c749606be81be197fe20a74b97f52bb7bb75dee2e0d59cacf0dd2ca48c7374.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/storm-surge-king-tides-converge-to-raise-flooding-risk-on-bc-coast-13052147",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-5",
+    "title": "Author Galloway&#39;s lawyer asks B.C. court for millions in defamation award",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1995,
+    "buzzScore": 95,
+    "summary": "VANCOUVER — The lawyer for author and former University of British Columbia professor Steven Galloway said in closing arguments that his client's accuser started rape allegations then poured gasoline on them by encouraging others to spread ...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/4baded7f540f4e5f1209e07eee21eed34c21109c4f7ef113b6c7a1d63dd098bd.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/author-galloways-lawyer-asks-bc-court-for-millions-in-defamation-award-13052148",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrietoday-0",
+    "title": "COLUMN: Unelected Don McIsaac now Simcoe County&#39;s most powerful man",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1980,
+    "buzzScore": 85,
+    "summary": "Former Orillia mayor 'will be a blunt-force instrument for the premier and the housing minister,' warns columnist of Ford appointee...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/health/osmhannouncment-10-20-23-3.jpg;w=960",
+    "url": "https://www.barrietoday.com/local-news/column-unelected-don-mcisaac-now-simcoe-countys-most-powerful-man-13046599",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-2",
+    "title": "Legacy Funeral and Cremation Services: Proudly independent and rooted in the community",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1978,
+    "buzzScore": 91,
+    "summary": "Locally owned by Matt and Cindy Drury, Legacy offers personalized funeral services, transparent pricing, and a commitment to the families of Simcoe County....",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/spotlight-images/legacy-funeral/r6__5929.jpg;w=960",
+    "url": "https://www.barrietoday.com/spotlight/legacy-funeral-and-cremation-services-proudly-independent-and-rooted-in-the-community-13023234",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-3",
+    "title": "Barrie-area musicians celebrating half-century since historic Last Waltz",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1977,
+    "buzzScore": 85,
+    "summary": "Midland's Born Ruffians among dozens of performers who will honour The Band during upcoming celebration at Massey Hall...",
+    "image": "https://www.vmcdn.ca/f/files/bradfordtoday/br-lw-nov-25.jpg;w=960",
+    "url": "https://www.barrietoday.com/local-entertainment/barrie-area-musicians-celebrating-half-century-since-historic-last-waltz-13034323",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-4",
+    "title": "Good morning, Barrie! Here&#39;s today&#39;s weather!",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1976,
+    "buzzScore": 84,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/barrie/20261123sunriseew5.jpeg;w=960",
+    "url": "https://www.barrietoday.com/good-morning/good-morning-barrie-heres-todays-weather-13051000",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "Mortgage payment troubles hit highest level in more than a decade: Equifax",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1960,
+    "buzzScore": 88,
+    "summary": "Canadians are increasingly struggling to keep up with mortgage payments, and Ontario homeowners are among those facing the greatest pressure as borrowing costs continue to rise....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/mortgage-delinquencies-canada-equifax/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "Colts send Handsor off to Ottawa in four-pick deal",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1959,
+    "buzzScore": 87,
+    "summary": "The Barrie Colts granted veteran defenceman Justin Handsor his wish for a shot at an OHL championship on Monday, dealing him to the contending Ottawa 67’s in exchange for four draft picks....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/barrie-colts-handsor-ottawa/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-2",
+    "title": "Three drivers charged with stunt driving on Highway 400 near Barrie",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1958,
+    "buzzScore": 84,
+    "summary": "Saturday mornings are supposed to be for “nice relaxing drives through the countryside,” according to an Ontario Provincial Police post on X, describing a series of speeding stops on Highway 400 near Barrie....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/three-drivers-stunt-driving-highway-400-barrie/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-3",
+    "title": "Pentagon criticizes Canada in 'fact sheet' after Hegseth memo",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1957,
+    "buzzScore": 91,
+    "summary": "The Pentagon has released what it calls a \"fact sheet\" criticizing Canada's defence spending in the latest symbolic push from the Trump administration to upend long-standing norms in North American continental security....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/pentagon-criticizes-canada-defence-spending-fact-sheet/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-4",
+    "title": "Cadet weekend activities to be restored with new funding for programs: minister",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1956,
+    "buzzScore": 92,
+    "summary": "The cadet program will receive more funding so weekend and supplemental activities can continue as planned until the end of March, Defence Minister David McGuinty said Monday....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/cadet-weekend-activities-restored-new-funding/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-5",
+    "title": "OPP makes large drug seizure in Barrie, two receive multiple charges",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 23",
+    "sortOrder": 1955,
+    "buzzScore": 88,
+    "summary": "Provincial police have charged two after executing multiple search warrants through a drug trafficking investigation and making a hefty seizure in Barrie on Sunday....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/orillia-opp-drug-seizure-barrie-charges/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "innisfiltoday-0",
+    "title": "Ethiopia to Barrie and back: Local senior helps people who have very little",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1940,
+    "buzzScore": 94,
+    "summary": "'We realized just giving people thing didn’t help them at all. It’s really empowering the local people,' says development worker Bob Black...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/barrieprimebobblackvocationaltrainingnov2026.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/ethiopia-to-barrie-and-back-local-senior-helps-people-who-have-very-little-13048236",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-1",
+    "title": "Local student&#39;s app aims to take stress out of university applications",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1939,
+    "buzzScore": 82,
+    "summary": "Barrie North's Iman Bhindar says she created UniTrack after struggling to organize university deadlines, scholarships, documents and other application tasks...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/11182026nc-imanbhindar.JPG;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/local-students-app-aims-to-take-stress-out-of-university-applications-13048180",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-3",
+    "title": "Good morning, Innisfil! Here&#39;s today&#39;s weather!",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1937,
+    "buzzScore": 92,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/innisfil/2026-11-23-good-morning-innisfil-13.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/good-morning/good-morning-innisfil-heres-todays-weather-13050538",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-0",
+    "title": "Doctor says end of clinic funding will &#39;displace, punish&#39; homeless people",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1920,
+    "buzzScore": 87,
+    "summary": "County official says Compassionate Care Without Barriers is providing 'incomplete and misleading' information to the community...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/miscellaneous-stock-images/09082023trinityanglicanrb.jpg;w=960",
+    "url": "https://www.orilliamatters.com/local-news/doctor-says-end-of-clinic-funding-will-displace-punish-homeless-people-13051563",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-2",
+    "title": "Family &#39;completely disappointed&#39; by 11-year sentence in deadly crash",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1918,
+    "buzzScore": 83,
+    "summary": "'(They) were just ideal parents. This is just terrible,' says couple's son; Orillia's Spencer Fulton, 32, has about eight years left to serve...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/court/20260925spencerfultoncrop1.jpg;w=960",
+    "url": "https://www.orilliamatters.com/court/family-completely-disappointed-by-11-year-sentence-in-deadly-crash-13051682",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-3",
+    "title": "Good morning, Orillia! Here&#39;s today&#39;s weather!",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1917,
+    "buzzScore": 96,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/orillia/2026-11-23-gm-boat-launch-at-bass-lake-dd.jpg;w=960",
+    "url": "https://www.orilliamatters.com/good-morning-orillia/good-morning-orillia-heres-todays-weather-13049766",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-1",
+    "title": "A primer on cataracts: The signs to watch out for and what to expect",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1899,
+    "buzzScore": 91,
+    "summary": "A common condition, advancing technology, and why doing your research is so important....",
+    "image": "https://www.vmcdn.ca/f/files/villagelife/images/health-and-wellness/doctor-and-patients/adobestock_271542487_copy2.png;w=960",
+    "url": "https://www.collingwoodtoday.ca/spotlight/a-primer-on-cataracts-the-signs-to-watch-out-for-and-what-to-expect-13047676",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-5",
+    "title": "Largest emissions spike in decade further sets back climate goals in Toronto area",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1895,
+    "buzzScore": 86,
+    "summary": "TORONTO — A more polluting energy grid and rising demand for gas heating during a colder winter drove the largest annual spike in planet-warming emissions in at least a decade across the Greater Toronto and Hamilton Area, a new report found...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/c75ea8c5c8e5a053413f1d4c974d85e5c22c92a8143a1d1d52fb34d05886b065.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/ontario-news/largest-emissions-spike-in-decade-further-sets-back-climate-goals-in-toronto-area-13052150",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-0",
     "title": "Google says &#39;lawful access&#39; bill creates &#39;attractive&#39; opportunities for bad actors",
     "category": "News",
     "source": "MidlandToday",
@@ -105,60 +537,6 @@
       "Midland",
       "News",
       "MidlandToday"
-    ]
-  },
-  {
-    "id": "barrietoday-5",
-    "title": "Family &#39;completely disappointed&#39; by 11-year sentence in deadly crash",
-    "category": "News",
-    "source": "BarrieToday",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 24",
-    "sortOrder": 1975,
-    "buzzScore": 88,
-    "summary": "'(They) were just ideal parents. This is just terrible,' says couple's son; former Barrie resident Spencer Fulton, 32, has about eight years left to serve...",
-    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/court/20260925spencerfultoncrop1.jpg;w=960",
-    "url": "https://www.barrietoday.com/court/family-completely-disappointed-by-11-year-sentence-in-deadly-crash-13051558",
-    "tags": [
-      "Barrie",
-      "News",
-      "BarrieToday"
-    ]
-  },
-  {
-    "id": "barrie-360-0",
-    "title": "Cadet weekend activities to be restored with new funding for programs: minister",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 24",
-    "sortOrder": 1960,
-    "buzzScore": 94,
-    "summary": "The cadet program will receive more funding so weekend and supplemental activities can continue as planned until the end of March, Defence Minister David McGuinty said Monday....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/cadet-weekend-activities-restored-new-funding/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-1",
-    "title": "OPP makes large drug seizure in Barrie, two receive multiple charges",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 23",
-    "sortOrder": 1959,
-    "buzzScore": 92,
-    "summary": "Provincial police have charged two after executing multiple search warrants through a drug trafficking investigation and making a hefty seizure in Barrie on Sunday....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/orillia-opp-drug-seizure-barrie-charges/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
     ]
   },
   {
@@ -900,24 +1278,6 @@
     ]
   },
   {
-    "id": "orilliamatters-5",
-    "title": "Local student&#39;s app aims to take stress out of university applications",
-    "category": "News",
-    "source": "OrilliaMatters",
-    "location": "Orillia, ON",
-    "timestamp": "Nov 22",
-    "sortOrder": 1915,
-    "buzzScore": 96,
-    "summary": "High school student says she created UniTrack after struggling to organize university deadlines, scholarships, documents and other application tasks...",
-    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/11182026nc-imanbhindar.JPG;w=960",
-    "url": "https://www.orilliamatters.com/local-news/local-students-app-aims-to-take-stress-out-of-university-applications-13045578",
-    "tags": [
-      "Orillia",
-      "News",
-      "OrilliaMatters"
-    ]
-  },
-  {
     "id": "collingwoodtoday-1",
     "title": "DD RUITER, George John",
     "category": "News",
@@ -1037,24 +1397,6 @@
     "summary": "‘You can achieve significant success without selling your soul,’ says author...",
     "image": "https://www.vmcdn.ca/f/files/aurora/20261110-jerome-zeyen-new-book.jpeg;w=960",
     "url": "https://www.barrietoday.com/local-news/nice-guys-finish-last-leadership-coach-challenges-myth-in-new-book-13025607",
-    "tags": [
-      "Barrie",
-      "News",
-      "BarrieToday"
-    ]
-  },
-  {
-    "id": "barrietoday-5",
-    "title": "Ethiopia to Barrie and back: Local senior helps people who have very little",
-    "category": "News",
-    "source": "BarrieToday",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 22",
-    "sortOrder": 1975,
-    "buzzScore": 82,
-    "summary": "'We realized just giving people thing didn’t help them at all. It’s really empowering the local people,' says development worker Bob Black...",
-    "image": "https://www.vmcdn.ca/f/files/barrietoday/barrieprimebobblackvocationaltrainingnov2026.jpg;w=960",
-    "url": "https://www.barrietoday.com/prime/ethiopia-to-barrie-and-back-local-senior-helps-people-who-have-very-little-13021039",
     "tags": [
       "Barrie",
       "News",
@@ -3690,24 +4032,6 @@
     ]
   },
   {
-    "id": "midlandtoday-3",
-    "title": "Good morning, Midland! Here&#39;s today&#39;s weather!",
-    "category": "News",
-    "source": "MidlandToday",
-    "location": "Midland, ON",
-    "timestamp": "Nov 19",
-    "sortOrder": 1997,
-    "buzzScore": 89,
-    "summary": "Here's a look at the current local weather and gas prices...",
-    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/midland/2026-11-14-0005-tiny-marsh-west.jpg;w=960",
-    "url": "https://www.midlandtoday.ca/good-morning/good-morning-midland-heres-todays-weather-13032810",
-    "tags": [
-      "Midland",
-      "News",
-      "MidlandToday"
-    ]
-  },
-  {
     "id": "midlandtoday-4",
     "title": "South Korea’s top court overturns charges against ex-prime minister for his role in martial law",
     "category": "News",
@@ -3755,24 +4079,6 @@
     "summary": "Meet your whole home’s needs with one local company...",
     "image": "https://www.vmcdn.ca/f/files/barrietoday/spotlight-images/affordable-comfort-heating-cooling/836474331_1526591036160274_3055530241292492184_n-tom-zinn.jpg;w=960",
     "url": "https://www.barrietoday.com/spotlight/affordable-comfort-named-a-2026-reader-favourite-in-three-categories-12994927",
-    "tags": [
-      "Barrie",
-      "News",
-      "BarrieToday"
-    ]
-  },
-  {
-    "id": "barrietoday-4",
-    "title": "Good morning, Barrie! Here&#39;s today&#39;s weather!",
-    "category": "News",
-    "source": "BarrieToday",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 19",
-    "sortOrder": 1976,
-    "buzzScore": 82,
-    "summary": "Here's a look at the current local weather and gas prices...",
-    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/barrie/20261117goodmorningbarriebenchcouple.jpg;w=960",
-    "url": "https://www.barrietoday.com/good-morning/good-morning-barrie-heres-todays-weather-13033439",
     "tags": [
       "Barrie",
       "News",
@@ -3888,24 +4194,6 @@
     ]
   },
   {
-    "id": "innisfiltoday-4",
-    "title": "Good morning, Innisfil! Here&#39;s today&#39;s weather!",
-    "category": "News",
-    "source": "InnisfilToday",
-    "location": "Innisfil, ON",
-    "timestamp": "Nov 19",
-    "sortOrder": 1936,
-    "buzzScore": 93,
-    "summary": "Here's a look at the current local weather and gas prices...",
-    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/innisfil/2026-11-09-good-morning-innisfil-5.jpg;w=960",
-    "url": "https://www.innisfiltoday.ca/good-morning/good-morning-innisfil-heres-todays-weather-13033094",
-    "tags": [
-      "Innisfil",
-      "News",
-      "InnisfilToday"
-    ]
-  },
-  {
     "id": "orilliamatters-0",
     "title": "Gravenhurst chaplain wants to turn trailers into warming centres",
     "category": "News",
@@ -3917,24 +4205,6 @@
     "summary": "'The trailers are here and the need is here. What stands between them is a place to work, people to build and a host ready to open the door,' says chaplain...",
     "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/charity/20261118-01-trailer-exterior-main.jpg;w=960",
     "url": "https://www.orilliamatters.com/local-news/gravenhurst-chaplain-wants-to-turn-trailers-into-warming-centres-13030542",
-    "tags": [
-      "Orillia",
-      "News",
-      "OrilliaMatters"
-    ]
-  },
-  {
-    "id": "orilliamatters-4",
-    "title": "Good morning, Orillia! Here&#39;s today&#39;s weather!",
-    "category": "News",
-    "source": "OrilliaMatters",
-    "location": "Orillia, ON",
-    "timestamp": "Nov 19",
-    "sortOrder": 1916,
-    "buzzScore": 86,
-    "summary": "Here's a look at the current local weather and gas prices...",
-    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/orillia/2026-11-16-gm-last-burst-of-colour-fall.jpg;w=960",
-    "url": "https://www.orilliamatters.com/good-morning-orillia/good-morning-orillia-heres-todays-weather-13026497",
     "tags": [
       "Orillia",
       "News",
