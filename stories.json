@@ -1,6 +1,348 @@
 [
   {
     "id": "midlandtoday-0",
+    "title": "Family vows to take fight for tougher driving laws national",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 2000,
+    "buzzScore": 90,
+    "summary": "'We knew coming into this there was no sentence that would bring justice,' Jordon Cristillo says of prison term of six years and six months for driver who killed brother...",
+    "image": "https://www.vmcdn.ca/f/files/newmarkettoday/images/court/2026-11-25-court01.jpeg;w=960",
+    "url": "https://www.midlandtoday.ca/court/family-vows-to-take-fight-for-tougher-driving-laws-national-13058373",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
+    "title": "Army calls detonation of bomb chemicals in Iowa a success after earlier fears of a toxic plume",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1999,
+    "buzzScore": 80,
+    "summary": "MIDDLETOWN, Iowa (AP) — The U.S....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/592c970c323f3a1876ab8f97e159af94dd3889f770347d513487524b80f3e40c.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/world-news/army-calls-detonation-of-bomb-chemicals-in-iowa-a-success-after-earlier-fears-of-a-toxic-plume-13057475",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-2",
+    "title": "Ottawa taps Qatar to offer consular help to Canadians in Afghanistan",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1998,
+    "buzzScore": 95,
+    "summary": "OTTAWA — Qatar is partnering with Ottawa to provide consular services to Canadians in Afghanistan....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/24055ea5413134cda4868b4e25837601521213a2f977eabde5babd389364f713.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/ottawa-taps-qatar-to-offer-consular-help-to-canadians-in-afghanistan-13058275",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-3",
+    "title": "Violence against women campaign raises questions about survivor supports",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1997,
+    "buzzScore": 96,
+    "summary": "Local and national organizations highlight need for sustainable funding to combat ongoing issue as 16 Days of Activitism kicks off...",
+    "image": "https://www.vmcdn.ca/f/files/midlandtoday/images/events/16-days-of-activism(1).png;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/violence-against-women-campaign-raises-questions-about-survivor-supports-13057960",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-4",
+    "title": "Margaret Atwood urges feds to block bird-threatening telecom tower on Pelee Island",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1996,
+    "buzzScore": 94,
+    "summary": "A coalition backed by Margaret Atwood is urging Ottawa to block construction of a telecom tower on Ontario's Pelee Island that they say threatens bird safety along a major migratory route....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/d048d67eb0bb0cf29e11b415b8a2ace5c48ebd2f13e93a363476d0ff901ff1fa.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/margaret-atwood-urges-feds-to-block-bird-threatening-telecom-tower-on-pelee-island-13058276",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-5",
+    "title": "Reverse mortgages for 55+: Should I or shouldn&#39;t I",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1995,
+    "buzzScore": 83,
+    "summary": "Ontario-Wide Financial owner Tracy Green — a a certified reverse mortgage specialist — explains how the unique loan type works....",
+    "image": "https://www.vmcdn.ca/f/files/villagelife/images/life/adobestock_261051798.jpeg;w=960",
+    "url": "https://www.midlandtoday.ca/spotlight/reverse-mortgages-for-55-should-i-or-shouldnt-i-13036911",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrietoday-0",
+    "title": "Bill for Barrie&#39;s state of emergency on encampments more than $3M",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1980,
+    "buzzScore": 80,
+    "summary": "This includes $1.2 million for Dyment Creek encampment cleanup, almost $865,000 for safety and security measures, and $628,000 for winter response...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/city-of-barrie/11052025milliganspondrb4.jpeg;w=960",
+    "url": "https://www.barrietoday.com/local-news/barries-state-of-emergency-on-encampments-has-cost-city-31m-13057252",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-3",
+    "title": "Driver in crash that killed young father sentenced to 6.5 years",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1977,
+    "buzzScore": 87,
+    "summary": "Andrew Cristillo, 35, died in head-on collision in August 2025 in Whitchurch-Stouffville; his death led to stiffer provincial laws for dangerous driving...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/369ddd1b017093016e35b9d2e987ed66ec7a51d351ccd26c8d61096d33c3a57c.jpg;w=960",
+    "url": "https://www.barrietoday.com/court/driver-in-crash-that-killed-young-father-expected-to-be-sentenced-today-13057049",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-5",
+    "title": "A lifetime of quiet generosity earns Steve Loftus a posthumous community honour",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1975,
+    "buzzScore": 97,
+    "summary": "💛 Community Builders Awards: The late Barrie entrepreneur and philanthropist is being recognized for a lifetime of generosity, mentorship and dedication to helping others succeed...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/barrie-cares/cba-awards-barrie-2026-2.jpg;w=960",
+    "url": "https://www.barrietoday.com/cbawards/winners/a-lifetime-of-quiet-generosity-earns-steve-loftus-a-posthumous-community-honour-12916695",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "Driver in 2025 crash that killed Ontario father of three sentenced to 6.5 years",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1960,
+    "buzzScore": 94,
+    "summary": "A driver in a head-on crash that killed a father of three last year in a case that prompted the Ontario government to introduce tougher dangerous driving penalties has been sentenced to six years and six months behind bars....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/driver-sentenced-fatal-ontario-crash-andrew-cristillo/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "City of Barrie launches survey to shape new municipal parking strategy",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1959,
+    "buzzScore": 85,
+    "summary": "The City of Barrie is asking residents, businesses, and visitors to share their feedback on municipal parking options to help form the City’s next Municipal Parking Strategy....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/barrie-public-input-municipal-parking-strategy/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-2",
+    "title": "Man charged with impaired after Highway 400 crash",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1958,
+    "buzzScore": 95,
+    "summary": "A 58-year-old Gravenhurst man has been charged with impaired driving after a single-vehicle crash on Highway 400....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/gravenhurst-man-impaired-driving-highway-400-crash/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-3",
+    "title": "TODAY: Barrie Police bringing 13 community agencies together for first-time victim services event",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1957,
+    "buzzScore": 80,
+    "summary": "Barrie residents will have an opportunity to learn more about the support available to victims and survivors of crime when 13 community agencies come together for a first-time information event next week....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/barrie-police-victim-services-information-event/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-4",
+    "title": "OPP seek public's help identifying suspect in Orillia sexual assault involving a youth",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1956,
+    "buzzScore": 82,
+    "summary": "Ontario Provincial Police are seeking the public's help identifying a suspect in a sexual assault investigation involving a youth in Orillia....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/opp-seek-suspect-orillia-sexual-assault-youth/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-5",
+    "title": "Ending homelessness will be 'very challenging,' Ontario Premier Doug Ford says",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1955,
+    "buzzScore": 94,
+    "summary": "Ending homelessness in 10 years will be \"very challenging,\" Ontario Premier Doug Ford said Tuesday....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/ford-ending-homelessness-ontario-very-challenging/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "innisfiltoday-3",
+    "title": "Juno winner Sean Jones headlines Friday Harbour tree-lighting ceremony",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1937,
+    "buzzScore": 80,
+    "summary": "Annual event takes place on Saturday, Nov. 28 starting at 5 p.m....",
+    "image": "https://www.vmcdn.ca/f/files/innisfiltoday/images/2026-11-24-sean-jones.png;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/juno-winner-sean-jones-headlines-friday-harbour-tree-lighting-ceremony-13054330",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-5",
+    "title": "Man killed in Toronto home invasion, police seeking at least one suspect",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1935,
+    "buzzScore": 96,
+    "summary": "TORONTO — Police say a man was fatally shot during a home invasion in an affluent midtown Toronto neighbourhood, and they are seeking at least one suspect in the case. Toronto police Det.-Sgt....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/449dcb86e337b49e367e24c234ecc48e63d326e334d30ea69db67a9c0539e4cd.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/ontario-news/man-killed-in-toronto-home-invasion-police-seeking-at-least-one-suspect-13056953",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-5",
+    "title": "OPP investigating &#39;very vulgar&#39; graffiti painted on school building",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1915,
+    "buzzScore": 83,
+    "summary": "Unknown suspects targeted Bracebridge Public School twice, each time spray-painting the school with 'offensive' graffiti, say police...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/police/bracebridge-public-school-exterior-stock.jpg;w=960",
+    "url": "https://www.orilliamatters.com/police-beat/opp-investigating-very-vulgar-graffiti-painted-on-school-building-13058043",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-3",
+    "title": "Seniors have their own place to have fun, meet people or relax",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1897,
+    "buzzScore": 95,
+    "summary": "Collingwood's Leisure Time Centre has been serving the 50-years-and-older population for almost 40 years...",
+    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/collprimeleisure-imeclubdarlenenov2026(1).png;w=960",
+    "url": "https://www.collingwoodtoday.ca/prime/seniors-have-their-own-place-to-have-fun-meet-people-or-relax-13047022",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-0",
     "title": "Plane crash off the coast of Mississippi kills 6, including 2 children",
     "category": "News",
     "source": "MidlandToday",
@@ -123,42 +465,6 @@
       "Barrie",
       "News",
       "BarrieToday"
-    ]
-  },
-  {
-    "id": "barrie-360-0",
-    "title": "OPP seek public's help identifying suspect in Orillia sexual assault involving a youth",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 25",
-    "sortOrder": 1960,
-    "buzzScore": 90,
-    "summary": "Ontario Provincial Police are seeking the public's help identifying a suspect in a sexual assault investigation involving a youth in Orillia....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/opp-seek-suspect-orillia-sexual-assault-youth/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-1",
-    "title": "Ending homelessness will be 'very challenging,' Ontario Premier Doug Ford says",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 24",
-    "sortOrder": 1959,
-    "buzzScore": 82,
-    "summary": "Ending homelessness in 10 years will be \"very challenging,\" Ontario Premier Doug Ford said Tuesday....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/ford-ending-homelessness-ontario-very-challenging/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
     ]
   },
   {
