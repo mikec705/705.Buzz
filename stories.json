@@ -1,5 +1,257 @@
 [
   {
+    "id": "midlandtoday-0",
+    "title": "Plane crash off the coast of Mississippi kills 6, including 2 children",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 2000,
+    "buzzScore": 89,
+    "summary": "Six people, including two children, have been found dead after a plane crashed off the coast of Mississippi Tuesday, according to the U.S. Coast Guard....",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.midlandtoday.ca/world-news/plane-crash-off-the-coast-of-mississippi-kills-6-including-2-children-13056575",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
+    "title": "North Korea demands closure of Switzerland&#39;s new diplomatic office and orders diplomat to leave",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1999,
+    "buzzScore": 97,
+    "summary": "SEOUL, South Korea (AP) — North Korea on Wednesday demanded the closure of Switzerland’s new diplomatic office in Pyongyang and ordered the senior diplomat heading it to leave the country within 48 hours....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/ba9784fe84f75c181e31638cc87ccd4049dd634f8a2282f0f067da74f104505e.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/world-news/north-korea-demands-closure-of-switzerlands-new-diplomatic-office-and-orders-diplomat-to-leave-13056754",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-2",
+    "title": "China launches Shenzhou 24 spacecraft carrying 2 Chinese and a Pakistani astronaut",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1998,
+    "buzzScore": 96,
+    "summary": "JIUQUAN, China (AP) — China on Wednesday launched the Shenzhou 24 spacecraft with three astronauts — two Chinese and a Pakistani — sending the first foreign crew member to its space station....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/8ff6ee100cc32c495cf936f8768f5278f39f29cbf61c1caeffba12133d9cc23b.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/world-news/china-launches-shenzhou-24-spacecraft-carrying-2-chinese-and-a-pakistani-astronaut-13056512",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-3",
+    "title": "A timeline before and after mass shooting in Tumbler Ridge, B.C.",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1997,
+    "buzzScore": 95,
+    "summary": "VANCOUVER — Lawyers for the alleged co-conspirator in the mass shooting in Tumbler Ridge, B.C., are trying to have her released from jail before her expected trial next year. A 33-page motion filed in U.S....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/9186e65ace9b2ce6c86ed876f205c5da1dbc8ef2c80bbe8785dd396465b66373.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/a-timeline-before-and-after-mass-shooting-in-tumbler-ridge-bc-13056331",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-4",
+    "title": "Police release images of suspect in alleged sexual assault of Orillia youth",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1996,
+    "buzzScore": 83,
+    "summary": "Police responded to reports of assault Nov. 6; they say the suspect 'is known to wear suspenders'...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/police/wanted/20261124-orillia-sex-assault-suspect2.jpeg;w=960",
+    "url": "https://www.midlandtoday.ca/police-beat/police-release-images-of-suspect-in-alleged-sexual-assault-of-orillia-youth-13056712",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-5",
+    "title": "Storm surge, king tides converge to raise flooding risk on B.C. coast",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1995,
+    "buzzScore": 87,
+    "summary": "VANCOUVER — The risk of flooding is elevated across British Columbia's coast as drenching rain and blustery winds coincide with king tides, setting off widespread warnings....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/c3c749606be81be197fe20a74b97f52bb7bb75dee2e0d59cacf0dd2ca48c7374.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/storm-surge-king-tides-converge-to-raise-flooding-risk-on-bc-coast-13052147",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrietoday-4",
+    "title": "OPP releases images of suspect in alleged sexual assault of Orillia youth",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1976,
+    "buzzScore": 84,
+    "summary": "Police responded to reports of assault Nov. 6; they say suspect 'is known to wear suspenders'...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/police/wanted/20261124-orillia-sex-assault-suspect2.jpeg;w=960",
+    "url": "https://www.barrietoday.com/police-beat/opp-releases-images-of-suspect-in-alleged-sexual-assault-of-orillia-youth-13056667",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "OPP seek public's help identifying suspect in Orillia sexual assault involving a youth",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1960,
+    "buzzScore": 90,
+    "summary": "Ontario Provincial Police are seeking the public's help identifying a suspect in a sexual assault investigation involving a youth in Orillia....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/opp-seek-suspect-orillia-sexual-assault-youth/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "Ending homelessness will be 'very challenging,' Ontario Premier Doug Ford says",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1959,
+    "buzzScore": 82,
+    "summary": "Ending homelessness in 10 years will be \"very challenging,\" Ontario Premier Doug Ford said Tuesday....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/ford-ending-homelessness-ontario-very-challenging/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-2",
+    "title": "Three people charged in robbery at Barrie home",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1958,
+    "buzzScore": 97,
+    "summary": "Three people are facing charges following a robbery at a Barrie residence....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/3-charged-after-robbery-barrie-residence/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-3",
+    "title": "Third Barrie suspect arrested in Innisfil home invasion",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1957,
+    "buzzScore": 80,
+    "summary": "A third suspect has been arrested in connection with an armed home invasion in Innisfil earlier this year....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/third-barrie-suspect-arrested-innisfil-home-invasion/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-4",
+    "title": "U2 booked for two shows in Toronto next year",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1956,
+    "buzzScore": 96,
+    "summary": "Fresh off the release of their first album of new songs in nine years, the spirited “Carnaval de Luz,” Irish rockers U2 have announced a North American tour....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/u2-toronto-concerts-september-2027/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-5",
+    "title": "Singer offers tearful apology for O Canada flub at Leafs-Islanders game in New York",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 24",
+    "sortOrder": 1955,
+    "buzzScore": 91,
+    "summary": "A singer and former Broadway actress issued an emotional apology to Canadians after fumbling the lyrics to O Canada ahead of Monday night's matchup between the Toronto Maple Leafs and New York Islanders....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/singer-apologizes-o-canada-leafs-islanders-game/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "innisfiltoday-5",
+    "title": "Fort Hood shooter Nidal Hasan asks court to delay firing-squad execution so he can fight sentence",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1935,
+    "buzzScore": 89,
+    "summary": "KILLEEN, Texas (AP) — Fort Hood shooter Nidal Hasan, who killed 13 people in an attack at the Texas military base in 2009, asked a federal court Tuesday to delay his execution by firing squad so he can prepare a petition contesting his sent...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/e62405dfb4a5db062658341c3e02c990d68712e9736993640a6bf3661acc1e6f.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/world-news/fort-hood-shooter-nidal-hasan-asks-court-to-delay-firing-squad-execution-so-he-can-fight-sentence-13056469",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
     "id": "collingwoodtoday-3",
     "title": "New Bluewater District School Board takes office",
     "category": "News",
