@@ -1,6 +1,222 @@
 [
   {
     "id": "midlandtoday-0",
+    "title": "Ebola outbreak in Congo reaches 12,000 cases as violence forces some responders to evacuate",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 2000,
+    "buzzScore": 89,
+    "summary": "BUNIA, Congo (AP) — The fast-moving Ebola outbreak in eastern Congo has topped 12,000 confirmed cases, government data showed Thursday, as fighting between rebels and the army disrupts efforts to contain the spread of the disease....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/1de3b73e1bdc39d5e8b1d57726baccb7428f1b81c93cfdd31ec640b6f21b801e.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/world-news/ebola-outbreak-in-congo-reaches-12000-cases-as-violence-forces-some-responders-to-evacuate-13061561",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
+    "title": "In the news: Low-income Canadians and family doctors, flooding in B.C., OSAP issues",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1999,
+    "buzzScore": 93,
+    "summary": "Here is a roundup of stories from The Canadian Press designed to bring you up to speed … Low-income people less likely to have family doctor: report A new report by the Canadian Institute for Health Information says people with low incomes ...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/c4ec77328fc89b733b3c9300b086e10daa7b368dcddf35c6b986890196fdb86b.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/in-the-news-low-income-canadians-and-family-doctors-flooding-in-bc-osap-issues-13061564",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-2",
+    "title": "Ontario was warned about career college with skyrocketing OSAP growth, letter shows",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1998,
+    "buzzScore": 91,
+    "summary": "TORONTO — A career college with student financial aid usage that grew thousands of per cent in a few years was not among those the minister cut off this spring, and a letter newly obtained by The Canadian Press shows he was specifically war...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/37f9c4ae9d0af94c2d573138395e67f6a0cbd9019ebfc05a3528e9070c6c7fc8.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/ontario-news/ontario-was-warned-about-career-college-with-skyrocketing-osap-growth-letter-shows-13061578",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-3",
+    "title": "Weather station records 469 millimetres of rain in latest B.C. soaking",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1997,
+    "buzzScore": 92,
+    "summary": "UCLUELET — Environment Canada says 469 millimetres of rain fell at a weather station west of Vancouver Island in just over two days as British Columbia continues to get drenched by wet weather....",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.midlandtoday.ca/national-news/weather-station-records-469-millimetres-of-rain-in-latest-bc-soaking-13061558",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-4",
+    "title": "Alberta health officials to give update on soldiers injured in CFB Wainwright fire",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1996,
+    "buzzScore": 96,
+    "summary": "EDMONTON — Alberta health officials are expected to provide an update today on the recovery of soldiers injured during a deadly fire at a military base. The military has said a windstorm on Oct....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/742d39c7fdfd29361211644a7febc083443c88a88a7533ef1147b41fcd7a188f.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/alberta-health-officials-to-give-update-on-soldiers-injured-in-cfb-wainwright-fire-13061551",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-5",
+    "title": "Smith hopes to leave separatism behind as UCP meets after divisive referendum",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1995,
+    "buzzScore": 97,
+    "summary": "EDMONTON — Alberta's governing United Conservative Party is gathering this weekend for the first time since an independence referendum divided the province, opened internal party cracks and led to a high-profile member's expulsion....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/4ea62891863183c475a38a996c66decf68748a449232b04554c56d87ddb18966.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/smith-hopes-to-leave-separatism-behind-as-ucp-meets-after-divisive-referendum-13061552",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "(Video) Bright meteor spotted over Barrie, Simcoe County, parts of southern Ontario",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1960,
+    "buzzScore": 90,
+    "summary": "A bright meteor streaking across the night sky Wednesday evening caught the attention of people across Simcoe County, southern Ontario and parts of the United States....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/bright-meteor-spotted-over-barrie-simcoe-county-parts-of-southern-ontario/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "Over $3.1 million spent on encampment response since Barrie's emergency order: memo",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1959,
+    "buzzScore": 84,
+    "summary": "Barrie's emergency response to homeless encampments has cost the city more than $3.1 million since Mayor Alex Nuttall declared a state of emergency last fall, according to city staff....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/barrie-homeless-encampment-emergency-costs-nov26/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-2",
+    "title": "(Update) Violent home invasion in affluent Toronto neighbourhood leaves man, 39, dead",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1958,
+    "buzzScore": 97,
+    "summary": "A 39-year-old man was fatally shot during an overnight home invasion in an affluent midtown Toronto neighbourhood on Wednesday in the latest violent break-in that has left some residents on edge....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/update-violent-home-invasion-man-dead-toronto/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-3",
+    "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dead at 65",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1957,
+    "buzzScore": 82,
+    "summary": "Andy Taylor, the original guitarist of the 1980s English new wave band Duran Duran, whose huge pop hits include “Hungry Like the Wolf,” “The Reflex” and “Rio” and whose rise up the charts was inextricably linked to the launch of MTV, has di...",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/andy-taylor-duran-duran-guitarist-dead-65/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-4",
+    "title": "Ontario desperately needs minimum nurse-to-patient ratios: study",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1956,
+    "buzzScore": 92,
+    "summary": "Nearly half of Ontario's nurses are considering or somewhat considering leaving their jobs, while a strong majority report experiencing violence and abuse at work, according to a Nanos poll this week....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/ontario-nurses-burnout-minimum-staffing-ratios-26/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-5",
+    "title": "County of Simcoe recognized as top destination in North America and the Caribbean by prestigious travel magazine",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 25",
+    "sortOrder": 1955,
+    "buzzScore": 80,
+    "summary": "The County of Simcoe has been named one of Condé Nast Traveler’s Best Places to Go in North America and the Caribbean for 2027, earning international recognition as a premier destination for outdoor adventure, vibrant communities, and excep...",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/simcoe-county-top-destination-2027/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "midlandtoday-0",
     "title": "U.S. prosecution opposes release of alleged co-conspirator in B.C. mass shooting",
     "category": "News",
     "source": "MidlandToday",
@@ -159,78 +375,6 @@
       "Barrie",
       "News",
       "BarrieToday"
-    ]
-  },
-  {
-    "id": "barrie-360-0",
-    "title": "(Update) Violent home invasion in affluent Toronto neighbourhood leaves man, 39, dead",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 26",
-    "sortOrder": 1960,
-    "buzzScore": 91,
-    "summary": "A 39-year-old man was fatally shot during an overnight home invasion in an affluent midtown Toronto neighbourhood on Wednesday in the latest violent break-in that has left some residents on edge....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/update-violent-home-invasion-man-dead-toronto/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-1",
-    "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dead at 65",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 26",
-    "sortOrder": 1959,
-    "buzzScore": 86,
-    "summary": "Andy Taylor, the original guitarist of the 1980s English new wave band Duran Duran, whose huge pop hits include “Hungry Like the Wolf,” “The Reflex” and “Rio” and whose rise up the charts was inextricably linked to the launch of MTV, has di...",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/andy-taylor-duran-duran-guitarist-dead-65/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-2",
-    "title": "Ontario desperately needs minimum nurse-to-patient ratios: study",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 25",
-    "sortOrder": 1958,
-    "buzzScore": 86,
-    "summary": "Nearly half of Ontario's nurses are considering or somewhat considering leaving their jobs, while a strong majority report experiencing violence and abuse at work, according to a Nanos poll this week....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/ontario-nurses-burnout-minimum-staffing-ratios-26/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-3",
-    "title": "County of Simcoe recognized as top destination in North America and the Caribbean by prestigious travel magazine",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 25",
-    "sortOrder": 1957,
-    "buzzScore": 85,
-    "summary": "The County of Simcoe has been named one of Condé Nast Traveler’s Best Places to Go in North America and the Caribbean for 2027, earning international recognition as a premier destination for outdoor adventure, vibrant communities, and excep...",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/simcoe-county-top-destination-2027/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
     ]
   },
   {
