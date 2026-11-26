@@ -1,6 +1,294 @@
 [
   {
     "id": "midlandtoday-0",
+    "title": "Moe to welcome Carney to Regina for meeting on economy, electricity",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 2000,
+    "buzzScore": 96,
+    "summary": "REGINA — Saskatchewan Premier Scott Moe was preparing Thursday for a meeting with Prime Minister Mark Carney in Regina....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/4ae420ad3948e4dfaaa698dfd1234a16f5cbdf9338dbfd5f36eab565d80e2049.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/moe-to-welcome-carney-to-regina-for-meeting-on-economy-electricity-13063687",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
+    "title": "Midland at &#39;crest of a wave&#39; with more than 5,500 homes in development pipeline",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1999,
+    "buzzScore": 90,
+    "summary": "Large-scale subdivisions and a shift toward higher-density housing could reshape the community, but unfavourable market conditions remain an obstacle....",
+    "image": "https://www.vmcdn.ca/f/files/midlandtoday/images/development/2026-11-269332countyrd93mr.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/midland-housing-development-growth-5583-homes-13063354",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-2",
+    "title": "Trina Hunt&#39;s family files lawsuit, asks B.C. court to declare her husband killed her",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1998,
+    "buzzScore": 86,
+    "summary": "The family of a British Columbia woman found dead more than five years ago has filed a civil lawsuit against her husband, asking the B.C. Supreme Court to declare that he killed her. Trina Hunt's burned body was found in March 2021 near Hop...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/2e64a0ce805827d0cdf2f9005c54597eda1f50c76fae32c3e8b44d278fc0b33b.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/trina-hunts-family-files-lawsuit-asks-bc-court-to-declare-her-husband-killed-her-13063686",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-3",
+    "title": "Doug Ford advises Ontarians to protect against home invasions by any means",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1997,
+    "buzzScore": 85,
+    "summary": "TORONTO — Ontario Premier Doug Ford said Thursday he wants to see legal changes to address a spate of home invasions, and in the meantime he advised people to protect their families by any means necessary....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/33f0fb8a91ee88e795003a4c8c073e8ae5741ee428626f4681a44b6a2e6f368b.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/ontario-news/doug-ford-advises-ontarians-to-protect-against-home-invasions-by-any-means-13061729",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-4",
+    "title": "Premier Ford, Unifor call for automaker exemption from tailpipe compliance penalties",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1996,
+    "buzzScore": 89,
+    "summary": "OTTAWA — Ontario Premier Doug Ford and Unifor president Lana Payne are calling on Ottawa to exempt automakers from penalties for failing to comply with the government's tailpipe emission standards....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/139e847a96b629c334656c65bbd4fd73994c14f3f03d1eaee14005b7a9888a52.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/premier-ford-unifor-call-for-automaker-exemption-from-tailpipe-compliance-penalties-13063008",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-5",
+    "title": "Defendant in Galloway defamation lawsuit played &#39;limited&#39; role, lawyer tells trial",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1995,
+    "buzzScore": 94,
+    "summary": "VANCOUVER — The lawyer for a defendant in Steven Galloway's defamation lawsuit says her client was not an \"aggressive supporter\" of the woman who accused the author and former University of B.C. professor of rape and sexual assault....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/3bc109d80a186a8089a0e0d17c6afa2fba5133bcc57c1e77ce527ee893f2653e.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/defendant-in-galloway-defamation-lawsuit-played-limited-role-lawyer-tells-trial-13064089",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrietoday-2",
+    "title": "Hydro transmission line could affect numerous Springwater properties",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1978,
+    "buzzScore": 80,
+    "summary": "Report says Barrie-to-Sudbury line has been 'generally' routed to avoid township’s built-up areas and land designated for residential use; virtual open house set for tonight...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/1000009660.jpg;w=960",
+    "url": "https://www.barrietoday.com/local-news/hydro-transmission-line-could-affect-numerous-springwater-properties-13058449",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "Barrie’s overnight parking restrictions start December 1",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1960,
+    "buzzScore": 87,
+    "summary": "The City of Barrie reminds residents that from December 1 through to March 31, on-street parking is not permitted on City streets from 12:01 to 7 a.m., and 3 to 6 a.m....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/barrie-overnight-parking-restrictions-december-1/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "Construction of new Barrie YMCA 75 per cent complete, opening planned for September 2027",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1959,
+    "buzzScore": 80,
+    "summary": "Construction of Barrie's long-awaited new YMCA is about 75 per cent complete, with the facility expected to open in September 2027....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/new-barrie-ymca-construction-75-per-cent-complete/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-2",
+    "title": "SCDSB students and teachers recognized for contributions to music education",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1958,
+    "buzzScore": 82,
+    "summary": "In early November, Simcoe County District School Board (SCDSB) students and staff were recognized at the annual Ontario Music Educators Association (OMEA) Conference....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/scdsb-students-teachers-recognized-music-education/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-3",
+    "title": "South Simcoe Police investigate two-vehicle crash in active construction zone",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1957,
+    "buzzScore": 81,
+    "summary": "A two-vehicle crash in an active construction zone in Innisfil caused one vehicle to roll over....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/innisfil-two-vehicle-crash-construction-zone/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-4",
+    "title": "How to Build a Charcuterie Board (Without Spending a Fortune)",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1956,
+    "buzzScore": 84,
+    "summary": "A good charcuterie board looks fancy and takes about 20 minutes....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/how-to-build-a-charcuterie-board/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-5",
+    "title": "Motorcycle-style e-bikes on Ontario roads to soon face stiffer rules",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1955,
+    "buzzScore": 93,
+    "summary": "Drivers of motorcycle-style e-bikes in Ontario will soon have to get a driver's licence, registration and insurance in order to operate the vehicles on roads in the province....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/ontario-stricter-rules-motorcycle-style-ebikes/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "innisfiltoday-2",
+    "title": "Expect Innisfil Beach Road construction to continue well into 2027, county says",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1938,
+    "buzzScore": 80,
+    "summary": "Any small-scale construction over the winter will be off roadways to give snowplows full access...",
+    "image": "https://www.vmcdn.ca/f/files/innisfiltoday/ibrwork.jpeg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/expect-innisfil-beach-road-construction-to-continue-well-into-2027-county-says-13058799",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-2",
+    "title": "Crumbling courts, aging playground could get new life at city park",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1918,
+    "buzzScore": 91,
+    "summary": "New basketball and pickleball courts, off-leash dog park and updated playground are among proposed improvements to Morningstar Park; forum on tap today...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/city-of-orillia/morningstarpark-11-25-26-2.jpg;w=960",
+    "url": "https://www.orilliamatters.com/local-news/crumbling-courts-aging-playground-could-get-new-life-at-city-park-13059081",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-2",
+    "title": "School nutrition dollars still coming up short in Simcoe County",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 26",
+    "sortOrder": 1898,
+    "buzzScore": 81,
+    "summary": "‘We have 15 new schools coming to Simcoe County within the next few years. That's a lot of students that will not be receiving (nutrition) funding,’ says board of trustees chair...",
+    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/images/education/2024-02-01scdsbjo-001.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/local-news/school-nutrition-dollars-still-coming-up-short-in-simcoe-county-13062654",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-0",
     "title": "Ebola outbreak in Congo reaches 12,000 cases as violence forces some responders to evacuate",
     "category": "News",
     "source": "MidlandToday",
