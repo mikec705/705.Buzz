@@ -1,6 +1,186 @@
 [
   {
     "id": "midlandtoday-0",
+    "title": "Armed group kills 13 soldiers in western Niger attack, defense ministry says",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 27",
+    "sortOrder": 2000,
+    "buzzScore": 89,
+    "summary": "NIAMEY, Niger (AP) — Armed men killed 13 members of Niger’s National Guard and injured 20 others in an attack on an outpost in western Niger, the country’s defense ministry said....",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.midlandtoday.ca/world-news/armed-group-kills-13-soldiers-in-western-niger-attack-defense-ministry-says-13066003",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
+    "title": "A road through Nunavut: The monumental billion-dollar plan to connect Canada&#39;s Arctic",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 27",
+    "sortOrder": 1999,
+    "buzzScore": 95,
+    "summary": "KUGLUKTUK — Amanda Dumond lifts the lid of a large freezer chest in Kugluktuk, Nunavut's westernmost community, where the Arctic Ocean feeds into Coronation Gulf....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/e1233656e39a58c75ee7f25e01624afa00cad0f54b61c12c12dd5d8847132daf.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/a-road-through-nunavut-the-monumental-billion-dollar-plan-to-connect-canadas-arctic-13065990",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-2",
+    "title": "The engineering feat at the heart of Canada’s next big Arctic build",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 27",
+    "sortOrder": 1998,
+    "buzzScore": 86,
+    "summary": "KUGLUKTUK — Nobody lives at Grays Bay. The deepwater inlet on Nunavut’s northwestern Arctic coast is ringed by treeless tundra, threaded with lakes, ponds and streams and scattered with boulders and the odd hunting cabin....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/4db61f781d6915c088b750984c4dfd1caf42d9d69d0ff61e05a62856673acc18.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/the-engineering-feat-at-the-heart-of-canadas-next-big-arctic-build-13065991",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-3",
+    "title": "Grays Bay at a glance: Promises and pitfalls of the Nunavut road and port project",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 27",
+    "sortOrder": 1997,
+    "buzzScore": 88,
+    "summary": "KUGLUKTUK — The proposed Grays Bay Road and Port Project would be built in northwestern Nunavut at a cost of more than $1 billion. The federal government has referred it to the major projects office, which could fast-track its development....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/35bbe9aae5beb49299205e72a852a971e8a77d66e1713ae1b51d2334d322e436.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/grays-bay-at-a-glance-promises-and-pitfalls-of-the-nunavut-road-and-port-project-13065992",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-4",
+    "title": "Good morning, Midland! Here&#39;s today&#39;s weather!",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 27",
+    "sortOrder": 1996,
+    "buzzScore": 90,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/midland/2026-11-14-0059-tiny-marsh-west.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/good-morning/good-morning-midland-heres-todays-weather-13059265",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-5",
+    "title": "In the news today: Doug Ford&#39;s self-defence advice, Bill 21 ruling, Black Friday",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 27",
+    "sortOrder": 1995,
+    "buzzScore": 80,
+    "summary": "Here is a roundup of stories from The Canadian Press designed to bring you up to speed … Doug Ford advises Ontarians to protect against home invasions by any means Ontario Premier Doug Ford says he wants legal changes to address a spate of ...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/33f0fb8a91ee88e795003a4c8c073e8ae5741ee428626f4681a44b6a2e6f368b.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/in-the-news-today-doug-fords-self-defence-advice-bill-21-ruling-black-friday-13065956",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrietoday-4",
+    "title": "Good morning, Barrie! Here&#39;s today&#39;s weather!",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 27",
+    "sortOrder": 1976,
+    "buzzScore": 93,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/barrie/20261123sunriseew.jpeg;w=960",
+    "url": "https://www.barrietoday.com/good-morning/good-morning-barrie-heres-todays-weather-13062380",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-4",
+    "title": "Good morning, Innisfil! Here&#39;s today&#39;s weather!",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 27",
+    "sortOrder": 1936,
+    "buzzScore": 95,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/innisfil/2026-11-23-good-morning-innisfil-2.JPG;w=960",
+    "url": "https://www.innisfiltoday.ca/good-morning/good-morning-innisfil-heres-todays-weather-13059330",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-4",
+    "title": "Good morning, Orillia! Here&#39;s today&#39;s weather!",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 27",
+    "sortOrder": 1916,
+    "buzzScore": 84,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/orillia/2026-11-23-gm-geese-line-beach-area-of-bass-lake.jpg;w=960",
+    "url": "https://www.orilliamatters.com/good-morning-orillia/good-morning-orillia-heres-todays-weather-13054823",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-5",
+    "title": "Supreme Court ruling on Quebec&#39;s secularism law expected Friday morning",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 27",
+    "sortOrder": 1895,
+    "buzzScore": 86,
+    "summary": "MONTREAL — Premiers across Canada are expected to be keeping a close eye on the Supreme Court this morning as it releases a ruling on the constitutionality of Quebec's secularism law....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/ab76216b49941c3af88b2a9baea7a921b9949d3d43b214f8aebc39fb25101600.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/national-news/supreme-court-ruling-on-quebecs-secularism-law-expected-friday-morning-13065943",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-0",
     "title": "Deadlocked final result in New Zealand&#39;s election leaves a new centrist party the decider",
     "category": "News",
     "source": "MidlandToday",
