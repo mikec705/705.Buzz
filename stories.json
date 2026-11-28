@@ -1,6 +1,366 @@
 [
   {
     "id": "midlandtoday-0",
+    "title": "COLUMN: Apparently the GTA flu had nothing to do with Toronto",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 2000,
+    "buzzScore": 92,
+    "summary": "In this week's Everything King, Wendy gets an education in gaming and acronyms, but has decided not to 'yuck anyone's yum'...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/entertainment/gaming/20261124gta6-2.png;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/column-apparently-the-gta-flu-had-nothing-to-do-with-toronto-13057192",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
+    "title": "John Tory says he has no intention of making a political comeback",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1999,
+    "buzzScore": 93,
+    "summary": "TORONTO — John Tory has run Canada's largest city, led the Progressive Conservative Party of Ontario and been a political strategist and adviser throughout his decades-long career....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/d20e5dcce768783d33f6caf42df0970caa42761d891918bb5e2b7a2770e2b5f4.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/ontario-news/john-tory-says-he-has-no-intention-of-making-a-political-comeback-13070518",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-2",
+    "title": "New commissioner has a plan to bring back Indigenous languages — and rebuild trust",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1998,
+    "buzzScore": 82,
+    "summary": "OTTAWA — When Dorothy Myo attended her first English-speaking school at age five, she struggled to understand the differences between \"farm\" and \"barn,\" \"nowhere\" and \"now here.\" Her parents didn't speak English. Neither did she....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/84219e80b62b55bf5f9c895d462fe82cf023c54e684b6b1ed5120884a028f3b4.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/new-commissioner-has-a-plan-to-bring-back-indigenous-languages-and-rebuild-trust-13070517",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-3",
+    "title": "Good morning, Midland! Here&#39;s today&#39;s weather!",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1997,
+    "buzzScore": 80,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/midland/2026-11-14-0064tiny-marsh-west.JPG;w=960",
+    "url": "https://www.midlandtoday.ca/good-morning/good-morning-midland-heres-todays-weather-13059274",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-4",
+    "title": "An explosion at a school in eastern Afghanistan kills 7, wounds more than 90",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1996,
+    "buzzScore": 90,
+    "summary": "KABUL, Afghanistan (AP) — An explosion at a school in the eastern Afghan province of Kunar Saturday killed seven people and wounded more than 90, the province’s culture and information director said, adding that the blast appeared to have o...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/3682ad89584195147166d80439c341c8ba6bce91fe7339a7f3e4a6156b1887f2.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/world-news/an-explosion-at-a-school-in-eastern-afghanistan-kills-7-wounds-more-than-90-13070479",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-5",
+    "title": "Taiwan awaits local election results as China watches",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1995,
+    "buzzScore": 82,
+    "summary": "TAIPEI, Taiwan (AP) — Vote counting was underway across Taiwan 's 22 cities and counties Saturday after polls closed in local elections that will test whether the ruling party can gain ground in races for mayors and council members....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/ce19ef782068c66d5627b30a88c2bf940c469ac5b5052118eaf7715c68e76722.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/world-news/taiwan-awaits-local-election-results-as-china-watches-13070159",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrietoday-0",
+    "title": "COLUMN: Luncheon mix-up marred soldiers’ 1915 welcome to Collingwood",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1980,
+    "buzzScore": 89,
+    "summary": "On Nov. 10, 1915, recruits from 76th Battalion’s 'A' Company arrived in town, where they stayed for the winter season before disembarking for Western Front...",
+    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/images/photograph1_x2009_64_1croppedstamped.jpg;w=960",
+    "url": "https://www.barrietoday.com/local-news/column-luncheon-mix-up-marred-soldiers-1915-welcome-to-collingwood-13051709",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-3",
+    "title": "Good morning, Barrie! Here&#39;s today&#39;s weather!",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1977,
+    "buzzScore": 85,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/barrie/20261123sunriseew2(1).png;w=960",
+    "url": "https://www.barrietoday.com/good-morning/good-morning-barrie-heres-todays-weather-13062394",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "Matheson's wizardry and Bach’s 41 saves lift Colts past Wolves 2-1 in OT",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1960,
+    "buzzScore": 82,
+    "summary": "The Barrie Colts have struggled to close out games this season, but standout performances from Hagan Bach and Lucas Matheson did the trick on Friday in Sudbury....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/colts-overtime-win-wolves-matheson-nov26/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "(Video) Order on hold: Barrie driver found asleep in drive-thru, charged with impaired",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 27",
+    "sortOrder": 1959,
+    "buzzScore": 80,
+    "summary": "Snooze and you lose....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/barrie-driver-asleep-drive-thru-impaired-driving/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-2",
+    "title": "Ontario calls for Criminal Code changes to give home invasion victims more protection",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 27",
+    "sortOrder": 1958,
+    "buzzScore": 89,
+    "summary": "The Ontario government is calling on Ottawa to amend federal law to give Canadians stronger legal protections to confront attackers in their homes after a spate of violent home invasions in Toronto....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/ontario-seeks-criminal-code-changes-to-protect-home-invasion-victims/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-3",
+    "title": "Supreme Court of Canada upholds most portions of Quebec secularism law",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 27",
+    "sortOrder": 1957,
+    "buzzScore": 83,
+    "summary": "The Supreme Court of Canada has concluded that Quebec did not exceed its powers by banning public servants in positions of authority from wearing religious symbols while on the job....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/supreme-court-upholds-most-of-quebecs-bill-21-secularism-law/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-4",
+    "title": "Barrie police issue arrest warrant after shots fired inside downtown residence",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 27",
+    "sortOrder": 1956,
+    "buzzScore": 87,
+    "summary": "Barrie police are seeking a man accused of discharging a firearm inside a multi-unit residence on Thursday....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/barrie-police-investigate-reported-gunshot-dunlop-street-east/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-5",
+    "title": "First Light returns to Sainte-Marie among the Hurons with 5,000 candles and a touch of holiday magic",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 27",
+    "sortOrder": 1955,
+    "buzzScore": 85,
+    "summary": "One of Simcoe County's most beloved holiday traditions is set to return, as First Light transforms Sainte-Marie among the Hurons into a glowing winter wonderland illuminated by thousands of candles....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/first-light-sainte-marie-2/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "innisfiltoday-0",
+    "title": "Napoleon launches hybrid fireplace combining gas, electric heat",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1940,
+    "buzzScore": 95,
+    "summary": "Elora Direct Vent Hybrid Stove received gold certificate from Grands Prix du Design...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/business/20261124-napoleon-elora1.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/napoleon-launches-hybrid-fireplace-combining-gas-electric-heat-13057487",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-1",
+    "title": "Stevenson security team member strikes gold at World Karate Championships",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1939,
+    "buzzScore": 80,
+    "summary": "Alliston hospital's Derek Alexander won his first world gold with tonfa at a Spanish tournament featuring about 1,200 competitors, including 315 Canadians...",
+    "image": "https://www.vmcdn.ca/f/files/bradfordtoday/images/sports/20261125-derek-wins.jpeg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-sports/stevenson-security-team-member-strikes-gold-at-world-karate-championships-13059056",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-4",
+    "title": "Good morning, Innisfil! Here&#39;s today&#39;s weather!",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1936,
+    "buzzScore": 94,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/innisfil/2026-11-23-good-morning-innisfil-3.JPG;w=960",
+    "url": "https://www.innisfiltoday.ca/good-morning/good-morning-innisfil-heres-todays-weather-13059338",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-0",
+    "title": "‘Hatred can affect anybody’: Mobile classroom visits local school",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1920,
+    "buzzScore": 80,
+    "summary": "'Human rights for one person is human rights for all people,' presenter says as Simon Wiesenthal Centre’s Tour for Humanity bus rolled into local school...",
+    "image": "https://www.vmcdn.ca/f/files/midlandtoday/images/education/20261127_160030359mp.jpg;w=960",
+    "url": "https://www.orilliamatters.com/local-news/hatred-can-affect-anybody-mobile-classroom-visits-local-school-13067860",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-3",
+    "title": "Good morning, Orillia! Here&#39;s today&#39;s weather!",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1917,
+    "buzzScore": 80,
+    "summary": "Here's a look at the current local weather and gas prices...",
+    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/orillia/2026-11-23-gm-picnic-table-at-bass-lake-dd.jpg;w=960",
+    "url": "https://www.orilliamatters.com/good-morning-orillia/good-morning-orillia-heres-todays-weather-13054829",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-5",
+    "title": "Moe, Doerkson urge unity to Smith&#39;s UCP at kickoff for annual meeting",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1895,
+    "buzzScore": 94,
+    "summary": "CALGARY — Alberta Premier Danielle Smith's counterparts to the east and west kicked off her United Conservative Party's annual gathering Friday by urging rank-and-file members to come together after last month's separation vote....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/bdda1aff987084c0954cdc313698a1aeb311690b8ad5df8e1cb89bc177ff9ffe.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/national-news/moe-doerkson-urge-unity-to-smiths-ucp-at-kickoff-for-annual-meeting-13070202",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-0",
     "title": "Taiwan holds elections to choose mayors and other local leaders as China looks on",
     "category": "News",
     "source": "MidlandToday",
@@ -11,24 +371,6 @@
     "summary": "TAIPEI, Taiwan (AP) — Taiwan is choosing mayors, council members and other local leaders across its 22 cities and counties in an election Saturday that will test whether the ruling party can notch some wins at the local level....",
     "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/19bc6796544490f84cc4d7eee273366c92001d9569ddcd68cc4100d768b8b392.jpg;w=960",
     "url": "https://www.midlandtoday.ca/world-news/taiwan-holds-elections-to-choose-mayors-and-other-local-leaders-as-china-looks-on-13070159",
-    "tags": [
-      "Midland",
-      "News",
-      "MidlandToday"
-    ]
-  },
-  {
-    "id": "midlandtoday-1",
-    "title": "Moe, Doerkson urge unity to Smith&#39;s UCP at kickoff for annual meeting",
-    "category": "News",
-    "source": "MidlandToday",
-    "location": "Midland, ON",
-    "timestamp": "Nov 28",
-    "sortOrder": 1999,
-    "buzzScore": 88,
-    "summary": "CALGARY — Alberta Premier Danielle Smith's counterparts to the east and west kicked off her United Conservative Party's annual gathering Friday by urging rank-and-file members to come together after last month's separation vote....",
-    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/bdda1aff987084c0954cdc313698a1aeb311690b8ad5df8e1cb89bc177ff9ffe.jpg;w=960",
-    "url": "https://www.midlandtoday.ca/national-news/moe-doerkson-urge-unity-to-smiths-ucp-at-kickoff-for-annual-meeting-13070202",
     "tags": [
       "Midland",
       "News",
@@ -123,96 +465,6 @@
       "Barrie",
       "News",
       "BarrieToday"
-    ]
-  },
-  {
-    "id": "barrie-360-0",
-    "title": "(Video) Order on hold: Barrie driver found asleep in drive-thru, charged with impaired",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 27",
-    "sortOrder": 1960,
-    "buzzScore": 81,
-    "summary": "Snooze and you lose....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/barrie-driver-asleep-drive-thru-impaired-driving/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-1",
-    "title": "Ontario calls for Criminal Code changes to give home invasion victims more protection",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 27",
-    "sortOrder": 1959,
-    "buzzScore": 83,
-    "summary": "The Ontario government is calling on Ottawa to amend federal law to give Canadians stronger legal protections to confront attackers in their homes after a spate of violent home invasions in Toronto....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/ontario-seeks-criminal-code-changes-to-protect-home-invasion-victims/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-2",
-    "title": "Supreme Court of Canada upholds most portions of Quebec secularism law",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 27",
-    "sortOrder": 1958,
-    "buzzScore": 82,
-    "summary": "The Supreme Court of Canada has concluded that Quebec did not exceed its powers by banning public servants in positions of authority from wearing religious symbols while on the job....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/supreme-court-upholds-most-of-quebecs-bill-21-secularism-law/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-3",
-    "title": "Barrie police issue arrest warrant after shots fired inside downtown residence",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 27",
-    "sortOrder": 1957,
-    "buzzScore": 95,
-    "summary": "Barrie police are seeking a man accused of discharging a firearm inside a multi-unit residence on Thursday....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/barrie-police-investigate-reported-gunshot-dunlop-street-east/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-4",
-    "title": "First Light returns to Sainte-Marie among the Hurons with 5,000 candles and a touch of holiday magic",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 27",
-    "sortOrder": 1956,
-    "buzzScore": 96,
-    "summary": "One of Simcoe County's most beloved holiday traditions is set to return, as First Light transforms Sainte-Marie among the Hurons into a glowing winter wonderland illuminated by thousands of candles....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/first-light-sainte-marie-2/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
     ]
   },
   {
@@ -558,24 +810,6 @@
     ]
   },
   {
-    "id": "midlandtoday-4",
-    "title": "Good morning, Midland! Here&#39;s today&#39;s weather!",
-    "category": "News",
-    "source": "MidlandToday",
-    "location": "Midland, ON",
-    "timestamp": "Nov 27",
-    "sortOrder": 1996,
-    "buzzScore": 90,
-    "summary": "Here's a look at the current local weather and gas prices...",
-    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/midland/2026-11-14-0059-tiny-marsh-west.jpg;w=960",
-    "url": "https://www.midlandtoday.ca/good-morning/good-morning-midland-heres-todays-weather-13059265",
-    "tags": [
-      "Midland",
-      "News",
-      "MidlandToday"
-    ]
-  },
-  {
     "id": "midlandtoday-5",
     "title": "In the news today: Doug Ford&#39;s self-defence advice, Bill 21 ruling, Black Friday",
     "category": "News",
@@ -591,60 +825,6 @@
       "Midland",
       "News",
       "MidlandToday"
-    ]
-  },
-  {
-    "id": "barrietoday-4",
-    "title": "Good morning, Barrie! Here&#39;s today&#39;s weather!",
-    "category": "News",
-    "source": "BarrieToday",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 27",
-    "sortOrder": 1976,
-    "buzzScore": 93,
-    "summary": "Here's a look at the current local weather and gas prices...",
-    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/barrie/20261123sunriseew.jpeg;w=960",
-    "url": "https://www.barrietoday.com/good-morning/good-morning-barrie-heres-todays-weather-13062380",
-    "tags": [
-      "Barrie",
-      "News",
-      "BarrieToday"
-    ]
-  },
-  {
-    "id": "innisfiltoday-4",
-    "title": "Good morning, Innisfil! Here&#39;s today&#39;s weather!",
-    "category": "News",
-    "source": "InnisfilToday",
-    "location": "Innisfil, ON",
-    "timestamp": "Nov 27",
-    "sortOrder": 1936,
-    "buzzScore": 95,
-    "summary": "Here's a look at the current local weather and gas prices...",
-    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/innisfil/2026-11-23-good-morning-innisfil-2.JPG;w=960",
-    "url": "https://www.innisfiltoday.ca/good-morning/good-morning-innisfil-heres-todays-weather-13059330",
-    "tags": [
-      "Innisfil",
-      "News",
-      "InnisfilToday"
-    ]
-  },
-  {
-    "id": "orilliamatters-4",
-    "title": "Good morning, Orillia! Here&#39;s today&#39;s weather!",
-    "category": "News",
-    "source": "OrilliaMatters",
-    "location": "Orillia, ON",
-    "timestamp": "Nov 27",
-    "sortOrder": 1916,
-    "buzzScore": 84,
-    "summary": "Here's a look at the current local weather and gas prices...",
-    "image": "https://www.vmcdn.ca/f/files/shared/good-morning/orillia/2026-11-23-gm-geese-line-beach-area-of-bass-lake.jpg;w=960",
-    "url": "https://www.orilliamatters.com/good-morning-orillia/good-morning-orillia-heres-todays-weather-13054823",
-    "tags": [
-      "Orillia",
-      "News",
-      "OrilliaMatters"
     ]
   },
   {
