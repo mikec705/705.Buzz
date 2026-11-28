@@ -1,6 +1,456 @@
 [
   {
     "id": "midlandtoday-0",
+    "title": "A holistic approach to healthcare: CHIGAMIK programs support overall wellbeing",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 2000,
+    "buzzScore": 84,
+    "summary": "'We have a pulse on what’s happening in the community all the time,' says CHIGAMIK director...",
+    "image": "https://www.vmcdn.ca/f/files/midlandtoday/clp/rooted/20261127_terry_chaplin.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/rooted/a-holistic-approach-to-healthcare-chigamik-programs-support-overall-wellbeing-13066898",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-1",
+    "title": "An explosion at a school in eastern Afghanistan kills 10, wounds 110",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1999,
+    "buzzScore": 86,
+    "summary": "KABUL, Afghanistan (AP) — An explosion at a primary and middle school in the eastern Afghan province of Kunar on Saturday killed 10 people and wounded another 110, most of them children, officials said, adding that the blast appeared to hav...",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/439b2ded753dbf1cbc2e7d700101dd1451ec56652428b6ccfa515e0496204a41.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/world-news/an-explosion-at-a-school-in-eastern-afghanistan-kills-10-wounds-110-13070479",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-2",
+    "title": "UPDATE: Charges laid in assault that left victim seriously injured",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1998,
+    "buzzScore": 82,
+    "summary": "A 39-year-old from Midland remains in custody and is scheduled to appear in court on Monday...",
+    "image": "https://www.vmcdn.ca/f/files/shared/police/20220920oppcruiser1.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/police-beat/police-investigate-assault-that-left-victim-seriously-injured-13070815",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-3",
+    "title": "Ethiopia to Simcoe County and back: Local senior helps people who have very little",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1997,
+    "buzzScore": 90,
+    "summary": "'We realized just giving people thing didn’t help them at all. It’s really empowering the local people,' says development worker Bob Black...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/barrieprimebobblackvocationaltrainingnov2026.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/ethiopia-to-simcoe-county-and-back-local-senior-helps-people-who-have-very-little-13047559",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-4",
+    "title": "Soldier injured in fire on military base discharged, 21 still in hospital: military",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1996,
+    "buzzScore": 83,
+    "summary": "EDMONTON — Another soldier injured in a deadly fire at an Alberta military base has been discharged from hospital....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/307836355a6f6f811902965c72dae3d177f8883928e20e2a6c0915e5f55e0842.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/national-news/soldier-injured-in-fire-on-military-base-discharged-21-still-in-hospital-military-13070839",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-5",
+    "title": "School nutrition dollars still coming up short in Simcoe County",
+    "category": "News",
+    "source": "MidlandToday",
+    "location": "Midland, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1995,
+    "buzzScore": 87,
+    "summary": "‘We have 15 new schools coming to Simcoe County within the next few years. That's a lot of students that will not be receiving (nutrition) funding,’ says board of trustees chair...",
+    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/images/education/2024-02-01scdsbjo-001.jpg;w=960",
+    "url": "https://www.midlandtoday.ca/local-news/school-nutrition-dollars-still-coming-up-short-in-simcoe-county-13064165",
+    "tags": [
+      "Midland",
+      "News",
+      "MidlandToday"
+    ]
+  },
+  {
+    "id": "barrietoday-0",
+    "title": "Student working to save Lake Simcoe from big issue of tiny plastics",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1980,
+    "buzzScore": 87,
+    "summary": "Conservation authority presents award to Aaryav Srivastava for creating robot that autonomously removes microplastics from water...",
+    "image": "https://www.vmcdn.ca/f/files/bradfordtoday/images/science/2026-11-20-aquabotix-mo001.JPG;w=960",
+    "url": "https://www.barrietoday.com/local-news/student-working-to-save-lake-simcoe-from-big-issue-of-tiny-plastics-13054563",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-2",
+    "title": "&#39;Damage is done&#39;: Neighbours frustrated by &#39;excessive&#39; renos done without permits",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1978,
+    "buzzScore": 95,
+    "summary": "‘It is the most helpless and hopeless feeling to watch it take off like a freight train and continue,' says neighbour of projects not approved by Ramara Township...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/ramara-township/20261126_longford_mills_rd_property_renos1.png;w=960",
+    "url": "https://www.barrietoday.com/local-news/damage-is-done-neighbours-frustrated-by-excessive-renos-done-without-permits-13069739",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-3",
+    "title": "&#39;Mixed emotions&#39;: Former Barrie athlete of year seeking new soccer home",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1977,
+    "buzzScore": 96,
+    "summary": "Victoria Pickett says playing professionally near family, friends and hometown fans made her Toronto tenure 'incredibly special'...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/sports/soccer/20261127victoriapickett.jpg;w=960",
+    "url": "https://www.barrietoday.com/local-sports/mixed-emotions-former-barrie-athlete-of-year-seeking-new-soccer-home-13066662",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrietoday-5",
+    "title": "Barrie-raised filmmaker turns Sicilian house into film incubator",
+    "category": "News",
+    "source": "BarrieToday",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1975,
+    "buzzScore": 96,
+    "summary": "Art House Troina will host international filmmakers in 2027 for residencies, production cohorts and workshops...",
+    "image": "https://www.vmcdn.ca/f/files/barrietoday/images/people/20261125-mark-norman-harris.jpg;w=960",
+    "url": "https://www.barrietoday.com/local-entertainment/barrie-raised-filmmaker-turns-sicilian-house-into-film-incubator-13060164",
+    "tags": [
+      "Barrie",
+      "News",
+      "BarrieToday"
+    ]
+  },
+  {
+    "id": "barrie-360-0",
+    "title": "Why professional networking is a job search asset that AI can’t replace",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1960,
+    "buzzScore": 85,
+    "summary": "Canned rejection emails....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/professional-networking-ai-job-search-asset/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-1",
+    "title": "Barrie police say loud vehicles are an everyday problem as Ontario plans tougher fines",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1959,
+    "buzzScore": 85,
+    "summary": "Excessively loud vehicles are an everyday nuisance in Barrie, according to police, who say proposed provincial legislation to increase fines is a step in the right direction but won't solve the problem on its own....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/barrie-police-loud-vehicles-ontario-tougher-fines/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-2",
+    "title": "OPP investigating alleged early-morning stabbing in Midland",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1958,
+    "buzzScore": 90,
+    "summary": "Provincial police are investigating an alleged assault that occurred in Midland on Saturday morning that resulted in a hospitalization....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/opp-investigating-midland-assault-king-street/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-3",
+    "title": "Matheson's wizardry and Bach’s 41 saves lift Colts past Wolves 2-1 in OT",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1957,
+    "buzzScore": 89,
+    "summary": "The Barrie Colts have struggled to close out games this season, but standout performances from Hagan Bach and Lucas Matheson did the trick on Friday in Sudbury....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/colts-overtime-win-wolves-matheson-nov26/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-4",
+    "title": "(Video) Order on hold: Barrie driver found asleep in drive-thru, charged with impaired",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 27",
+    "sortOrder": 1956,
+    "buzzScore": 90,
+    "summary": "Snooze and you lose....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/barrie-driver-asleep-drive-thru-impaired-driving/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "barrie-360-5",
+    "title": "Ontario calls for Criminal Code changes to give home invasion victims more protection",
+    "category": "Community",
+    "source": "Barrie 360",
+    "location": "Barrie, ON",
+    "timestamp": "Nov 27",
+    "sortOrder": 1955,
+    "buzzScore": 92,
+    "summary": "The Ontario government is calling on Ottawa to amend federal law to give Canadians stronger legal protections to confront attackers in their homes after a spate of violent home invasions in Toronto....",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "url": "https://barrie360.com/ontario-seeks-criminal-code-changes-to-protect-home-invasion-victims/",
+    "tags": [
+      "Barrie",
+      "Community",
+      "Barrie 360"
+    ]
+  },
+  {
+    "id": "innisfiltoday-0",
+    "title": "Bedridden at 25, woman forced to seek medical help in Mexico",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1940,
+    "buzzScore": 88,
+    "summary": "'There is a very large gap in women's health care,' says Severn Township's Lindsey Read, noting long waits and limited specialist care have left her seeking treatment outside Canada...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/health/20261118lindseyread.jpeg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/bedridden-at-25-woman-forced-to-seek-medical-help-in-mexico-13057471",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-2",
+    "title": "Company helping kids experience the &#39;rewarding&#39; wonders of nature",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1938,
+    "buzzScore": 94,
+    "summary": "Conservation authority presents award to Kumi Canada for supporting summer camp, RVH therapy program...",
+    "image": "https://www.vmcdn.ca/f/files/bradfordtoday/images/news/2026-11-24-kumi-xx001.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/company-helping-kids-experience-the-rewarding-wonders-of-nature-13064802",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-3",
+    "title": "Near-discarded documents to published biography: This woman is preserving uncle’s legacy",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1937,
+    "buzzScore": 92,
+    "summary": "Published Oct. 28 by Breakwater Books, I'll Bring My Own Chair traces Adrian Battcock's journey from a workplace accident to law school and disability advocacy...",
+    "image": "https://www.vmcdn.ca/f/files/newmarkettoday/images/2026-11-20-jeanine.png;w=960",
+    "url": "https://www.innisfiltoday.ca/local-news/near-discarded-documents-to-published-biography-this-woman-is-preserving-uncles-legacy-13048317",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "innisfiltoday-5",
+    "title": "Trial concludes, judge reserves decision in Steven Galloway&#39;s defamation lawsuit",
+    "category": "News",
+    "source": "InnisfilToday",
+    "location": "Innisfil, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1935,
+    "buzzScore": 84,
+    "summary": "VANCOUVER — The B.C. Supreme Court trial concluded Friday in author and former professor Steven Galloway's defamation lawsuit against the woman who accused him of rape, and other defendants, with the judge reserving her decision....",
+    "image": "https://www.vmcdn.ca/f/files/shared/feeds/cp/2026/11/bf1f3fc9c950b3bd07ac70a45c4c9e5d8354b076142dbbf5b39fa82cf5cb58f8.jpg;w=960",
+    "url": "https://www.innisfiltoday.ca/national-news/trial-concludes-judge-reserves-decision-in-steven-galloways-defamation-lawsuit-13069529",
+    "tags": [
+      "Innisfil",
+      "News",
+      "InnisfilToday"
+    ]
+  },
+  {
+    "id": "orilliamatters-0",
+    "title": "&#39;A feeling like no other&#39;: Teen cyclist pedals toward World Cup dream",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1920,
+    "buzzScore": 87,
+    "summary": "‘I would like to race at the highest level,’ says young athlete training with the Hardwood Racing Club at world-class Oro-Medonte mountain bike facility...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/clp/bold/20261120_liam_scopis1.jpeg;w=960",
+    "url": "https://www.orilliamatters.com/bold/a-feeling-like-no-other-teen-cyclist-pedals-toward-world-cup-dream-13041553",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "orilliamatters-3",
+    "title": "COLUMN: Orillia&#39;s first movie couldn&#39;t outshine fall fair fracas",
+    "category": "News",
+    "source": "OrilliaMatters",
+    "location": "Orillia, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1917,
+    "buzzScore": 94,
+    "summary": "Orillia's 1898 fall fair introduced residents to motion pictures, recorded sound and X-rays, but a chaotic rush at the handiwork table became its defining legacy...",
+    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/columns/david-town/fair-buildings.JPG;w=960",
+    "url": "https://www.orilliamatters.com/local-news/column-orillias-first-movie-couldnt-outshine-fall-fair-fracas-13062191",
+    "tags": [
+      "Orillia",
+      "News",
+      "OrilliaMatters"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-0",
+    "title": "GLOW condo developers will be at council Monday to ask for zoning changes",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1900,
+    "buzzScore": 97,
+    "summary": "Public meeting on proposed project was held more than three years ago, with council chambers packed at that time...",
+    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/images/development/2023-06-20glowjo-002.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/local-news/glow-condo-developers-will-be-at-council-monday-to-ask-for-zoning-changes-13066351",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-3",
+    "title": "Northlander train getting warmed up for return",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1897,
+    "buzzScore": 95,
+    "summary": "The passenger train pulls into Timmins early on Dec. 11 for the first time in over a decade...",
+    "image": "https://www.vmcdn.ca/f/files/timminstoday/images/transportation/2022-04-13-northlander-mh.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/local-news/northlander-train-getting-warmed-up-for-return-13068046",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "collingwoodtoday-5",
+    "title": "How to keep AI in check? Build another AI to monitor it, of course",
+    "category": "News",
+    "source": "CollingwoodToday",
+    "location": "Collingwood, ON",
+    "timestamp": "Nov 28",
+    "sortOrder": 1895,
+    "buzzScore": 81,
+    "summary": "Big Tech’s AI is trained to act and persuade. Mila is building one to be honest – and serve as a guardrail for other systems...",
+    "image": "https://www.vmcdn.ca/f/files/torontotoday/ai-trust-fall-final.jpg;w=960",
+    "url": "https://www.collingwoodtoday.ca/local-news/how-to-keep-ai-in-check-build-another-ai-to-monitor-it-of-course-13070347",
+    "tags": [
+      "Collingwood",
+      "News",
+      "CollingwoodToday"
+    ]
+  },
+  {
+    "id": "midlandtoday-0",
     "title": "COLUMN: Apparently the GTA flu had nothing to do with Toronto",
     "category": "News",
     "source": "MidlandToday",
@@ -141,60 +591,6 @@
       "Barrie",
       "News",
       "BarrieToday"
-    ]
-  },
-  {
-    "id": "barrie-360-0",
-    "title": "Matheson's wizardry and Bach’s 41 saves lift Colts past Wolves 2-1 in OT",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 28",
-    "sortOrder": 1960,
-    "buzzScore": 82,
-    "summary": "The Barrie Colts have struggled to close out games this season, but standout performances from Hagan Bach and Lucas Matheson did the trick on Friday in Sudbury....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/colts-overtime-win-wolves-matheson-nov26/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-1",
-    "title": "(Video) Order on hold: Barrie driver found asleep in drive-thru, charged with impaired",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 27",
-    "sortOrder": 1959,
-    "buzzScore": 80,
-    "summary": "Snooze and you lose....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/barrie-driver-asleep-drive-thru-impaired-driving/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
-    ]
-  },
-  {
-    "id": "barrie-360-2",
-    "title": "Ontario calls for Criminal Code changes to give home invasion victims more protection",
-    "category": "Community",
-    "source": "Barrie 360",
-    "location": "Barrie, ON",
-    "timestamp": "Nov 27",
-    "sortOrder": 1958,
-    "buzzScore": 89,
-    "summary": "The Ontario government is calling on Ottawa to amend federal law to give Canadians stronger legal protections to confront attackers in their homes after a spate of violent home invasions in Toronto....",
-    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
-    "url": "https://barrie360.com/ontario-seeks-criminal-code-changes-to-protect-home-invasion-victims/",
-    "tags": [
-      "Barrie",
-      "Community",
-      "Barrie 360"
     ]
   },
   {
@@ -681,24 +1077,6 @@
       "Innisfil",
       "News",
       "InnisfilToday"
-    ]
-  },
-  {
-    "id": "orilliamatters-2",
-    "title": "&#39;Damage is done&#39;: Neighbours frustrated by &#39;excessive&#39; renos done without permits",
-    "category": "News",
-    "source": "OrilliaMatters",
-    "location": "Orillia, ON",
-    "timestamp": "Nov 27",
-    "sortOrder": 1918,
-    "buzzScore": 88,
-    "summary": "‘It is the most helpless and hopeless feeling to watch it take off like a freight train and continue,' says neighbour of projects that were not approved by township...",
-    "image": "https://www.vmcdn.ca/f/files/orilliamatters/images/ramara-township/20261126_longford_mills_rd_property_renos1.png;w=960",
-    "url": "https://www.orilliamatters.com/local-news/damage-is-done-neighbours-frustrated-by-excessive-renos-done-without-permits-13062238",
-    "tags": [
-      "Orillia",
-      "News",
-      "OrilliaMatters"
     ]
   },
   {
@@ -1275,24 +1653,6 @@
       "Orillia",
       "News",
       "OrilliaMatters"
-    ]
-  },
-  {
-    "id": "collingwoodtoday-2",
-    "title": "School nutrition dollars still coming up short in Simcoe County",
-    "category": "News",
-    "source": "CollingwoodToday",
-    "location": "Collingwood, ON",
-    "timestamp": "Nov 26",
-    "sortOrder": 1898,
-    "buzzScore": 81,
-    "summary": "‘We have 15 new schools coming to Simcoe County within the next few years. That's a lot of students that will not be receiving (nutrition) funding,’ says board of trustees chair...",
-    "image": "https://www.vmcdn.ca/f/files/collingwoodtoday/images/education/2024-02-01scdsbjo-001.jpg;w=960",
-    "url": "https://www.collingwoodtoday.ca/local-news/school-nutrition-dollars-still-coming-up-short-in-simcoe-county-13062654",
-    "tags": [
-      "Collingwood",
-      "News",
-      "CollingwoodToday"
     ]
   },
   {
